@@ -5,8 +5,8 @@ from  utils import entailment
 import numpy as np
 
 
-roles = ['undergoer', 'enabler', 'trigger', 'result']
-# roles = ['undergoer', 'enabler', 'trigger', 'result', 'underspecified']
+# roles = ['undergoer', 'enabler', 'trigger', 'result']
+roles = ['undergoer', 'enabler', 'trigger', 'result', 'underspecified']
 
 def get_sentences(p_data):
     sent_to_id, id_to_args, arg_role_scores = p_data
@@ -99,15 +99,12 @@ def joint_inference_ilp(process, p_data):
     for s_id, sentence in sentences:
         args = get_sentence_args(sentence, p_data)
         for a_id, arg in args:
-            lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for r_id in range(len(roles))]) <= 1,
-                         'constraint1_' + str(s_id) + str(a_id))
+            lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for r_id in range(len(roles))]) <= 1, 'constraint1_' + str(s_id) + str(a_id))
 
     # 2. Every role must occur only once in the sentence
     for s_id, sentence in sentences:
         for r_id, role in enumerate(roles):
-            lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for a_id,
-                arg in get_sentence_args(sentence, p_data)]) <= 1,
-                         'constraint2_' + str(s_id) + str(r_id))
+            lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for a_id, arg in get_sentence_args(sentence, p_data)]) <= 1, 'constraint2_' + str(s_id) + str(r_id))
 
     lp.optimize()
     lp.write('output/'+process+'_ilp.lp')
@@ -153,10 +150,10 @@ def load_srl_data():
             sentence = s_data['text']
             s_id = s_data['sentenceId']
             sent_to_id[sentence] = s_id
-            a_spans = s_data['argumentSpan']
+            a_spans = s_data['predictionArgumentSpan']
             args = []
             for a_span in a_spans:
-                srl_role_prediction = a_span['roleType']
+                srl_role_prediction = a_span['rolePredicted']
                 start_idx = a_span['startIdx']
                 end_idx = a_span['endIdx']
                 arg_text = a_span['text']
@@ -192,10 +189,18 @@ def dump_ilp_json(data, ilp_data):
                 # print arg_text
                 # print role_probs
                 # print srl_role_prediction
+                # print ilp_r_vals
+                # print ilp_i_vals
                 # print roles[ilp_i_vals[1]]
                 # print "-----\n\n"
-                arg_list.append({'argId': arg_id, 'text': arg_text, 'roleType': roles[ilp_i_vals[1]], 'startIdx': start_idx, 'endIdx': end_idx, 'probRoles': role_probs})
-            sent_list.append({'sentenceId': s_id, 'text': sentence_text, 'argumentSpan': arg_list})
+                if 1 in ilp_i_vals:
+                    ilp_role = roles[ilp_i_vals[1]]
+                else:
+                    ilp_role = "NONE"
+                arg_list.append({'argId': arg_id, 'text': arg_text,
+                    'rolePredicted': ilp_role, 'startIdx': start_idx, 'endIdx': end_idx, 'probRoles': role_probs})
+            sent_list.append({'sentenceId': s_id, 'text': sentence_text,
+                'predictionArgumentSpan': arg_list})
         j_dump_data.append({'process': process, 'sentences': sent_list})
     with open('output/ilp_predict.json', 'w') as fp:
             json.dump(j_dump_data, fp)
