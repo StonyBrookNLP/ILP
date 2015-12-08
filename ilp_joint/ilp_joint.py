@@ -206,14 +206,13 @@ def dump_ilp_json(data, ilp_data):
                 'predictionArgumentSpan': arg_list})
         j_dump_data.append({'process': process, 'sentences': sent_list})
     with open('output/ilp_predict.json', 'w') as fp:
-            json.dump(j_dump_data, fp)
+            json.dump(j_dump_data, fp, indent=4)
 
 def main():
     data = load_srl_data()
     processes = data.keys()
     ilp_data = {}
     for process in processes:
-        data[process]
         lp_vars = joint_inference_ilp(process, data[process][:3])
         ilp_map = get_ilp_assignment(lp_vars, data[process][:3])
         ilp_data[process] = ilp_map
