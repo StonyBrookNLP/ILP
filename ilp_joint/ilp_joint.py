@@ -5,6 +5,9 @@ from  utils import entailment
 import numpy as np
 
 
+#TODO: Modularize code into different files and make it easy to configure based
+# on a config file
+
 # roles = ['undergoer', 'enabler', 'trigger', 'result']
 roles = ['undergoer', 'enabler', 'trigger', 'result', 'underspecified']
 
