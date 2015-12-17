@@ -2,152 +2,538 @@ NAME boiling_srl_ilp
 * Max problem is converted into Min one
 ROWS
  N  OBJ
- L  constraint1_151
- L  constraint1_421
- L  constraint1_441
- L  constraint1_471
- L  constraint1_931
- L  constraint2_150
- L  constraint2_151
- L  constraint2_152
- L  constraint2_153
- L  constraint2_420
- L  constraint2_421
- L  constraint2_422
- L  constraint2_423
+ L  constraint1_1523
+ L  constraint1_15212
+ L  constraint1_1521
+ L  constraint1_1522
+ L  constraint1_1520
+ L  constraint1_6700
+ L  constraint1_440
+ L  constraint1_4370
+ L  constraint1_2692
+ L  constraint1_2694
+ L  constraint1_2696
+ L  constraint1_2691
+ L  constraint1_2697
+ L  constraint1_2693
+ L  constraint1_2690
+ L  constraint1_2698
+ L  constraint1_2695
+ L  constraint1_150
+ L  constraint1_6500
+ L  constraint1_4770
+ L  constraint2_1520
+ L  constraint2_1521
+ L  constraint2_1522
+ L  constraint2_1523
+ L  constraint2_6700
+ L  constraint2_6701
+ L  constraint2_6702
+ L  constraint2_6703
  L  constraint2_440
  L  constraint2_441
  L  constraint2_442
  L  constraint2_443
- L  constraint2_470
- L  constraint2_471
- L  constraint2_472
- L  constraint2_473
- L  constraint2_930
- L  constraint2_931
- L  constraint2_932
- L  constraint2_933
+ L  constraint2_4370
+ L  constraint2_4371
+ L  constraint2_4372
+ L  constraint2_4373
+ L  constraint2_2690
+ L  constraint2_2691
+ L  constraint2_2692
+ L  constraint2_2693
+ L  constraint2_150
+ L  constraint2_151
+ L  constraint2_152
+ L  constraint2_153
+ L  constraint2_6500
+ L  constraint2_6501
+ L  constraint2_6502
+ L  constraint2_6503
+ L  constraint2_4770
+ L  constraint2_4771
+ L  constraint2_4772
+ L  constraint2_4773
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    Z_15_1_0  OBJ       -9.6198392414093004e-05
-    Z_15_1_0  constraint1_151  1
-    Z_15_1_0  constraint2_150  1
-    Z_15_1_1  OBJ       -5.4181679622135548e-02
-    Z_15_1_1  constraint1_151  1
-    Z_15_1_1  constraint2_151  1
-    Z_15_1_2  OBJ       -4.0786673872073537e-01
-    Z_15_1_2  constraint1_151  1
-    Z_15_1_2  constraint2_152  1
-    Z_15_1_3  OBJ       -1.3380757973811240e-02
-    Z_15_1_3  constraint1_151  1
-    Z_15_1_3  constraint2_153  1
-    Z_42_1_0  OBJ       -4.9149938827524053e-03
-    Z_42_1_0  constraint1_421  1
-    Z_42_1_0  constraint2_420  1
-    Z_42_1_1  OBJ       -3.5074687915212788e-02
-    Z_42_1_1  constraint1_421  1
-    Z_42_1_1  constraint2_421  1
-    Z_42_1_2  OBJ       -4.2824017508996115e-03
-    Z_42_1_2  constraint1_421  1
-    Z_42_1_2  constraint2_422  1
-    Z_42_1_3  OBJ       -3.1348743582670141e-01
-    Z_42_1_3  constraint1_421  1
-    Z_42_1_3  constraint2_423  1
-    Z_44_1_0  OBJ       -9.2940386288960508e-03
-    Z_44_1_0  constraint1_441  1
-    Z_44_1_0  constraint2_440  1
-    Z_44_1_1  OBJ       -2.3623132427701421e-03
-    Z_44_1_1  constraint1_441  1
-    Z_44_1_1  constraint2_441  1
-    Z_44_1_2  OBJ       -1.0584566229841219e-02
-    Z_44_1_2  constraint1_441  1
-    Z_44_1_2  constraint2_442  1
-    Z_44_1_3  OBJ       -3.8525168695693363e-01
-    Z_44_1_3  constraint1_441  1
-    Z_44_1_3  constraint2_443  1
-    Z_47_1_0  OBJ       -3.9258768032340852e-04
-    Z_47_1_0  constraint1_471  1
-    Z_47_1_0  constraint2_470  1
-    Z_47_1_1  OBJ       -1.6069538556527929e-03
-    Z_47_1_1  constraint1_471  1
-    Z_47_1_1  constraint2_471  1
-    Z_47_1_2  OBJ       -4.7525740142880291e-01
-    Z_47_1_2  constraint1_471  1
-    Z_47_1_2  constraint2_472  1
-    Z_47_1_3  OBJ       -1.1848149625377571e-02
-    Z_47_1_3  constraint1_471  1
-    Z_47_1_3  constraint2_473  1
-    Z_93_1_0  OBJ       -1.7213754296846462e-04
-    Z_93_1_0  constraint1_931  1
-    Z_93_1_0  constraint2_930  1
-    Z_93_1_1  OBJ       -1.0574793633570884e-01
-    Z_93_1_1  constraint1_931  1
-    Z_93_1_1  constraint2_931  1
-    Z_93_1_2  OBJ       -3.4103799867911305e-01
-    Z_93_1_2  constraint1_931  1
-    Z_93_1_2  constraint2_932  1
-    Z_93_1_3  OBJ       -2.3922165390471664e-02
-    Z_93_1_3  constraint1_931  1
-    Z_93_1_3  constraint2_933  1
+    Z_152_3_0  OBJ       -8.5557639984489963e-03
+    Z_152_3_0  constraint1_1523  1
+    Z_152_3_0  constraint2_1520  1
+    Z_152_3_1  OBJ       -9.4095413364531540e-03
+    Z_152_3_1  constraint1_1523  1
+    Z_152_3_1  constraint2_1521  1
+    Z_152_3_2  OBJ       -1.3318541475916235e-01
+    Z_152_3_2  constraint1_1523  1
+    Z_152_3_2  constraint2_1522  1
+    Z_152_3_3  OBJ       -1.5137335929412447e-03
+    Z_152_3_3  constraint1_1523  1
+    Z_152_3_3  constraint2_1523  1
+    Z_152_12_0  OBJ       -9.3048688026230457e-04
+    Z_152_12_0  constraint1_15212  1
+    Z_152_12_0  constraint2_1520  1
+    Z_152_12_1  OBJ       -1.1573971577597712e-01
+    Z_152_12_1  constraint1_15212  1
+    Z_152_12_1  constraint2_1521  1
+    Z_152_12_2  OBJ       -6.3013288255922140e-01
+    Z_152_12_2  constraint1_15212  1
+    Z_152_12_2  constraint2_1522  1
+    Z_152_12_3  OBJ       -2.9236148926281503e-02
+    Z_152_12_3  constraint1_15212  1
+    Z_152_12_3  constraint2_1523  1
+    Z_152_1_0  OBJ       -1.3592158973511471e-02
+    Z_152_1_0  constraint1_1521  1
+    Z_152_1_0  constraint2_1520  1
+    Z_152_1_1  OBJ       -2.4954782490890195e-02
+    Z_152_1_1  constraint1_1521  1
+    Z_152_1_1  constraint2_1521  1
+    Z_152_1_2  OBJ       -2.5312428661979471e-03
+    Z_152_1_2  constraint1_1521  1
+    Z_152_1_2  constraint2_1522  1
+    Z_152_1_3  OBJ       -5.3895980647061581e-02
+    Z_152_1_3  constraint1_1521  1
+    Z_152_1_3  constraint2_1523  1
+    Z_152_2_0  OBJ       -5.0747107964374261e-02
+    Z_152_2_0  constraint1_1522  1
+    Z_152_2_0  constraint2_1520  1
+    Z_152_2_1  OBJ       -1.9451668349070117e-01
+    Z_152_2_1  constraint1_1522  1
+    Z_152_2_1  constraint2_1521  1
+    Z_152_2_2  OBJ       -7.3797927085064163e-03
+    Z_152_2_2  constraint1_1522  1
+    Z_152_2_2  constraint2_1522  1
+    Z_152_2_3  OBJ       -3.1502308047329702e-01
+    Z_152_2_3  constraint1_1522  1
+    Z_152_2_3  constraint2_1523  1
+    Z_152_0_0  OBJ       -3.0782230862438288e-02
+    Z_152_0_0  constraint1_1520  1
+    Z_152_0_0  constraint2_1520  1
+    Z_152_0_1  OBJ       -3.1068507933865064e-02
+    Z_152_0_1  constraint1_1520  1
+    Z_152_0_1  constraint2_1521  1
+    Z_152_0_2  OBJ       -2.6890546398904924e-02
+    Z_152_0_2  constraint1_1520  1
+    Z_152_0_2  constraint2_1522  1
+    Z_152_0_3  OBJ       -5.8412658452486138e-02
+    Z_152_0_3  constraint1_1520  1
+    Z_152_0_3  constraint2_1523  1
+    Z_670_0_0  OBJ       -9.5334878163846892e-03
+    Z_670_0_0  constraint1_6700  1
+    Z_670_0_0  constraint2_6700  1
+    Z_670_0_1  OBJ       -7.5454246149795458e-03
+    Z_670_0_1  constraint1_6700  1
+    Z_670_0_1  constraint2_6701  1
+    Z_670_0_2  OBJ       -1.7028135392770340e-02
+    Z_670_0_2  constraint1_6700  1
+    Z_670_0_2  constraint2_6702  1
+    Z_670_0_3  OBJ       -8.2154134204440787e-01
+    Z_670_0_3  constraint1_6700  1
+    Z_670_0_3  constraint2_6703  1
+    Z_44_0_0  OBJ       -7.6436315829524486e-04
+    Z_44_0_0  constraint1_440  1
+    Z_44_0_0  constraint2_440  1
+    Z_44_0_1  OBJ       -2.1967699762653347e-02
+    Z_44_0_1  constraint1_440  1
+    Z_44_0_1  constraint2_441  1
+    Z_44_0_2  OBJ       -2.2798855601155729e-01
+    Z_44_0_2  constraint1_440  1
+    Z_44_0_2  constraint2_442  1
+    Z_44_0_3  OBJ       -4.3678324182482076e-02
+    Z_44_0_3  constraint1_440  1
+    Z_44_0_3  constraint2_443  1
+    Z_437_0_0  OBJ       -4.5572009148582283e-04
+    Z_437_0_0  constraint1_4370  1
+    Z_437_0_0  constraint2_4370  1
+    Z_437_0_1  OBJ       -1.7630600754236548e-02
+    Z_437_0_1  constraint1_4370  1
+    Z_437_0_1  constraint2_4371  1
+    Z_437_0_2  OBJ       -4.4386552675412833e-01
+    Z_437_0_2  constraint1_4370  1
+    Z_437_0_2  constraint2_4372  1
+    Z_437_0_3  OBJ       -4.0078947426258803e-02
+    Z_437_0_3  constraint1_4370  1
+    Z_437_0_3  constraint2_4373  1
+    Z_269_2_0  OBJ       -1.1305082884993789e-02
+    Z_269_2_0  constraint1_2692  1
+    Z_269_2_0  constraint2_2690  1
+    Z_269_2_1  OBJ       -1.8101151182865706e-03
+    Z_269_2_1  constraint1_2692  1
+    Z_269_2_1  constraint2_2691  1
+    Z_269_2_2  OBJ       -1.0733165083700480e-02
+    Z_269_2_2  constraint1_2692  1
+    Z_269_2_2  constraint2_2692  1
+    Z_269_2_3  OBJ       -1.0298094052052692e-01
+    Z_269_2_3  constraint1_2692  1
+    Z_269_2_3  constraint2_2693  1
+    Z_269_4_0  OBJ       -2.2484230812708562e-03
+    Z_269_4_0  constraint1_2694  1
+    Z_269_4_0  constraint2_2690  1
+    Z_269_4_1  OBJ       -9.7101645466654563e-03
+    Z_269_4_1  constraint1_2694  1
+    Z_269_4_1  constraint2_2691  1
+    Z_269_4_2  OBJ       -1.2564860192036077e-02
+    Z_269_4_2  constraint1_2694  1
+    Z_269_4_2  constraint2_2692  1
+    Z_269_4_3  OBJ       -7.9342269047198932e-01
+    Z_269_4_3  constraint1_2694  1
+    Z_269_4_3  constraint2_2693  1
+    Z_269_6_0  OBJ       -6.6836184372720805e-02
+    Z_269_6_0  constraint1_2696  1
+    Z_269_6_0  constraint2_2690  1
+    Z_269_6_1  OBJ       -3.8051484690138908e-02
+    Z_269_6_1  constraint1_2696  1
+    Z_269_6_1  constraint2_2691  1
+    Z_269_6_2  OBJ       -3.0948524553369053e-03
+    Z_269_6_2  constraint1_2696  1
+    Z_269_6_2  constraint2_2692  1
+    Z_269_6_3  OBJ       -4.1631343175888499e-02
+    Z_269_6_3  constraint1_2696  1
+    Z_269_6_3  constraint2_2693  1
+    Z_269_1_0  OBJ       -1.5011648332177064e-02
+    Z_269_1_0  constraint1_2691  1
+    Z_269_1_0  constraint2_2690  1
+    Z_269_1_1  OBJ       -5.3027719963208318e-03
+    Z_269_1_1  constraint1_2691  1
+    Z_269_1_1  constraint2_2691  1
+    Z_269_1_2  OBJ       -1.6495454398125275e-02
+    Z_269_1_2  constraint1_2691  1
+    Z_269_1_2  constraint2_2692  1
+    Z_269_1_3  OBJ       -1.7696849617144787e-02
+    Z_269_1_3  constraint1_2691  1
+    Z_269_1_3  constraint2_2693  1
+    Z_269_7_0  OBJ       -9.3182214140530351e-02
+    Z_269_7_0  constraint1_2697  1
+    Z_269_7_0  constraint2_2690  1
+    Z_269_7_1  OBJ       -7.8636398645175742e-02
+    Z_269_7_1  constraint1_2697  1
+    Z_269_7_1  constraint2_2691  1
+    Z_269_7_2  OBJ       -5.4615356066027741e-03
+    Z_269_7_2  constraint1_2697  1
+    Z_269_7_2  constraint2_2692  1
+    Z_269_7_3  OBJ       -2.9656666129647113e-01
+    Z_269_7_3  constraint1_2697  1
+    Z_269_7_3  constraint2_2693  1
+    Z_269_3_0  OBJ       -2.2484230812708562e-03
+    Z_269_3_0  constraint1_2693  1
+    Z_269_3_0  constraint2_2690  1
+    Z_269_3_1  OBJ       -9.7101645466654563e-03
+    Z_269_3_1  constraint1_2693  1
+    Z_269_3_1  constraint2_2691  1
+    Z_269_3_2  OBJ       -1.2564860192036077e-02
+    Z_269_3_2  constraint1_2693  1
+    Z_269_3_2  constraint2_2692  1
+    Z_269_3_3  OBJ       -7.9342269047198932e-01
+    Z_269_3_3  constraint1_2693  1
+    Z_269_3_3  constraint2_2693  1
+    Z_269_0_0  OBJ       -2.7595396626701608e-02
+    Z_269_0_0  constraint1_2690  1
+    Z_269_0_0  constraint2_2690  1
+    Z_269_0_1  OBJ       -9.0850836694547302e-03
+    Z_269_0_1  constraint1_2690  1
+    Z_269_0_1  constraint2_2691  1
+    Z_269_0_2  OBJ       -4.4416542546337270e-02
+    Z_269_0_2  constraint1_2690  1
+    Z_269_0_2  constraint2_2692  1
+    Z_269_0_3  OBJ       -3.9860056697280088e-01
+    Z_269_0_3  constraint1_2690  1
+    Z_269_0_3  constraint2_2693  1
+    Z_269_8_0  OBJ       -9.3182214140530351e-02
+    Z_269_8_0  constraint1_2698  1
+    Z_269_8_0  constraint2_2690  1
+    Z_269_8_1  OBJ       -7.8636398645175742e-02
+    Z_269_8_1  constraint1_2698  1
+    Z_269_8_1  constraint2_2691  1
+    Z_269_8_2  OBJ       -5.4615356066027741e-03
+    Z_269_8_2  constraint1_2698  1
+    Z_269_8_2  constraint2_2692  1
+    Z_269_8_3  OBJ       -2.9656666129647113e-01
+    Z_269_8_3  constraint1_2698  1
+    Z_269_8_3  constraint2_2693  1
+    Z_269_5_0  OBJ       -4.8894500108041652e-02
+    Z_269_5_0  constraint1_2695  1
+    Z_269_5_0  constraint2_2690  1
+    Z_269_5_1  OBJ       -8.5777302431183089e-02
+    Z_269_5_1  constraint1_2695  1
+    Z_269_5_1  constraint2_2691  1
+    Z_269_5_2  OBJ       -6.2899107684277087e-03
+    Z_269_5_2  constraint1_2695  1
+    Z_269_5_2  constraint2_2692  1
+    Z_269_5_3  OBJ       -4.8497761384725308e-02
+    Z_269_5_3  constraint1_2695  1
+    Z_269_5_3  constraint2_2693  1
+    Z_15_0_0  OBJ       -1.5467587823754680e-02
+    Z_15_0_0  constraint1_150  1
+    Z_15_0_0  constraint2_150  1
+    Z_15_0_1  OBJ       -9.5738380200479409e-02
+    Z_15_0_1  constraint1_150  1
+    Z_15_0_1  constraint2_151  1
+    Z_15_0_2  OBJ       -1.1456121317178615e-02
+    Z_15_0_2  constraint1_150  1
+    Z_15_0_2  constraint2_152  1
+    Z_15_0_3  OBJ       -2.7040097949389611e-02
+    Z_15_0_3  constraint1_150  1
+    Z_15_0_3  constraint2_153  1
+    Z_650_0_0  OBJ       -3.9146581792097960e-03
+    Z_650_0_0  constraint1_6500  1
+    Z_650_0_0  constraint2_6500  1
+    Z_650_0_1  OBJ       -1.3782093772719951e-02
+    Z_650_0_1  constraint1_6500  1
+    Z_650_0_1  constraint2_6501  1
+    Z_650_0_2  OBJ       -2.5447774094052250e-01
+    Z_650_0_2  constraint1_6500  1
+    Z_650_0_2  constraint2_6502  1
+    Z_650_0_3  OBJ       -8.1669278234284537e-01
+    Z_650_0_3  constraint1_6500  1
+    Z_650_0_3  constraint2_6503  1
+    Z_477_0_0  OBJ       -5.5267187000215270e-04
+    Z_477_0_0  constraint1_4770  1
+    Z_477_0_0  constraint2_4770  1
+    Z_477_0_1  OBJ       -4.2122050017816661e-03
+    Z_477_0_1  constraint1_4770  1
+    Z_477_0_1  constraint2_4771  1
+    Z_477_0_2  OBJ       -4.7738803518533801e-01
+    Z_477_0_2  constraint1_4770  1
+    Z_477_0_2  constraint2_4772  1
+    Z_477_0_3  OBJ       -1.7164070514546761e-01
+    Z_477_0_3  constraint1_4770  1
+    Z_477_0_3  constraint2_4773  1
     MARKER    'MARKER'                 'INTEND'
 RHS
-    RHS1      constraint1_151  1
-    RHS1      constraint1_421  1
-    RHS1      constraint1_441  1
-    RHS1      constraint1_471  1
-    RHS1      constraint1_931  1
-    RHS1      constraint2_150  1
-    RHS1      constraint2_151  1
-    RHS1      constraint2_152  1
-    RHS1      constraint2_153  1
-    RHS1      constraint2_420  1
-    RHS1      constraint2_421  1
-    RHS1      constraint2_422  1
-    RHS1      constraint2_423  1
+    RHS1      constraint1_1523  1
+    RHS1      constraint1_15212  1
+    RHS1      constraint1_1521  1
+    RHS1      constraint1_1522  1
+    RHS1      constraint1_1520  1
+    RHS1      constraint1_6700  1
+    RHS1      constraint1_440  1
+    RHS1      constraint1_4370  1
+    RHS1      constraint1_2692  1
+    RHS1      constraint1_2694  1
+    RHS1      constraint1_2696  1
+    RHS1      constraint1_2691  1
+    RHS1      constraint1_2697  1
+    RHS1      constraint1_2693  1
+    RHS1      constraint1_2690  1
+    RHS1      constraint1_2698  1
+    RHS1      constraint1_2695  1
+    RHS1      constraint1_150  1
+    RHS1      constraint1_6500  1
+    RHS1      constraint1_4770  1
+    RHS1      constraint2_1520  1
+    RHS1      constraint2_1521  1
+    RHS1      constraint2_1522  1
+    RHS1      constraint2_1523  1
+    RHS1      constraint2_6700  1
+    RHS1      constraint2_6701  1
+    RHS1      constraint2_6702  1
+    RHS1      constraint2_6703  1
     RHS1      constraint2_440  1
     RHS1      constraint2_441  1
     RHS1      constraint2_442  1
     RHS1      constraint2_443  1
-    RHS1      constraint2_470  1
-    RHS1      constraint2_471  1
-    RHS1      constraint2_472  1
-    RHS1      constraint2_473  1
-    RHS1      constraint2_930  1
-    RHS1      constraint2_931  1
-    RHS1      constraint2_932  1
-    RHS1      constraint2_933  1
+    RHS1      constraint2_4370  1
+    RHS1      constraint2_4371  1
+    RHS1      constraint2_4372  1
+    RHS1      constraint2_4373  1
+    RHS1      constraint2_2690  1
+    RHS1      constraint2_2691  1
+    RHS1      constraint2_2692  1
+    RHS1      constraint2_2693  1
+    RHS1      constraint2_150  1
+    RHS1      constraint2_151  1
+    RHS1      constraint2_152  1
+    RHS1      constraint2_153  1
+    RHS1      constraint2_6500  1
+    RHS1      constraint2_6501  1
+    RHS1      constraint2_6502  1
+    RHS1      constraint2_6503  1
+    RHS1      constraint2_4770  1
+    RHS1      constraint2_4771  1
+    RHS1      constraint2_4772  1
+    RHS1      constraint2_4773  1
 BOUNDS
- UP BND1      Z_15_1_0  1
- UP BND1      Z_15_1_1  1
- UP BND1      Z_15_1_2  1
- UP BND1      Z_15_1_3  1
- UP BND1      Z_42_1_0  1
- UP BND1      Z_42_1_1  1
- UP BND1      Z_42_1_2  1
- UP BND1      Z_42_1_3  1
- UP BND1      Z_44_1_0  1
- UP BND1      Z_44_1_1  1
- UP BND1      Z_44_1_2  1
- UP BND1      Z_44_1_3  1
- UP BND1      Z_47_1_0  1
- UP BND1      Z_47_1_1  1
- UP BND1      Z_47_1_2  1
- UP BND1      Z_47_1_3  1
- UP BND1      Z_93_1_0  1
- UP BND1      Z_93_1_1  1
- UP BND1      Z_93_1_2  1
- UP BND1      Z_93_1_3  1
+ UP BND1      Z_152_3_0  1
+ UP BND1      Z_152_3_1  1
+ UP BND1      Z_152_3_2  1
+ UP BND1      Z_152_3_3  1
+ UP BND1      Z_152_12_0  1
+ UP BND1      Z_152_12_1  1
+ UP BND1      Z_152_12_2  1
+ UP BND1      Z_152_12_3  1
+ UP BND1      Z_152_1_0  1
+ UP BND1      Z_152_1_1  1
+ UP BND1      Z_152_1_2  1
+ UP BND1      Z_152_1_3  1
+ UP BND1      Z_152_2_0  1
+ UP BND1      Z_152_2_1  1
+ UP BND1      Z_152_2_2  1
+ UP BND1      Z_152_2_3  1
+ UP BND1      Z_152_0_0  1
+ UP BND1      Z_152_0_1  1
+ UP BND1      Z_152_0_2  1
+ UP BND1      Z_152_0_3  1
+ UP BND1      Z_670_0_0  1
+ UP BND1      Z_670_0_1  1
+ UP BND1      Z_670_0_2  1
+ UP BND1      Z_670_0_3  1
+ UP BND1      Z_44_0_0  1
+ UP BND1      Z_44_0_1  1
+ UP BND1      Z_44_0_2  1
+ UP BND1      Z_44_0_3  1
+ UP BND1      Z_437_0_0  1
+ UP BND1      Z_437_0_1  1
+ UP BND1      Z_437_0_2  1
+ UP BND1      Z_437_0_3  1
+ UP BND1      Z_269_2_0  1
+ UP BND1      Z_269_2_1  1
+ UP BND1      Z_269_2_2  1
+ UP BND1      Z_269_2_3  1
+ UP BND1      Z_269_4_0  1
+ UP BND1      Z_269_4_1  1
+ UP BND1      Z_269_4_2  1
+ UP BND1      Z_269_4_3  1
+ UP BND1      Z_269_6_0  1
+ UP BND1      Z_269_6_1  1
+ UP BND1      Z_269_6_2  1
+ UP BND1      Z_269_6_3  1
+ UP BND1      Z_269_1_0  1
+ UP BND1      Z_269_1_1  1
+ UP BND1      Z_269_1_2  1
+ UP BND1      Z_269_1_3  1
+ UP BND1      Z_269_7_0  1
+ UP BND1      Z_269_7_1  1
+ UP BND1      Z_269_7_2  1
+ UP BND1      Z_269_7_3  1
+ UP BND1      Z_269_3_0  1
+ UP BND1      Z_269_3_1  1
+ UP BND1      Z_269_3_2  1
+ UP BND1      Z_269_3_3  1
+ UP BND1      Z_269_0_0  1
+ UP BND1      Z_269_0_1  1
+ UP BND1      Z_269_0_2  1
+ UP BND1      Z_269_0_3  1
+ UP BND1      Z_269_8_0  1
+ UP BND1      Z_269_8_1  1
+ UP BND1      Z_269_8_2  1
+ UP BND1      Z_269_8_3  1
+ UP BND1      Z_269_5_0  1
+ UP BND1      Z_269_5_1  1
+ UP BND1      Z_269_5_2  1
+ UP BND1      Z_269_5_3  1
+ UP BND1      Z_15_0_0  1
+ UP BND1      Z_15_0_1  1
+ UP BND1      Z_15_0_2  1
+ UP BND1      Z_15_0_3  1
+ UP BND1      Z_650_0_0  1
+ UP BND1      Z_650_0_1  1
+ UP BND1      Z_650_0_2  1
+ UP BND1      Z_650_0_3  1
+ UP BND1      Z_477_0_0  1
+ UP BND1      Z_477_0_1  1
+ UP BND1      Z_477_0_2  1
+ UP BND1      Z_477_0_3  1
 QUADOBJ
-    Z_42_1_0  Z_44_1_0  -8.5137154020744276e-04
-    Z_42_1_0  Z_93_1_0  -8.5137154020744276e-04
-    Z_42_1_1  Z_44_1_1  -8.5137154020744276e-04
-    Z_42_1_1  Z_93_1_1  -8.5137154020744276e-04
-    Z_42_1_2  Z_44_1_2  -8.5137154020744276e-04
-    Z_42_1_2  Z_93_1_2  -8.5137154020744276e-04
-    Z_42_1_3  Z_44_1_3  -8.5137154020744276e-04
-    Z_42_1_3  Z_93_1_3  -8.5137154020744276e-04
-    Z_44_1_0  Z_93_1_0  -1
-    Z_44_1_1  Z_93_1_1  -1
-    Z_44_1_2  Z_93_1_2  -1
-    Z_44_1_3  Z_93_1_3  -1
+    Z_152_3_0  Z_670_0_0  -1.1007491478688664e-05
+    Z_152_3_0  Z_269_1_0  -1.9999999999999996e-01
+    Z_152_3_1  Z_670_0_1  -1.1007491478688664e-05
+    Z_152_3_1  Z_269_1_1  -1.9999999999999996e-01
+    Z_152_3_2  Z_670_0_2  -1.1007491478688664e-05
+    Z_152_3_2  Z_269_1_2  -1.9999999999999996e-01
+    Z_152_3_3  Z_670_0_3  -1.1007491478688664e-05
+    Z_152_3_3  Z_269_1_3  -1.9999999999999996e-01
+    Z_152_1_0  Z_670_0_0  -1.1007491478688664e-05
+    Z_152_1_0  Z_269_1_0  -1.4071451482311523e-01
+    Z_152_1_1  Z_670_0_1  -1.1007491478688664e-05
+    Z_152_1_1  Z_269_1_1  -1.4071451482311523e-01
+    Z_152_1_2  Z_670_0_2  -1.1007491478688664e-05
+    Z_152_1_2  Z_269_1_2  -1.4071451482311523e-01
+    Z_152_1_3  Z_670_0_3  -1.1007491478688664e-05
+    Z_152_1_3  Z_269_1_3  -1.4071451482311523e-01
+    Z_152_2_0  Z_670_0_0  -6.8157109290241019e-05
+    Z_152_2_0  Z_44_0_0  -1.3888888888888886e-05
+    Z_152_2_1  Z_670_0_1  -6.8157109290241019e-05
+    Z_152_2_1  Z_44_0_1  -1.3888888888888886e-05
+    Z_152_2_2  Z_670_0_2  -6.8157109290241019e-05
+    Z_152_2_2  Z_44_0_2  -1.3888888888888886e-05
+    Z_152_2_3  Z_670_0_3  -6.8157109290241019e-05
+    Z_152_2_3  Z_44_0_3  -1.3888888888888886e-05
+    Z_152_0_0  Z_269_4_0  -4.8417336623819687e-06
+    Z_152_0_0  Z_269_3_0  -1.0863179913986415e-06
+    Z_152_0_0  Z_269_8_0  -1.0863179913986415e-06
+    Z_152_0_0  Z_477_0_0  -1.9999999999999996e-01
+    Z_152_0_1  Z_269_4_1  -4.8417336623819687e-06
+    Z_152_0_1  Z_269_3_1  -1.0863179913986415e-06
+    Z_152_0_1  Z_269_8_1  -1.0863179913986415e-06
+    Z_152_0_1  Z_477_0_1  -1.9999999999999996e-01
+    Z_152_0_2  Z_269_4_2  -4.8417336623819687e-06
+    Z_152_0_2  Z_269_3_2  -1.0863179913986415e-06
+    Z_152_0_2  Z_269_8_2  -1.0863179913986415e-06
+    Z_152_0_2  Z_477_0_2  -1.9999999999999996e-01
+    Z_152_0_3  Z_269_4_3  -4.8417336623819687e-06
+    Z_152_0_3  Z_269_3_3  -1.0863179913986415e-06
+    Z_152_0_3  Z_269_8_3  -1.0863179913986415e-06
+    Z_152_0_3  Z_477_0_3  -1.9999999999999996e-01
+    Z_670_0_0  Z_269_4_0  -2.0868005643793004e-03
+    Z_670_0_0  Z_269_6_0  -6.0306945336134149e-02
+    Z_670_0_0  Z_269_1_0  -5.9285485176884707e-02
+    Z_670_0_0  Z_269_3_0  -1.8364362209096850e-02
+    Z_670_0_0  Z_269_0_0  -1.9999999999999996e-01
+    Z_670_0_0  Z_269_8_0  -3.6350765257675284e-02
+    Z_670_0_0  Z_269_5_0  -6.5921872983219609e-02
+    Z_670_0_0  Z_650_0_0  -3.6774328523534128e-02
+    Z_670_0_1  Z_269_4_1  -2.0868005643793004e-03
+    Z_670_0_1  Z_269_6_1  -6.0306945336134149e-02
+    Z_670_0_1  Z_269_1_1  -5.9285485176884707e-02
+    Z_670_0_1  Z_269_3_1  -1.8364362209096850e-02
+    Z_670_0_1  Z_269_0_1  -1.9999999999999996e-01
+    Z_670_0_1  Z_269_8_1  -3.6350765257675284e-02
+    Z_670_0_1  Z_269_5_1  -6.5921872983219609e-02
+    Z_670_0_1  Z_650_0_1  -3.6774328523534128e-02
+    Z_670_0_2  Z_269_4_2  -2.0868005643793004e-03
+    Z_670_0_2  Z_269_6_2  -6.0306945336134149e-02
+    Z_670_0_2  Z_269_1_2  -5.9285485176884707e-02
+    Z_670_0_2  Z_269_3_2  -1.8364362209096850e-02
+    Z_670_0_2  Z_269_0_2  -1.9999999999999996e-01
+    Z_670_0_2  Z_269_8_2  -3.6350765257675284e-02
+    Z_670_0_2  Z_269_5_2  -6.5921872983219609e-02
+    Z_670_0_2  Z_650_0_2  -3.6774328523534128e-02
+    Z_670_0_3  Z_269_4_3  -2.0868005643793004e-03
+    Z_670_0_3  Z_269_6_3  -6.0306945336134149e-02
+    Z_670_0_3  Z_269_1_3  -5.9285485176884707e-02
+    Z_670_0_3  Z_269_3_3  -1.8364362209096850e-02
+    Z_670_0_3  Z_269_0_3  -1.9999999999999996e-01
+    Z_670_0_3  Z_269_8_3  -3.6350765257675284e-02
+    Z_670_0_3  Z_269_5_3  -6.5921872983219609e-02
+    Z_670_0_3  Z_650_0_3  -3.6774328523534128e-02
+    Z_269_4_0  Z_477_0_0  -4.8417336623819687e-06
+    Z_269_4_1  Z_477_0_1  -4.8417336623819687e-06
+    Z_269_4_2  Z_477_0_2  -4.8417336623819687e-06
+    Z_269_4_3  Z_477_0_3  -4.8417336623819687e-06
+    Z_269_6_0  Z_650_0_0  -6.0306945336134149e-02
+    Z_269_6_1  Z_650_0_1  -6.0306945336134149e-02
+    Z_269_6_2  Z_650_0_2  -6.0306945336134149e-02
+    Z_269_6_3  Z_650_0_3  -6.0306945336134149e-02
+    Z_269_1_0  Z_650_0_0  -5.9285485176884707e-02
+    Z_269_1_1  Z_650_0_1  -5.9285485176884707e-02
+    Z_269_1_2  Z_650_0_2  -5.9285485176884707e-02
+    Z_269_1_3  Z_650_0_3  -5.9285485176884707e-02
+    Z_269_3_0  Z_650_0_0  -2.4626567770191045e-02
+    Z_269_3_0  Z_477_0_0  -1.0863179913986415e-06
+    Z_269_3_1  Z_650_0_1  -2.4626567770191045e-02
+    Z_269_3_1  Z_477_0_1  -1.0863179913986415e-06
+    Z_269_3_2  Z_650_0_2  -2.4626567770191045e-02
+    Z_269_3_2  Z_477_0_2  -1.0863179913986415e-06
+    Z_269_3_3  Z_650_0_3  -2.4626567770191045e-02
+    Z_269_3_3  Z_477_0_3  -1.0863179913986415e-06
+    Z_269_8_0  Z_650_0_0  -2.4626567770191045e-02
+    Z_269_8_0  Z_477_0_0  -1.0863179913986415e-06
+    Z_269_8_1  Z_650_0_1  -2.4626567770191045e-02
+    Z_269_8_1  Z_477_0_1  -1.0863179913986415e-06
+    Z_269_8_2  Z_650_0_2  -2.4626567770191045e-02
+    Z_269_8_2  Z_477_0_2  -1.0863179913986415e-06
+    Z_269_8_3  Z_650_0_3  -2.4626567770191045e-02
+    Z_269_8_3  Z_477_0_3  -1.0863179913986415e-06
+    Z_269_5_0  Z_650_0_0  -6.5921872983219609e-02
+    Z_269_5_1  Z_650_0_1  -6.5921872983219609e-02
+    Z_269_5_2  Z_650_0_2  -6.5921872983219609e-02
+    Z_269_5_3  Z_650_0_3  -6.5921872983219609e-02
 ENDATA

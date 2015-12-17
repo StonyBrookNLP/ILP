@@ -2,162 +2,174 @@ NAME digestion_srl_ilp
 * Max problem is converted into Min one
 ROWS
  N  OBJ
- L  constraint1_941
- L  constraint1_942
- L  constraint1_943
- L  constraint1_191
- L  constraint1_192
- L  constraint1_641
- L  constraint2_940
- L  constraint2_941
- L  constraint2_942
- L  constraint2_943
- L  constraint2_190
- L  constraint2_191
- L  constraint2_192
- L  constraint2_193
- L  constraint2_640
- L  constraint2_641
- L  constraint2_642
- L  constraint2_643
+ L  constraint1_2681
+ L  constraint1_2682
+ L  constraint1_2680
+ L  constraint1_1790
+ L  constraint1_2490
+ L  constraint1_6440
+ L  constraint2_2680
+ L  constraint2_2681
+ L  constraint2_2682
+ L  constraint2_2683
+ L  constraint2_1790
+ L  constraint2_1791
+ L  constraint2_1792
+ L  constraint2_1793
+ L  constraint2_2490
+ L  constraint2_2491
+ L  constraint2_2492
+ L  constraint2_2493
+ L  constraint2_6440
+ L  constraint2_6441
+ L  constraint2_6442
+ L  constraint2_6443
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    Z_94_1_0  OBJ       -8.2871135629412063e-02
-    Z_94_1_0  constraint1_941  1
-    Z_94_1_0  constraint2_940  1
-    Z_94_1_1  OBJ       -2.9257442866047534e-02
-    Z_94_1_1  constraint1_941  1
-    Z_94_1_1  constraint2_941  1
-    Z_94_1_2  OBJ       -6.8278663705323428e-03
-    Z_94_1_2  constraint1_941  1
-    Z_94_1_2  constraint2_942  1
-    Z_94_1_3  OBJ       -4.1835701509706374e-01
-    Z_94_1_3  constraint1_941  1
-    Z_94_1_3  constraint2_943  1
-    Z_94_2_0  OBJ       -9.7463953286147653e-04
-    Z_94_2_0  constraint1_942  1
-    Z_94_2_0  constraint2_940  1
-    Z_94_2_1  OBJ       -2.9707533292202548e-03
-    Z_94_2_1  constraint1_942  1
-    Z_94_2_1  constraint2_941  1
-    Z_94_2_2  OBJ       -4.8171652235586332e-01
-    Z_94_2_2  constraint1_942  1
-    Z_94_2_2  constraint2_942  1
-    Z_94_2_3  OBJ       -3.4682110546552553e-03
-    Z_94_2_3  constraint1_942  1
-    Z_94_2_3  constraint2_943  1
-    Z_94_3_0  OBJ       -8.2871135629412063e-02
-    Z_94_3_0  constraint1_943  1
-    Z_94_3_0  constraint2_940  1
-    Z_94_3_1  OBJ       -2.9257442866047534e-02
-    Z_94_3_1  constraint1_943  1
-    Z_94_3_1  constraint2_941  1
-    Z_94_3_2  OBJ       -6.8278663705323428e-03
-    Z_94_3_2  constraint1_943  1
-    Z_94_3_2  constraint2_942  1
-    Z_94_3_3  OBJ       -4.1835701509706374e-01
-    Z_94_3_3  constraint1_943  1
-    Z_94_3_3  constraint2_943  1
-    Z_19_1_0  OBJ       -8.9008918460664610e-04
-    Z_19_1_0  constraint1_191  1
-    Z_19_1_0  constraint2_190  1
-    Z_19_1_1  OBJ       -4.1701388101931247e-03
-    Z_19_1_1  constraint1_191  1
-    Z_19_1_1  constraint2_191  1
-    Z_19_1_2  OBJ       -4.6367509395233786e-01
-    Z_19_1_2  constraint1_191  1
-    Z_19_1_2  constraint2_192  1
-    Z_19_1_3  OBJ       -1.7744761179994725e-03
-    Z_19_1_3  constraint1_191  1
-    Z_19_1_3  constraint2_193  1
-    Z_19_2_0  OBJ       -8.9008918460664610e-04
-    Z_19_2_0  constraint1_192  1
-    Z_19_2_0  constraint2_190  1
-    Z_19_2_1  OBJ       -4.1701388101931247e-03
-    Z_19_2_1  constraint1_192  1
-    Z_19_2_1  constraint2_191  1
-    Z_19_2_2  OBJ       -4.6367509395233786e-01
-    Z_19_2_2  constraint1_192  1
-    Z_19_2_2  constraint2_192  1
-    Z_19_2_3  OBJ       -1.7744761179994725e-03
-    Z_19_2_3  constraint1_192  1
-    Z_19_2_3  constraint2_193  1
-    Z_64_1_0  OBJ       -1.6023948756339612e-03
-    Z_64_1_0  constraint1_641  1
-    Z_64_1_0  constraint2_640  1
-    Z_64_1_1  OBJ       -8.2466282425851078e-02
-    Z_64_1_1  constraint1_641  1
-    Z_64_1_1  constraint2_641  1
-    Z_64_1_2  OBJ       -4.2033927811842875e-01
-    Z_64_1_2  constraint1_641  1
-    Z_64_1_2  constraint2_642  1
-    Z_64_1_3  OBJ       -1.3209443205465967e-02
-    Z_64_1_3  constraint1_641  1
-    Z_64_1_3  constraint2_643  1
+    Z_268_1_0  OBJ       -2.0401316569426630e-02
+    Z_268_1_0  constraint1_2681  1
+    Z_268_1_0  constraint2_2680  1
+    Z_268_1_1  OBJ       -3.8154033948870673e-02
+    Z_268_1_1  constraint1_2681  1
+    Z_268_1_1  constraint2_2681  1
+    Z_268_1_2  OBJ       -6.4046784192724471e-02
+    Z_268_1_2  constraint1_2681  1
+    Z_268_1_2  constraint2_2682  1
+    Z_268_1_3  OBJ       -1.8998782031080322e-01
+    Z_268_1_3  constraint1_2681  1
+    Z_268_1_3  constraint2_2683  1
+    Z_268_2_0  OBJ       -1.2147636179918876e-01
+    Z_268_2_0  constraint1_2682  1
+    Z_268_2_0  constraint2_2680  1
+    Z_268_2_1  OBJ       -8.4077847423782395e-02
+    Z_268_2_1  constraint1_2682  1
+    Z_268_2_1  constraint2_2681  1
+    Z_268_2_2  OBJ       -1.1975775996745975e-02
+    Z_268_2_2  constraint1_2682  1
+    Z_268_2_2  constraint2_2682  1
+    Z_268_2_3  OBJ       -8.3879002103055234e-01
+    Z_268_2_3  constraint1_2682  1
+    Z_268_2_3  constraint2_2683  1
+    Z_268_0_0  OBJ       -4.8432745761523678e-03
+    Z_268_0_0  constraint1_2680  1
+    Z_268_0_0  constraint2_2680  1
+    Z_268_0_1  OBJ       -2.3980536800814025e-03
+    Z_268_0_1  constraint1_2680  1
+    Z_268_0_1  constraint2_2681  1
+    Z_268_0_2  OBJ       -8.7369251388627067e-01
+    Z_268_0_2  constraint1_2680  1
+    Z_268_0_2  constraint2_2682  1
+    Z_268_0_3  OBJ       -1.2108091194468705e-02
+    Z_268_0_3  constraint1_2680  1
+    Z_268_0_3  constraint2_2683  1
+    Z_179_0_0  OBJ       -2.0960086059835683e-03
+    Z_179_0_0  constraint1_1790  1
+    Z_179_0_0  constraint2_1790  1
+    Z_179_0_1  OBJ       -7.2896971858043783e-03
+    Z_179_0_1  constraint1_1790  1
+    Z_179_0_1  constraint2_1791  1
+    Z_179_0_2  OBJ       -8.8289532489991862e-01
+    Z_179_0_2  constraint1_1790  1
+    Z_179_0_2  constraint2_1792  1
+    Z_179_0_3  OBJ       -2.2477005438819146e-02
+    Z_179_0_3  constraint1_1790  1
+    Z_179_0_3  constraint2_1793  1
+    Z_249_0_0  OBJ       -1.4331638761617960e-02
+    Z_249_0_0  constraint1_2490  1
+    Z_249_0_0  constraint2_2490  1
+    Z_249_0_1  OBJ       -5.4199725697855359e-03
+    Z_249_0_1  constraint1_2490  1
+    Z_249_0_1  constraint2_2491  1
+    Z_249_0_2  OBJ       -6.9646515763168060e-01
+    Z_249_0_2  constraint1_2490  1
+    Z_249_0_2  constraint2_2492  1
+    Z_249_0_3  OBJ       -1.6621938629796457e-02
+    Z_249_0_3  constraint1_2490  1
+    Z_249_0_3  constraint2_2493  1
+    Z_644_0_0  OBJ       -2.5527449166441009e-03
+    Z_644_0_0  constraint1_6440  1
+    Z_644_0_0  constraint2_6440  1
+    Z_644_0_1  OBJ       -3.6132726003234028e-03
+    Z_644_0_1  constraint1_6440  1
+    Z_644_0_1  constraint2_6441  1
+    Z_644_0_2  OBJ       -8.7505983184688152e-01
+    Z_644_0_2  constraint1_6440  1
+    Z_644_0_2  constraint2_6442  1
+    Z_644_0_3  OBJ       -1.8277896896477630e-02
+    Z_644_0_3  constraint1_6440  1
+    Z_644_0_3  constraint2_6443  1
     MARKER    'MARKER'                 'INTEND'
 RHS
-    RHS1      constraint1_941  1
-    RHS1      constraint1_942  1
-    RHS1      constraint1_943  1
-    RHS1      constraint1_191  1
-    RHS1      constraint1_192  1
-    RHS1      constraint1_641  1
-    RHS1      constraint2_940  1
-    RHS1      constraint2_941  1
-    RHS1      constraint2_942  1
-    RHS1      constraint2_943  1
-    RHS1      constraint2_190  1
-    RHS1      constraint2_191  1
-    RHS1      constraint2_192  1
-    RHS1      constraint2_193  1
-    RHS1      constraint2_640  1
-    RHS1      constraint2_641  1
-    RHS1      constraint2_642  1
-    RHS1      constraint2_643  1
+    RHS1      constraint1_2681  1
+    RHS1      constraint1_2682  1
+    RHS1      constraint1_2680  1
+    RHS1      constraint1_1790  1
+    RHS1      constraint1_2490  1
+    RHS1      constraint1_6440  1
+    RHS1      constraint2_2680  1
+    RHS1      constraint2_2681  1
+    RHS1      constraint2_2682  1
+    RHS1      constraint2_2683  1
+    RHS1      constraint2_1790  1
+    RHS1      constraint2_1791  1
+    RHS1      constraint2_1792  1
+    RHS1      constraint2_1793  1
+    RHS1      constraint2_2490  1
+    RHS1      constraint2_2491  1
+    RHS1      constraint2_2492  1
+    RHS1      constraint2_2493  1
+    RHS1      constraint2_6440  1
+    RHS1      constraint2_6441  1
+    RHS1      constraint2_6442  1
+    RHS1      constraint2_6443  1
 BOUNDS
- UP BND1      Z_94_1_0  1
- UP BND1      Z_94_1_1  1
- UP BND1      Z_94_1_2  1
- UP BND1      Z_94_1_3  1
- UP BND1      Z_94_2_0  1
- UP BND1      Z_94_2_1  1
- UP BND1      Z_94_2_2  1
- UP BND1      Z_94_2_3  1
- UP BND1      Z_94_3_0  1
- UP BND1      Z_94_3_1  1
- UP BND1      Z_94_3_2  1
- UP BND1      Z_94_3_3  1
- UP BND1      Z_19_1_0  1
- UP BND1      Z_19_1_1  1
- UP BND1      Z_19_1_2  1
- UP BND1      Z_19_1_3  1
- UP BND1      Z_19_2_0  1
- UP BND1      Z_19_2_1  1
- UP BND1      Z_19_2_2  1
- UP BND1      Z_19_2_3  1
- UP BND1      Z_64_1_0  1
- UP BND1      Z_64_1_1  1
- UP BND1      Z_64_1_2  1
- UP BND1      Z_64_1_3  1
+ UP BND1      Z_268_1_0  1
+ UP BND1      Z_268_1_1  1
+ UP BND1      Z_268_1_2  1
+ UP BND1      Z_268_1_3  1
+ UP BND1      Z_268_2_0  1
+ UP BND1      Z_268_2_1  1
+ UP BND1      Z_268_2_2  1
+ UP BND1      Z_268_2_3  1
+ UP BND1      Z_268_0_0  1
+ UP BND1      Z_268_0_1  1
+ UP BND1      Z_268_0_2  1
+ UP BND1      Z_268_0_3  1
+ UP BND1      Z_179_0_0  1
+ UP BND1      Z_179_0_1  1
+ UP BND1      Z_179_0_2  1
+ UP BND1      Z_179_0_3  1
+ UP BND1      Z_249_0_0  1
+ UP BND1      Z_249_0_1  1
+ UP BND1      Z_249_0_2  1
+ UP BND1      Z_249_0_3  1
+ UP BND1      Z_644_0_0  1
+ UP BND1      Z_644_0_1  1
+ UP BND1      Z_644_0_2  1
+ UP BND1      Z_644_0_3  1
 QUADOBJ
-    Z_94_1_0  Z_19_2_0  -6.1710214626398296e-01
-    Z_94_1_1  Z_19_2_1  -6.1710214626398296e-01
-    Z_94_1_2  Z_19_2_2  -6.1710214626398296e-01
-    Z_94_1_3  Z_19_2_3  -6.1710214626398296e-01
-    Z_94_2_0  Z_19_2_0  -4.4978185968852766e-05
-    Z_94_2_0  Z_64_1_0  -1
-    Z_94_2_1  Z_19_2_1  -4.4978185968852766e-05
-    Z_94_2_1  Z_64_1_1  -1
-    Z_94_2_2  Z_19_2_2  -4.4978185968852766e-05
-    Z_94_2_2  Z_64_1_2  -1
-    Z_94_2_3  Z_19_2_3  -4.4978185968852766e-05
-    Z_94_2_3  Z_64_1_3  -1
-    Z_94_3_0  Z_19_2_0  -1
-    Z_94_3_1  Z_19_2_1  -1
-    Z_94_3_2  Z_19_2_2  -1
-    Z_94_3_3  Z_19_2_3  -1
-    Z_19_2_0  Z_64_1_0  -4.4978185968852766e-05
-    Z_19_2_1  Z_64_1_1  -4.4978185968852766e-05
-    Z_19_2_2  Z_64_1_2  -4.4978185968852766e-05
-    Z_19_2_3  Z_64_1_3  -4.4978185968852766e-05
+    Z_268_0_0  Z_179_0_0  -1.9999999999999996e-01
+    Z_268_0_0  Z_249_0_0  -2.1082813290605494e-06
+    Z_268_0_0  Z_644_0_0  -1.9999999999999996e-01
+    Z_268_0_1  Z_179_0_1  -1.9999999999999996e-01
+    Z_268_0_1  Z_249_0_1  -2.1082813290605494e-06
+    Z_268_0_1  Z_644_0_1  -1.9999999999999996e-01
+    Z_268_0_2  Z_179_0_2  -1.9999999999999996e-01
+    Z_268_0_2  Z_249_0_2  -2.1082813290605494e-06
+    Z_268_0_2  Z_644_0_2  -1.9999999999999996e-01
+    Z_268_0_3  Z_179_0_3  -1.9999999999999996e-01
+    Z_268_0_3  Z_249_0_3  -2.1082813290605494e-06
+    Z_268_0_3  Z_644_0_3  -1.9999999999999996e-01
+    Z_179_0_0  Z_249_0_0  -2.1082813290605494e-06
+    Z_179_0_0  Z_644_0_0  -1.9999999999999996e-01
+    Z_179_0_1  Z_249_0_1  -2.1082813290605494e-06
+    Z_179_0_1  Z_644_0_1  -1.9999999999999996e-01
+    Z_179_0_2  Z_249_0_2  -2.1082813290605494e-06
+    Z_179_0_2  Z_644_0_2  -1.9999999999999996e-01
+    Z_179_0_3  Z_249_0_3  -2.1082813290605494e-06
+    Z_179_0_3  Z_644_0_3  -1.9999999999999996e-01
+    Z_249_0_0  Z_644_0_0  -2.1082813290605494e-06
+    Z_249_0_1  Z_644_0_1  -2.1082813290605494e-06
+    Z_249_0_2  Z_644_0_2  -2.1082813290605494e-06
+    Z_249_0_3  Z_644_0_3  -2.1082813290605494e-06
 ENDATA

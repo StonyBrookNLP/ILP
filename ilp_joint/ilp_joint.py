@@ -2,14 +2,16 @@ import json
 from gurobipy import *
 from collections import defaultdict
 from  utils import entailment
+from  utils import ilp_utils
+from  utils import ilp_config
 import numpy as np
 
 
 #TODO: Modularize code into different files and make it easy to configure based
 # on a config file
 
-# roles = ['undergoer', 'enabler', 'trigger', 'result']
-roles = ['undergoer', 'enabler', 'trigger', 'result', 'underspecified']
+roles = ['undergoer', 'enabler', 'trigger', 'result', 'NONE']
+# roles = ['undergoer', 'enabler', 'trigger', 'result', 'underspecified']
 
 def get_sentences(p_data):
     sent_to_id, id_to_args, arg_role_scores = p_data
@@ -59,8 +61,8 @@ def joint_inference_ilp(process, p_data):
     # Integer Linear Programming for Joint Inference.
     sentences = get_sentences(p_data)
 
-    lambda_1 = 0.5
-    lambda_2 = 0.5
+    lambda_1 = 0.9
+    lambda_2 = 1 - lambda_1
 
     role_score_vars = {}
     label_indicator = {}
@@ -70,7 +72,7 @@ def joint_inference_ilp(process, p_data):
     for s_id, sentence in sentences:
         args = get_sentence_args(sentence, p_data)
         for a_id, arg in args:
-            for r_id, role in enumerate(roles):
+            for r_id, role in enumerate(roles[:4]):
                 role_score = get_role_scores(sentence, a_id, role, p_data)
                 # data: role classifier scores
                 role_score_vars[s_id, a_id, r_id] = role_score
@@ -82,7 +84,7 @@ def joint_inference_ilp(process, p_data):
 
     # generate the objective function to maximize the score
     obj = QuadExpr()
-    for r_id, role in enumerate(roles):
+    for r_id, role in enumerate(roles[:4]):
         for s_id1, sentence1 in sentences:
             args1 = get_sentence_args(sentence1, p_data)
             for a_id1, arg1 in args1:
@@ -102,11 +104,11 @@ def joint_inference_ilp(process, p_data):
     for s_id, sentence in sentences:
         args = get_sentence_args(sentence, p_data)
         for a_id, arg in args:
-            lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for r_id in range(len(roles))]) <= 1, 'constraint1_' + str(s_id) + str(a_id))
+            lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for r_id in range(len(roles) - 1)]) <= 1, 'constraint1_' + str(s_id) + str(a_id))
 
     # 2. Every role must occur only once in the sentence
     for s_id, sentence in sentences:
-        for r_id, role in enumerate(roles):
+        for r_id, role in enumerate(roles[:4]):
             lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for a_id, arg in get_sentence_args(sentence, p_data)]) <= 1, 'constraint2_' + str(s_id) + str(r_id))
 
     lp.optimize()

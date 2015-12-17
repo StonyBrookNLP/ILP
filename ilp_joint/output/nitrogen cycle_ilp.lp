@@ -1,9 +1,13 @@
 Maximize
- 
+  0.00225114030454484 Z_302_0_0 + 0.00578273540472732 Z_302_0_1
+   + 0.8290214534457808 Z_302_0_2 + 0.00706848956566442 Z_302_0_3
 Subject To
- constraint2_550: <= 1
- constraint2_551: <= 1
- constraint2_552: <= 1
- constraint2_553: <= 1
+ constraint1_3020: Z_302_0_0 + Z_302_0_1 + Z_302_0_2 + Z_302_0_3 <= 1
+ constraint2_3020: Z_302_0_0 <= 1
+ constraint2_3021: Z_302_0_1 <= 1
+ constraint2_3022: Z_302_0_2 <= 1
+ constraint2_3023: Z_302_0_3 <= 1
 Bounds
+Binaries
+ Z_302_0_0 Z_302_0_1 Z_302_0_2 Z_302_0_3
 End
