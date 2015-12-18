@@ -2,3 +2,4 @@
 gurobi.log
 .idea/*
 *.pyc
+.ipynb_checkpoint*
