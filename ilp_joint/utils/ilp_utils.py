@@ -129,7 +129,7 @@ def get_similarity_score(arg1, arg2):
 
     confidence = ret['confidence'] if ret['confidence'] else 0
     score2 = mean_a_score * confidence
-    return max(score1, score2)
+    return float(max(score1, score2))
 
 
 def get_ilp_assignment_from_file(process):
@@ -149,7 +149,7 @@ def get_ilp_assignment_from_file(process):
     return output_map
 
 
-def get_ilp_scores(process, srl_data):
+def get_ilp_scores(process, srl_data, sim_data):
     _, id_to_args, _, _ = srl_data[process]
 
     output_map = get_ilp_assignment_from_file(process)
@@ -169,7 +169,7 @@ def get_ilp_scores(process, srl_data):
                         for a_2, aval_2 in val_2.iteritems():
                             arg_2 = dict(args_2)[a_2]
                             rv_2 = aval_2[r]
-                            tmp += rv_2 * float(get_similarity_score(arg_1, arg_2))
+                            tmp += rv_2 * sim_data[(arg_1, arg_2)]
                 ilp_scores[s_1, a_1][ilp_config.roles[r]] = (float(role_score_vals[s_1, a_1, r]) * ilp_config.lambda_1) + (ilp_config.lambda_2 * tmp)
     return ilp_scores
 

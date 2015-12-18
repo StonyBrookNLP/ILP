@@ -1,4 +1,6 @@
 import json
+import multiprocessing
+import time
 from os import listdir
 from os.path import isfile, join
 from os.path import join
@@ -8,10 +10,19 @@ from tqdm import tqdm
 from  utils import entailment
 from  utils import ilp_utils
 from  utils import ilp_config
+from time import sleep
 
 import numpy as np
 
 roles = ilp_config.roles
+num_processes = multiprocessing.cpu_count() \
+        if ilp_config.max_processes is None \
+        else min(ilp_config.max_processes, multiprocessing.cpu_count())
+
+def get_entailment_score(args):
+    arg1, arg2 = args
+    sleep(0.02)
+    return (args, ilp_utils.get_similarity_score(arg1, arg2))
 
 def get_sentence_from_id(s_id, p_data):
     sent_to_id, id_to_args, arg_role_scores = p_data
@@ -19,12 +30,12 @@ def get_sentence_from_id(s_id, p_data):
     return s_map[s_id]
 
 
-def joint_inference_ilp(process, p_data):
+def joint_inference_ilp(process, p_data, pool):
     # Integer Linear Programming for Joint Inference.
     sentences = ilp_utils.get_sentences(p_data)
 
-    lambda_1 = 0.9
-    lambda_2 = 1 - lambda_1
+    lambda_1 = ilp_config.lambda_1
+    lambda_2 = ilp_config.lambda_2
 
     role_score_vars = {}
     label_indicator = {}
@@ -33,8 +44,12 @@ def joint_inference_ilp(process, p_data):
     # Supress Gurobi Output
     lp.setParam('OutputFlag', False)
 
+    print "- number of sentences:", len(sentences)
+    p_args = 0
+
     for s_id, sentence in sentences:
         args = ilp_utils.get_sentence_args(sentence, p_data)
+        p_args += len(args)
         for a_id, arg in args:
             for r_id, role in enumerate(roles):
                 role_score = ilp_utils.get_role_scores(sentence, a_id, role, p_data)
@@ -44,9 +59,31 @@ def joint_inference_ilp(process, p_data):
                 label_indicator[s_id, a_id, r_id] = lp.addVar(vtype=GRB.BINARY,
                                                               name='Z_' + str(s_id) + '_' + str(a_id) + '_' + str(r_id))
 
+    print "- number of args:", p_args
     lp.update()
 
+    args = set()
+    for s_id1, sentence1 in sentences:
+        args1 = ilp_utils.get_sentence_args(sentence1, p_data)
+        for a_id1, arg1 in args1:
+            for s_id2, sentence2 in sentences:
+                if s_id1 != s_id2:
+                    args2 = ilp_utils.get_sentence_args(sentence2, p_data)
+                    for a_id2, arg2 in args2:
+                        args.add((arg1, arg2))
+
+    print "- number of entailment pairs:", len(args)
+    sim_data = {}
+
+    entail_start = time.time()
+    for returned_args in tqdm(pool.imap_unordered(get_entailment_score, args)):
+        args, sim_score = returned_args
+        sim_data[args] = sim_score
+    entail_end = time.time()
+    print "- time taken to get entailment scores: ", round(entail_end - entail_start, 4), "seconds"
+
     # generate the objective function to maximize the score
+    print "- generating objective function for porcess:", process
     obj = QuadExpr()
     for r_id, role in enumerate(roles):
         for s_id1, sentence1 in sentences:
@@ -54,10 +91,10 @@ def joint_inference_ilp(process, p_data):
             for a_id1, arg1 in args1:
                 tmp = 0
                 for s_id2, sentence2 in sentences:
-                    args2 = ilp_utils.get_sentence_args(sentence2, p_data)
-                    for a_id2, arg2 in args2:
-                        if s_id1 != s_id2:
-                            tmp += label_indicator[s_id2, a_id2, r_id] * float(ilp_utils.get_similarity_score(arg1, arg2))
+                    if s_id1 != s_id2:
+                        args2 = ilp_utils.get_sentence_args(sentence2, p_data)
+                        for a_id2, arg2 in args2:
+                            tmp += label_indicator[s_id2, a_id2, r_id] * sim_data[(arg1, arg2)]
                 obj += label_indicator[s_id1, a_id1, r_id] * ((float(role_score_vars[s_id1, a_id1, r_id]) * lambda_1) + (lambda_2 * tmp))
 
     lp.setObjective(obj, GRB.MAXIMIZE)
@@ -75,12 +112,25 @@ def joint_inference_ilp(process, p_data):
         for r_id, role in enumerate(roles[:4]):
             lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for a_id, arg in ilp_utils.get_sentence_args(sentence, p_data)]) <= 1, 'constraint2_' + str(s_id) + str(r_id))
 
+    print "- running ilp optimizer for the process:", process
+    ilp_start = time.time()
     lp.optimize()
+    if lp.status == GRB.Status.INF_OR_UNBD:
+        # Turn presolve off to determine whether model is infeasible or unbounded
+        lp.setParam(GRB.Param.Presolve, 0)
+        lp.optimize()
+    if lp.status == GRB.Status.OPTIMAL:
+        print('- optimal objective: %g' % lp.objVal)
+    elif lp.status != GRB.Status.INFEASIBLE:
+        print('- optimization was stopped with status %d' % lp.status)
+
     lp.write(join(ilp_config.project_dir,'output', process+'_ilp.lp'))
     lp.write(join(ilp_config.project_dir,'output', process+'_ilp.sol'))
     lp.write(join(ilp_config.project_dir,'output', process+'_ilp.mps'))
 
-    return [(var.varName, var.x) for var in lp.getVars()]
+    ilp_end = time.time()
+    print "- time taken to optimize: ", round(ilp_end - ilp_start, 4), "seconds"
+    return ([(var.varName, var.x) for var in lp.getVars()], sim_data)
 
 
 def get_ilp_assignment(lp_vars, p_data):
@@ -96,27 +146,42 @@ def get_ilp_assignment(lp_vars, p_data):
 
 def process_fold(srl_file_path, ilp_out_path):
     srl_data = ilp_utils.load_srl_data(srl_file_path)
+    print "- done reading input data"
     processes = srl_data.keys()
     ilp_data = {}
     ilp_scores = {}
-    for process in tqdm(processes):
-        lp_vars = joint_inference_ilp(process, srl_data[process][:3])
+    pool = multiprocessing.Pool(processes=num_processes)
+    # for process in tqdm(processes):
+    for proc_id, process in enumerate(processes):
+        print "- process {} out of {} -> {}".format(proc_id+1, len(processes), process)
+        lp_vars, sim_data = joint_inference_ilp(process, srl_data[process][:3], pool)
+        # print "- getting ilp_map"
         ilp_map = get_ilp_assignment(lp_vars, srl_data[process][:3])
         ilp_data[process] = ilp_map
-        process_ilp_scores = ilp_utils.get_ilp_scores(process, srl_data)
+        # print "- getting ilp_scores"
+        process_ilp_scores = ilp_utils.get_ilp_scores(process, srl_data, sim_data)
+        # print "- getting normalized_ilp_scores"
         norm_ilp_scores = ilp_utils.normalize_ilp_scores(process_ilp_scores)
         ilp_scores[process] = norm_ilp_scores
+        print "- completed processing:", process, "\n"
     ilp_utils.dump_ilp_json(srl_data, ilp_data, ilp_scores, ilp_out_path)
     print "Done!"
+    # Terminate pool (processes should already be finished)
+    pool.terminate()
 
 
 def main():
-    for f, fold_dir in enumerate(listdir(ilp_config.cross_val_dir)):
-        print "Fold:", f
-        fold_path = join(ilp_config.cross_val_dir, fold_dir)
-        srl_predict_file_path = join(fold_path, 'test', 'test.srlpredict.json')
-        ilp_predict_file_path = join(fold_path, 'test', 'test.ilppredict.json')
-        process_fold(srl_predict_file_path, ilp_predict_file_path)
+    print "Using", num_processes, "parallel processes for getting similarity scores"
+    # for f, fold_dir in enumerate(listdir(ilp_config.cross_val_dir)):
+        # print "Fold:", f
+        # fold_path = join(ilp_config.cross_val_dir, fold_dir)
+        # srl_predict_file_path = join(fold_path, 'test', 'test.srlpredict.json')
+        # ilp_predict_file_path = join(fold_path, 'test', 'test.ilppredict.json')
+        # process_fold(srl_predict_file_path, ilp_predict_file_path)
+    data_path = join(ilp_config.project_dir, 'data')
+    srl_predict_file_path = join(data_path, 'srlpredict.json')
+    ilp_predict_file_path = join(data_path, 'ilppredict.json')
+    process_fold(srl_predict_file_path, ilp_predict_file_path)
 
 if __name__ == '__main__':
     main()

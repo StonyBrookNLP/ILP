@@ -1,7 +1,10 @@
 import json
 
 import requests
+from requests.exceptions import ConnectionError
 from nltk import tokenize
+from time import sleep
+from retrying import retry
 
 from memoized import Memoize
 
@@ -24,8 +27,8 @@ def get_list(sen):
         res.append(l)
     return res
 
-
 @Memoize
+@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_delay=30000)
 def get_ai2_textual_entailment(t, h):
     """Returns the output of POST request to AI2 textual entailment service
 
@@ -40,7 +43,11 @@ def get_ai2_textual_entailment(t, h):
     data = {"text": text, "hypothesis": hypothesis}
     headers = {'Content-type': 'application/json', 'Accept': 'application/json'}
     url = 'http://localhost:8191/api/entails'
-    req = requests.post(url, headers=headers, data=json.dumps(data))
+    try:
+        req = requests.post(url, headers=headers, data=json.dumps(data))
+    except ConnectionError:
+        sleep(0.01)
+        req = requests.post(url, headers=headers, data=json.dumps(data))
     return req.json()
 
 

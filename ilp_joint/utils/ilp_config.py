@@ -1,5 +1,7 @@
 from os.path import join
 
+max_processes = 1
+
 roles = ['undergoer', 'enabler', 'trigger', 'result', 'NONE']
 
 lambda_1 = 0.9
