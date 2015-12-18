@@ -41,8 +41,7 @@ class Word2VecModel:
         tokens = self.t(sentence)
         tokens = [token for token in tokens if token not in stop_list]
         for token in tokens:
-            if token in self.m:
-                vector += self.get_word_vector(token)
+            vector += self.get_word_vector(token)
         return vector
 
     def multiplicative_vector(self, sentence):
@@ -50,8 +49,7 @@ class Word2VecModel:
         tokens = self.t(sentence)
         tokens = [token for token in tokens if token not in stop_list]
         for token in tokens:
-            if token in self.m:
-                vector *= self.get_word_vector(token)
+            vector *= self.get_word_vector(token)
         return vector
 
 
