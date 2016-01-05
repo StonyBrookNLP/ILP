@@ -2,38 +2,46 @@ NAME carbon cycle_srl_ilp
 * Max problem is converted into Min one
 ROWS
  N  OBJ
- L  constraint1_6610
- L  constraint2_6610
- L  constraint2_6611
- L  constraint2_6612
- L  constraint2_6613
+ L  constraint1_3570
+ L  constraint2_2190
+ L  constraint2_2191
+ L  constraint2_2192
+ L  constraint2_2193
+ L  constraint2_3570
+ L  constraint2_3571
+ L  constraint2_3572
+ L  constraint2_3573
 COLUMNS
     MARKER    'MARKER'                 'INTORG'
-    Z_661_0_0  OBJ       -2.9988960313135867e-03
-    Z_661_0_0  constraint1_6610  1
-    Z_661_0_0  constraint2_6610  1
-    Z_661_0_1  OBJ       -5.7862170115254080e-03
-    Z_661_0_1  constraint1_6610  1
-    Z_661_0_1  constraint2_6611  1
-    Z_661_0_2  OBJ       -8.6880477003870149e-01
-    Z_661_0_2  constraint1_6610  1
-    Z_661_0_2  constraint2_6612  1
-    Z_661_0_3  OBJ       -4.6099765174591485e-03
-    Z_661_0_3  constraint1_6610  1
-    Z_661_0_3  constraint2_6613  1
-    Z_661_0_4  OBJ       -1.7800140401000315e-02
-    Z_661_0_4  constraint1_6610  1
+    Z_357_0_0  OBJ       -1.0293486791871306e-03
+    Z_357_0_0  constraint1_3570  1
+    Z_357_0_0  constraint2_3570  1
+    Z_357_0_1  OBJ       -7.8540554647587007e-03
+    Z_357_0_1  constraint1_3570  1
+    Z_357_0_1  constraint2_3571  1
+    Z_357_0_2  OBJ       -7.1414172388443109e-01
+    Z_357_0_2  constraint1_3570  1
+    Z_357_0_2  constraint2_3572  1
+    Z_357_0_3  OBJ       -8.1187053025765198e-03
+    Z_357_0_3  constraint1_3570  1
+    Z_357_0_3  constraint2_3573  1
+    Z_357_0_4  OBJ       -1.6885616666904665e-01
+    Z_357_0_4  constraint1_3570  1
     MARKER    'MARKER'                 'INTEND'
 RHS
-    RHS1      constraint1_6610  1
-    RHS1      constraint2_6610  1
-    RHS1      constraint2_6611  1
-    RHS1      constraint2_6612  1
-    RHS1      constraint2_6613  1
+    RHS1      constraint1_3570  1
+    RHS1      constraint2_2190  1
+    RHS1      constraint2_2191  1
+    RHS1      constraint2_2192  1
+    RHS1      constraint2_2193  1
+    RHS1      constraint2_3570  1
+    RHS1      constraint2_3571  1
+    RHS1      constraint2_3572  1
+    RHS1      constraint2_3573  1
 BOUNDS
- UP BND1      Z_661_0_0  1
- UP BND1      Z_661_0_1  1
- UP BND1      Z_661_0_2  1
- UP BND1      Z_661_0_3  1
- UP BND1      Z_661_0_4  1
+ UP BND1      Z_357_0_0  1
+ UP BND1      Z_357_0_1  1
+ UP BND1      Z_357_0_2  1
+ UP BND1      Z_357_0_3  1
+ UP BND1      Z_357_0_4  1
 ENDATA

@@ -1,6 +1,6 @@
 from os.path import join
 
-max_processes = 1
+max_processes = 32
 
 roles = ['undergoer', 'enabler', 'trigger', 'result', 'NONE']
 
@@ -15,3 +15,5 @@ srl_file_path = join(project_dir, 'data', srl_file_name)
 
 ilp_out_file_name = 'ilp_predict.json'
 ilp_out_path = join(project_dir,'output', ilp_out_file_name)
+
+entailment_data_path = join('entailment_data')

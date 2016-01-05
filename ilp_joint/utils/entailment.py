@@ -28,7 +28,7 @@ def get_list(sen):
     return res
 
 @Memoize
-@retry(wait_exponential_multiplier=1000, wait_exponential_max=10000, stop_max_delay=30000)
+@retry(wait_exponential_multiplier=1000, wait_exponential_max=90000, stop_max_delay=100000)
 def get_ai2_textual_entailment(t, h):
     """Returns the output of POST request to AI2 textual entailment service
 

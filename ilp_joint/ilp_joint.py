@@ -1,6 +1,8 @@
 import json
-import multiprocessing
+# import multiprocessing as mp
+import pathos.multiprocessing as mp
 import time
+import cPickle as pickle
 from os import listdir
 from os.path import isfile, join
 from os.path import join
@@ -15,14 +17,18 @@ from time import sleep
 import numpy as np
 
 roles = ilp_config.roles
-num_processes = multiprocessing.cpu_count() \
+num_processes = mp.cpu_count() \
         if ilp_config.max_processes is None \
-        else min(ilp_config.max_processes, multiprocessing.cpu_count())
+        else min(ilp_config.max_processes, mp.cpu_count())
+
+e_data = pickle.load(open(join(ilp_config.entailment_data_path, 'a_data.p'), 'rb'))
 
 def get_entailment_score(args):
     arg1, arg2 = args
-    sleep(0.02)
-    return (args, ilp_utils.get_similarity_score(arg1, arg2))
+    if args in e_data:
+        return (args, e_data[args])
+    else:
+        return (args, ilp_utils.get_similarity_score(arg1, arg2))
 
 def get_sentence_from_id(s_id, p_data):
     sent_to_id, id_to_args, arg_role_scores = p_data
@@ -30,7 +36,7 @@ def get_sentence_from_id(s_id, p_data):
     return s_map[s_id]
 
 
-def joint_inference_ilp(process, p_data, pool):
+def joint_inference_ilp(process, p_data, f):
     # Integer Linear Programming for Joint Inference.
     sentences = ilp_utils.get_sentences(p_data)
 
@@ -44,7 +50,7 @@ def joint_inference_ilp(process, p_data, pool):
     # Supress Gurobi Output
     lp.setParam('OutputFlag', False)
 
-    print "- number of sentences:", len(sentences)
+    # print "- number of sentences:", len(sentences)
     p_args = 0
 
     for s_id, sentence in sentences:
@@ -59,7 +65,7 @@ def joint_inference_ilp(process, p_data, pool):
                 label_indicator[s_id, a_id, r_id] = lp.addVar(vtype=GRB.BINARY,
                                                               name='Z_' + str(s_id) + '_' + str(a_id) + '_' + str(r_id))
 
-    print "- number of args:", p_args
+    # print "- number of args:", p_args
     lp.update()
 
     args = set()
@@ -72,18 +78,29 @@ def joint_inference_ilp(process, p_data, pool):
                     for a_id2, arg2 in args2:
                         args.add((arg1, arg2))
 
-    print "- number of entailment pairs:", len(args)
+    # print "- number of entailment pairs:", len(args)
     sim_data = {}
 
-    entail_start = time.time()
-    for returned_args in tqdm(pool.imap_unordered(get_entailment_score, args)):
+    for arg in args:
+        _, sim_score = get_entailment_score(arg)
+        sim_data[arg] = sim_score
+
+    ret_data = {}
+    ret_data[process] = sim_data
+    ret_file = join(ilp_config.entailment_data_path, 'process_data', str(f)+'_'+process+".p")
+    pickle.dump( ret_data, open(ret_file, "wb" ) )
+
+    # entail_start = time.time()
+    '''
+    for returned_args in tqdm(pool2.imap_unordered(get_entailment_score, args)):
         args, sim_score = returned_args
         sim_data[args] = sim_score
-    entail_end = time.time()
-    print "- time taken to get entailment scores: ", round(entail_end - entail_start, 4), "seconds"
+    '''
+    # entail_end = time.time()
+    # print "- time taken to get entailment scores: ", round(entail_end - entail_start, 4), "seconds"
 
     # generate the objective function to maximize the score
-    print "- generating objective function for porcess:", process
+    # print "- generating objective function for porcess:", process
     obj = QuadExpr()
     for r_id, role in enumerate(roles):
         for s_id1, sentence1 in sentences:
@@ -112,9 +129,10 @@ def joint_inference_ilp(process, p_data, pool):
         for r_id, role in enumerate(roles[:4]):
             lp.addConstr(quicksum([label_indicator[s_id, a_id, r_id] for a_id, arg in ilp_utils.get_sentence_args(sentence, p_data)]) <= 1, 'constraint2_' + str(s_id) + str(r_id))
 
-    print "- running ilp optimizer for the process:", process
-    ilp_start = time.time()
+    # print "- running ilp optimizer for the process:", process
+    # ilp_start = time.time()
     lp.optimize()
+    '''
     if lp.status == GRB.Status.INF_OR_UNBD:
         # Turn presolve off to determine whether model is infeasible or unbounded
         lp.setParam(GRB.Param.Presolve, 0)
@@ -123,13 +141,14 @@ def joint_inference_ilp(process, p_data, pool):
         print('- optimal objective: %g' % lp.objVal)
     elif lp.status != GRB.Status.INFEASIBLE:
         print('- optimization was stopped with status %d' % lp.status)
+    '''
 
     lp.write(join(ilp_config.project_dir,'output', process+'_ilp.lp'))
     lp.write(join(ilp_config.project_dir,'output', process+'_ilp.sol'))
     lp.write(join(ilp_config.project_dir,'output', process+'_ilp.mps'))
 
-    ilp_end = time.time()
-    print "- time taken to optimize: ", round(ilp_end - ilp_start, 4), "seconds"
+    # ilp_end = time.time()
+    # print "- time taken to optimize: ", round(ilp_end - ilp_start, 4), "seconds"
     return ([(var.varName, var.x) for var in lp.getVars()], sim_data)
 
 
@@ -143,18 +162,43 @@ def get_ilp_assignment(lp_vars, p_data):
         output_map[s][a][r] = int(ind)
     return output_map
 
+def process_data(p_data):
+    process, srl_data, f = p_data
+    print process, ':in'
+    lp_vars, sim_data = joint_inference_ilp(process, srl_data[process][:3], f)
+    ilp_map = get_ilp_assignment(lp_vars, srl_data[process][:3])
+    process_ilp_scores = ilp_utils.get_ilp_scores(process, srl_data, sim_data)
+    norm_ilp_scores = ilp_utils.normalize_ilp_scores(process_ilp_scores)
+    print process, ':out'
+    return (process, ilp_map, norm_ilp_scores)
 
-def process_fold(srl_file_path, ilp_out_path):
+
+def process_fold(srl_file_path, ilp_out_path, f):
     srl_data = ilp_utils.load_srl_data(srl_file_path)
     print "- done reading input data"
     processes = srl_data.keys()
     ilp_data = {}
     ilp_scores = {}
-    pool = multiprocessing.Pool(processes=num_processes)
+    pool = mp.Pool(processes=num_processes)
+    args2 = []
+    for process in processes:
+        args2.append((process, srl_data, f))
+
+    print "- num processes:", len(args2)
+    # entail_start = time.time()
+    for idx, returned_args in enumerate(pool.imap_unordered(process_data, args2)):
+        print idx+1
+        process, ilp_map, norm_ilp_scores = returned_args
+        ilp_data[process] = ilp_map
+        ilp_scores[process] = norm_ilp_scores
+    # entail_end = time.time()
+    # print "- time taken to get entailment scores: ", round(entail_end - entail_start, 4), "seconds"
+
+    '''
     # for process in tqdm(processes):
     for proc_id, process in enumerate(processes):
-        print "- process {} out of {} -> {}".format(proc_id+1, len(processes), process)
-        lp_vars, sim_data = joint_inference_ilp(process, srl_data[process][:3], pool)
+        # print "- process {} out of {} -> {}".format(proc_id+1, len(processes), process)
+        lp_vars, sim_data = joint_inference_ilp(process, srl_data[process][:3])
         # print "- getting ilp_map"
         ilp_map = get_ilp_assignment(lp_vars, srl_data[process][:3])
         ilp_data[process] = ilp_map
@@ -164,6 +208,8 @@ def process_fold(srl_file_path, ilp_out_path):
         norm_ilp_scores = ilp_utils.normalize_ilp_scores(process_ilp_scores)
         ilp_scores[process] = norm_ilp_scores
         print "- completed processing:", process, "\n"
+    '''
+    print "- dumping data to json"
     ilp_utils.dump_ilp_json(srl_data, ilp_data, ilp_scores, ilp_out_path)
     print "Done!"
     # Terminate pool (processes should already be finished)
@@ -172,16 +218,16 @@ def process_fold(srl_file_path, ilp_out_path):
 
 def main():
     print "Using", num_processes, "parallel processes for getting similarity scores"
-    # for f, fold_dir in enumerate(listdir(ilp_config.cross_val_dir)):
-        # print "Fold:", f
-        # fold_path = join(ilp_config.cross_val_dir, fold_dir)
-        # srl_predict_file_path = join(fold_path, 'test', 'test.srlpredict.json')
-        # ilp_predict_file_path = join(fold_path, 'test', 'test.ilppredict.json')
-        # process_fold(srl_predict_file_path, ilp_predict_file_path)
-    data_path = join(ilp_config.project_dir, 'data')
-    srl_predict_file_path = join(data_path, 'srlpredict.json')
-    ilp_predict_file_path = join(data_path, 'ilppredict.json')
-    process_fold(srl_predict_file_path, ilp_predict_file_path)
+    for f, fold_dir in enumerate(listdir(ilp_config.cross_val_dir)):
+        print "Fold:", f
+        fold_path = join(ilp_config.cross_val_dir, fold_dir)
+        srl_predict_file_path = join(fold_path, 'test', 'test.srlpredict.json')
+        ilp_predict_file_path = join(fold_path, 'test', 'test.ilppredict.json')
+        process_fold(srl_predict_file_path, ilp_predict_file_path, f)
+    # data_path = join(ilp_config.project_dir, 'data')
+    # srl_predict_file_path = join(data_path, 'srlpredict.json')
+    # ilp_predict_file_path = join(data_path, 'ilppredict.json')
+    # process_fold(srl_predict_file_path, ilp_predict_file_path)
 
 if __name__ == '__main__':
     main()
