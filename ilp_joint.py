@@ -24,13 +24,13 @@ num_processes = mp.cpu_count() \
         if ilp_config.max_processes is None \
         else min(ilp_config.max_processes, mp.cpu_count())
 
-# read cached entailment scores
 print "- loading cached entailment scores"
+# read cached entailment scores
 e_data = pickle.load(open(join(ilp_config.entailment_data_path, 'entailment_cache.p'), 'rb'))
 
 def get_entailment_score(args):
-    # check if the entailment score is cached, if not call ai2 service to get
-    # the score.
+    """ Returns entailment score. First checks if the entailment score is cached,
+    if not AI2 service is used to get the score."""
     arg1, arg2 = args
     if args in e_data:
         return (args, e_data[args])
@@ -44,6 +44,18 @@ def get_sentence_from_id(s_id, p_data):
 
 
 def joint_inference_ilp(process, p_data, f):
+    """Generate ILP optimization function with constraints with the input data
+    and run the gurobi optimizer.
+
+    Args:
+        process: A string representing process name.
+        p_data: A tuple containing process (a string) and srl_data (a dictionary)
+        f: A integer representing cross validation fold number.
+
+    Returns:
+        A tuple containing a list of ILP role assignment vars and a dictionary
+        containing entailment scores that were used.
+    """
     # Integer Linear Programming for Joint Inference.
     sentences = ilp_utils.get_sentences(p_data)
 
@@ -142,6 +154,7 @@ def joint_inference_ilp(process, p_data, f):
 
 
 def get_ilp_assignment(lp_vars, p_data):
+    """Returns ilp assignments given ilp output vars and the tuple p_data"""
     output_map = defaultdict(lambda: defaultdict(lambda: defaultdict(int)))
     for var, ind in lp_vars:
         var_ids = var.split("_")
@@ -152,6 +165,15 @@ def get_ilp_assignment(lp_vars, p_data):
     return output_map
 
 def process_data(p_data):
+    """Process srl data by calling joint_inference_ilp, getting ilp assignments,
+    scores and normalizing them.
+
+    Args:
+        p_data: A tuple containing process (a string) and srl_data (a dictionary)
+
+    Returns: A tuple containing process name, ilp assignments and normalized ILP
+    scores.
+    """
     process, srl_data, f = p_data
     print '.',
     lp_vars, sim_data = joint_inference_ilp(process, srl_data[process][:3], f)
@@ -162,11 +184,20 @@ def process_data(p_data):
 
 
 def process_fold(srl_file_path, ilp_out_path, f):
+    """Process srl output file in srl_file_path, call ilp optimizer and dump
+    the output in ilp_out_path.
+
+    Args:
+        srl_file_path: Path of the input srl file (string)
+        ilp_out_path: Path of the ilp output file (string)
+    """
     srl_data = ilp_utils.load_srl_data(srl_file_path)
     processes = srl_data.keys()
     ilp_data = {}
     ilp_scores = {}
     pool = mp.Pool(processes=num_processes)
+    # create arguent tuples to be passed to process_data method by the
+    # multiprocessing module
     args2 = []
     for process in processes:
         args2.append((process, srl_data, f))
@@ -183,6 +214,8 @@ def process_fold(srl_file_path, ilp_out_path, f):
 
 def main():
     print "Using", num_processes, "parallel processes"
+    # iterate through cross-val folds and process srlpredict json to generate
+    # ilppredict json by running ilp
     for f, fold_dir in enumerate(listdir(ilp_config.cross_val_dir)):
         print "\n- fold:", f,
         fold_path = join(ilp_config.cross_val_dir, fold_dir)

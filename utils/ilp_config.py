@@ -13,13 +13,21 @@ with warnings.catch_warnings():
 
 __author__ = 'chetannaik'
 
+# maximum number of parallel process
 max_processes = 32
 
+# set of semantic roles in the dataset.
 roles = ['undergoer', 'enabler', 'trigger', 'result', 'NONE']
+all_roles = ['undergoer', 'enabler', 'trigger', 'result']
+positive_roles = ['undergoer', 'enabler', 'trigger', 'result']
+labels = ['undergoer', 'enabler', 'trigger', 'result', 'NONE']
 
+
+# lambda weights to be used in ilp
 lambda_1 = 0.9
 lambda_2 = 1 - lambda_1
 
+# various paths
 project_dir = '/home/cnaik/s/3/ilp'
 cross_val_dir = join(project_dir, 'data', 'cross-val')
 
@@ -32,11 +40,7 @@ ilp_out_path = join(project_dir,'output', ilp_out_file_name)
 entailment_data_path = join('entailment_data')
 plots_dir = join(project_dir, 'plots')
 
-all_roles = ['undergoer', 'enabler', 'trigger', 'result']
-positive_roles = ['undergoer', 'enabler', 'trigger', 'result']
-labels = ['undergoer', 'enabler', 'trigger', 'result', 'NONE']
-
-# plot config
+# plot config (to get LaTeX like plots :)
 def set_plot_config():
     rc("grid", alpha=0.9)
     rc("grid", linewidth=0.2)

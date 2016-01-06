@@ -16,6 +16,8 @@ __author__ = 'chetannaik'
 
 
 def get_experiment_stats(experiment, y_gold, y_pred, f):
+    """Returns a dataframe containing precision, recall, f1 and accuracy
+    of the experiment using gold and predicted labels of the 'f' fold."""
     macro_precision = metrics.precision_score(y_gold, y_pred, average="macro")
     macro_recall = metrics.recall_score(y_gold, y_pred, average="macro")
     macro_f1 = metrics.f1_score(y_gold, y_pred, average="macro")
@@ -39,8 +41,15 @@ def get_experiment_stats(experiment, y_gold, y_pred, f):
 
 
 def plot_pr_overall(srl_fold_data, ilp_fold_data):
+    """Plots overall (role specific separation not done) precision recall"""
     srl_plot_data = {}
     for f, filtered_data_srl in srl_fold_data.iteritems():
+        # SRL Stuff
+        # filter and keep only the entries which contain positive_role (check
+        # ilp_config.py) either as gold label or as predict label. i.e if both
+        # gold label and predicted label has negative role, NONE, drop that
+        # entry. Then sort the entries based on score and calculate running
+        # precision and recall.
         filtered_srl_correct = filter(lambda x: x[1][0] in ilp_config.positive_roles or x[1][1][0] in ilp_config.positive_roles, filtered_data_srl.items())
         sorted_srl_correct = sorted(filtered_srl_correct, key=lambda x: x[1][1][1], reverse=True)
 
@@ -75,6 +84,11 @@ def plot_pr_overall(srl_fold_data, ilp_fold_data):
     # ILP Stuff
     ilp_plot_data = {}
     for f, filtered_data_ilp in ilp_fold_data.iteritems():
+        # filter and keep only the entries which contain positive_role (check
+        # ilp_config.py) either as gold label or as predict label. i.e if both
+        # gold label and predicted label has negative role, NONE, drop that
+        # entry. Then sort the entries based on score and calculate running
+        # precision and recall.
         filtered_ilp_correct = filter(lambda x: x[1][0] in ilp_config.positive_roles or x[1][1][0] in ilp_config.positive_roles, filtered_data_ilp.items())
         sorted_ilp_correct = sorted(filtered_ilp_correct, key=lambda x: x[1][1][1], reverse=True)
 
@@ -111,11 +125,16 @@ def plot_pr_overall(srl_fold_data, ilp_fold_data):
 
 
 def plot_pr_role(srl_fold_data, ilp_fold_data):
+    """Plots precision recall of each of the roles."""
     all_data = {}
     for current_role in ilp_config.all_roles:
         srl_plot_data = {}
         for f, filtered_data_srl in srl_fold_data.iteritems():
             # SRL Stuff
+            # filter and keep only the entries which contain current_role either
+            # as gold label or as predict label. i.e if both gold label and
+            # predicted label has negative role,  drop that entry. Then sort
+            # the entries based on score and calculate running precision and recall.
             filtered_srl_correct = filter(lambda x: x[1][0] == current_role or x[1][1][0] == current_role, filtered_data_srl.items())
             sorted_srl_correct = sorted(filtered_srl_correct, key=lambda x: x[1][1][1], reverse=True)
 
@@ -150,6 +169,10 @@ def plot_pr_role(srl_fold_data, ilp_fold_data):
         # ILP Stuff
         ilp_plot_data = {}
         for f, filtered_data_ilp in ilp_fold_data.iteritems():
+            # filter and keep only the entries which contain current_role either
+            # as gold label or as predict label. i.e if both gold label and
+            # predicted label has negative role, drop that entry. Then sort
+            # the entries based on score and calculate running precision and recall.
             filtered_ilp_correct = filter(lambda x: x[1][0] == current_role or x[1][1][0] == current_role, filtered_data_ilp.items())
             sorted_ilp_correct = sorted(filtered_ilp_correct, key=lambda x: x[1][1][1], reverse=True)
 
@@ -187,6 +210,7 @@ def plot_pr_role(srl_fold_data, ilp_fold_data):
 
 
 def plot_pr_overall_concatenated(srl_fold_data, ilp_fold_data):
+    """Plots overall precision recall after joining data from all the folds"""
     # concatenate data from all folds into a single dictionary which has
     # as key (sentence_id, start_index, end_index)
     # as value (gold_role, (predicted_role, prediction_score))
@@ -200,6 +224,7 @@ def plot_pr_overall_concatenated(srl_fold_data, ilp_fold_data):
         ilp_all_data.update(f_data)
 
     # SRL Stuff
+    # check documentation above :)
     filtered_srl_correct = filter(lambda x: x[1][0] in ilp_config.positive_roles or x[1][1][0] in ilp_config.positive_roles, srl_all_data.items())
     sorted_srl_correct = sorted(filtered_srl_correct, key=lambda x: x[1][1][1], reverse=True)
 
@@ -235,6 +260,7 @@ def plot_pr_overall_concatenated(srl_fold_data, ilp_fold_data):
     srl_plot_df = pd.DataFrame(srl_yield_df)
 
     # ILP Stuff
+    # check documentation above :)
     filtered_ilp_correct = filter(lambda x: x[1][0] in ilp_config.positive_roles or x[1][1][0] in ilp_config.positive_roles, ilp_all_data.items())
     sorted_ilp_correct = sorted(filtered_ilp_correct, key=lambda x: x[1][1][1], reverse=True)
 
@@ -272,6 +298,8 @@ def plot_pr_overall_concatenated(srl_fold_data, ilp_fold_data):
 
 
 def plot_pr_role_concatenated(srl_fold_data, ilp_fold_data):
+    """Plots precision recall of each of the roles after joining data from all
+    the folds"""
     # concatenate data from all folds into a single dictionary which has
     # as key (sentence_id, start_index, end_index)
     # as value (gold_role, (predicted_role, prediction_score))
@@ -287,6 +315,7 @@ def plot_pr_role_concatenated(srl_fold_data, ilp_fold_data):
     all_data = {}
     for current_role in ilp_config.all_roles:
         # SRL Stuff
+        # check documentation above :)
         filtered_srl_correct = filter(lambda x: x[1][0] == current_role or x[1][1][0] == current_role, srl_all_data.items())
         sorted_srl_correct = sorted(filtered_srl_correct, key=lambda x: x[1][1][1], reverse=True)
 
@@ -320,6 +349,7 @@ def plot_pr_role_concatenated(srl_fold_data, ilp_fold_data):
         srl_plot_df = pd.DataFrame(srl_yield_df)
 
         # ILP Stuff
+        # check documentation above :)
         filtered_ilp_correct = filter(lambda x: x[1][0] == current_role or x[1][1][0] == current_role, ilp_all_data.items())
         sorted_ilp_correct = sorted(filtered_ilp_correct, key=lambda x: x[1][1][1], reverse=True)
         ilp_yield = []
@@ -356,31 +386,30 @@ def plot_pr_role_concatenated(srl_fold_data, ilp_fold_data):
 
 
 def plot_confusion_matrix():
+    """Plot confusion matrix and also generate the accuracy table."""
     srl_fold_data = {}
     ilp_fold_data = {}
     for f, fold_dir in enumerate(listdir(ilp_config.cross_val_dir)):
         fold_path = join(ilp_config.cross_val_dir, fold_dir)
-
+        # read gold data
         d_gold_file = join(fold_path, 'test', 'test.srlout.json')
         d_gold = json.load(open(d_gold_file, "r"))
         gold_data = ilp_utils.get_gold_data(d_gold)
-
+        # read srl data
         d_srl_file = join(fold_path, 'test', 'test.srlpredict.json')
         d_srl = json.load(open(d_srl_file, "r"))
         srl_data = ilp_utils.get_prediction_data(d_srl)
-
+        # read ilp data
         d_ilp_file = join(fold_path, 'test', 'test.ilppredict.json')
         d_ilp = json.load(open(d_ilp_file, "r"))
         ilp_data = ilp_utils.get_prediction_data(d_ilp)
-
+        # create dictionaries containing gold & srl and gold & ilp data.
         srl_analysis_data = {k: (gold_data[k], v) for k, v in srl_data.iteritems() if k in gold_data}
         ilp_analysis_data = {k: (gold_data[k], v) for k, v in ilp_data.iteritems() if k in gold_data}
-
         y_gold_srl = map(lambda x: x[0], srl_analysis_data.values())
         y_srl = map(lambda x: x[1][0], srl_analysis_data.values())
         y_gold_ilp = map(lambda x: x[0], ilp_analysis_data.values())
         y_ilp = map(lambda x: x[1][0], ilp_analysis_data.values())
-
         srl_fold_data[f+1] = (y_gold_srl, y_srl)
         ilp_fold_data[f+1] = (y_gold_ilp, y_ilp)
 
