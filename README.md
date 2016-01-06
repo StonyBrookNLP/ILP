@@ -19,6 +19,8 @@ All evaluation outputs are stored in ```plots``` directory.
 - Other utilities needed for evtailment, memoization, word2vec scores, etc are in ```utils``` directory.
 
 #### Code
+Run ```pip install -r requirements.txt``` within ILP directory after cloning to
+install all the python dependencies.  
 The following modules are required to run the system:
 
   * Python 2.7
