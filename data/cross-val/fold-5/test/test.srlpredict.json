@@ -1,0 +1,3750 @@
+[
+  {
+    "process": "chemical change",
+    "sentences": [
+      {
+        "sentenceId": 146,
+        "text": "the criterion for a chemical change is the production of one or more new substances.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "criterion",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.0012241967790566012
+              },
+              {
+                "enabler": 0.024714618752797513
+              },
+              {
+                "undergoer": 0.01865128425020308
+              },
+              {
+                "trigger": 0.028031055178050775
+              },
+              {
+                "NONE": 0.9273788450398921
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 564:1 628:1 901:1 919:1 933:1 1678:1 2026:1 2405:1 2409:1 2438:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 158,
+        "text": "another sign of a chemical change is the release or gain of energy by an object.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "release",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0012597551379306155
+              },
+              {
+                "enabler": 0.03776080408440768
+              },
+              {
+                "undergoer": 1.4916682603347011E-4
+              },
+              {
+                "trigger": 0.9591540893747117
+              },
+              {
+                "NONE": 0.0016761845769167282
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 393:1 628:1 647:1 902:1 919:1 924:1 948:1 950:1 973:1 1663:1 2013:1 2402:1 2405:1 2408:1 2409:1 2415:1 2416:1 2437:1 2438:1 2440:1 2441:1 2446:1 2452:1 2453:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 193,
+        "text": "evidence of a chemical change is the appearance of floc during the stirring process.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 297,
+        "text": "a chemical change is the process of demonstrating a chemical property, such as the burning match in figure 1",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 376,
+        "text": "the number of atoms before and after the chemical change is the same but the number of molecules will change.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 411,
+        "text": "an example of a chemical change is the reaction between sodium and water to produce sodium hydroxide and hydrogen.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "produce",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.039755240140509074
+              },
+              {
+                "enabler": 9.018606205837119E-4
+              },
+              {
+                "undergoer": 0.002493291344906738
+              },
+              {
+                "trigger": 0.14900144539420515
+              },
+              {
+                "NONE": 0.8078481624997954
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 72:1 630:1 901:1 931:1 1965:1 2402:1 2410:1 2436:1 2445:1"
+              }
+            ]
+          },
+          {
+            "argId": 6,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "reaction",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 9.064794848374978E-4
+              },
+              {
+                "enabler": 0.017729183605816313
+              },
+              {
+                "undergoer": 4.3080011694205474E-5
+              },
+              {
+                "trigger": 0.9671195214162097
+              },
+              {
+                "NONE": 0.0142017354814423
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 108:1 628:1 647:1 902:1 919:1 924:1 948:1 1021:1 1064:1 1251:1 1663:1 2013:1 2402:1 2405:1 2408:1 2409:1 2415:1 2422:1 2437:1 2438:1 2440:1 2441:1 2446:1 2451:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 16,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "sodium hydroxide and hydrogen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.6742209771145568
+              },
+              {
+                "enabler": 0.018243911830830708
+              },
+              {
+                "undergoer": 0.007628840393323028
+              },
+              {
+                "trigger": 0.040474209229073285
+              },
+              {
+                "NONE": 0.2594320614322163
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 628:1 663:1 912:1 952:1 2402:1 2416:1 2447:1 2452:1 2453:1 2485:1 2819:1 2859:1 2924:1 2949:1 2950:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 484,
+        "text": "introduction: chemical change is the process of forming a new substance or substances from...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forming",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0025642678232398585
+              },
+              {
+                "enabler": 0.0028061841251592187
+              },
+              {
+                "undergoer": 6.258506099913602E-4
+              },
+              {
+                "trigger": 0.8200366558188807
+              },
+              {
+                "NONE": 0.17396704162272886
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 105:1 631:1 652:1 904:1 954:1 1685:1 2018:1 2402:1 2409:1 2436:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 10,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a new substance",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.1129116774996225
+              },
+              {
+                "enabler": 0.2390513048219244
+              },
+              {
+                "undergoer": 0.41681333930380005
+              },
+              {
+                "trigger": 0.008906750151292105
+              },
+              {
+                "NONE": 0.22231692822336097
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 594:1 628:1 755:1 905:1 940:1 973:1 1022:1 1482:1 1959:1 2034:1 2404:1 2405:1 2411:1 2416:1 2438:1 2442:1 2452:1 2453:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 709,
+        "text": "the initiating event for chemical change is the cysl46 sulfur (sy\") nucleophilic attack on c6 of the nucleotide pyrimidine ring.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "initiating",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.006042252680621194
+              },
+              {
+                "enabler": 0.0040405414620366085
+              },
+              {
+                "undergoer": 0.01898397977380183
+              },
+              {
+                "trigger": 0.0928839442849452
+              },
+              {
+                "NONE": 0.8780492817985951
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 344:1 631:1 901:1 1665:1 2297:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "the initiating event for chemical change",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.00243418310617621
+              },
+              {
+                "enabler": 0.07124441456795609
+              },
+              {
+                "undergoer": 0.00855911397066163
+              },
+              {
+                "trigger": 0.009612766114980645
+              },
+              {
+                "NONE": 0.9081495222402255
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 176:1 628:1 901:1 919:1 933:1 1678:1 2026:1 2405:1 2409:1 2419:1 2438:1 2442:1 2446:1 2654:1 2841:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 730,
+        "text": "monitoring ocean chemical change is the promise of mounting chemical sensors on self-reporting ocean floats and gliders.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "mounting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.012922378669717604
+              },
+              {
+                "enabler": 0.004309071786401503
+              },
+              {
+                "undergoer": 0.021152845153670396
+              },
+              {
+                "trigger": 0.07093284802262664
+              },
+              {
+                "NONE": 0.8906828563675839
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 631:1 906:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "monitoring",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.004269898303181599
+              },
+              {
+                "enabler": 0.0012998769291329372
+              },
+              {
+                "undergoer": 0.0031573146122726423
+              },
+              {
+                "trigger": 0.24310898699693503
+              },
+              {
+                "NONE": 0.7481639231584778
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 631:1 901:1 1060:1 2402:1 2436:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "monitoring ocean chemical change",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.004269898303181599
+              },
+              {
+                "enabler": 0.0012998769291329372
+              },
+              {
+                "undergoer": 0.0031573146122726423
+              },
+              {
+                "trigger": 0.24310898699693503
+              },
+              {
+                "NONE": 0.7481639231584778
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 631:1 901:1 1060:1 2402:1 2436:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 2,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "ocean chemical change",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0038257744161114726
+              },
+              {
+                "enabler": 0.05198286490164672
+              },
+              {
+                "undergoer": 0.01721754227419536
+              },
+              {
+                "trigger": 0.5192801219925021
+              },
+              {
+                "NONE": 0.40769369641554426
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 77:1 628:1 905:1 986:1 1686:1 2036:1 2402:1 2447:1 3530:1 3544:1 3768:1 3820:1 3822:1 3875:1 3924:1 3973:1 3998:1 4015:1 4029:1 4053:1"
+              }
+            ]
+          },
+          {
+            "argId": 4,
+            "startIdx": 9,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "mounting chemical sensors",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.18140496775916481
+              },
+              {
+                "enabler": 0.31342134708399344
+              },
+              {
+                "undergoer": 0.00807160441737733
+              },
+              {
+                "trigger": 0.09519452418939604
+              },
+              {
+                "NONE": 0.40190755655006827
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 632:1 652:1 904:1 986:1 1007:1 2402:1 2409:1 2419:1 2442:1 2446:1 2447:1 2719:1 3005:1 3182:1 3317:1 3318:1 3387:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "weathering",
+    "sentences": [
+      {
+        "sentenceId": 1,
+        "text": "weathering is the name given to process by which rocks are gradually worn away by the action of the weather.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 97,
+        "text": "this mechanism of weathering causes the outer surface of the rock to fall off in...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the outer surface of the rock to fall off in ...",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.3746574395657297
+              },
+              {
+                "enabler": 0.0019469125006439769
+              },
+              {
+                "undergoer": 7.67759744754895E-4
+              },
+              {
+                "trigger": 0.0011260478093921592
+              },
+              {
+                "NONE": 0.6215018403794792
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 63:1 630:1 690:1 903:1 930:1 931:1 1306:1 1965:1 2016:1 2409:1 2410:1 2423:1 2445:1 2446:1 2456:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 114,
+        "text": "mechanical weathering is the process of breaking big rocks into little...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "big rocks",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.23266939698186653
+              },
+              {
+                "enabler": 0.04643888510104182
+              },
+              {
+                "undergoer": 0.6484006991950616
+              },
+              {
+                "trigger": 0.004462190649600684
+              },
+              {
+                "NONE": 0.06802882807242937
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 632:1 837:1 905:1 1669:1 2019:1 2404:1 2442:1 2613:1 2620:1 2678:1 2927:1 2955:1 2957:1 3394:1 3396:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0020060437507001968
+              },
+              {
+                "enabler": 6.422928455312217E-4
+              },
+              {
+                "undergoer": 0.001233942320115735
+              },
+              {
+                "trigger": 0.7629054582566734
+              },
+              {
+                "NONE": 0.23321226282697952
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 397:1 631:1 652:1 904:1 971:1 1668:1 2018:1 2409:1 2411:1 2436:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 168,
+        "text": "the purpose of weathering is to disintegrate big boulders of clay under the action of atmospheric agencies to make it a uniform mass and also...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 171,
+        "text": "mechanical weathering is the process of breaking rocks into smaller pieces and ...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "rocks",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.14027881155349442
+              },
+              {
+                "enabler": 0.01785899780296394
+              },
+              {
+                "undergoer": 0.7449211082732743
+              },
+              {
+                "trigger": 0.01656228261283572
+              },
+              {
+                "NONE": 0.08037879975743166
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 632:1 837:1 905:1 1669:1 2019:1 2613:1 2620:1 2678:1 2927:1 2955:1 2957:1 3394:1 3396:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 176,
+        "text": "mechanical weathering is the process by which rocks are broken into smaller...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "smaller",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.7553324899939138
+              },
+              {
+                "enabler": 0.00661677200417137
+              },
+              {
+                "undergoer": 0.02386310714756405
+              },
+              {
+                "trigger": 0.014265605748910727
+              },
+              {
+                "NONE": 0.19992202510544016
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 645:1 673:1 904:1 1737:1 2613:1 2620:1 2678:1 2927:1 2955:1 2957:1 3394:1 3396:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "broken",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0035673960753545356
+              },
+              {
+                "enabler": 5.405696023797901E-4
+              },
+              {
+                "undergoer": 0.0010733078044157822
+              },
+              {
+                "trigger": 0.9431445537614402
+              },
+              {
+                "NONE": 0.051674172756409766
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 397:1 633:1 668:1 901:1 941:1 950:1 971:1 1681:1 2096:1 2409:1 2411:1 2412:1 2446:1 2449:1 2450:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 178,
+        "text": "physical weathering causes fracturing of feldspars along their cleavage planes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "fracturing of feldspars along their cleavage planes .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.056684278001716035
+              },
+              {
+                "enabler": 0.002456579759091312
+              },
+              {
+                "undergoer": 0.0016639882567919522
+              },
+              {
+                "trigger": 0.04631497319747745
+              },
+              {
+                "NONE": 0.8928801807849231
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 63:1 631:1 690:1 906:1 939:1 1023:1 2009:1 2409:1 2446:1 3373:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 207,
+        "text": "weathering is the process by which rocks are turned into smaller rocks and eventually sediment.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "turned",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.004017364213310631
+              },
+              {
+                "enabler": 5.459020327220149E-4
+              },
+              {
+                "undergoer": 0.0010326044005110166
+              },
+              {
+                "trigger": 0.9811215941109759
+              },
+              {
+                "NONE": 0.01328253524248052
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 212:1 633:1 668:1 901:1 941:1 950:1 971:1 1681:1 2096:1 2409:1 2411:1 2412:1 2446:1 2449:1 2450:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "smaller rocks and eventually sediment",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8245701144811676
+              },
+              {
+                "enabler": 0.040009426303666974
+              },
+              {
+                "undergoer": 0.01627466137974193
+              },
+              {
+                "trigger": 0.005509347648788298
+              },
+              {
+                "NONE": 0.11363645018663529
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 632:1 673:1 904:1 952:1 1737:1 2301:1 2402:1 2416:1 2425:1 2442:1 2452:1 2453:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 211,
+        "text": "physical weathering causes the disintegration of rock by mechanical processes and therefore depends on the application of force.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 222,
+        "text": "weathering causes large rocks to break apart into smaller and smaller pieces, eventually becoming sediment and part of soil.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 225,
+        "text": "for establishing a trusting relationship which is necessary for weathering the.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 257,
+        "text": "mechanical weathering is the process of breaking down bedrock into smaller fragments.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 9,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking down",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0016492888638408407
+              },
+              {
+                "enabler": 5.671133132870325E-4
+              },
+              {
+                "undergoer": 4.90663760619013E-4
+              },
+              {
+                "trigger": 0.5573525251889984
+              },
+              {
+                "NONE": 0.43994040887325464
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 397:1 631:1 652:1 904:1 971:1 1411:1 1668:1 2018:1 2402:1 2409:1 2423:1 2436:1 2446:1 2456:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking down bedrock into smaller fragments",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0016492888638408407
+              },
+              {
+                "enabler": 5.671133132870325E-4
+              },
+              {
+                "undergoer": 4.90663760619013E-4
+              },
+              {
+                "trigger": 0.5573525251889984
+              },
+              {
+                "NONE": 0.43994040887325464
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 397:1 631:1 652:1 904:1 971:1 1411:1 1668:1 2018:1 2402:1 2409:1 2423:1 2436:1 2446:1 2456:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "bedrock",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.06007319261514008
+              },
+              {
+                "enabler": 0.025635796337452346
+              },
+              {
+                "undergoer": 0.7604684381717047
+              },
+              {
+                "trigger": 0.01776226046808784
+              },
+              {
+                "NONE": 0.13606031240761501
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 628:1 837:1 905:1 1669:1 2034:1 2613:1 2620:1 2678:1 2927:1 2955:1 2957:1 3394:1 3396:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 10,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "into smaller fragments",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.6572971413405716
+              },
+              {
+                "enabler": 0.06010186288280601
+              },
+              {
+                "undergoer": 0.0804358156209434
+              },
+              {
+                "trigger": 0.005465008442974237
+              },
+              {
+                "NONE": 0.1967001717127046
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 632:1 673:1 904:1 1690:1 2342:1 2425:1 2442:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 353,
+        "text": "mechanical weathering breaks rock into fragments, whilst chemical weathering causes the rock to be changed.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 375,
+        "text": "weathering causes the disintegration of rock near the surface of the earth.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 415,
+        "text": "weathering is the breaking down of rocks, soil and minerals as well as artificial materials through contact with the earth\u0027s atmosphere, biota and waters.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "breaking",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.009447144922288646
+              },
+              {
+                "enabler": 0.006411265813702572
+              },
+              {
+                "undergoer": 4.5118417716494264E-4
+              },
+              {
+                "trigger": 0.41823206933044593
+              },
+              {
+                "NONE": 0.5654583357563979
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 397:1 631:1 689:1 908:1 925:1 952:1 1193:1 1410:1 1411:1 2070:1 2402:1 2407:1 2411:1 2416:1 2424:1 2441:1 2448:1 2452:1 2453:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 419,
+        "text": "mechanical weathering is the process of breaking big rocks into little ones.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "big rocks",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.23266939698186653
+              },
+              {
+                "enabler": 0.04643888510104182
+              },
+              {
+                "undergoer": 0.6484006991950616
+              },
+              {
+                "trigger": 0.004462190649600684
+              },
+              {
+                "NONE": 0.06802882807242937
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 632:1 837:1 905:1 1669:1 2019:1 2404:1 2442:1 2613:1 2620:1 2678:1 2927:1 2955:1 2957:1 3394:1 3396:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 468,
+        "text": "weathering is the process of breaking down rocks and minerals into smaller pieces...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "rocks and minerals",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.1398509284059693
+              },
+              {
+                "enabler": 0.024671986490639314
+              },
+              {
+                "undergoer": 0.756242378335051
+              },
+              {
+                "trigger": 0.023138296316685868
+              },
+              {
+                "NONE": 0.05609641045165444
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 632:1 837:1 905:1 952:1 1669:1 2019:1 2411:1 2416:1 2452:1 2453:1 2613:1 2620:1 2678:1 2927:1 2955:1 2957:1 3394:1 3396:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking down",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.00326737036882844
+              },
+              {
+                "enabler": 4.956497054851164E-4
+              },
+              {
+                "undergoer": 0.0011778524207800545
+              },
+              {
+                "trigger": 0.6041700973203958
+              },
+              {
+                "NONE": 0.39088903018451077
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 397:1 631:1 652:1 904:1 971:1 1411:1 1668:1 2018:1 2409:1 2411:1 2423:1 2436:1 2446:1 2456:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 477,
+        "text": "weathering is the process of breaking down rock.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "rock",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.06007319261514008
+              },
+              {
+                "enabler": 0.025635796337452346
+              },
+              {
+                "undergoer": 0.7604684381717047
+              },
+              {
+                "trigger": 0.01776226046808784
+              },
+              {
+                "NONE": 0.13606031240761501
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 628:1 837:1 905:1 1669:1 2034:1 2613:1 2620:1 2678:1 2927:1 2955:1 2957:1 3394:1 3396:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking down",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.003731375579493247
+              },
+              {
+                "enabler": 5.064803622505513E-4
+              },
+              {
+                "undergoer": 8.174883842916553E-4
+              },
+              {
+                "trigger": 0.4725862661774201
+              },
+              {
+                "NONE": 0.5223583894965446
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 397:1 631:1 652:1 904:1 1411:1 1668:1 2018:1 2402:1 2423:1 2436:1 2456:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 479,
+        "text": "weathering helps to change the surface of the earth.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "change the surface of the earth",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.813705516793422
+              },
+              {
+                "enabler": 9.897026996186916E-4
+              },
+              {
+                "undergoer": 9.003343825876947E-4
+              },
+              {
+                "trigger": 0.05786234325798886
+              },
+              {
+                "NONE": 0.12654210286638284
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 55:1 77:1 630:1 651:1 903:1 931:1 1574:1 1667:1 2017:1 2402:1 2410:1 2436:1 2445:1 2820:1 2933:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 565,
+        "text": "as discussed in the previous section, weathering helps to release toxic and potentially toxic elements as well as mineral dusts into surface environments,...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "release toxic and potentially toxic elements as well as mineral dusts into surface environments ,",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.7704815942608797
+              },
+              {
+                "enabler": 2.4247194250404564E-4
+              },
+              {
+                "undergoer": 0.0011385100081773504
+              },
+              {
+                "trigger": 0.015068084158316394
+              },
+              {
+                "NONE": 0.2130693396301225
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 55:1 393:1 630:1 651:1 903:1 925:1 931:1 1193:1 1667:1 2017:1 2407:1 2408:1 2410:1 2411:1 2424:1 2436:1 2441:1 2445:1 2452:1 2453:1 2820:1 2933:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 572,
+        "text": "the purpose of weathering is to disintegrate big boulders of clay under the action of atmospheric agencies to make it a uniform mass and also to eliminate the...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 581,
+        "text": "mechanical weathering is the process by which rock is broken into smaller pieces without significant changes in composition.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "broken",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0016179744813966375
+              },
+              {
+                "enabler": 8.246274517910789E-4
+              },
+              {
+                "undergoer": 4.381152083530844E-4
+              },
+              {
+                "trigger": 0.9672730695075603
+              },
+              {
+                "NONE": 0.029846213350898865
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 397:1 633:1 668:1 901:1 924:1 950:1 971:1 1425:1 1681:1 2096:1 2402:1 2408:1 2409:1 2446:1 2449:1 2450:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "smaller pieces",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8396854728448788
+              },
+              {
+                "enabler": 0.02129916977388166
+              },
+              {
+                "undergoer": 0.02802463481127874
+              },
+              {
+                "trigger": 0.003806731038283107
+              },
+              {
+                "NONE": 0.10718399153167775
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 632:1 673:1 904:1 1737:1 2301:1 2425:1 2442:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 641,
+        "text": "the process of weathering helps to make soil.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "make soil",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.9371408474030818
+              },
+              {
+                "enabler": 5.797138809681887E-4
+              },
+              {
+                "undergoer": 8.626360962667126E-4
+              },
+              {
+                "trigger": 0.013648155222719768
+              },
+              {
+                "NONE": 0.04776864739696358
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 55:1 73:1 630:1 651:1 903:1 931:1 1276:1 1666:1 2016:1 2402:1 2410:1 2436:1 2445:1 2820:1 2933:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 658,
+        "text": "uv radiation is necessary for weathering to occur.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "uv radiation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "result": 0.003396963569810826
+              },
+              {
+                "enabler": 0.9036286560480096
+              },
+              {
+                "undergoer": 0.005258501198522729
+              },
+              {
+                "trigger": 0.006097348378948677
+              },
+              {
+                "NONE": 0.08161853080470811
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 64:1 173:1 628:1 696:1 910:1 1726:1 2094:1 2402:1 2447:1 3530:1 3544:1 3768:1 3820:1 3822:1 3875:1 3924:1 3973:1 3998:1 4015:1 4029:1 4053:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 674,
+        "text": "weathering is the process of breaking down solid material such as rock into smaller particles, through agents such as heating, freezing and chemical attack.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "solid material such as rock into smaller particles",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.026343157947660994
+              },
+              {
+                "enabler": 0.1411763614342435
+              },
+              {
+                "undergoer": 0.7176888048643683
+              },
+              {
+                "trigger": 0.015612615948158437
+              },
+              {
+                "NONE": 0.09917905980556882
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 171:1 628:1 837:1 905:1 1053:1 1490:1 1669:1 2034:1 2404:1 2409:1 2442:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking down",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.0037745585124839887
+              },
+              {
+                "enabler": 5.115117980348351E-4
+              },
+              {
+                "undergoer": 8.34674758107585E-4
+              },
+              {
+                "trigger": 0.4559336465389226
+              },
+              {
+                "NONE": 0.5389456083924511
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 397:1 631:1 652:1 904:1 974:1 1411:1 1668:1 2018:1 2402:1 2423:1 2436:1 2456:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 698,
+        "text": "deep weathering causes the formation of many secondary and supergene ores  bauxite, iron ores, saprolitic gold, supergene copper, uranium and heavy...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "deep weathering",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.024723707690452044
+              },
+              {
+                "enabler": 4.983031303161856E-4
+              },
+              {
+                "undergoer": 9.835389545935697E-4
+              },
+              {
+                "trigger": 0.022015948484331565
+              },
+              {
+                "NONE": 0.9517785017403065
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 63:1 631:1 690:1 903:1 1686:1 2036:1 2404:1 2442:1 3495:1"
+              }
+            ]
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the formation of many secondary and supergene ores bauxite , iron ores , saprolitic gold , supergene copper , uranium and heavy ...",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4716690264292301
+              },
+              {
+                "enabler": 0.03765092290395708
+              },
+              {
+                "undergoer": 0.005376926750004546
+              },
+              {
+                "trigger": 0.023307951501029812
+              },
+              {
+                "NONE": 0.4619951724157785
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 63:1 229:1 628:1 690:1 903:1 919:1 939:1 1753:1 2136:1 2405:1 2409:1 2438:1 2446:1 2476:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "causes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.006968898147533427
+              },
+              {
+                "enabler": 5.040060235160716E-4
+              },
+              {
+                "undergoer": 2.2300757213500412E-4
+              },
+              {
+                "trigger": 9.790584045334355E-4
+              },
+              {
+                "NONE": 0.9913250298522822
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 63:1 153:1 627:1 647:1 902:1 926:1 1674:1 2055:1 2402:1 2406:1 2419:1 2436:1 2437:1 2441:1 3373:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 4,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the formation of many secondary and supergene ores bauxite , iron ores , saprolitic gold , supergene copper , uranium and heavy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4716690264292301
+              },
+              {
+                "enabler": 0.03765092290395708
+              },
+              {
+                "undergoer": 0.005376926750004546
+              },
+              {
+                "trigger": 0.023307951501029812
+              },
+              {
+                "NONE": 0.4619951724157785
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 63:1 229:1 628:1 690:1 903:1 919:1 939:1 1753:1 2136:1 2405:1 2409:1 2438:1 2446:1 2476:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 732,
+        "text": "weathering is the process of breaking a large rock into smaller pieces without changing the minerals in the rock.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a large rock",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.07183721483264181
+              },
+              {
+                "enabler": 0.08021947801891494
+              },
+              {
+                "undergoer": 0.6337678733011857
+              },
+              {
+                "trigger": 0.0016305002351437302
+              },
+              {
+                "NONE": 0.2125449336121138
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 628:1 837:1 905:1 940:1 1393:1 1669:1 2034:1 2404:1 2405:1 2438:1 2442:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.001089019921733728
+              },
+              {
+                "enabler": 7.424352752092302E-4
+              },
+              {
+                "undergoer": 5.227545976239741E-4
+              },
+              {
+                "trigger": 0.8057261249503401
+              },
+              {
+                "NONE": 0.19191966525509294
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 397:1 631:1 652:1 904:1 971:1 1425:1 1668:1 2018:1 2402:1 2409:1 2436:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 742,
+        "text": "mechanical weathering is the disintegration of rock into smaller and smaller fragments.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "disintegration",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0015053698304031344
+              },
+              {
+                "enabler": 0.0018957053464855413
+              },
+              {
+                "undergoer": 1.2254617731820676E-4
+              },
+              {
+                "trigger": 0.9534541950358056
+              },
+              {
+                "NONE": 0.04302218360998745
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 628:1 647:1 902:1 919:1 924:1 939:1 948:1 971:1 1674:1 2024:1 2402:1 2405:1 2408:1 2409:1 2415:1 2437:1 2438:1 2440:1 2441:1 2446:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "carbon cycle",
+    "sentences": [
+      {
+        "sentenceId": 219,
+        "text": "carbon cycle is the mechanism that maintains the level of carbon dioxide in the atmosphere.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 357,
+        "text": "the carbon cycle is the process by which carbon moves from the atmosphere into the earth and its organisms and then back again.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "moves",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.009020783669529466
+              },
+              {
+                "enabler": 0.008726728294176334
+              },
+              {
+                "undergoer": 0.0011437207546523673
+              },
+              {
+                "trigger": 0.7934908043160346
+              },
+              {
+                "NONE": 0.1876179629656074
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 103:1 627:1 668:1 901:1 950:1 952:1 954:1 971:1 1068:1 1423:1 1681:1 2031:1 2402:1 2409:1 2416:1 2424:1 2437:1 2446:1 2448:1 2452:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "evolution",
+    "sentences": [
+      {
+        "sentenceId": 422,
+        "text": "students should have the understanding that evolution is the process by which life progresses from one form into another.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "students",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.09578782642171989
+              },
+              {
+                "enabler": 0.020525136734944043
+              },
+              {
+                "undergoer": 0.041618026509456396
+              },
+              {
+                "trigger": 0.019658311274742504
+              },
+              {
+                "NONE": 0.8224106990591371
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 632:1 685:1 912:1 3571:1 3640:1 3691:1 3820:1 3839:1 3997:1 4144:1 4459:1"
+              }
+            ]
+          },
+          {
+            "argId": 4,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "progresses",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.004347232639864353
+              },
+              {
+                "enabler": 0.0035538258954224806
+              },
+              {
+                "undergoer": 0.002572894098653075
+              },
+              {
+                "trigger": 0.5215374613842475
+              },
+              {
+                "NONE": 0.46798858598181253
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 627:1 668:1 901:1 950:1 954:1 971:1 1352:1 2031:1 2402:1 2409:1 2437:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "should",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.043243176477241005
+              },
+              {
+                "enabler": 0.009990712770544582
+              },
+              {
+                "undergoer": 0.016037451451351832
+              },
+              {
+                "trigger": 0.021914494149788775
+              },
+              {
+                "NONE": 0.9088141651510738
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 639:1 685:1 912:1 3571:1 3640:1 3691:1 3820:1 3839:1 3997:1 4144:1 4459:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "have",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.13848069914350844
+              },
+              {
+                "enabler": 2.463517286221823E-4
+              },
+              {
+                "undergoer": 0.0011763318871476657
+              },
+              {
+                "trigger": 0.0600083038515739
+              },
+              {
+                "NONE": 0.8000883133891478
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 143:1 630:1 647:1 902:1 948:1 2402:1 2411:1 2415:1 2426:1 2436:1 2437:1 2441:1 2445:1"
+              }
+            ]
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "the understanding that evolution is the process by which life progresses from one form into another",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.09100132206022242
+              },
+              {
+                "enabler": 0.01314832321070178
+              },
+              {
+                "undergoer": 0.010145876936876758
+              },
+              {
+                "trigger": 0.006749226534428058
+              },
+              {
+                "NONE": 0.878955251257771
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 628:1 685:1 912:1 919:1 1129:1 2236:1 2402:1 2405:1 2438:1 2439:1 2552:1 2621:1 2672:1 2801:1 2820:1 2978:1 3125:1 3440:1"
+              }
+            ]
+          },
+          {
+            "argId": 7,
+            "startIdx": 15,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "from one form",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.048603294456598785
+              },
+              {
+                "enabler": 0.011139140982182091
+              },
+              {
+                "undergoer": 0.0906544465999759
+              },
+              {
+                "trigger": 0.011304936422505064
+              },
+              {
+                "NONE": 0.8382981815387381
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 105:1 628:1 659:1 904:1 987:1 2187:1 2417:1 2454:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 425,
+        "text": "evolution is the process by which we progress until we emerge into the fullness of our destiny as children of god that all god\u0027s children will one day reach his...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "progress",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.028806399678172778
+              },
+              {
+                "enabler": 0.006218416083893051
+              },
+              {
+                "undergoer": 0.0031137020341184154
+              },
+              {
+                "trigger": 0.9142924107888598
+              },
+              {
+                "NONE": 0.047569071414956
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 636:1 668:1 901:1 950:1 1264:1 1681:1 2041:1 2409:1 2412:1 2427:1 2437:1 2446:1 2457:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 553,
+        "text": "evolution is the process by which life progresses from one form into another.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "progresses",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.005413322126455579
+              },
+              {
+                "enabler": 0.0032760361876598056
+              },
+              {
+                "undergoer": 0.0024330924251493966
+              },
+              {
+                "trigger": 0.8135831152773636
+              },
+              {
+                "NONE": 0.1752944339833715
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 627:1 668:1 901:1 950:1 954:1 971:1 1352:1 1681:1 2031:1 2402:1 2409:1 2437:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "from one form",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.11929013255836615
+              },
+              {
+                "enabler": 0.007418148458789382
+              },
+              {
+                "undergoer": 0.048799804491526794
+              },
+              {
+                "trigger": 0.009924637579581334
+              },
+              {
+                "NONE": 0.8145672769117362
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 105:1 628:1 659:1 904:1 987:1 1737:1 2187:1 2417:1 2454:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "nitrogen fixation",
+    "sentences": [
+      {
+        "sentenceId": 37,
+        "text": "nitrogen fixation is the process of converting inert atmospheric n2 into biologically usable forms of nitrogen such as ammonium and nitrogen oxides.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 7.772286955901714E-4
+              },
+              {
+                "enabler": 7.465521577829557E-4
+              },
+              {
+                "undergoer": 5.286729058601326E-4
+              },
+              {
+                "trigger": 0.7621831968501228
+              },
+              {
+                "NONE": 0.23576434939064397
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 110:1 631:1 652:1 904:1 971:1 1668:1 2018:1 2402:1 2409:1 2436:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 88,
+        "text": "biological nitrogen fixation is the process of capturing atmospheric nitrogen by biological processes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "capturing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.001096907672672392
+              },
+              {
+                "enabler": 0.0010090576193810305
+              },
+              {
+                "undergoer": 3.0273407452484114E-4
+              },
+              {
+                "trigger": 0.8955289759768341
+              },
+              {
+                "NONE": 0.10206232465658753
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 217:1 631:1 652:1 904:1 950:1 998:1 1668:1 2018:1 2402:1 2409:1 2436:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 96,
+        "text": "nitrogen fixation is the process of converting atmospheric nitrogen into an inorganic form that plants can use.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 6,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "can",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.00870079378642625
+              },
+              {
+                "enabler": 0.008056116288450819
+              },
+              {
+                "undergoer": 0.3621329476244875
+              },
+              {
+                "trigger": 0.030049799306264686
+              },
+              {
+                "NONE": 0.5910603429943708
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 158:1 639:1 671:1 912:1 3495:1 3508:1 3516:1 3527:1 3530:1 3548:1 3565:1 3566:1 3570:1 3653:1 3738:1 3768:1 3837:1 3847:1 3852:1 3869:1 3943:1 3948:1 3958:1 3961:1 3994:1 4048:1 4134:1 4280:1 4328:1 4330:1 4332:1 4446:1 4454:1"
+              }
+            ]
+          },
+          {
+            "argId": 4,
+            "startIdx": 17,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "use",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.0379187151408017
+              },
+              {
+                "enabler": 4.35266358640658E-4
+              },
+              {
+                "undergoer": 0.004647712212536067
+              },
+              {
+                "trigger": 0.020858686648338853
+              },
+              {
+                "NONE": 0.9361396196396827
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 107:1 630:1 755:1 901:1 960:1 1042:1 1078:1 2403:1 2411:1 2426:1 2436:1 2437:1 2445:1"
+              }
+            ]
+          },
+          {
+            "argId": 5,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "plants",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "result": 0.01246992438260456
+              },
+              {
+                "enabler": 0.011752628372988938
+              },
+              {
+                "undergoer": 0.8799572860954418
+              },
+              {
+                "trigger": 0.02442501581125817
+              },
+              {
+                "NONE": 0.07139514533770656
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 189:1 632:1 671:1 912:1 3495:1 3508:1 3516:1 3527:1 3530:1 3548:1 3565:1 3566:1 3570:1 3653:1 3738:1 3768:1 3837:1 3847:1 3852:1 3869:1 3943:1 3948:1 3958:1 3961:1 3994:1 4048:1 4134:1 4280:1 4328:1 4330:1 4332:1 4446:1 4454:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting atmospheric nitrogen into an inorganic form that plants can use",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 7.584025857684868E-4
+              },
+              {
+                "enabler": 6.755650636549647E-4
+              },
+              {
+                "undergoer": 4.923073369729805E-4
+              },
+              {
+                "trigger": 0.7684941066271023
+              },
+              {
+                "NONE": 0.22957961838650126
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 110:1 631:1 652:1 904:1 971:1 998:1 1668:1 2018:1 2402:1 2409:1 2436:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 7.584025857684868E-4
+              },
+              {
+                "enabler": 6.755650636549647E-4
+              },
+              {
+                "undergoer": 4.923073369729805E-4
+              },
+              {
+                "trigger": 0.7684941066271023
+              },
+              {
+                "NONE": 0.22957961838650126
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 110:1 631:1 652:1 904:1 971:1 998:1 1668:1 2018:1 2402:1 2409:1 2436:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 11,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "an inorganic form that plants can use",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.5145351013774361
+              },
+              {
+                "enabler": 0.042414876938285696
+              },
+              {
+                "undergoer": 0.13328271332301467
+              },
+              {
+                "trigger": 0.0018847597389757783
+              },
+              {
+                "NONE": 0.3078825486222878
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 105:1 628:1 673:1 904:1 1058:1 1118:1 1527:1 1690:1 2040:1 2404:1 2405:1 2422:1 2438:1 2439:1 2442:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 191,
+        "text": "nitrogen fixation is the process of reducing atmospheric dinitrogen to ammonia, carried out by the enzyme nitrogenase using a source of reductant and energy...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "reducing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.01297223787991258
+              },
+              {
+                "enabler": 0.0012020980622652205
+              },
+              {
+                "undergoer": 3.370642562564764E-4
+              },
+              {
+                "trigger": 0.8969627563614233
+              },
+              {
+                "NONE": 0.08852584344014253
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 188:1 631:1 652:1 904:1 931:1 1668:1 2018:1 2402:1 2410:1 2436:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 461,
+        "text": "nitrogen fixation is the process of converting unusable nitrogen (atmospheric nitrogen) into usable nitrogen (ammonia).",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 7.584025857684868E-4
+              },
+              {
+                "enabler": 6.755650636549647E-4
+              },
+              {
+                "undergoer": 4.923073369729805E-4
+              },
+              {
+                "trigger": 0.7684941066271023
+              },
+              {
+                "NONE": 0.22957961838650126
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 110:1 631:1 652:1 904:1 971:1 998:1 1668:1 2018:1 2402:1 2409:1 2436:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 478,
+        "text": "nitrogen fixation is the process of converting nitrogen gas to a fixed form which is a nitrogenous compound, such as ammonia (nh3) or ammonium (nh4+).",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.007343912795578738
+              },
+              {
+                "enabler": 0.0010555809157805145
+              },
+              {
+                "undergoer": 2.976329726879796E-4
+              },
+              {
+                "trigger": 0.8903804837560358
+              },
+              {
+                "NONE": 0.10092238955991695
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 110:1 631:1 652:1 904:1 931:1 1417:1 1668:1 2018:1 2402:1 2410:1 2436:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 634,
+        "text": "nitrogen fixation is the process by which n2 gas is fixed into a biologically-available form and can be important in.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "fixed",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0013570091576985874
+              },
+              {
+                "enabler": 0.002485548908703482
+              },
+              {
+                "undergoer": 4.899461914615482E-4
+              },
+              {
+                "trigger": 0.9704187901332955
+              },
+              {
+                "NONE": 0.02524870560884101
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 633:1 668:1 901:1 924:1 950:1 952:1 971:1 1417:1 1681:1 2096:1 2402:1 2404:1 2408:1 2409:1 2416:1 2446:1 2449:1 2450:1 2452:1 2453:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 680,
+        "text": "nitrogen fixation is the process by which nitrogen is taken from its stable gas form (n2) in air and changes into other nitrogen compounds (such as ammonia,...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "taken",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.001226150936792554
+              },
+              {
+                "enabler": 0.005413162252541358
+              },
+              {
+                "undergoer": 1.820902966479109E-4
+              },
+              {
+                "trigger": 0.9769526635774516
+              },
+              {
+                "NONE": 0.016225932936566507
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 59:1 102:1 633:1 668:1 901:1 924:1 930:1 950:1 952:1 954:1 998:1 1392:1 1681:1 2096:1 2402:1 2408:1 2409:1 2411:1 2416:1 2446:1 2449:1 2450:1 2452:1 2453:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "hibernation",
+    "sentences": [
+      {
+        "sentenceId": 8,
+        "text": "hibernation occurs when an animal needs to conserve energy to get through the food-scare months of winter.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "to conserve energy to get through the food-scare months of winter",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.09922547032547979
+              },
+              {
+                "enabler": 0.0037317759253692904
+              },
+              {
+                "undergoer": 0.0011764585383644665
+              },
+              {
+                "trigger": 0.1629667686122049
+              },
+              {
+                "NONE": 0.7328995265985815
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 58:1 630:1 903:1 931:1 982:1 1364:1 1712:1 2199:1 2402:1 2410:1 2422:1 2436:1 2445:1 2451:1 3201:1 3207:1 3232:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 262,
+        "text": "impaired muscle regeneration in hibernation is caused by inhibition of satellite cell activation and myoblast differentiation.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "inhibition of satellite cell activation and myoblast differentiation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "result": 0.01456169972571081
+              },
+              {
+                "enabler": 0.7422191576947326
+              },
+              {
+                "undergoer": 0.005714094067800969
+              },
+              {
+                "trigger": 0.008156788904682811
+              },
+              {
+                "NONE": 0.2293482596070727
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 57:1 194:1 628:1 655:1 904:1 939:1 2022:1 2409:1 2446:1 2476:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 377,
+        "text": "hibernation is caused by several things.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "several things",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "result": 0.011614506223115988
+              },
+              {
+                "enabler": 0.6971159927839858
+              },
+              {
+                "undergoer": 0.016456911365683807
+              },
+              {
+                "trigger": 6.909453657620769E-4
+              },
+              {
+                "NONE": 0.27412164426145225
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 57:1 575:1 632:1 655:1 904:1 1671:1 2068:1 2404:1 2442:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 383,
+        "text": "animals put on fat which is necessary for hibernation.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "put",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.017080609194750542
+              },
+              {
+                "enabler": 0.017433200273500593
+              },
+              {
+                "undergoer": 0.0026966430769077383
+              },
+              {
+                "trigger": 0.06793725189198865
+              },
+              {
+                "NONE": 0.8948522955628525
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 64:1 286:1 634:1 647:1 902:1 948:1 1007:1 1649:1 2409:1 2411:1 2415:1 2437:1 2441:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "fat",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.004364785684931307
+              },
+              {
+                "enabler": 0.29847043726236555
+              },
+              {
+                "undergoer": 0.00386570793475643
+              },
+              {
+                "trigger": 0.0010071965769785404
+              },
+              {
+                "NONE": 0.6922918725409681
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 64:1 628:1 714:1 904:1 1090:1 2404:1 2439:1 2476:1 2516:1 2551:1 3530:1 3544:1 3768:1 3820:1 3822:1 3875:1 3924:1 3973:1 3998:1 4015:1 4029:1 4053:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 9,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "animals put on fat which is necessary for hibernation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.017080609194750542
+              },
+              {
+                "enabler": 0.017433200273500593
+              },
+              {
+                "undergoer": 0.0026966430769077383
+              },
+              {
+                "trigger": 0.06793725189198865
+              },
+              {
+                "NONE": 0.8948522955628525
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 64:1 286:1 634:1 647:1 902:1 948:1 1007:1 1649:1 2409:1 2411:1 2415:1 2437:1 2441:1 2446:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 443,
+        "text": "hibernation is caused by cold, winter conditions.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "cold , winter conditions",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.04216495824274599
+              },
+              {
+                "enabler": 0.14529343131540118
+              },
+              {
+                "undergoer": 0.018181774538588942
+              },
+              {
+                "trigger": 0.007825919901693226
+              },
+              {
+                "NONE": 0.7865339160015706
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 57:1 338:1 632:1 874:1 910:1 2358:1 2402:1 2447:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 472,
+        "text": "the purpose of hibernation is to escape the need to burn too much fuel to stay alive during a cold spell when adequate food is not available.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 27,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "escape the need to burn too much fuel to stay alive during a cold spell when adequate food is not available",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8949699799454622
+              },
+              {
+                "enabler": 7.917419654805475E-4
+              },
+              {
+                "undergoer": 1.1894897339881698E-4
+              },
+              {
+                "trigger": 0.04656476586147496
+              },
+              {
+                "NONE": 0.05755456325418345
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 54:1 484:1 630:1 650:1 903:1 931:1 1666:1 2016:1 2402:1 2410:1 2436:1 2445:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 523,
+        "text": "the occurrence of sleep, shallow torpor and hibernation depends on factors such as the environmental temperature, amounts of body fat, extemal.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e depends on factors such as *",
+            "text": "depends",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.01711664043045542
+              },
+              {
+                "enabler": 0.005465741282941326
+              },
+              {
+                "undergoer": 6.931875869129773E-4
+              },
+              {
+                "trigger": 0.12497251014926063
+              },
+              {
+                "NONE": 0.8517519205504297
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 60:1 627:1 647:1 902:1 925:1 948:1 1007:1 2249:1 2402:1 2407:1 2409:1 2411:1 2415:1 2436:1 2437:1 2441:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 3,
+            "startIdx": 12,
+            "endIdx": 24,
+            "pattern": "\u003cprocess name\u003e depends on factors such as *",
+            "text": "factors such as the environmental temperature , amounts of body fat , extemal",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.03324690964361656
+              },
+              {
+                "enabler": 0.15909677103845818
+              },
+              {
+                "undergoer": 0.08531221324571989
+              },
+              {
+                "trigger": 0.05130629417399687
+              },
+              {
+                "NONE": 0.6710378118982087
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 60:1 628:1 901:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e depends on factors such as *",
+            "text": "the occurrence of sleep , shallow torpor and hibernation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.02792924678331111
+              },
+              {
+                "enabler": 0.24331864618054594
+              },
+              {
+                "undergoer": 0.01803200018903888
+              },
+              {
+                "trigger": 0.026289369805768154
+              },
+              {
+                "NONE": 0.684430737041336
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 60:1 628:1 903:1 919:1 925:1 939:1 2236:1 2402:1 2405:1 2407:1 2409:1 2438:1 2441:1 2443:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e depends on factors such as *",
+            "text": "the environmental temperature",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "result": 0.015630084033562912
+              },
+              {
+                "enabler": 0.5286865994761917
+              },
+              {
+                "undergoer": 0.011598693970263635
+              },
+              {
+                "trigger": 0.002036847091742788
+              },
+              {
+                "NONE": 0.44204777542823903
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 60:1 362:1 628:1 678:1 904:1 919:1 2404:1 2405:1 2438:1 2442:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 569,
+        "text": "hibernation is caused by daylight and temperature.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "daylight and temperature",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "result": 0.005791455894726682
+              },
+              {
+                "enabler": 0.8990567823683289
+              },
+              {
+                "undergoer": 0.013704350726056509
+              },
+              {
+                "trigger": 0.002842864046209204
+              },
+              {
+                "NONE": 0.07860454696467872
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 57:1 628:1 655:1 904:1 952:1 1426:1 1671:1 2021:1 2402:1 2416:1 2452:1 2453:1 2476:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 605,
+        "text": "hibernation occurs when the insects are maintained under autumn conditions.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when the insects are maintained under autumn conditions",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.0015673151250329691
+              },
+              {
+                "enabler": 0.0041432089004797956
+              },
+              {
+                "undergoer": 2.540531332431493E-4
+              },
+              {
+                "trigger": 0.07977617646485975
+              },
+              {
+                "NONE": 0.9142592463763843
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 58:1 71:1 633:1 683:1 903:1 941:1 943:1 1402:1 1465:1 1691:1 2056:1 2409:1 2411:1 2412:1 2413:1 2446:1 2448:1 2449:1 2450:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "hibernation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.00474562942565486
+              },
+              {
+                "enabler": 0.006930780209079092
+              },
+              {
+                "undergoer": 0.007943712370710893
+              },
+              {
+                "trigger": 0.31732994833122874
+              },
+              {
+                "NONE": 0.6630499296633264
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 58:1 628:1 683:1 903:1 1686:1 2036:1 3721:1 4432:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.00397475617918358
+              },
+              {
+                "enabler": 0.001278838557359449
+              },
+              {
+                "undergoer": 0.0010623222683529532
+              },
+              {
+                "trigger": 0.008170883336406936
+              },
+              {
+                "NONE": 0.985513199658697
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 58:1 133:1 627:1 647:1 902:1 948:1 1674:1 2055:1 2402:1 2414:1 2415:1 2437:1 2441:1 2457:1"
+              }
+            ]
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the insects",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 6.79373220112797E-4
+              },
+              {
+                "enabler": 0.09339558465925271
+              },
+              {
+                "undergoer": 0.23617514554821117
+              },
+              {
+                "trigger": 0.014573192637745078
+              },
+              {
+                "NONE": 0.6551767039346783
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 58:1 262:1 632:1 772:1 911:1 919:1 1701:1 2221:1 2405:1 2438:1 3530:1 3544:1 3768:1 3820:1 3822:1 3875:1 3924:1 3973:1 3998:1 4015:1 4029:1 4053:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "under autumn conditions",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.06584647110436473
+              },
+              {
+                "enabler": 0.11330520072649776
+              },
+              {
+                "undergoer": 0.010236668934763993
+              },
+              {
+                "trigger": 0.014354261256663132
+              },
+              {
+                "NONE": 0.7962573979777104
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 58:1 338:1 632:1 904:1 1693:1 2208:1 2402:1 2447:1"
+              }
+            ]
+          },
+          {
+            "argId": 4,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "maintained",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.0015673151250329691
+              },
+              {
+                "enabler": 0.0041432089004797956
+              },
+              {
+                "undergoer": 2.540531332431493E-4
+              },
+              {
+                "trigger": 0.07977617646485975
+              },
+              {
+                "NONE": 0.9142592463763843
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 58:1 71:1 633:1 683:1 903:1 941:1 943:1 1402:1 1465:1 1691:1 2056:1 2409:1 2411:1 2412:1 2413:1 2446:1 2448:1 2449:1 2450:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 707,
+        "text": "hibernation occurs when the outside temperature drops usually below 8c and the hedgehog\u0027s natural food becomes scarce.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 746,
+        "text": "the purpose of hibernation is to conserve energy during a period when sufficient food is scarce.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 16,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "conserve energy during a period when sufficient food is scarce",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.887083568190198
+              },
+              {
+                "enabler": 0.0033323583287418693
+              },
+              {
+                "undergoer": 5.068493715085774E-5
+              },
+              {
+                "trigger": 0.06805645282104349
+              },
+              {
+                "NONE": 0.04147693572286589
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 54:1 630:1 650:1 903:1 931:1 982:1 1170:1 1666:1 2016:1 2402:1 2409:1 2410:1 2436:1 2445:1 2446:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "friction",
+    "sentences": [
+      {
+        "sentenceId": 133,
+        "text": "friction is the force that opposes the motion of an object.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "force",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0020063059247032488
+              },
+              {
+                "enabler": 0.0020189006149661302
+              },
+              {
+                "undergoer": 2.0064367688812603E-4
+              },
+              {
+                "trigger": 0.8080453139632076
+              },
+              {
+                "NONE": 0.18772883582023497
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 117:1 628:1 647:1 902:1 919:1 924:1 948:1 1674:1 2024:1 2402:1 2405:1 2408:1 2415:1 2437:1 2438:1 2439:1 2440:1 2441:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1 4200:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 710,
+        "text": "friction is the resistance to motion of one object moving against another.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "resistance",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.005734902112308556
+              },
+              {
+                "enabler": 0.002500808392514213
+              },
+              {
+                "undergoer": 9.884164933809294E-5
+              },
+              {
+                "trigger": 0.9497795867337523
+              },
+              {
+                "NONE": 0.04188586111208694
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 628:1 647:1 902:1 919:1 924:1 931:1 948:1 1674:1 2024:1 2402:1 2405:1 2408:1 2410:1 2415:1 2437:1 2438:1 2440:1 2441:1 2446:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 735,
+        "text": "friction is the force resisting the relative motion of solid surfaces, fluid layers, and material elements sliding against each other.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "force",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.001438842845954235
+              },
+              {
+                "enabler": 0.003379516912785965
+              },
+              {
+                "undergoer": 1.1994348875174817E-4
+              },
+              {
+                "trigger": 0.9152182711317172
+              },
+              {
+                "NONE": 0.07984342562079096
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 117:1 628:1 647:1 902:1 919:1 924:1 948:1 1674:1 2024:1 2402:1 2405:1 2408:1 2415:1 2419:1 2437:1 2438:1 2440:1 2441:1 2451:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1 4497:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "reproduction",
+    "sentences": [
+      {
+        "sentenceId": 31,
+        "text": "the purpose of reproduction is to propagate...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 4,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "the purpose of reproduction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "result": 0.05669532105118704
+              },
+              {
+                "enabler": 0.03325806594792052
+              },
+              {
+                "undergoer": 0.0074479026804664655
+              },
+              {
+                "trigger": 0.015341000977936947
+              },
+              {
+                "NONE": 0.8872577093424889
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 54:1 86:1 628:1 650:1 903:1 919:1 939:1 1678:1 2026:1 2405:1 2409:1 2438:1 2446:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "propagate",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.9099655472930605
+              },
+              {
+                "enabler": 0.002520539697877317
+              },
+              {
+                "undergoer": 7.14730611805014E-4
+              },
+              {
+                "trigger": 0.01470937941155311
+              },
+              {
+                "NONE": 0.07208980298570435
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 54:1 630:1 650:1 903:1 931:1 1666:1 2016:1 2410:1 2445:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 44,
+        "text": "reproduction is the process of producing new life.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "new life",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.7474671462642472
+              },
+              {
+                "enabler": 0.04819881760797485
+              },
+              {
+                "undergoer": 0.1804581930013216
+              },
+              {
+                "trigger": 0.004452380785128122
+              },
+              {
+                "NONE": 0.01942346234132825
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 628:1 663:1 905:1 1022:1 1669:1 2034:1 2404:1 2442:1 2485:1 2819:1 2859:1 2924:1 2949:1 2950:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "producing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0016477189342613255
+              },
+              {
+                "enabler": 6.309576145311233E-4
+              },
+              {
+                "undergoer": 8.10907136292861E-4
+              },
+              {
+                "trigger": 0.734380842391172
+              },
+              {
+                "NONE": 0.26252957392374265
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 72:1 631:1 652:1 904:1 1352:1 1668:1 2018:1 2402:1 2436:1"
+              }
+            ]
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "producing new life",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0016477189342613255
+              },
+              {
+                "enabler": 6.309576145311233E-4
+              },
+              {
+                "undergoer": 8.10907136292861E-4
+              },
+              {
+                "trigger": 0.734380842391172
+              },
+              {
+                "NONE": 0.26252957392374265
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 72:1 631:1 652:1 904:1 1352:1 1668:1 2018:1 2402:1 2436:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 109,
+        "text": "reproduction is the process of making a new organism, as in parents producing offspring.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.001904580072040023
+              },
+              {
+                "enabler": 7.017365774821968E-4
+              },
+              {
+                "undergoer": 8.891221548222823E-4
+              },
+              {
+                "trigger": 0.8543799418281086
+              },
+              {
+                "NONE": 0.14212461936754697
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 73:1 631:1 652:1 904:1 979:1 1668:1 2018:1 2402:1 2436:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 227,
+        "text": "genetic reproduction is the process of producing offsprings.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 385,
+        "text": "reproduction is the process of creating serial homologues of whole animals, and it shouldn\u0027t surprise us that the process also occurs on a smaller scale.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "creating",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.004301682626551118
+              },
+              {
+                "enabler": 5.913107184230646E-4
+              },
+              {
+                "undergoer": 0.0020921215194316905
+              },
+              {
+                "trigger": 0.722682084985589
+              },
+              {
+                "NONE": 0.27033280015000505
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 82:1 631:1 652:1 904:1 1668:1 2018:1 2411:1 2436:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 490,
+        "text": "reproduction is the process of generating offspring.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "generating",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0024828093634799903
+              },
+              {
+                "enabler": 7.422083606787684E-4
+              },
+              {
+                "undergoer": 9.420276158785777E-4
+              },
+              {
+                "trigger": 0.7958439244456671
+              },
+              {
+                "NONE": 0.19998903021429554
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 81:1 631:1 652:1 904:1 1135:1 1668:1 2018:1 2402:1 2436:1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "sentenceId": 583,
+        "text": "reproduction is the process of making offspring.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.0019308541415242698
+              },
+              {
+                "enabler": 7.091724670023055E-4
+              },
+              {
+                "undergoer": 9.00676335404001E-4
+              },
+              {
+                "trigger": 0.8993014476353536
+              },
+              {
+                "NONE": 0.09715784942071574
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 73:1 631:1 652:1 904:1 1135:1 1668:1 2018:1 2402:1 2436:1"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
