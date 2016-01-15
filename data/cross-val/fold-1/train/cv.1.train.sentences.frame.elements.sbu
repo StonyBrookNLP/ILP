@@ -1,0 +1,445 @@
+2	phototropism	phototropism.n	0	phototropism.n	0	trigger	3
+2	phototropism	phototropism.n	5	phototropism.n	1	enabler	9:24
+2	phototropism	phototropism.n	0	phototropism.n	2	result	2:20
+4	phototropism	phototropism.n	0	phototropism.n	3	undergoer	5:8	trigger	9	enabler	18:19
+2	phototropism	phototropism.n	0	phototropism.n	4	enabler	4:8
+3	phototropism	phototropism.n	0	phototropism.n	5	undergoer	6	trigger	9
+2	phototropism	phototropism.n	0	phototropism.n	6	enabler	4:8
+2	phototropism	phototropism.n	4	phototropism.n	7	result	6:16
+2	phototropism	phototropism.n	5	phototropism.n	8	enabler	1
+2	phototropism	phototropism.n	0	phototropism.n	9	enabler	7
+2	phototropism	phototropism.n	0	phototropism.n	10	trigger	3
+3	metamorphosis	metamorphosis.n	1	metamorphosis.n	11	undergoer	13:15	trigger	16
+2	metamorphosis	metamorphosis.n	4	metamorphosis.n	12	result	6:26
+2	metamorphosis	metamorphosis.n	0	metamorphosis.n	13	result	2:8
+2	metamorphosis	metamorphosis.n	3	metamorphosis.n	14	result	8:17
+2	metamorphosis	metamorphosis.n	6	metamorphosis.n	15	trigger	9
+2	metamorphosis	metamorphosis.n	14	metamorphosis.n	16	result	16:21
+2	metamorphosis	metamorphosis.n	2	metamorphosis.n	17	trigger	5
+3	metamorphosis	metamorphosis.n	5	metamorphosis.n	18	trigger	6	enabler	20:26
+2	metamorphosis	metamorphosis.n	1	metamorphosis.n	19	result	4:8
+2	dripping	drip.n	0	dripping.n	20	trigger	7
+2	dripping	drip.n	2	dripping.n	21	trigger	7
+2	dripping	drip.n	0	dripping.n	22	trigger	5
+2	reflection	reflection.n	0	reflection.n	23	trigger	12
+2	reflection	reflection.n	1	reflection.n	24	trigger	1
+3	pollination	pollination.n	0	pollination.n	25	undergoer	6:12	trigger	5
+2	pollination	pollination.n	0	pollination.n	26	trigger	5
+2	pollination	pollination.n	0	pollination.n	27	trigger	3
+2	absorption	absorption.n	0	absorption.n	28	trigger	5
+2	absorption	absorption.n	0	absorption.n	29	trigger	7
+2	absorption	absorption.n	0	absorption.n	30	trigger	5
+2	absorption	absorption.n	0	absorption.n	31	trigger	14
+2	absorption	absorption.n	0	absorption.n	32	trigger	9
+3	chemical reaction	chemical reaction.n	1_2	chemical reaction.n	33	result	15:18	trigger	5
+2	chemical reaction	chemical reaction.n	9_10	chemical reaction.n	34	enabler	12:14
+4	mitosis	mitosis.n	0	mitosis.n	35	result	11:13	undergoer	6:8	trigger	9
+2	mitosis	mitosis.n	0	mitosis.n	36	trigger	5
+2	mitosis	mitosis.n	5	mitosis.n	37	result	8:11
+2	mitosis	mitosis.n	0	mitosis.n	38	trigger	3
+2	mitosis	mitosis.n	6	mitosis.n	39	result	9:15
+2	mitosis	mitosis.n	7	mitosis.n	40	result	10:23
+2	mitosis	mitosis.n	0	mitosis.n	41	result	2:15
+2	mitosis	mitosis.n	3	mitosis.n	42	result	6:15
+3	mitosis	mitosis.n	0	mitosis.n	43	result	2:8	trigger	0
+4	mitosis	mitosis.n	0	mitosis.n	44	result	10:12	undergoer	6:7	trigger	8
+4	mitosis	mitosis.n	0	mitosis.n	45	result	11:26	undergoer	6:8	trigger	9
+2	mitosis	mitosis.n	3	mitosis.n	46	result	6:14
+3	mitosis	mitosis.n	0	mitosis.n	47	undergoer	6:10	trigger	5
+4	mitosis	mitosis.n	0	mitosis.n	48	result	11	undergoer	6:8	trigger	9
+2	mitosis	mitosis.n	0	mitosis.n	49	result	8
+3	mitosis	mitosis.n	0	mitosis.n	50	result	7:11	trigger	5
+3	mitosis	mitosis.n	0	mitosis.n	51	undergoer	6	trigger	5
+2	mitosis	mitosis.n	0	mitosis.n	52	trigger	5
+2	cross-pollination	cross-pollination.n	0	cross-pollination.n	53	trigger	3
+2	cross-pollination	cross-pollination.n	0	cross-pollination.n	54	trigger	3
+2	germination	germination.n	4	germination.n	55	enabler	0
+2	germination	germination.n	2	germination.n	56	enabler	0
+2	germination	germination.n	11	germination.n	57	enabler	15:19
+2	germination	germination.n	1	germination.n	58	enabler	6:8
+2	germination	germination.n	0	germination.n	59	trigger	8
+2	germination	germination.n	7	germination.n	60	enabler	11
+2	germination	germination.n	3	germination.n	61	enabler	7:11
+2	germination	germination.n	0	germination.n	62	trigger	8
+3	germination	germination.n	0	germination.n	63	result	9:13	trigger	5
+2	germination	germination.n	1	germination.n	64	enabler	7:9
+2	germination	germination.n	7	germination.n	65	enabler	3
+3	germination	germination.n	1	germination.n	66	trigger	0:1	enabler	9:10
+2	conservation	conservation.n	0	conservation.n	67	trigger	5
+2	conservation	conservation.n	0	conservation.n	68	trigger	5
+2	conservation	conservation.n	0	conservation.n	69	trigger	5
+3	conservation	conservation.n	1	conservation.n	70	trigger	6	enabler	7:10
+2	conservation	conservation.n	1	conservation.n	71	trigger	6
+2	combustion	combustion.n	2	combustion.n	72	trigger	7
+2	combustion	combustion.n	7	combustion.n	73	enabler	0:3
+3	combustion	combustion.n	3	combustion.n	74	result	6:12	trigger	6
+3	combustion	combustion.n	0	combustion.n	75	undergoer	6:8	trigger	5
+2	combustion	combustion.n	0	combustion.n	76	trigger	3
+2	combustion	combustion.n	4	combustion.n	77	enabler	8:16
+4	combustion	combustion.n	0	combustion.n	78	undergoer	3:16	trigger	0	enabler	20
+2	combustion	combustion.n	0	combustion.n	79	enabler	4:13
+2	combustion	combustion.n	1	combustion.n	80	result	4:13
+4	combustion	combustion.n	1	combustion.n	81	undergoer	7:8	trigger	6	enabler	10:14
+2	combustion	combustion.n	3	combustion.n	82	result	5:6
+2	combustion	combustion.n	0	combustion.n	83	trigger	3
+2	combustion	combustion.n	0	combustion.n	84	enabler	4:9
+2	combustion	combustion.n	0	combustion.n	85	result	2:6
+2	combustion	combustion.n	6	combustion.n	86	enabler	10:24
+3	combustion	combustion.n	0	combustion.n	87	undergoer	6	trigger	5
+2	combustion	combustion.n	0	combustion.n	88	trigger	3
+2	combustion	combustion.n	3	combustion.n	89	result	5:7
+2	combustion	combustion.n	0	combustion.n	90	enabler	4:6
+2	combustion	combustion.n	2	combustion.n	91	enabler	6:14
+2	combustion	combustion.n	3	combustion.n	92	result	6:11
+2	combustion	combustion.n	2	combustion.n	93	enabler	6:8
+2	combustion	combustion.n	1	combustion.n	94	result	4:17
+2	combustion	combustion.n	4	combustion.n	95	result	7:8
+2	combustion	combustion.n	0	combustion.n	96	trigger	8
+2	combustion	combustion.n	2	combustion.n	97	trigger	7
+4	combustion	combustion.n	1	combustion.n	98	undergoer	7:8	trigger	6	enabler	10:14
+2	combustion	combustion.n	4	combustion.n	99	enabler	8:15
+2	combustion	combustion.n	0	combustion.n	100	enabler	4:21
+2	combustion	combustion.n	1	combustion.n	101	result	3:17
+2	combustion	combustion.n	1	combustion.n	102	enabler	5:12
+2	combustion	combustion.n	3	combustion.n	103	result	7:11
+2	boiling	boil.n	5	boiling.n	104	result	8:13
+2	boiling	boil.n	0	boiling.n	105	trigger	3
+2	boiling	boil.n	3	boiling.n	106	result	6:20
+2	boiling	boil.n	0	boiling.n	107	result	2:18
+2	boiling	boil.n	4	boiling.n	108	result	7
+2	boiling	boil.n	0	boiling.n	109	result	1:16
+2	boiling	boil.n	1	boiling.n	110	result	4:10
+2	boiling	boil.n	3	boiling.n	111	result	6:10
+2	boiling	boil.n	6	boiling.n	112	result	8:11
+2	boiling	boil.n	0	boiling.n	113	result	3:16
+2	boiling	boil.n	0	boiling.n	114	trigger	3
+2	boiling	boil.n	0	boiling.n	115	result	3:9
+2	boiling	boil.n	2	boiling.n	116	trigger	5
+2	boiling	boil.n	3	boiling.n	117	result	6:32
+2	boiling	boil.n	0	boiling.n	118	result	3:10
+2	boiling	boil.n	0	boiling.n	119	result	3:12
+2	boiling	boil.n	0	boiling.n	120	result	3:7
+2	boiling	boil.n	1	boiling.n	121	result	4:13
+2	boiling	boil.n	1	boiling.n	122	result	3:16
+2	boiling	boil.n	12	boiling.n	123	trigger	15
+2	boiling	boil.n	3	boiling.n	124	trigger	8
+2	boiling	boil.n	0	boiling.n	125	trigger	5
+2	boiling	boil.n	0	boiling.n	126	result	2:12
+2	symbiosis	symbiosis.n	0	symbiosis.n	127	trigger	3
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	128	result	4:15
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	129	trigger	0:1
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	130	result	4:23
+2	crop rotation	crop rotation.n	3_4	crop rotation.n	131	result	7:15
+2	crop rotation	crop rotation.n	6_7	crop rotation.n	132	result	10:27
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	133	trigger	6
+2	crop rotation	crop rotation.n	4_5	crop rotation.n	134	result	7:9
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	135	trigger	6
+2	crop rotation	crop rotation.n	3_4	crop rotation.n	136	result	7:11
+2	crop rotation	crop rotation.n	3_4	crop rotation.n	137	result	7:12
+2	crop rotation	crop rotation.n	3_4	crop rotation.n	138	result	7:22
+3	crop rotation	crop rotation.n	0_1	crop rotation.n	139	result	3:9	undergoer	5:6
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	140	trigger	6
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	141	result	4:24
+2	crop rotation	crop rotation.n	0_1	crop rotation.n	142	result	4:10
+3	crop rotation	crop rotation.n	0_1	crop rotation.n	143	result	3:6	trigger	0:1
+2	erosion	erosion.n	0	erosion.n	144	trigger	5
+2	erosion	erosion.n	0	erosion.n	145	trigger	5
+2	erosion	erosion.n	0	erosion.n	146	trigger	5:6
+2	evaporation	evaporation.n	0	evaporation.n	147	result	10:14
+4	evaporation	evaporation.n	0	evaporation.n	148	result	8:9	undergoer	3:4	trigger	0
+3	evaporation	evaporation.n	0	evaporation.n	149	undergoer	6:7	trigger	5
+4	evaporation	evaporation.n	0	evaporation.n	150	result	10:11	undergoer	6:7	trigger	8
+2	evaporation	evaporation.n	0	evaporation.n	151	undergoer	6
+3	evaporation	evaporation.n	1	evaporation.n	152	trigger	0:1	enabler	5:8
+3	evaporation	evaporation.n	0	evaporation.n	153	result	11:12	trigger	9
+2	evaporation	evaporation.n	0	evaporation.n	154	result	2:15
+2	evaporation	evaporation.n	0	evaporation.n	155	enabler	4:8
+3	evaporation	evaporation.n	0	evaporation.n	156	undergoer	6:7	trigger	9
+2	evaporation	evaporation.n	0	evaporation.n	157	result	3:7
+2	evaporation	evaporation.n	3	evaporation.n	158	result	6:21
+4	evaporation	evaporation.n	0	evaporation.n	159	result	8:9	undergoer	3:4	trigger	0
+2	evaporation	evaporation.n	0	evaporation.n	160	result	3:9
+2	evaporation	evaporation.n	10	evaporation.n	161	result	12:18
+2	evaporation	evaporation.n	3	evaporation.n	162	result	6:7
+2	evaporation	evaporation.n	11	evaporation.n	163	result	14:16
+3	evaporation	evaporation.n	0	evaporation.n	164	result	11:18	trigger	9
+4	evaporation	evaporation.n	0	evaporation.n	165	result	10	undergoer	6	trigger	8
+2	evaporation	evaporation.n	0	evaporation.n	166	result	13:14
+3	evaporation	evaporation.n	0	evaporation.n	167	undergoer	6:7	trigger	5
+3	evaporation	evaporation.n	0	evaporation.n	168	result	10:14	trigger	8
+4	evaporation	evaporation.n	0	evaporation.n	169	result	10:11	undergoer	6	trigger	5
+2	evaporation	evaporation.n	0	evaporation.n	170	result	3:5
+2	evaporation	evaporation.n	0	evaporation.n	171	trigger	5
+2	evaporation	evaporation.n	3	evaporation.n	172	enabler	9:13
+2	evaporation	evaporation.n	0	evaporation.n	173	enabler	4:16
+2	evaporation	evaporation.n	3	evaporation.n	174	result	6:10
+5	evaporation	evaporation.n	0	evaporation.n	175	result	13:17	undergoer	8	trigger	0	enabler	3:6
+2	evaporation	evaporation.n	1	evaporation.n	176	enabler	5:14
+2	evaporation	evaporation.n	21	evaporation.n	177	result	23:29
+4	evaporation	evaporation.n	0	evaporation.n	178	result	8:9	undergoer	6	trigger	5
+2	evaporation	evaporation.n	0	evaporation.n	179	enabler	4
+4	evaporation	evaporation.n	0	evaporation.n	180	result	10	undergoer	6	trigger	8
+2	evaporation	evaporation.n	1	evaporation.n	181	enabler	7:15
+2	evaporation	evaporation.n	0	evaporation.n	182	result	2:22
+3	evaporation	evaporation.n	0	evaporation.n	183	undergoer	6:7	trigger	5
+2	evaporation	evaporation.n	9	evaporation.n	184	enabler	0:5
+2	evaporation	evaporation.n	0	evaporation.n	185	trigger	5
+3	evaporation	evaporation.n	0	evaporation.n	186	undergoer	6:7	trigger	5
+2	evaporation	evaporation.n	2	evaporation.n	187	undergoer	11
+4	evaporation	evaporation.n	0	evaporation.n	188	result	6:8	undergoer	12:13	trigger	5
+3	evaporation	evaporation.n	0	evaporation.n	189	undergoer	6	trigger	5
+2	evaporation	evaporation.n	0	evaporation.n	190	trigger	5
+2	evaporation	evaporation.n	0	evaporation.n	191	trigger	3
+2	evaporation	evaporation.n	2	evaporation.n	192	result	5:7
+2	terracing	terracing.n	3	terracing.n	193	result	6:13
+2	diffusion	diffusion.n	0	diffusion.n	194	trigger	5
+2	strip farming	strip farming.n	0_1	strip farming.n	195	trigger	4
+2	grafting	graft.n	0	grafting.n	196	trigger	5
+2	grafting	graft.n	0	grafting.n	197	trigger	5
+2	grafting	graft.n	0	grafting.n	198	trigger	5
+2	grafting	graft.n	2	grafting.n	199	trigger	7
+2	grafting	graft.n	0	grafting.n	200	trigger	5
+3	grafting	graft.n	0	grafting.n	201	undergoer	6:8	trigger	5
+2	grafting	graft.n	0	grafting.n	202	trigger	5
+2	grafting	graft.n	0	grafting.n	203	trigger	5
+2	grafting	graft.n	0	grafting.n	204	trigger	5
+2	grafting	graft.n	0	grafting.n	205	trigger	5
+2	decomposition	decomposition.n	3	decomposition.n	206	result	5:8
+2	decomposition	decomposition.n	9	decomposition.n	207	result	11:12
+2	decomposition	decomposition.n	4	decomposition.n	208	result	6:8
+3	decomposition	decomposition.n	0	decomposition.n	209	result	12:17	trigger	9
+3	decomposition	decomposition.n	1	decomposition.n	210	undergoer	8:9	enabler	10:14
+2	decomposition	decomposition.n	1	decomposition.n	211	result	3:7
+2	decomposition	decomposition.n	5	decomposition.n	212	result	7:10
+2	decomposition	decomposition.n	5	decomposition.n	213	result	7:14
+2	decomposition	decomposition.n	4	decomposition.n	214	result	6:11
+3	decomposition	decomposition.n	0	decomposition.n	215	result	12:13	trigger	9
+2	decomposition	decomposition.n	0	decomposition.n	216	trigger	5
+3	melting	melting.n	0	melting.n	217	undergoer	6:7	trigger	5
+2	melting	melting.n	3	melting.n	218	enabler	7:8
+2	melting	melting.n	1	melting.n	219	trigger	6
+2	melting	melting.n	4	melting.n	220	enabler	0
+3	melting	melting.n	0	melting.n	221	undergoer	6:7	trigger	5
+3	melting	melting.n	0	melting.n	222	trigger	0	enabler	4
+3	melting	melting.n	0	melting.n	223	undergoer	6:11	trigger	5
+2	melting	ice-melting.n	0	ice-melting.n	224	trigger	5
+3	melting	melting.n	0	melting.n	225	undergoer	6:9	trigger	5
+2	melting	melting.n	3	melting.n	226	enabler	7:8
+2	melting	melting.n	0	melting.n	227	enabler	4:7
+2	melting	melt.n	4	melting.n	228	enabler	0
+2	melting	melting.n	0	melting.n	229	trigger	5
+2	melting	melting.n	0	melting.n	230	undergoer	6:8
+2	melting	melting.n	8	melting.n	231	enabler	12:13
+3	melting	melting.n	9	melting.n	232	result	20:26	enabler	13:14
+2	asexual reproduction	asexual reproduction.n	0_1	asexual reproduction.n	233	trigger	4
+2	asexual reproduction	asexual reproduction.n	0_1	asexual reproduction.n	234	trigger	4
+2	asexual reproduction	asexual reproduction.n	0_1	asexual reproduction.n	235	trigger	6
+2	asexual reproduction	asexual reproduction.n	0_1	asexual reproduction.n	236	trigger	4
+2	asexual reproduction	asexual reproduction.n	0_1	asexual reproduction.n	237	trigger	4
+2	chemosynthesis	chemosynthesis.n	0	chemosynthesis.n	238	trigger	5
+4	chemosynthesis	chemosynthesis.n	0	chemosynthesis.n	239	undergoer	6:7	trigger	5	enabler	11:12
+2	transpiration	transpiration.n	1	transpiration.n	240	result	3:9
+2	transpiration	transpiration.n	0	transpiration.n	241	trigger	3
+2	transpiration	transpiration.n	0	transpiration.n	242	undergoer	6:9
+2	transpiration	transpiration.n	0	transpiration.n	243	result	3:7
+3	transpiration	transpiration.n	0	transpiration.n	244	result	2:16	trigger	0
+2	transpiration	transpiration.n	0	transpiration.n	245	trigger	7
+2	transpiration	transpiration.n	2	transpiration.n	246	result	5:9
+2	transpiration	transpiration.n	4	transpiration.n	247	trigger	11
+2	transpiration	transpiration.n	4	transpiration.n	248	result	6:9
+2	transpiration	transpiration.n	1	transpiration.n	249	result	3:9
+2	transpiration	transpiration.n	0	transpiration.n	250	result	2:13
+2	transpiration	transpiration.n	0	transpiration.n	251	trigger	7
+2	osmosis	osmosis.n	1	osmosis.n	252	trigger	6
+2	osmosis	osmosis.n	0	osmosis.n	253	trigger	3
+2	osmosis	osmosis.n	1	osmosis.n	254	trigger	6
+2	osmosis	osmosis.n	4	osmosis.n	255	result	6:9
+2	osmosis	osmosis.n	0	osmosis.n	256	result	2:16
+3	osmosis	osmosis.n	1	osmosis.n	257	result	12:14	trigger	6
+2	osmosis	osmosis.n	0	osmosis.n	258	trigger	3
+2	osmosis	osmosis.n	1	osmosis.n	259	trigger	6
+2	osmosis	osmosis.n	5	osmosis.n	260	trigger	10
+2	osmosis	osmosis.n	0	osmosis.n	261	trigger	7
+2	osmosis	osmosis.n	0	osmosis.n	262	trigger	9
+2	osmosis	osmosis.n	2	osmosis.n	263	result	4:10
+2	osmosis	osmosis.n	1	osmosis.n	264	trigger	9
+2	osmosis	osmosis.n	3	osmosis.n	265	trigger	8
+3	osmosis	osmosis.n	1	osmosis.n	266	trigger	6	enabler	16:19
+2	osmosis	osmosis.n	3	osmosis.n	267	trigger	8
+2	osmosis	osmosis.n	1	osmosis.n	268	trigger	6
+2	osmosis	osmosis.n	1	osmosis.n	269	trigger	6
+2	osmosis	osmosis.n	0	osmosis.n	270	result	2:7
+2	osmosis	osmosis.n	5	osmosis.n	271	trigger	10
+2	osmosis	osmosis.n	1	osmosis.n	272	trigger	6
+2	crossbreeding	crossbreeding.n	5	crossbreeding.n	273	trigger	10
+2	crossbreeding	crossbreed.n	0	crossbreeding.n	274	trigger	5
+2	mimicry	mimicry.n	0	mimicry.n	275	trigger	3
+2	mimicry	mimicry.n	4	mimicry.n	276	trigger	7
+2	conduction	conduction.n	0	conduction.n	277	trigger	3
+2	conduction	conduction.n	0	conduction.n	278	trigger	3
+3	conduction	conduction.n	0	conduction.n	279	undergoer	6	trigger	5
+2	conduction	conduction.n	0	conduction.n	280	trigger	3
+3	conduction	conduction.n	0	conduction.n	281	undergoer	6	trigger	7
+3	conduction	conduction.n	0	conduction.n	282	undergoer	6	trigger	5
+2	conduction	conduction.n	1	conduction.n	283	undergoer	7
+2	conduction	osteoconduction.n	0	osteoconduction.n	284	undergoer	6:10
+2	digestion	digestion.n	0	digestion.n	285	trigger	5
+2	digestion	digestion.n	0	digestion.n	286	trigger	3
+2	digestion	digestion.n	0	digestion.n	287	trigger	12
+2	digestion	digestion.n	0	digestion.n	288	trigger	5
+2	digestion	digestion.n	0	digestion.n	289	trigger	5
+2	digestion	digestion.n	0	digestion.n	290	trigger	3
+4	digestion	digestion.n	5	digestion.n	291	result	14:16	undergoer	11:12	trigger	10
+4	digestion	digestion.n	0	digestion.n	292	result	12	undergoer	6:8	trigger	10
+2	digestion	digestion.n	0	digestion.n	293	trigger	9
+2	digestion	digestion.n	0	digestion.n	294	trigger	9
+2	digestion	digestion.n	0	digestion.n	295	trigger	5:6
+2	digestion	digestion.n	0	digestion.n	296	trigger	8
+2	condensation	condensation.n	0	condensation.n	297	trigger	3
+2	condensation	condensation.n	0	condensation.n	298	enabler	4:9
+2	condensation	condensation.n	0	condensation.n	299	enabler	4:6
+2	condensation	condensation.n	4	condensation.n	300	enabler	23:24
+2	condensation	condensation.n	1	condensation.n	301	result	8
+2	condensation	condensation.n	0	condensation.n	302	enabler	7:9
+2	condensation	condensation.n	0	condensation.n	303	enabler	7:25
+4	condensation	condensation.n	0	condensation.n	304	result	10:11	undergoer	6:7	trigger	8
+3	condensation	condensation.n	0	condensation.n	305	undergoer	4:7	enabler	12:22
+2	condensation	condensation.n	0	condensation.n	306	enabler	4:8
+2	condensation	condensation.n	11	condensation.n	307	enabler	15:22
+2	condensation	condensation.n	1	condensation.n	308	result	2:13
+2	condensation	condensation.n	4	condensation.n	309	enabler	8:13
+2	condensation	condensation.n	4	condensation.n	310	enabler	6:16
+2	condensation	condensation.n	2	condensation.n	311	result	5:10
+2	condensation	condensation.n	0	condensation.n	312	enabler	6:8
+2	condensation	condensation.n	0	condensation.n	313	enabler	6:20
+2	condensation	condensation.n	0	condensation.n	314	enabler	2:18
+2	condensation	condensation.n	0	condensation.n	315	enabler	4:5
+2	condensation	condensation.n	0	condensation.n	316	enabler	2:7
+3	condensation	condensation.n	1	condensation.n	317	undergoer	7:10	trigger	6
+2	condensation	condensation.n	0	condensation.n	318	enabler	4:5
+4	condensation	condensation.n	1	condensation.n	319	undergoer	6	trigger	15	enabler	5:10
+2	condensation	condensation.n	18	condensation.n	320	enabler	11:14
+2	condensation	condensation.n	0	condensation.n	321	enabler	4:6
+2	condensation	condensation.n	1	condensation.n	322	enabler	3:17
+3	condensation	condensation.n	0	condensation.n	323	result	12:13	trigger	9
+4	condensation	condensation.n	0	condensation.n	324	result	10:11	undergoer	6:7	trigger	8
+2	condensation	condensation.n	0	condensation.n	325	enabler	4:9
+2	condensation	condensation.n	0	condensation.n	326	enabler	4:7
+3	condensation	condensation.n	0	condensation.n	327	undergoer	3:4	trigger	0
+2	camouflage	camouflage.n	2	camouflage.n	328	enabler	6:15
+2	camouflage	camouflage.n	3	camouflage.n	329	result	6:21
+2	camouflage	camouflage.n	1	camouflage.n	330	undergoer	4:5
+2	camouflage	camouflage.n	3	camouflage.n	331	result	6:11
+2	camouflage	camouflage.n	0	camouflage.n	332	enabler	5:13
+2	camouflage	camouflage.n	3	camouflage.n	333	result	6:9
+2	camouflage	camouflage.n	3	camouflage.n	334	result	6:7
+3	camouflage	camouflage.n	7	camouflage.n	335	result	9:14	trigger	7
+2	camouflage	camouflage.n	1	camouflage.n	336	trigger	6
+2	camouflage	camouflage.n	0	camouflage.n	337	trigger	3
+2	camouflage	camouflage.n	0	camouflage.n	338	result	2:11
+2	camouflage	camouflage.n	1	camouflage.n	339	result	4:7
+4	camouflage	camouflage.n	1	camouflage.n	340	result	4:7	undergoer	5	trigger	0:1
+2	camouflage	camouflage.n	2	camouflage.n	341	result	4:10
+2	camouflage	camouflage.n	0	camouflage.n	342	trigger	3
+2	camouflage	camouflage.n	0	camouflage.n	343	enabler	5:13
+2	sublimation	sublimation.n	0	sublimation.n	344	trigger	3
+2	sublimation	sublimation.n	0	sublimation.n	345	result	2:7
+2	sublimation	sublimation.n	1	sublimation.n	346	enabler	5:10
+2	sublimation	sublimation.n	0	sublimation.n	347	trigger	3
+2	sublimation	sublimation.n	0	sublimation.n	348	undergoer	6:8
+2	sublimation	sublimation.n	0	sublimation.n	349	result	10:11
+3	sublimation	sublimation.n	0	sublimation.n	350	undergoer	6:7	trigger	8
+2	sublimation	sublimation.n	0	sublimation.n	351	enabler	4:19
+2	sublimation	sublimation.n	0	sublimation.n	352	trigger	3
+2	sublimation	sublimation.n	1	sublimation.n	353	result	3:8
+2	sublimation	sublimation.n	0	sublimation.n	354	result	10:11
+4	sublimation	sublimation.n	0	sublimation.n	355	undergoer	6	trigger	5	enabler	9:10
+2	molting	molting.n	0	molting.n	356	trigger	5
+2	molting	molting.n	0	molting.n	357	trigger	5
+2	molting	molting.n	0	molting.n	358	trigger	5
+2	molting	molting.n	0	molting.n	359	trigger	5
+2	molting	molting.n	0	molting.n	360	trigger	5
+2	molting	molting.n	0	molting.n	361	trigger	5
+2	molting	molting.n	0	molting.n	362	trigger	5
+2	molting	molting.n	0	molting.n	363	trigger	5
+3	molting	molting.n	0	molting.n	364	trigger	5	enabler	6:7
+3	fertilization	fertilization.n	0	fertilization.n	365	trigger	7	enabler	8:24
+2	fertilization	fertilization.n	4	fertilization.n	366	trigger	9
+2	breathing	breathe.n	8	breathing.n	367	enabler	4
+2	breathing	breathing.n	1	breathing.n	368	enabler	5:18
+4	breathing	breathing.n	0	breathing.n	369	result	18:19	undergoer	11:12	trigger	5
+2	breathing	breathing.n	0	breathing.n	370	trigger	8
+3	breathing	breathing.n	0	breathing.n	371	trigger	8	enabler	12:14
+2	breathing	breathing.n	0	breathing.n	372	enabler	8:11
+2	breathing	breathing.n	3	breathing.n	373	enabler	7:24
+2	breathing	breathing.n	0	breathing.n	374	trigger	5:6
+2	breathing	breathing.n	1	breathing.n	375	enabler	5:9
+2	breathing	breathing.n	0	breathing.n	376	trigger	5
+2	breathing	breathing.n	0	breathing.n	377	trigger	11
+3	breathing	breathing.n	0	breathing.n	378	trigger	0	enabler	4:9
+2	breathing	breathing.n	6	breathing.n	379	enabler	2
+2	breathing	breathing.n	0	breathing.n	380	trigger	5
+3	breathing	breathing.n	0	breathing.n	381	trigger	5	enabler	8:12
+3	breathing	breathing.n	0	breathing.n	382	trigger	7	enabler	8:10
+2	breathing	breathing.n	3	breathing.n	383	enabler	7:12
+4	breathing	breathing.n	0	breathing.n	384	result	10:20	trigger	5:6	enabler	7:9
+3	breathing	breathing.n	0	breathing.n	385	undergoer	14:15	trigger	5
+2	breathing	breathing.n	0	breathing.n	386	enabler	4:11
+2	deposition	deposition.n	0	deposition.n	387	trigger	5:6
+3	deposition	deposition.n	0	deposition.n	388	result	6:7	trigger	8
+2	weathering	weather.n	3	weathering.n	389	result	5:15
+3	weathering	weathering.n	1	weathering.n	390	undergoer	7:8	trigger	6
+2	weathering	weathering.n	1	weathering.n	391	undergoer	7
+3	weathering	weathering.n	1	weathering.n	392	result	11	trigger	9
+2	weathering	weather.n	1	weathering.n	393	result	3:10
+3	weathering	weather.n	0	weathering.n	394	result	10:14	trigger	8
+4	weathering	weathering.n	1	weathering.n	395	result	9:11	undergoer	8	trigger	6:7
+2	weathering	weather.n	0	weathering.n	396	trigger	3
+2	weathering	weathering.n	1	weathering.n	397	undergoer	7:8
+3	weathering	weather.n	0	weathering.n	398	undergoer	7:9	trigger	5:6
+3	weathering	weather.n	0	weathering.n	399	undergoer	7	trigger	5:6
+2	weathering	weather.n	0	weathering.n	400	result	3:8
+2	weathering	weather.n	7	weathering.n	401	result	10:24
+3	weathering	weathering.n	1	weathering.n	402	result	11:12	trigger	9
+2	weathering	weather.n	3	weathering.n	403	result	6:7
+2	weathering	weather.n	5	weathering.n	404	enabler	0:1
+3	weathering	weather.n	0	weathering.n	405	undergoer	7:14	trigger	5:6
+2	weathering	weather.n	1	weathering.n	406	result	3:25
+3	weathering	weather.n	0	weathering.n	407	undergoer	6:8	trigger	5
+2	weathering	weathering.n	1	weathering.n	408	trigger	4
+2	evolution	evolution.n	6	evolution.n	409	trigger	13
+2	evolution	evolution.n	0	evolution.n	410	trigger	7
+2	evolution	evolution.n	0	evolution.n	411	trigger	7
+2	carbon cycle	carbon cycle.n	1_2	carbon cycle.n	412	trigger	9
+2	hibernation	hibernation.n	0	hibernation.n	413	enabler	6:16
+2	hibernation	hibernation.n	4	hibernation.n	414	enabler	8:15
+2	hibernation	hibernation.n	0	hibernation.n	415	enabler	4:5
+2	hibernation	hibernation.n	8	hibernation.n	416	enabler	3
+2	hibernation	hibernation.n	0	hibernation.n	417	enabler	4:7
+2	hibernation	hibernation.n	3	hibernation.n	418	result	6:26
+2	hibernation	hibernation.n	8	hibernation.n	419	enabler	11:23
+2	hibernation	hibernation.n	0	hibernation.n	420	enabler	4:6
+4	hibernation	hibernation.n	0	hibernation.n	421	undergoer	3:4	trigger	0	enabler	7:9
+2	hibernation	hibernation.n	3	hibernation.n	422	result	6:15
+2	friction	friction.n	0	friction.n	423	trigger	3
+2	friction	friction.n	0	friction.n	424	trigger	3
+2	friction	friction.n	0	friction.n	425	trigger	3
+2	chemical change	chemical change.n	4_5	chemical change.n	426	trigger	1
+2	chemical change	chemical change.n	4_5	chemical change.n	427	trigger	8
+3	chemical change	chemical change.n	4_5	chemical change.n	428	result	15:18	trigger	8
+3	chemical change	chemical change.n	2_3	chemical change.n	429	result	9:11	trigger	8
+2	chemical change	chemical change.n	2_3	chemical change.n	430	trigger	1:3
+2	nitrogen fixation	nitrogen fixation.n	0_1	nitrogen fixation.n	431	trigger	6
+2	nitrogen fixation	nitrogen fixation.n	1_2	nitrogen fixation.n	432	trigger	7
+3	nitrogen fixation	nitrogen fixation.n	0_1	nitrogen fixation.n	433	result	10:16	trigger	6
+2	nitrogen fixation	nitrogen fixation.n	0_1	nitrogen fixation.n	434	trigger	6
+2	nitrogen fixation	nitrogen fixation.n	0_1	nitrogen fixation.n	435	trigger	6
+2	nitrogen fixation	nitrogen fixation.n	0_1	nitrogen fixation.n	436	trigger	6
+2	nitrogen fixation	nitrogen fixation.n	0_1	nitrogen fixation.n	437	trigger	10
+2	nitrogen fixation	nitrogen fixation.n	0_1	nitrogen fixation.n	438	trigger	9
+2	reproduction	reproduction.n	3	reproduction.n	439	result	6
+2	reproduction	reproduction.n	0	reproduction.n	440	trigger	5
+2	reproduction	reproduction.n	0	reproduction.n	441	trigger	5
+2	reproduction	reproduction.n	0	reproduction.n	442	trigger	5
+2	reproduction	reproduction.n	0	reproduction.n	443	trigger	5
+2	reproduction	reproduction.n	0	reproduction.n	444	trigger	5

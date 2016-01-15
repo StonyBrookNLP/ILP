@@ -1,0 +1,5603 @@
+[
+  {
+    "process": "molting",
+    "sentences": [
+      {
+        "sentenceId": 94,
+        "text": "molting is the process of replacing old worn feathers with new ones.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "replacing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8025860025587774
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 278,
+        "text": "molting is the process of shedding a shell and growing a larger and stronger one.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 9,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "and growing a larger and stronger one",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.06432109523126923
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 6,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "shedding a shell and growing a larger and stronger one",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8450195726898246
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "growing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.06432109523126923
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 11,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a larger and stronger one",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "shedding",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7868380834142248
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 315,
+        "text": "molting is the process of shedding skin to allow for...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "shedding",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8381988503887067
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 318,
+        "text": "molting is the process of losing old feathers and growing fresh replacements.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "losing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6918377054302828
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 322,
+        "text": "molting is the process of shedding the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "shedding",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8437589740218451
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 465,
+        "text": "molting is the process of shedding and renewing its feathers.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "shedding",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7024359254510444
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 608,
+        "text": "molting is the process of replacing old feathers with new feathers.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "replacing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8517237805208798
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 633,
+        "text": "molting is the process of shedding old skin, feathers or...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "shedding",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.04383912226398483
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 693,
+        "text": "the essence of insect molting is the laying down of new cuticle followed by...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 717,
+        "text": "molting is the process of replacing worn feathers.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "worn feathers",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6511037244304687
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "replacing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7819471526001147
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "replacing worn feathers",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7819471526001147
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "osmosis",
+    "sentences": [
+      {
+        "sentenceId": 7,
+        "text": "measure of the efficiency of a reverse osmosis is the ratio between salt-free permeate and feed flow.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 36,
+        "text": "the heart of reverse osmosis is the membrane.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 52,
+        "text": "reverse osmosis is the process of forcing a solvent from a region of high solute concentration through a membrane to a region of low solute...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9663203101916256
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 53,
+        "text": "osmosis is the movement of water across a membrane from an area of low solute concentration to an area of high solute concentration.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "movement",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8431666167835843
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 54,
+        "text": "kinetic distinction between diffusion and osmosis is the role of the intermolecular cohesive forces.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 82,
+        "text": "reverse osmosis is the process of separating a solution, water in this particular case, and forcing it through a semi-permeable membrane that filters out...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "separating",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8831174117149062
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 101,
+        "text": "with nutrient absorption, osmosis causes ions to move...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "ions to move ...",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.29979632735930206
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 110,
+        "text": "osmosis causes the stronger solution to become more diluted and tends to equalize the opposing solutions.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the stronger solution to become more diluted and tends to equalize the opposing solutions .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.30331587981028063
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 145,
+        "text": "the driving force for reverse osmosis is the applied pressure minus the osmotic pressure.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 185,
+        "text": "reverse osmosis is the process of pushing water through a semi-permeable membrane to remove impurities and harmful contaminants.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 6,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "impurities",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "remove",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4557101964376672
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 13,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "to remove impurities",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4557101964376672
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 14,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "remove impurities",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4557101964376672
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 9,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "through a semi-permeable membrane",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.12819950433633787
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pushing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8852690673845048
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 246,
+        "text": "osmosis is the movement of water through a partially permeable membrane down a concentration gradient from a dilute solution (where there is a high...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "movement",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.706691830557438
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 296,
+        "text": "reverse osmosis is the process of forcing a fluid through a membrane, separating the fluid from the particles too large to pass.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9033530453514125
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 302,
+        "text": "in simple terms, reverse osmosis is the process of pushing a solution through a filter that traps the solute on one side and allows the pure...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pushing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8740707678315773
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 306,
+        "text": "osmosis is the process by which water flows into and out of cells in the human body and by which water enters a tree through roots and travels upward into the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "flows",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8687427818659136
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 309,
+        "text": "osmosis is the process by which the water is absorbed into the root system and also how it moves through the plant.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "absorbed",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.772215392838966
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 334,
+        "text": "this time osmosis causes the red blood cell to swell.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the red blood cell to swell .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2361280442626188
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 459,
+        "text": "to reach equilibrium, osmosis causes the water molecules to move out of the egg and into the corn syrup until both solutions have the same concentration of...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 504,
+        "text": "reverse osmosis: reverse osmosis is the process of removing contaminants by performing osmosis in reverse, pulling water particles through a filter which is...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "removing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.43447490876288763
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 516,
+        "text": "formally, reverse osmosis is the process of forcing a solvent from a region of high solute concentration through a semipermeable membrane to a region of low...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9662946328498075
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 535,
+        "text": "reverse osmosis is the process of forcing a solvent from a region of high solute concentration through a semipermeable membrane to a region of low solute...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 17,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "through a semipermeable membrane",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing a solvent from a region of high solute concentration through a semipermeable membrane",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9659530238015375
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 11,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a region of high solute concentration",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.03696905297621316
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9659530238015375
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 587,
+        "text": "another setback for the use of reverse osmosis is the unintentional but inevitable removal of healthy and naturally occurring minerals that are found in water.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 607,
+        "text": "formally, reverse osmosis is the process of forcing a solvent from a region of high solute concentration through a semi permeable membrane to a region of low...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9662406490304272
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 619,
+        "text": "reverse osmosis is the process of forcing a solvent from a region of high solute concentration through a membrane to a region of low solute concentration by...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9449255835992451
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 642,
+        "text": "reverse osmosis is the process of forcing a solvent...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forcing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8439758078327421
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 696,
+        "text": "osmosis causes bacteria to swell and die.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "bacteria to swell and die .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.22290484153134785
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 699,
+        "text": "in this case, osmosis causes substances within one liquid to move to another liquid, through the semi-permeable cell membrane.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 727,
+        "text": "in simple terms, reverse osmosis is the process of pushing a solution through a filter that traps the solute on one side and allows the pure solvent to be obtained...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pushing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8725546801208949
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 728,
+        "text": "reverse osmosis is the process of applying a hydraulic pressure to an aqueous solution to force water through a semipermeable membrane, thus separating...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "applying",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9265738032723542
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "crossbreeding",
+    "sentences": [
+      {
+        "sentenceId": 18,
+        "text": "crossbreeding is the primary breeding strategy adopted.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 215,
+        "text": "crossbreeding is the recommended breeding strategy for commercial meat sheep and meat goat production.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "the recommended breeding strategy for commercial meat sheep and meat goat production",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.30690005792661945
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "recommended",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.1993534163140069
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 350,
+        "text": "hey barb and mitchell - crossbreeding is the process of transferring pollen from one cultivar of a plant to another female part of another plant of...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 14,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "one cultivar of a plant to another female part of another plant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.08028878204457661
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transferring",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.94192856761541
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 11,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transferring pollen from one cultivar of a plant to another female part of another plant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.94192856761541
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 450,
+        "text": "in rabbit crossbreeding is the common breeding programme with specialised dam and sire lines similar to pigs.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 537,
+        "text": "the other often overlooked advantage of crossbreeding is the importance of breed complementarily.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 606,
+        "text": "crossbreeding is the recommended breeding practice due to hybrid vigor and breed complementarity.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 690,
+        "text": "crossbreeding is the process of producing offspring from parents who originate from different species, varieties, or regional...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "producing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.906696880024173
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "fertilization",
+    "sentences": [
+      {
+        "sentenceId": 365,
+        "text": "fertilization: fertilization is the process of applying a large number of natural and synthetic materials, including manure and nitrogen, phosphorus, and...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 8,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "applying a large number of natural and synthetic materials , including manure and nitrogen , phosphorus , and",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8505570331575816
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "applying",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8505570331575816
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 18,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "including",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a large number of natural and synthetic materials , including manure and nitrogen , phosphorus , and",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6968675721939519
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 19,
+            "endIdx": 23,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "manure and nitrogen , phosphorus",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.0559003108560719
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 13,
+            "endIdx": 23,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "natural and synthetic materials , including manure and nitrogen , phosphorus",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.0559003108560719
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 661,
+        "text": "in short, foliar fertilization is the process of feeding plants through their leaves rather than going the slower route of delivering nutrients through...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "feeding",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7466977997302734
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "breathing",
+    "sentences": [
+      {
+        "sentenceId": 6,
+        "text": "did you know that co2 is necessary for breathing to...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "co2",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 20,
+        "text": "deeper breathing occurs due to the stretching of the torso allowing for better circulation, resulting in less fatigue.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "the stretching of the torso allowing for better circulation , resulting in less fatigue",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.5738385539622679
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 89,
+        "text": "breathing is the process of transporting oxygen from the atmosphere into the body and the process of eliminating carbon dioxide from the body.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 18,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "eliminating",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transporting oxygen from the atmosphere into the body",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8074233808207376
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 19,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "carbon dioxide",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.25976623514925595
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 12,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the body",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transporting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8074233808207376
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 7,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "oxygen from the atmosphere",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.32412880732803173
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 108,
+        "text": "breathing occurs when the breathing centre in the brain sends a message along the nerves to your breathing muscles.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 172,
+        "text": "breathing is the process by which air is drawn into the body and waste gases are...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "drawn",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9464353291456598
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 173,
+        "text": "breathing is the process by which air is drawn into the chest through the nose and mouth ...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "drawn",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.4186257226903081
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "into the chest",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.42577244417190513
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 13,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "through the nose",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "air",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.05989442161455776
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 184,
+        "text": "breathing is the process of inhaling air through the nose or mouth.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of * through",
+            "text": "the nose or mouth",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.08480207944029816
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 186,
+        "text": "this difficulty in breathing occurs due to reduced pumping ability of the heart causing the return of the blood from the heart to the lungs.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "reduced pumping ability of the heart causing the return of the blood from the heart to the lungs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.37519390773933964
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 212,
+        "text": "rhythmic breathing is the act of breathing in a 3:2 variation, inhaling for three strides and exhaling for two.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 255,
+        "text": "breathing is the process of taking in oxygen to fuel your activity, and there are right and wrong ways to do it.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "taking in",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5761680620212447
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 268,
+        "text": "trouble breathing occurs due to the weakening of associated muscles, although it is more common when treating the neck bands.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "the weakening of associated muscles",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.8047339786269913
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 274,
+        "text": "breathing is the process of moving air into and out of the lungs.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "moving air into and out of the lungs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9386444860061117
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "moving",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9386444860061117
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 301,
+        "text": "breathing is the process by which oxygen in the air is brought into the lungs and into close contact with the blood, which absorbs it and carries it to all parts of the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "brought",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5789136546963235
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 305,
+        "text": "breathing occurs due to repeated contractions of a large muscle called the diaphragm.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "repeated contractions of a large muscle",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7161033054173109
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "breathing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 8,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "a large muscle called the diaphragm",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08953357493413522
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "called",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 5,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "repeated contractions of a large muscle called the diaphragm",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7161033054173109
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 3,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "due to repeated contractions of a large muscle called the diaphragm",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7161033054173109
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 12,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "the diaphragm",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.015283820890927334
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "repeated",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7161033054173109
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 323,
+        "text": "just as oxygen is necessary for breathing, music is important to live.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "oxygen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.6279025086080662
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 342,
+        "text": "breathing is the process of drawing air into the lungs and then expelling it again.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "drawing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9190250874632027
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 388,
+        "text": "a normal lung has only a small amount of mucus, which is necessary for breathing and protecting the windpipe.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 456,
+        "text": "breathing is the process of getting oxygen into the lungs and carbon dioxide out of the lungs.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "getting oxygen into the lungs and carbon dioxide",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8891689825546811
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the lungs and carbon dioxide",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.10382718387281857
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "getting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8891689825546811
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 480,
+        "text": "breathing is the process by which animals bring air or water into contact with their.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "bring",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8352608311562825
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "air or water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8294458212484529
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 499,
+        "text": "deep breathing occurs when the body is in a state of relaxation.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 534,
+        "text": "the work of breathing occurs due to increased rigidity of the conducting tubules, changes in smooth muscle structure, and increased thickness of the mucosal...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "increased rigidity of the conducting tubules",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.1369597742466831
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 546,
+        "text": "rhythmic activity is necessary for breathing and essential to sustain life.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 648,
+        "text": "breathing is the process of taking in this vital energy and removing the waste products out of our body and mind.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "taking in this vital energy and removing the waste products out of our body and mind",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8249382196259735
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 11,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "and removing the waste products out of our body and mind",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08249999007226784
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 17,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "of our body and mind",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "removing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 13,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the waste products",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08249999007226784
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 8,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "this vital energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.37963953992596394
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 17,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "taking in",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8249382196259735
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 704,
+        "text": "breathing is the process of taking air from the atmosphere and inhaling it into the lungs.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 6,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "it",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "inhaling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 15,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the lungs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.02664487033177093
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "taking",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.947497414708016
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 11,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "and inhaling it into the lungs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.02664487033177093
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the atmosphere",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.19585782747717642
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 737,
+        "text": "breathing occurs due to geometry changes about the three-coordinate agi metal centers, leading to a multi-step guest adsorption.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "geometry changes about the three-coordinate agi metal centers",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.22555865748164244
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "breathing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.25611223873673544
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "leading",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.08762787989998351
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 8,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "the three-coordinate agi metal centers , leading to a multi-step guest adsorption",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.08762787989998351
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "due to geometry changes about the three-coordinate agi metal centers , leading to a multi-step guest adsorption",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.22555865748164244
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 16,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "a multi-step guest adsorption",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "conduction",
+    "sentences": [
+      {
+        "sentenceId": 32,
+        "text": "conduction is the transfer of energy in the form of heat or electricity from one atom to another within an object by direct contact.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transfer",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3009837230935335
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 190,
+        "text": "heat transfer by conduction is the reason it feels colder in the wind.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 319,
+        "text": "conduction is the transfer of heat between substances that are in direct contact with each other.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transfer",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.807023163887362
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 503,
+        "text": "conduction is the process of losing heat through physical contact...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "losing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9378056235965175
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "heat",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.40708129073769367
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 507,
+        "text": "conduction is the movement of heat or electricity through a material without any perceptible motion of the material.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "movement",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.833114968527817
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 545,
+        "text": "conduction is the process by which heat moves directly into the molecules of cooler objects in contact with its surface.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "moves",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.3837623630227892
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "heat",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.054779423005139445
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 573,
+        "text": "conduction is the process of transferring heat by touch -- and it\u0027s by far the most direct way to transfer heat.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transferring",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9426286829125813
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "heat",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.4092477647641297
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 663,
+        "text": "nerve conduction is the process of transmitting signals, allowing...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 6,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "signals",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.1896770369311299
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 8,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "signals , allowing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.21157286194514754
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transmitting signals , allowing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7421493174448676
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 741,
+        "text": "osteoconduction is the process by which capillary ingrowth into the graft occurs from the recipient bed.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "capillary ingrowth into the graft",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5583308953325377
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "mimicry",
+    "sentences": [
+      {
+        "sentenceId": 271,
+        "text": "animal mimicry is the type of adaptation displayed by animals that closely resemble other animals, plants, and even rocks and wood.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 653,
+        "text": "mimicry is the similarity of one species to another which protects one or both species.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "similarity",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7126142398498925
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 667,
+        "text": "in evolutionary biology, mimicry is the imitation of one species by another species that results in protection from predators to one or both of the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "imitation",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6303615409797023
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "condensation",
+    "sentences": [
+      {
+        "sentenceId": 23,
+        "text": "condensation is the change of the physical state of matter from gas phase into liquid phase, and is the reverse of evaporation.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "change",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8437651276489264
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 42,
+        "text": "condensation occurs when a water vapor molecule collides with a liquid water surface, and chemically binds to liquid water molecules.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 67,
+        "text": "condensation occurs due to constructive interference between all guided modes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "constructive interference between all guided modes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.1034352367258238
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 71,
+        "text": "condensation occurs when saturated air moves upward.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "air moves upward",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.0025725965044690944
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 73,
+        "text": "the criterion for dropwise condensation is the critical surface tension  cr which is characteristics of the 602 advanced heat and mass transfer amir faghri,...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 75,
+        "text": "many new installations get condensation across the bottom of the units and probably more so in the bedrooms , condensation is caused by the water in the.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 24,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.28359186501620004
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 107,
+        "text": "condensation occurs when cold air meets warmer air.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 128,
+        "text": "evaporation condensation condensation is the process by which water vapor changes into water.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "water",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.14822474514912717
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 139,
+        "text": "condensation occurs when warm moist air meets a cold surface.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a cold surface",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.695728213815394
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 140,
+        "text": "condensation occurs when warmer moist air comes in contact with cold surfaces such as framing members, windows and other accessories, or the colder region...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "in contact with cold surfaces such as framing members , windows and other accessories , or the colder region",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08443264136072652
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 147,
+        "text": "condensation occurs when warm moist air meets a cold surface e",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 189,
+        "text": "condensation is the process by which water vapor turns into liquid water.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "water vapor",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.10528672366696862
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "turns",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8335879478944714
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "liquid water",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.569153627013455
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 192,
+        "text": "condensation is caused by steam or water vapour when it comes into contact with cold surfaces (in the same way that steam in the bathroom condenses on the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "condensation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.11741002234383605
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "comes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 13,
+            "endIdx": 23,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "contact with cold surfaces -LRB- in the same way that steam",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.0856163807807831
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 29,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "when it comes into contact with cold surfaces -LRB- in the same way that steam in the bathroom condenses on the",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.0856163807807831
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 25,
+            "endIdx": 29,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the bathroom condenses on the",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "steam or water vapour",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.21728419772528243
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 232,
+        "text": "condensation occurs due to appearance of a normal mode, precisely analogous to the cooperon in a superconductor",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "appearance of a normal mode",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.07750344481009883
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 237,
+        "text": "this could be a good decision if the majority of the condensation is caused by the glass and not by the window frame.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 16,
+            "endIdx": 23,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the glass and not by the window frame",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.6519182275473207
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 249,
+        "text": "this condensation helps to rust the heat exchanger out much faster than normal.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps to rust the heat exchanger out much faster than normal .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.0984533581922229
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 252,
+        "text": "most often, window condensation is caused by excessively moist conditions in the home.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "excessively moist conditions in the home",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.10241747580322903
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 292,
+        "text": "the primary cause for condensation is the interior surface temperatures dropping below the dew point of the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "the interior surface temperatures dropping below the dew point of the",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.40264022040513703
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "dropping",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.03221222382848703
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 298,
+        "text": "the water condensation helps to entrap hydrophilic molecules and very fine...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "entrap hydrophilic molecules and very fine",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.08296909174177751
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 300,
+        "text": "condensation occurs when moist air hits a cold surface.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a cold surface",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6790447460774544
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 316,
+        "text": "condensation occurs when the air becomes saturated with water vapour to the point where it cannot hold any further moisture, i",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "saturated with water vapour to the point where it can not hold any further moisture",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.6394249977519413
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 339,
+        "text": "condensation occurs when the air and/or surfaces are cold and when the moisture content of the air is high.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "and when the moisture content of the air is high",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08421259664679165
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "condensation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.4069944586980762
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when the air and/or surfaces are cold and when the moisture content of the air is high",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.28929565535232055
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 418,
+        "text": "condensation occurs due to liquid subcooling, both simulations somewhat over-predict the vapor volume fraction.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "liquid subcooling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.46475805943744813
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 429,
+        "text": "condensation occurs when evaporator coils draw water from...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "water from",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.49471315294054297
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "condensation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.27669939722896325
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "evaporator coils",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4799867145487279
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when evaporator coils draw water from",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.49471315294054297
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "draw",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 440,
+        "text": "definition condensation is the process of packing the porcelain powder particles together and of removing the liquid binder.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the porcelain powder particles",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3119594297953608
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "packing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7646140881832424
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 469,
+        "text": "condensation is caused by airborne moisture, minute particles of water suspended in the air, created by every day activity inside the home.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "airborne moisture",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6176131766101315
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 476,
+        "text": "better way to judge condensation is the volume reduction of a random coil of free.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 491,
+        "text": "condensation helps to create the perfect breeding ground for unhealthy mould spores to grow and flourish with the tell-tale black growth often forming in the...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 500,
+        "text": "as condensation is caused by excess water vapour in the air, minimising activities that produce water vapour...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "excess water vapour in the air",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.2034919389630077
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "produce",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.19512099836648006
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "condensation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 13,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "minimising activities that produce water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.19512099836648006
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 524,
+        "text": "it is possible to demonstrate, on theoretical grounds, that the presence of nuclei is necessary for condensation.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 15,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "the presence of nuclei",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.3224789833664324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 570,
+        "text": "condensation is caused by things being cold, so what you basically need to find out is why the windows are cold.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "things being cold",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.24273088255799505
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 594,
+        "text": "more condensation occurs when there is more water vapor in the air and/or when glass surfaces become colder.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 6,
+            "startIdx": 18,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "colder",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2091659866727828
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 17,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "become",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "more condensation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.23908468638603694
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "more water vapor in the air and/or when glass surfaces become colder",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2091659866727828
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when there is more water vapor in the air and/or when glass surfaces become colder",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2091659866727828
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 15,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "glass surfaces",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 597,
+        "text": "condensation occurs when the warm air in a room comes into contact with a cold surface, such as a window, mirror or wall, and...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 630,
+        "text": "condensation is the process by which water vapor is changed back into liquid water.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "water vapor",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.11481493232339304
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "changed",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8913845702134253
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 13,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "liquid water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.4649431939379635
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 644,
+        "text": "condensation is the process by which a gas turns into a liquid.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a gas",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.5968738790776745
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "turns",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9028518901405201
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a liquid",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.32966081508577794
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 652,
+        "text": "condensation is caused by cold water entering your toilet tank causing a drop in temperature on the outside surface of the tank.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "cold water entering your toilet tank",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.21277891451172348
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "condensation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 5,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "cold water entering your toilet tank causing a drop in temperature on the outside surface of the tank",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.21277891451172348
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "causing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 16,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "on the outside surface of the tank",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 12,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "a drop in temperature",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.024569677631645206
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 8,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "your toilet tank causing a drop in temperature on the outside surface of the tank",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.055218197274795974
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "entering",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.21277891451172348
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 672,
+        "text": "condensation is caused by moisture in the air.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "moisture in the air",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08319376555762467
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 691,
+        "text": "condensation occurs when the air meets cold.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "condensation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.3810991276013066
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the air",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8912334669362958
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when the air meets cold",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8912334669362958
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "meets",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.01917355397585816
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "cold",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "digestion",
+    "sentences": [
+      {
+        "sentenceId": 45,
+        "text": "digestion is the process of changing food into a form that the body can absorb and use as energy or as the raw materials to repair and build new tissue.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "changing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9403779478611703
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 60,
+        "text": "digestion is the breakdown of large insoluble food molecules into small water-soluble food molecules so that they can be absorbed into the watery blood plasma...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "breakdown",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.23510012779835476
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 91,
+        "text": "digestion is the process by which ingested (food) material is broken down in the earlier stages of the alimentary canal into a form that can then be absorbed and...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "broken",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7096701267090821
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 130,
+        "text": "digestion is the process of converting the foods we eat into substances our bodies can absorb and use at the cellular level.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.027066308907518294
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 201,
+        "text": "digestion is the process of turning large pieces of food into its component chemicals.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "turning",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9480781676001211
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 401,
+        "text": "digestion is the breaking down of food into forms that our bodies can use.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "breaking",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.0988330250374583
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 492,
+        "text": "in a general sense, digestion is the process of pulling apart macromolecules into their constituent parts.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pulling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8545673209832362
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 12,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "apart macromolecules",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6052325841759508
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 15,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "their constituent parts",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.10222531501779333
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 11,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pulling apart macromolecules into their constituent parts",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8545673209832362
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 518,
+        "text": "digestion is the process by which chunks of food are broken into molecules small ...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "chunks of food",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4443592383842402
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "molecules",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3945878650522901
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "broken",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8079638266746735
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 689,
+        "text": "digestion is the process by which our food is broken down into a form that []",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "broken",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8558111359007595
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 708,
+        "text": "digestion is the process by which food molecules are broken down into smaller molecules that are able to be absorbed by the gut tissue.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "broken",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.82486871320803
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 715,
+        "text": "digestion is the process of breaking down the food you consume into molecules that can be absorbed into or pass through the body.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "breaking down",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8977204093967548
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 744,
+        "text": "digestion is the process by which food is broken down into its smallest parts, which can then be absorbed into the bloodstream.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "broken",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9475956316023982
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "camouflage",
+    "sentences": [
+      {
+        "sentenceId": 66,
+        "text": "this winter camouflage is caused by physiological changes triggered by the shortening day length in autumn.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "physiological changes triggered by the shortening day length in autumn",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.07161031719685444
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 84,
+        "text": "camouflage occurs when an object with similar features lies behind the target and makes the target invisible from the camera\u0027s point of view.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 92,
+        "text": "camouflage occurs when objects are disguised so they can\u0027t be seen easily.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 179,
+        "text": "the purpose of camouflage is to break up the human outline and allow the hunter to become visually indistinguishable from his surroundings.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 22,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "break up the human outline and allow the hunter to become visually indistinguishable from his surroundings",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6945470513433203
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 196,
+        "text": "aggressive camouflage occurs when a predator uses its ability to blend in to take prey by surprise.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 9,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "prey",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "take",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "aggressive camouflage",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.17115184609013992
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "in",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when a predator uses its ability to blend in to take prey by surprise",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.34903676086699026
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 5,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a predator",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.34903676086699026
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 8,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "its ability to blend",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.17051207199501395
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "uses",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 208,
+        "text": "the purpose of camouflage is to remain undetected when stalking or hiding, but...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 12,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "remain undetected when stalking or hiding",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5337167009935835
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 228,
+        "text": "camouflage occurs when there is a strong similarity in color between background and foreground, so foreground pixels are classified as background.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a strong similarity in color between background and foreground",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7503779992784931
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 269,
+        "text": "the purpose of camouflage is to provide concealment of military...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 8,
+            "endIdx": 10,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "concealment of military",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5508853625258786
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 7,
+            "endIdx": 10,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "provide concealment of military",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5508853625258786
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "provide",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.08167999275436437
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 275,
+        "text": "the purpose of camouflage is to provide concealment.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "provide concealment",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.11911150438632806
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 326,
+        "text": "camouflage occurs when a traditional form of assessment is \u0027dressed up\u0027 to appear authentic, often by the introduction of \u0027real world\u0027 elements or tokenism.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 393,
+        "text": "this is a moth, it\u0027s camouflage causes it to look like a leaf...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "camouflage",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2613054221647855
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "causes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "this",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "a moth , it \u0027s camouflage causes it",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2613054221647855
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "look",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 14,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "a leaf",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.29251196850413597
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 10,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "it to look like a leaf",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.29251196850413597
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 395,
+        "text": "camouflage occurs when all target features are similar to distractor features.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 455,
+        "text": "corrective camouflage is the process of masking physical flaws with makeup, prostheses, and artificial hair.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "masking physical flaws with makeup , prostheses , and artificial hair",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8408031903142711
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "masking",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8408031903142711
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 463,
+        "text": "camouflage is the method which allows an otherwise visible organism or object to remain indiscernible from the surrounding environment.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "method",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.07656504304420612
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 481,
+        "text": "camouflage causes disorientation, leading perception to drift from common sentiment.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "disorientation , leading perception to drift from common sentiment .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.19980199574473045
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 501,
+        "text": "this camouflage helps to protect them from predators.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "protect them from predators",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.08673415068771527
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 533,
+        "text": "this camouflage helps to protect fish from predators.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "predators",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "this camouflage",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.0732670897384911
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "protect",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.06753838581314234
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "fish",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.028265526638907204
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "to protect fish from predators",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.06753838581314234
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "protect fish from predators",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.06753838581314234
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 555,
+        "text": "the superb camouflage causes one to easily overlook this fish.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "one to easily overlook this fish .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.32675285390813186
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 609,
+        "text": "camouflage is the use of any combination of materials, coloration, or illumination for concealment, either by making animals or objects hard to see (crypsis),...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "use",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 738,
+        "text": "camouflage occurs when there is a strong similarity in color between background and foreground; so foreground pixels are classified as...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a strong similarity in color between background and foreground",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.32889696406081936
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "sublimation",
+    "sentences": [
+      {
+        "sentenceId": 0,
+        "text": "sublimation is the freeze drying process in which solvents, such as water, pass directly...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "pass",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 9,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "solvents , such as water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.09344224834500575
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "freeze",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.30206630369463444
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 22,
+        "text": "sublimation causes significant cooling of the snowpack.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "significant cooling of the snowpack .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3073822920094452
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 51,
+        "text": "sublimation is the phase transition from the solid to the gaseous phase, without passing through an intermediate liquid phase.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 57,
+        "text": "this sublimation is caused by heat produced by energized resistor ele.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "heat produced by energized resistor ele",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2019005734727342
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 79,
+        "text": "sublimation is the transition of a substance directly from the solid to the gas phase without passing through the intermediate liquid phase.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "sublimation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 17,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "passing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8570948717108532
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 18,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "through the intermediate liquid phase",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.09229275268395534
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transition",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 259,
+        "text": "sublimation is the process of vaporizing a solid substance and condensing the vapors to again form the solid directly, without passing through an intermediate...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a solid substance",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8671723183344685
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 283,
+        "text": "sublimation is the process by which a solid transitions into a gas (and gas  solid).",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a gas",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.505697588589945
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 320,
+        "text": "sublimation is the process by which a solid transforms into a gas without passing through the liquid stage.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a solid",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.05689217492988091
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "transforms",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 387,
+        "text": "sublimation is caused by the presence of an external, alternating magnetic field generated by a current carrying solenoid.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the presence of an external , alternating magnetic field generated by a current carrying solenoid .",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.08782858967410223
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 417,
+        "text": "sublimation is the process of transformation directly from the solid phase to the gaseous phase, without passing through an intermediate liquid phase.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 496,
+        "text": "iodine sublimation is caused by temperatures high enough to break the bonds between the atoms in its crystal lattice in the absence of pressures sufficient to...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 509,
+        "text": "sublimation is the defense mechanism where socially unacceptable impulses or desires...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "defense",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.38298715477055356
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 582,
+        "text": "sublimation is the process of changing water from a solid...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 687,
+        "text": "the sublimation causes pits in snow that hollow...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "pits in snow that hollow ...",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.6420212193288208
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 697,
+        "text": "sublimation is the process by which a solid changes into a gas without going through this stage...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a gas",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.31811228799811525
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 722,
+        "text": "sublimation is the process of infusing dye into polyester through heat.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 6,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of * through",
+            "text": "infusing dye into polyester through heat",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9035403859670269
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of * through",
+            "text": "polyester",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.11100318663452736
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of * through",
+            "text": "heat",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.034263527960978375
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of * through",
+            "text": "through heat",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.034263527960978375
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of * through",
+            "text": "infusing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9035403859670269
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of * through",
+            "text": "dye",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5996851022969698
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,4941 @@
+[
+  {
+    "process": "convection",
+    "sentences": [
+      {
+        "sentenceId": 4,
+        "text": "a fundamental quantity in rayleigh-bnard convection is the total heat transport in the vertical direction.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 27,
+        "text": "convection is the process of losing heat through the movement of air or water molecules across the skin.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "losing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.09329680255365423
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 444,
+        "text": "convection is the process of moving air over a warm object, where it picks up some of the heat.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "moving",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.18636241755945865
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 678,
+        "text": "convection is the transfer of internal energy into or out of an object by the physical movement of a surrounding fluid that transfers the internal energy along with...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transfer",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "acceleration",
+    "sentences": [
+      {
+        "sentenceId": 90,
+        "text": "acceleration occurs when there is a net force on an...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a net force on an",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.7637605495408051
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 106,
+        "text": "numerical prediction of the resulting acceleration is the topic of newton\u0027s second law, which we\u0027ll discuss in the following section.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 144,
+        "text": "the tangential acceleration is caused by gravity.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "gravity",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.9889535240500364
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 263,
+        "text": "application acceleration is the process of speeding the performance and delivery of applications with network componentry that leverages a variety of caching,...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "speeding",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.08143122345218108
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 324,
+        "text": "the unit of angular acceleration is the radian/s2.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 404,
+        "text": "acceleration depends on factors such as power to weight.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e depends on factors such as *",
+            "text": "power to weight",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8319003604799996
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 539,
+        "text": "maximum acceleration occurs when the corresponding speed is 12000 r/min, 19,200 r/min, and 36,600 r/min, respectively.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 557,
+        "text": "acceleration occurs due to the action of an unbalanced force on an object.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "the action of an unbalanced force on an object",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.9000255171418464
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 563,
+        "text": "this acceleration is caused by whatever is keeping the object moving in a circle.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 600,
+        "text": "any time that the sign (+ or -) of the acceleration is the same as the sign of the velocity, the object will speed up.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 612,
+        "text": "as defined by ke \u003d1/2 mv^2, acceleration is the process of gaining kinetic energy, so the greater the power delivered, the quicker it gains kinetic energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "gaining",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 629,
+        "text": "acceleration occurs when a velocity is changed in some length of time.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 636,
+        "text": "an object\u0027s acceleration is the net result of any and all forces acting on the object, as...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "net",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 668,
+        "text": "acceleration is the killer, well usually.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 675,
+        "text": "acceleration is the principal feature producing.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 700,
+        "text": "the extreme acceleration occurs when the speed is suddenly changed from a low level to a much higher level.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 8,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "suddenly",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.15424731329418995
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the extreme acceleration",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.15424731329418995
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "changed",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.15424731329418995
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 11,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "from a low level",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.2830981711405506
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.15424731329418995
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 5,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when the speed is suddenly changed from a low level to a much higher level",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.1570402529362092
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the speed",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.15424731329418995
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 16,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a much higher level",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.2880790670024607
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 702,
+        "text": "acceleration is the rate of change of velocity with time.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 716,
+        "text": "this acceleration is caused by positive feedback between the temperature, thermal buoyancy and effective viscosity of the material.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "positive feedback between the temperature , thermal buoyancy and effective viscosity of the material",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.35479065761355155
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "meiosis",
+    "sentences": [
+      {
+        "sentenceId": 5,
+        "text": "the key regulator of meiosis is the maturation-promoting factor (mpf) (masui \u0026 markert 1971), which consists the catalytic p34cdc2...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 24,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "the maturation-promoting factor -LRB- mpf -RRB- -LRB- masui \u0026 markert 1971 -RRB- , which consists the catalytic p34cdc2",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.02807439335497094
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 21,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "consists",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.02807439335497094
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 22,
+            "endIdx": 24,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "the catalytic p34cdc2",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.02807439335497094
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 104,
+        "text": "the purpose of meiosis is to divide the genome in half, but first the dna is doubled in replication, just as mitosis.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 11,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "divide the genome in half",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.14706506568024055
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 119,
+        "text": "thus meiosis helps to maintain the constant number of chromosomes for a particular species.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "maintain the constant number of chromosomes for a particular species",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08896858202540163
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 132,
+        "text": "therefore the purpose of meiosis is to produce gametesthe sperm and egg cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 13,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "produce gametesthe sperm and egg cells",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.46550223037950306
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 166,
+        "text": "meiosis is the process of making haploid sex cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "haploid sex",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7706482115338952
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.839253147874918
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6145550728110039
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 182,
+        "text": "therefore the purpose of meiosis is to produce gametes; the sperm and eggs.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 9,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "produce gametes",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.25310598496323117
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 183,
+        "text": "meiosis is caused by activation of mei3 expression.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "activation of mei3 expression",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.5568479098712503
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 236,
+        "text": "these are novel observations because the disregulation of meiosis is caused by a change in the somatic cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 13,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "a change in the somatic cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.8482135767850739
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 254,
+        "text": "the first stage of meiosis occurs when the woman\u0027s ovary is developing in the foetus before birth, when the dividing chromosomes are held...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 261,
+        "text": "significance meiosis helps to maintain the chromosome number constant in each plant \u0026 animal species.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "maintain the chromosome number constant in each plant \u0026 animal species",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08761729736497546
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 281,
+        "text": "meiosis is the process of making gametes, also known as eggs and sperm in most animals.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.12100168468072951
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 285,
+        "text": "meiosis is the process of making normal diploid cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "normal diploid cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8352079187754727
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.43993777138093315
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 349,
+        "text": "meiosis is the term used for the cell divisions leading to gametes, sperm and eggs in mammals.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 381,
+        "text": "thus, meiosis helps to generate improved variety, and results incredible diversity of life on earth.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "generate improved variety",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2211615513530901
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 471,
+        "text": "the purpose of meiosis is to create gametes by increasing the number of chromosomes.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 527,
+        "text": "meiosis is the process of separating the alleles and the random recombination is the fusion of two gametes during fertilization.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the alleles and the random recombination",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.22524393800313944
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "separating",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.21504154235043335
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 531,
+        "text": "the purpose of meiosis is to shuffle genetic information and cut the cellular chromosome number in half, from 46 chromosomes to 23 chromosomes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "cut",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 4,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "the purpose of meiosis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 20,
+            "endIdx": 21,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "46 chromosomes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 23,
+            "endIdx": 24,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "23 chromosomes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 12,
+            "endIdx": 17,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "the cellular chromosome number in half",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 544,
+        "text": "meiosis is the type of cell division by which gametes, are produced.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 578,
+        "text": "meiosis is the type of cell division that creates egg and sperm cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "cell division that creates egg and sperm cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.1104250027982559
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "creates",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.06401782118177962
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 10,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "egg and sperm cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.1785112517834747
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 610,
+        "text": "the purpose of meiosis is to produce eggs and sperm with only 23 chromosomes, so fertilization can produce a fertilized egg (zygote) with 46 chromosomes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 14,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "produce eggs and sperm with only 23 chromosomes",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 720,
+        "text": "a characteristic feature of meiosis is the behavior exhibited by homologous chromosomes.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 740,
+        "text": "thus, meiosis helps to create a population that is not only physically and genetically different but also one, which is perfectly fit to survive.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 747,
+        "text": "meiosis is the process of producing gametes, which are sperm cells and egg cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "producing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.16172302546714698
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "producing gametes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.411100467834106
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "gametes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.41092299040174657
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "refraction",
+    "sentences": [
+      {
+        "sentenceId": 58,
+        "text": "in case of hyperbolic metamaterials, negative refraction occurs due to the.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 61,
+        "text": "refraction occurs when some light enters the new medium.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the new medium",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.9585945300587232
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 129,
+        "text": "refraction occurs due to variations of the wave celerity along wave crests.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "variations of the wave celerity along wave crests",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.07969329258062804
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 202,
+        "text": "a refractometer characterizes fluids based on their refractive index the refraction occurs due to the change in the speed of light as it travels through a material of...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "the change in the speed of light",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 230,
+        "text": "refraction occurs when a wave passes from one medium to another and is bent; that is, the wave deviates from the straight-line path it would have otherwise...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "refraction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 15,
+            "startIdx": 27,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "would",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 14,
+            "startIdx": 28,
+            "endIdx": 28,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "have",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 29,
+            "endIdx": 29,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "otherwise",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 11,
+            "startIdx": 14,
+            "endIdx": 28,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "bent ; that is , the wave deviates from the straight-line path it would have",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 4,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a wave",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 3,
+            "endIdx": 28,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when a wave passes from one medium to another and is bent ; that is , the wave deviates from the straight-line path it would have",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "passes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "from one medium",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "is",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "another",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 13,
+            "startIdx": 19,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the wave deviates",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 12,
+            "startIdx": 23,
+            "endIdx": 28,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the straight-line path it would have",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 238,
+        "text": "refraction is the change in direction of propagation of a wave due to a change in its transmission medium.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "change",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.2305750745157442
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 264,
+        "text": "wave refraction is caused by segments of the wave moving at different speeds as the water depth along the crest varies.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "segments of the wave moving at different speeds as the water depth along the crest",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 287,
+        "text": "within kouchibouguac bay further wave refraction is caused by two.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 317,
+        "text": "refraction is caused by the change in speed experienced by a wave when it changes medium.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the change in speed experienced by a wave",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.26018099023361546
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 329,
+        "text": "refraction is the bending of a wave when it enters a medium where its speed is different.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "bending",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 363,
+        "text": "the refraction is caused by a change in the speed of light, and this is due to interactions with electrons in the solid.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "a change in the speed of light",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.08113123113652163
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the refraction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08113123113652163
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.08113123113652163
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 441,
+        "text": "presumably this refraction is caused by nonlinear wave dynamics because the wave amplitude can be seen to increase with larger qo.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "nonlinear wave dynamics",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.13398278879937256
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 18,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "increase",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.13398278879937256
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "seen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.13398278879937256
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "can",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.13398278879937256
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "presumably this refraction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.22125038434638272
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "because the wave amplitude can be seen to increase with larger qo",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.13968540222972858
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 20,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "larger qo",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.2442709021256486
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.13398278879937256
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 11,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the wave amplitude",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.13398278879937256
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 520,
+        "text": "refraction is caused by the change in speed...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the change in speed",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.7377136267234029
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 549,
+        "text": "refraction occurs due to differences in the optical densities of the transparent media light is travelling through.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "differences in the optical densities of the transparent media light",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.2687065759831215
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 586,
+        "text": "in optics, refraction occurs when light waves travel from a medium...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 6,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "light waves",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.9203438895798577
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 6,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when light waves travel from a medium",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.9305898589642353
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "travel",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9201761349712494
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "in optics",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.9230706200893538
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "refraction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.9229508524846508
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 11,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a medium",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.9517338504621748
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9201790070501032
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 617,
+        "text": "well to the cases where the refraction is caused by bottom changes or by changes in both bottom and current.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "bottom changes or by changes in both bottom and current",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.21871894417167906
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 632,
+        "text": "refraction occurs when a wave bends as it crosses the boundary between different mediums (eg.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 7,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "it",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.05341370189615081
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 7,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "as it crosses the boundary",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.14344682062433828
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "crosses",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.05341370189615081
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "refraction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.05341370189615081
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.05341370189615081
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 10,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the boundary",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.08735833490927179
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when a wave bends",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.11731914443939574
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a wave",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.05341370189615081
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "bends",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.05341370189615081
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 659,
+        "text": "refraction is caused by the fact that light travels at a constant speed only in a vacuum.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the fact that light travels at a constant speed only in a vacuum",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.6571091173126647
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 681,
+        "text": "the simplest case of refraction occurs when there is an...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the simplest case of refraction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.9180563213041159
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 7,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when there is an",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.9180267624407557
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9178114738528955
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 688,
+        "text": "refraction is caused by a change in wave speed all known evidence supports the theory that the change in wave direction is caused by a change in its speed...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 706,
+        "text": "the variation in index of refraction occurs due to the change of...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 8,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "due to the change of",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.7436690558927767
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "the variation in index of refraction",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5847721822542071
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "the change of",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.7436690558927767
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5847721822542071
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 721,
+        "text": "in optics, refraction occurs when light waves travel from the water with a given refractive index into the air with another.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "from the water with a given refractive index into the air with another",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.3659527496921159
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 734,
+        "text": "refraction occurs when a wave moves from one material to another.",
+        "predictionArgumentSpan": []
+      }
+    ]
+  },
+  {
+    "process": "photosynthesis",
+    "sentences": [
+      {
+        "sentenceId": 10,
+        "text": "the oxygen produced by photosynthesis causes the leaves to float.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 12,
+        "text": "it is necessary for photosynthesis, the chemical reaction that enables plants to use sunlight to...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 17,
+        "text": "solar radiation in the par wavelength range is necessary for photosynthesis, which is the basic process for crop production.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 7,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "solar radiation in the par wavelength range",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 26,
+        "text": "the key feature of c4 photosynthesis is the co2-concentrating mechanism, which saturates photosynthesis within the bundle sheath and suppresses...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 43,
+        "text": "photosynthesis helps to balance oxygen and carbon dioxide in the air because plants produce oxygen through photosynthesis, this therefore goes into.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "balance oxygen and carbon dioxide in the air because plants produce oxygen through photosynthesis",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.15021212376418724
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 81,
+        "text": "photosynthesis occurs when plants are in sunlight.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "in sunlight",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.9459349391790493
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 93,
+        "text": "photosynthesis occurs when pigments in photosynthesizers absorb the energy of photons, initiating a chain of photochemical and chemical events.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the energy of photons , initiating a chain of photochemical and chemical events",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.10144739896346763
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 99,
+        "text": "in winter, the rate of photosynthesis is the lowest.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 100,
+        "text": "the purpose of photosynthesis is to convert a non storable source of energy into a usable and storable form of energy.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 103,
+        "text": "photosynthesis is the process of converting simple organic compounds (co2 and h2o) into more complex organic compounds (glucose and oxygen), in plants:",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 118,
+        "text": "in general outline and in effect, photosynthesis is the opposite of cellular respiration, in which glucose and other compounds are oxidized to produce carbon...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 25,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "produce",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.10467182917484656
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 26,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "carbon",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.10467182917484656
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 23,
+            "endIdx": 23,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "oxidized",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.10467182917484656
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 24,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "to produce carbon",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.11558104264764836
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 18,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "glucose and other compounds",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.10891134877678763
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 131,
+        "text": "it is known that photosynthesis is the powering phenomenta behind green plants\u0027 life.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "it",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.09052763823968572
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "known",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.08996412097411086
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 4,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "that photosynthesis is the powering phenomenta behind green plants \u0027 life",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.09883048700793906
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 135,
+        "text": "upregulation of photosynthesis occurs when sink activity exceeds the capacity of the...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 137,
+        "text": "the restricted photosynthesis is caused by an enhanced closure of surface conductance at a low wtd due to a high temperature and low water...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 24,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "an enhanced closure of surface conductance at a low wtd due to a high temperature and low water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.06853811054236641
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 7,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "an enhanced closure of surface conductance",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.06203716010152998
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 13,
+            "endIdx": 24,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "at a low wtd due to a high temperature and low water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.06853811054236641
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the restricted photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.026364857608408024
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.026364857608408024
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 151,
+        "text": "photosynthesis is the process by which plants convert atmospheric c02 into...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "convert",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.3071211254936373
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 154,
+        "text": "photosynthesis is caused by damage and/or deactivation of enzymes at temperatures that do not cause losses of activity for respiratory enzymes (dewer et al.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "damage and/or deactivation of enzymes at temperatures that do not cause losses of activity for respiratory enzymes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 206,
+        "text": "photosynthesis is the process of making food, on which all life depends.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.22011048515180712
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 221,
+        "text": "active photosynthesis causes the ph to increase to 10 or more, accelerating the.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the ph to increase to 10 or more , accelerating the .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.30553632075618004
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 241,
+        "text": "tree photosynthesis helps to reduce the unnatural...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "reduce the unnatural",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.9828593384095481
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 245,
+        "text": "photosynthesis is the process by which plants convert sunlight into usable energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "convert",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.48343518012762143
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "sunlight",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.48370526742949455
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 11,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "usable energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.484480901169421
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 265,
+        "text": "photosynthesis is the process of converting carbon dioxide and.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.4490836119995965
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 276,
+        "text": "photosynthesis is caused by different absorbance of the photoisomers involved in the reaction network [6-7].",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.1460812883386794
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "involved",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.14973916135727072
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.1460812883386794
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 8,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the photoisomers involved in the reaction network -LSB- 6-7 -RSB-",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2619580014835376
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 5,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "different absorbance of the photoisomers involved in the reaction network -LSB- 6-7 -RSB-",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.14624586510179907
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 12,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the reaction network -LSB- 6-7 -RSB-",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.38617468832600543
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 295,
+        "text": "photosynthesis is caused by inhibition of starch synthesis.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "inhibition of starch synthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.3719543232022041
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 303,
+        "text": "these results suggested that coordination of the expression of all these genes is necessary for photosynthesis in r",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 12,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "coordination of the expression of all these genes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.3498209625598177
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "these results",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.3498209625598177
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "suggested",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.3498209625598177
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 18,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "that coordination of the expression of all these genes is necessary for photosynthesis in r",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.38808110001267965
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 304,
+        "text": "radiation is necessary for photosynthesis and, therefore, this process is possible only within the euphotic layer, where the light intensity is enough for...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "radiation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 369,
+        "text": "chlorophyll is necessary for photosynthesis.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "chlorophyll",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 374,
+        "text": "anoxygenic photosynthesis helps to maintain lower do which increases the power output.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 7,
+            "startIdx": 5,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "maintain lower do which increases the power output",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3083545862371974
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "increases",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.26032313523468037
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 6,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "lower do which increases the power output",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3920722640302082
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "anoxygenic photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.2679535304019485
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "to maintain lower do which increases the power output",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3083545862371974
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.26032313523468037
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 10,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "the power output",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2634836808996206
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "maintain",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.26032313523468037
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 378,
+        "text": "photosynthesis is caused by a decrease of carboxyla- tion efficiency (wise et al.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.02927480834828273
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "a decrease of carboxyla - tion efficiency",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.02927480834828273
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.02927480834828273
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 5,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "a decrease of carboxyla - tion efficiency -LRB- wise et al.",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.02927480834828273
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 386,
+        "text": "magnesium is a component of chlorophyll, which is necessary for photosynthesis in green plants.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 402,
+        "text": "basically, photosynthesis is the process by which plants convert the sun\u0027s light into energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "energy",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.7161639805126843
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "convert",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.713453728954153
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 405,
+        "text": "photosynthesis occurs when pigments, molecules in the plant cell, absorb light photons and transfer them around to create chemical energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 10,
+            "startIdx": 18,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "around",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.24843601832975643
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "transfer",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2133014573458056
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 11,
+            "startIdx": 17,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "them",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2133014573458056
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2133014573458056
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "pigments , molecules in the plant cell",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.21608719138847193
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when pigments , molecules in the plant cell , absorb light photons and transfer them around to create chemical energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.26012249536072135
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "absorb",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2133014573458056
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2133014573458056
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 20,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "create",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2133014573458056
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 12,
+            "startIdx": 21,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "chemical energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.24843601832975643
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 19,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "to create chemical energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.29169374125987413
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 13,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "light photons",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2133014573458056
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 416,
+        "text": "a crucial component of photosynthesis is the protein known as photosystem ii, which splits water into hydrogen and oxygen.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 431,
+        "text": "photosynthesis is the process by which organisms convert light energy into chemical energy in the form of carbohydrates.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "convert",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2700543943159943
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 433,
+        "text": "photosynthesis is the process of making food...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8771360740405011
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "food",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8771640202364939
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 435,
+        "text": "photosynthesis helps to balance oxygen and carbon dioxide in the air because plants produce oxygen through photosynthesis, this therefore goes into air which...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "balance oxygen and carbon dioxide in the air because plants produce oxygen through photosynthesis",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 437,
+        "text": "photoinhibition of photosynthesis causes a reduction in vegetative.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "a reduction in vegetative .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8867675801082344
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 446,
+        "text": "photosynthesis is the process of turning the energy of sunlight into chemical energy from the raw products of co2 and h2o.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "turning",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.06250638468515568
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 502,
+        "text": "photosynthesis occurs when ribulose-1,5-bisphosphate is carboxylated by rubisco carboxylase activity and the products, two phosphoglycerate molecules...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when ribulose-1 ,5 - bisphosphate is carboxylated by rubisco carboxylase activity and the products , two phosphoglycerate molecules",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.13973846219329009
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "carboxylated",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.15221603826142655
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.13782898826565035
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.13782898826565035
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 11,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "rubisco carboxylase activity and the products , two phosphoglycerate molecules",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.15512328026270086
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 510,
+        "text": "the purpose of photosynthesis is to harness light energy and use it to move electrons through an electron transport chain.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 515,
+        "text": "photosynthesis occurs due to glaucousness, the reduction in transpiration rate is reportedly greater, resulting in increased (instantaneous or short-term)...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs due to *",
+            "text": "glaucousness",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 543,
+        "text": "the purpose of photosynthesis is to capture and store energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 10,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "capture and store energy",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5851966086705966
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 559,
+        "text": "explanation: photosynthesis is the process of making organic food (glucose) by combining the hydrogen from water with carbon dioxide.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.13354772955830438
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 584,
+        "text": "the first stage of photosynthesis occurs when the energy from light is directly utilized to produce energy carrier molecules, such as adenosine triphosphate...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 595,
+        "text": "the importance of photosynthesis helps to maintain a balanced level of oxygen and...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "maintain a balanced level of oxygen",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.29446039775395916
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 603,
+        "text": "photosynthesis is the process by which plants turn light energy into chemical energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "turn",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8464039537356132
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 12,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "chemical energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8567911292159347
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "light energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8486314468681456
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 646,
+        "text": "artificial photosynthesis is the process of preparing fuels from nothing more than water, sunlight and carbon dioxide.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "preparing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.17555170585922386
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 660,
+        "text": "photosynthesis is the process by which solar energy is converted into biomass at an overall efficiency of ~ 1%.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "biomass",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.09453600055229683
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "converted",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.09169510669441751
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 664,
+        "text": "photosynthesis occurs when photon flux densities exceed the compensation irradiance,i\".",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8511667984525658
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8503802016858446
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 4,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "photon flux densities",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.8504433427204175
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "exceed",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8503802016858446
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 683,
+        "text": "the process of photosynthesis occurs when the sun\u0027s rays are absorbed into a plant and are converted to energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 18,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "converted",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5429602113978093
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 6,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when the sun \u0027s rays are absorbed into a plant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.9485544857504511
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "absorbed",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5429602113978093
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the process of photosynthesis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5430970595322618
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 20,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "energy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.5432552828052397
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5429602113978093
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 14,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "a plant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.5668471657980193
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 7,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the sun \u0027s rays",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5429602113978093
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 703,
+        "text": "photosynthesis occurs when the energy from light is used to drive electron transfer.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 743,
+        "text": "sunlight is necessary for photosynthesis, the process by...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "sunlight",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "regeneration",
+    "sentences": [
+      {
+        "sentenceId": 41,
+        "text": "regeneration is the process of replacing damaged tissue with phenotypically and functionally identical tissue.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "replacing damaged tissue with phenotypically",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.3532841511912542
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "phenotypically",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.34020473485023506
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "replacing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.16125359023013772
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "damaged",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.16125359023013772
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 373,
+        "text": "abstract: regeneration is the process of restoring cells, tissues and structures that are lost during disease, injury or aging.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "restoring",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.05001006798316708
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 540,
+        "text": "regeneration is the process of restoring cells, tissues and structures that are lost or damaged after disease, injury or aging.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "restoring",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.03847312767668976
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 749,
+        "text": "organ regeneration is the process of implanting or integrating man-made material into a human to replace natural organs or tissues.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "implanting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "sexual reproduction",
+    "sentences": [
+      {
+        "sentenceId": 102,
+        "text": "sexual reproduction is the default mode in apomictic hieracium subgenus pilosella, in which two dominant loci function to enable apomixis.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 134,
+        "text": "sexual reproduction causes offspring to depend on the genetic makeup of two...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "offspring to depend on the genetic makeup of two ...",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5460435370096849
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 205,
+        "text": "sexual reproduction is the process of producing offspring, with two copies of each chromosome,...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "producing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7531204891736772
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 217,
+        "text": "explain how sexual reproduction causes genetic variation and how this leads to increased survival of the.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "genetic variation and how this leads to increased survival of the",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.788106368214416
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 267,
+        "text": "sexual reproduction is the formation of a new individual following the union of two gametes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "formation",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 277,
+        "text": "sexual reproduction causes new solutions.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "new solutions .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.9967314839363601
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 356,
+        "text": "sexual reproduction is the process of combining features of two parents into new offspring.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "combining",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7909825421439979
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 522,
+        "text": "sexual reproduction is the creation of a new organism by combining the genetic ....",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "creation",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 552,
+        "text": "an obvious benefit of sexual reproduction is the appearance of large amounts of genomic variation with each new generation.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 596,
+        "text": "parameter space in which fixation of sexual reproduction is the majority outcome of ten replications of the model, as a function of strength of epistasis among...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 719,
+        "text": "sexual reproduction is the union of male and female gametes to form a fertilized egg, or zygote.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "union",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "respiration",
+    "sentences": [
+      {
+        "sentenceId": 55,
+        "text": "respiration is the process of exchanging o2 with co2.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "exchanging",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8375100953483793
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 197,
+        "text": "respiration is the act of breathing in and out.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 203,
+        "text": "first, respiration is the process by which an organism takes oxygen into its body and then releases carbon dioxide from its body.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "takes",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6048054879371816
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 436,
+        "text": "cellular respiration is the process of moving energy from one chemical form (glucose) into another (atp), since all cells use atp for all metabolic reactions.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "from one chemical form -LRB- glucose",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 0.07181763165774811
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 19,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "atp",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.07181763165774811
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 25,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "use",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.07181763165774811
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 23,
+            "endIdx": 24,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "all cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.07181763165774811
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 17,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "another -LRB- atp -RRB-",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.08750718670879662
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 28,
+            "endIdx": 30,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "all metabolic reactions",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.07181763165774811
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "moving",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.07181763165774811
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 589,
+        "text": "respiration is the process of obtaining sufficient oxygen from an organism\u0027s environment to support its cellular metabolic...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "obtaining",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.3801985811730114
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 599,
+        "text": "the respiration is the process of taking in oxygen and getting rid of carbon dioxide.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "taking in",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2560874797766832
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 616,
+        "text": "respiration is the process of converting nutrients into usable energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.4956813794282031
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "shedding",
+    "sentences": [
+      {
+        "sentenceId": 85,
+        "text": "regular shedding is the method by which your dog\u0027s coat releases damaged or unhealthy hair and allows for the new healthy coat to grow in.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "method",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "physical change",
+    "sentences": [
+      {
+        "sentenceId": 195,
+        "text": "physical change is the change in physical properties.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "change",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 592,
+        "text": "it is itself a psychical condition, for, unless the theory implies that the sensation of physical change is the cause of emotion, the phenomena of anaesthesia,...",
+        "predictionArgumentSpan": []
+      }
+    ]
+  },
+  {
+    "process": "orbit",
+    "sentences": [
+      {
+        "sentenceId": 223,
+        "text": "the period (p) of a satellite in circular orbit is the orbit\u0027s circumference divided by the...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 293,
+        "text": "the maximum height above the surface of the orbit is the length of the ellipse, minus r\\,\\!",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 379,
+        "text": "earth\u0027s orbit is the path in which the earth travels around the sun.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "path",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 1.0
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 486,
+        "text": "in this case, the value of m becomes the mass of the sun (ms) and the radius of orbit is the average distance from the sun to earth (rearth orbit).",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 657,
+        "text": "it has been suggested that sedna\u0027s orbit is the result of influence by a large binary companion to the sun, thousands of au distant.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "it",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.06002956733623242
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 5,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "that sedna \u0027s orbit is the result of influence by a large binary companion to the sun , thousands of au distant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.06227548419772453
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "suggested",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.06002956733623242
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "nitrogen cycle",
+    "sentences": [
+      {
+        "sentenceId": 74,
+        "text": "nitrogen cycle is the process of converting toxic ammonia into harmless nitrogen, by different types of bacteria.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting toxic ammonia into harmless nitrogen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.6602781593740353
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 11,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "harmless nitrogen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.5113522311122095
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.40570941624951734
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 294,
+        "text": "nitrogen cycle is the process of converting the ammonia produced from fish waste...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "converting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.44503431499274404
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 541,
+        "text": "simply put, the nitrogen cycle is the process by which nitrogen is changed into different chemical forms.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "changed",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6676906682634262
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 745,
+        "text": "nitrogen cycle is the transformation which is carried out via both biological and non-biological processes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transformation",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.20600042119656473
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  }
+]

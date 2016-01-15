@@ -14,22 +14,22 @@
             "text": "criterion",
             "annotatedRole": "trigger",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.0012241967790566012
+                "result": 0.011045444695648917
               },
               {
-                "enabler": 0.024714618752797513
+                "enabler": 0.3586035148953405
               },
               {
-                "undergoer": 0.01865128425020308
+                "undergoer": 0.161043294150016
               },
               {
-                "trigger": 0.028031055178050775
+                "trigger": 0.14331013028433048
               },
               {
-                "NONE": 0.9273788450398921
+                "NONE": 0.32599761597466403
               }
             ],
             "featVector": [
@@ -48,22 +48,22 @@
             "text": "criterion",
             "annotatedRole": "trigger",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.0012241967790566012
+                "result": 0.011045444695648917
               },
               {
-                "enabler": 0.024714618752797513
+                "enabler": 0.3586035148953405
               },
               {
-                "undergoer": 0.01865128425020308
+                "undergoer": 0.161043294150016
               },
               {
-                "trigger": 0.028031055178050775
+                "trigger": 0.14331013028433048
               },
               {
-                "NONE": 0.9273788450398921
+                "NONE": 0.32599761597466403
               }
             ],
             "featVector": [
@@ -89,19 +89,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0012597551379306155
+                "result": 0.003832925740227167
               },
               {
-                "enabler": 0.03776080408440768
+                "enabler": 0.045219219282667984
               },
               {
-                "undergoer": 1.4916682603347011E-4
+                "undergoer": 6.453891340303188E-4
               },
               {
-                "trigger": 0.9591540893747117
+                "trigger": 0.9481474505327318
               },
               {
-                "NONE": 0.0016761845769167282
+                "NONE": 0.0021550153103425725
               }
             ],
             "featVector": [
@@ -123,19 +123,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0012597551379306155
+                "result": 0.003832925740227167
               },
               {
-                "enabler": 0.03776080408440768
+                "enabler": 0.045219219282667984
               },
               {
-                "undergoer": 1.4916682603347011E-4
+                "undergoer": 6.453891340303188E-4
               },
               {
-                "trigger": 0.9591540893747117
+                "trigger": 0.9481474505327318
               },
               {
-                "NONE": 0.0016761845769167282
+                "NONE": 0.0021550153103425725
               }
             ],
             "featVector": [
@@ -227,22 +227,22 @@
             "text": "produce",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.039755240140509074
+                "result": 0.22337571139310883
               },
               {
-                "enabler": 9.018606205837119E-4
+                "enabler": 0.0036922509404940856
               },
               {
-                "undergoer": 0.002493291344906738
+                "undergoer": 0.011784196924927584
               },
               {
-                "trigger": 0.14900144539420515
+                "trigger": 0.6813125724325099
               },
               {
-                "NONE": 0.8078481624997954
+                "NONE": 0.07983526830895964
               }
             ],
             "featVector": [
@@ -262,19 +262,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.6742209771145568
+                "result": 0.8643971559799423
               },
               {
-                "enabler": 0.018243911830830708
+                "enabler": 0.03982735727044341
               },
               {
-                "undergoer": 0.007628840393323028
+                "undergoer": 0.01878971745491224
               },
               {
-                "trigger": 0.040474209229073285
+                "trigger": 0.058882122989835015
               },
               {
-                "NONE": 0.2594320614322163
+                "NONE": 0.01810364630486702
               }
             ],
             "featVector": [
@@ -342,19 +342,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 9.064794848374978E-4
+                "result": 0.005209067245414456
               },
               {
-                "enabler": 0.017729183605816313
+                "enabler": 0.03383457049175733
               },
               {
-                "undergoer": 4.3080011694205474E-5
+                "undergoer": 4.3516815997977595E-4
               },
               {
-                "trigger": 0.9671195214162097
+                "trigger": 0.9550828966012677
               },
               {
-                "NONE": 0.0142017354814423
+                "NONE": 0.0054382975015807265
               }
             ],
             "featVector": [
@@ -390,38 +390,6 @@
         ],
         "predictionArgumentSpan": [
           {
-            "argId": 0,
-            "startIdx": 15,
-            "endIdx": 15,
-            "pattern": "\u003cprocess name\u003e is the *",
-            "text": "produce",
-            "annotatedRole": "enabler",
-            "annotatedLabel": "",
-            "rolePredicted": "NONE",
-            "probRoles": [
-              {
-                "result": 0.039755240140509074
-              },
-              {
-                "enabler": 9.018606205837119E-4
-              },
-              {
-                "undergoer": 0.002493291344906738
-              },
-              {
-                "trigger": 0.14900144539420515
-              },
-              {
-                "NONE": 0.8078481624997954
-              }
-            ],
-            "featVector": [
-              {
-                "Multi": "-10 53:1 72:1 630:1 901:1 931:1 1965:1 2402:1 2410:1 2436:1 2445:1"
-              }
-            ]
-          },
-          {
             "argId": 6,
             "startIdx": 9,
             "endIdx": 9,
@@ -432,24 +400,56 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 9.064794848374978E-4
+                "result": 0.005209067245414456
               },
               {
-                "enabler": 0.017729183605816313
+                "enabler": 0.03383457049175733
               },
               {
-                "undergoer": 4.3080011694205474E-5
+                "undergoer": 4.3516815997977595E-4
               },
               {
-                "trigger": 0.9671195214162097
+                "trigger": 0.9550828966012677
               },
               {
-                "NONE": 0.0142017354814423
+                "NONE": 0.0054382975015807265
               }
             ],
             "featVector": [
               {
                 "Multi": "-10 53:1 108:1 628:1 647:1 902:1 919:1 924:1 948:1 1021:1 1064:1 1251:1 1663:1 2013:1 2402:1 2405:1 2408:1 2409:1 2415:1 2422:1 2437:1 2438:1 2440:1 2441:1 2446:1 2451:1 2511:1 2525:1 2749:1 2801:1 2803:1 2856:1 2905:1 2954:1 2979:1 2996:1 3010:1 3034:1"
+              }
+            ]
+          },
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "produce",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "result": 0.22337571139310883
+              },
+              {
+                "enabler": 0.0036922509404940856
+              },
+              {
+                "undergoer": 0.011784196924927584
+              },
+              {
+                "trigger": 0.6813125724325099
+              },
+              {
+                "NONE": 0.07983526830895964
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 53:1 72:1 630:1 901:1 931:1 1965:1 2402:1 2410:1 2436:1 2445:1"
               }
             ]
           },
@@ -464,19 +464,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.6742209771145568
+                "result": 0.8643971559799423
               },
               {
-                "enabler": 0.018243911830830708
+                "enabler": 0.03982735727044341
               },
               {
-                "undergoer": 0.007628840393323028
+                "undergoer": 0.01878971745491224
               },
               {
-                "trigger": 0.040474209229073285
+                "trigger": 0.058882122989835015
               },
               {
-                "NONE": 0.2594320614322163
+                "NONE": 0.01810364630486702
               }
             ],
             "featVector": [
@@ -502,19 +502,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0025642678232398585
+                "result": 0.003580844016367208
               },
               {
-                "enabler": 0.0028061841251592187
+                "enabler": 0.009418866961232964
               },
               {
-                "undergoer": 6.258506099913602E-4
+                "undergoer": 0.001965587474763982
               },
               {
-                "trigger": 0.8200366558188807
+                "trigger": 0.966989585482007
               },
               {
-                "NONE": 0.17396704162272886
+                "NONE": 0.018045116065628905
               }
             ],
             "featVector": [
@@ -546,19 +546,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.1129116774996225
+                "result": 0.19852760390576157
               },
               {
-                "enabler": 0.2390513048219244
+                "enabler": 0.30754595302398857
               },
               {
-                "undergoer": 0.41681333930380005
+                "undergoer": 0.4718855284247039
               },
               {
-                "trigger": 0.008906750151292105
+                "trigger": 0.005004138095850968
               },
               {
-                "NONE": 0.22231692822336097
+                "NONE": 0.017036776549694918
               }
             ],
             "featVector": [
@@ -676,19 +676,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0025642678232398585
+                "result": 0.003580844016367208
               },
               {
-                "enabler": 0.0028061841251592187
+                "enabler": 0.009418866961232964
               },
               {
-                "undergoer": 6.258506099913602E-4
+                "undergoer": 0.001965587474763982
               },
               {
-                "trigger": 0.8200366558188807
+                "trigger": 0.966989585482007
               },
               {
-                "NONE": 0.17396704162272886
+                "NONE": 0.018045116065628905
               }
             ],
             "featVector": [
@@ -708,19 +708,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.1129116774996225
+                "result": 0.19852760390576157
               },
               {
-                "enabler": 0.2390513048219244
+                "enabler": 0.30754595302398857
               },
               {
-                "undergoer": 0.41681333930380005
+                "undergoer": 0.4718855284247039
               },
               {
-                "trigger": 0.008906750151292105
+                "trigger": 0.005004138095850968
               },
               {
-                "NONE": 0.22231692822336097
+                "NONE": 0.017036776549694918
               }
             ],
             "featVector": [
@@ -743,22 +743,22 @@
             "text": "initiating",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.006042252680621194
+                "result": 0.03725572690808121
               },
               {
-                "enabler": 0.0040405414620366085
+                "enabler": 0.018779024821922268
               },
               {
-                "undergoer": 0.01898397977380183
+                "undergoer": 0.11265445999297811
               },
               {
-                "trigger": 0.0928839442849452
+                "trigger": 0.7036050020495661
               },
               {
-                "NONE": 0.8780492817985951
+                "NONE": 0.1277057862274522
               }
             ],
             "featVector": [
@@ -775,22 +775,22 @@
             "text": "the initiating event for chemical change",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.00243418310617621
+                "result": 0.015960613825282976
               },
               {
-                "enabler": 0.07124441456795609
+                "enabler": 0.6611744129221893
               },
               {
-                "undergoer": 0.00855911397066163
+                "undergoer": 0.05226259339287123
               },
               {
-                "trigger": 0.009612766114980645
+                "trigger": 0.06137674369568386
               },
               {
-                "NONE": 0.9081495222402255
+                "NONE": 0.2092256361639728
               }
             ],
             "featVector": [
@@ -881,22 +881,22 @@
             "text": "initiating",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.006042252680621194
+                "result": 0.03725572690808121
               },
               {
-                "enabler": 0.0040405414620366085
+                "enabler": 0.018779024821922268
               },
               {
-                "undergoer": 0.01898397977380183
+                "undergoer": 0.11265445999297811
               },
               {
-                "trigger": 0.0928839442849452
+                "trigger": 0.7036050020495661
               },
               {
-                "NONE": 0.8780492817985951
+                "NONE": 0.1277057862274522
               }
             ],
             "featVector": [
@@ -913,22 +913,22 @@
             "text": "the initiating event for chemical change",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.00243418310617621
+                "result": 0.015960613825282976
               },
               {
-                "enabler": 0.07124441456795609
+                "enabler": 0.6611744129221893
               },
               {
-                "undergoer": 0.00855911397066163
+                "undergoer": 0.05226259339287123
               },
               {
-                "trigger": 0.009612766114980645
+                "trigger": 0.06137674369568386
               },
               {
-                "NONE": 0.9081495222402255
+                "NONE": 0.2092256361639728
               }
             ],
             "featVector": [
@@ -951,22 +951,22 @@
             "text": "monitoring",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004269898303181599
+                "result": 0.019468077353426542
               },
               {
-                "enabler": 0.0012998769291329372
+                "enabler": 0.006370424443796569
               },
               {
-                "undergoer": 0.0031573146122726423
+                "undergoer": 0.021307478966929427
               },
               {
-                "trigger": 0.24310898699693503
+                "trigger": 0.876087976456894
               },
               {
-                "NONE": 0.7481639231584778
+                "NONE": 0.07676604277895355
               }
             ],
             "featVector": [
@@ -983,22 +983,22 @@
             "text": "monitoring ocean chemical change",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004269898303181599
+                "result": 0.019468077353426542
               },
               {
-                "enabler": 0.0012998769291329372
+                "enabler": 0.006370424443796569
               },
               {
-                "undergoer": 0.0031573146122726423
+                "undergoer": 0.021307478966929427
               },
               {
-                "trigger": 0.24310898699693503
+                "trigger": 0.876087976456894
               },
               {
-                "NONE": 0.7481639231584778
+                "NONE": 0.07676604277895355
               }
             ],
             "featVector": [
@@ -1018,19 +1018,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0038257744161114726
+                "result": 0.009754860206039174
               },
               {
-                "enabler": 0.05198286490164672
+                "enabler": 0.055555645926957734
               },
               {
-                "undergoer": 0.01721754227419536
+                "undergoer": 0.05128172022171459
               },
               {
-                "trigger": 0.5192801219925021
+                "trigger": 0.8727552671434516
               },
               {
-                "NONE": 0.40769369641554426
+                "NONE": 0.010652506501836958
               }
             ],
             "featVector": [
@@ -1047,22 +1047,22 @@
             "text": "mounting",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.012922378669717604
+                "result": 0.0886946897388062
               },
               {
-                "enabler": 0.004309071786401503
+                "enabler": 0.031208171310347012
               },
               {
-                "undergoer": 0.021152845153670396
+                "undergoer": 0.12123152222527955
               },
               {
-                "trigger": 0.07093284802262664
+                "trigger": 0.6543904228734067
               },
               {
-                "NONE": 0.8906828563675839
+                "NONE": 0.1044751938521605
               }
             ],
             "featVector": [
@@ -1079,22 +1079,22 @@
             "text": "mounting chemical sensors",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.18140496775916481
+                "result": 0.18828125676902474
               },
               {
-                "enabler": 0.31342134708399344
+                "enabler": 0.6584068489161289
               },
               {
-                "undergoer": 0.00807160441737733
+                "undergoer": 0.008165781162373965
               },
               {
-                "trigger": 0.09519452418939604
+                "trigger": 0.1288423182033257
               },
               {
-                "NONE": 0.40190755655006827
+                "NONE": 0.016303794949146702
               }
             ],
             "featVector": [
@@ -1305,22 +1305,22 @@
             "text": "mounting",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.012922378669717604
+                "result": 0.0886946897388062
               },
               {
-                "enabler": 0.004309071786401503
+                "enabler": 0.031208171310347012
               },
               {
-                "undergoer": 0.021152845153670396
+                "undergoer": 0.12123152222527955
               },
               {
-                "trigger": 0.07093284802262664
+                "trigger": 0.6543904228734067
               },
               {
-                "NONE": 0.8906828563675839
+                "NONE": 0.1044751938521605
               }
             ],
             "featVector": [
@@ -1337,22 +1337,22 @@
             "text": "monitoring",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004269898303181599
+                "result": 0.019468077353426542
               },
               {
-                "enabler": 0.0012998769291329372
+                "enabler": 0.006370424443796569
               },
               {
-                "undergoer": 0.0031573146122726423
+                "undergoer": 0.021307478966929427
               },
               {
-                "trigger": 0.24310898699693503
+                "trigger": 0.876087976456894
               },
               {
-                "NONE": 0.7481639231584778
+                "NONE": 0.07676604277895355
               }
             ],
             "featVector": [
@@ -1369,22 +1369,22 @@
             "text": "monitoring ocean chemical change",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004269898303181599
+                "result": 0.019468077353426542
               },
               {
-                "enabler": 0.0012998769291329372
+                "enabler": 0.006370424443796569
               },
               {
-                "undergoer": 0.0031573146122726423
+                "undergoer": 0.021307478966929427
               },
               {
-                "trigger": 0.24310898699693503
+                "trigger": 0.876087976456894
               },
               {
-                "NONE": 0.7481639231584778
+                "NONE": 0.07676604277895355
               }
             ],
             "featVector": [
@@ -1404,19 +1404,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0038257744161114726
+                "result": 0.009754860206039174
               },
               {
-                "enabler": 0.05198286490164672
+                "enabler": 0.055555645926957734
               },
               {
-                "undergoer": 0.01721754227419536
+                "undergoer": 0.05128172022171459
               },
               {
-                "trigger": 0.5192801219925021
+                "trigger": 0.8727552671434516
               },
               {
-                "NONE": 0.40769369641554426
+                "NONE": 0.010652506501836958
               }
             ],
             "featVector": [
@@ -1433,22 +1433,22 @@
             "text": "mounting chemical sensors",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.18140496775916481
+                "result": 0.18828125676902474
               },
               {
-                "enabler": 0.31342134708399344
+                "enabler": 0.6584068489161289
               },
               {
-                "undergoer": 0.00807160441737733
+                "undergoer": 0.008165781162373965
               },
               {
-                "trigger": 0.09519452418939604
+                "trigger": 0.1288423182033257
               },
               {
-                "NONE": 0.40190755655006827
+                "NONE": 0.016303794949146702
               }
             ],
             "featVector": [
@@ -1495,22 +1495,22 @@
             "text": "the outer surface of the rock to fall off in ...",
             "annotatedRole": "result",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.3746574395657297
+                "result": 0.9753257931738915
               },
               {
-                "enabler": 0.0019469125006439769
+                "enabler": 0.005900448344774708
               },
               {
-                "undergoer": 7.67759744754895E-4
+                "undergoer": 0.002634825254809037
               },
               {
-                "trigger": 0.0011260478093921592
+                "trigger": 0.01365759693707844
               },
               {
-                "NONE": 0.6215018403794792
+                "NONE": 0.002481336289446264
               }
             ],
             "featVector": [
@@ -1529,22 +1529,22 @@
             "text": "the outer surface of the rock to fall off in ...",
             "annotatedRole": "result",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.3746574395657297
+                "result": 0.9753257931738915
               },
               {
-                "enabler": 0.0019469125006439769
+                "enabler": 0.005900448344774708
               },
               {
-                "undergoer": 7.67759744754895E-4
+                "undergoer": 0.002634825254809037
               },
               {
-                "trigger": 0.0011260478093921592
+                "trigger": 0.01365759693707844
               },
               {
-                "NONE": 0.6215018403794792
+                "NONE": 0.002481336289446264
               }
             ],
             "featVector": [
@@ -1570,19 +1570,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.23266939698186653
+                "result": 0.21288219063744493
               },
               {
-                "enabler": 0.04643888510104182
+                "enabler": 0.06545335388341561
               },
               {
-                "undergoer": 0.6484006991950616
+                "undergoer": 0.7019809122247607
               },
               {
-                "trigger": 0.004462190649600684
+                "trigger": 0.0058023292687442935
               },
               {
-                "NONE": 0.06802882807242937
+                "NONE": 0.013881213985634576
               }
             ],
             "featVector": [
@@ -1602,19 +1602,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0020060437507001968
+                "result": 0.004060466169497416
               },
               {
-                "enabler": 6.422928455312217E-4
+                "enabler": 0.002308378005876569
               },
               {
-                "undergoer": 0.001233942320115735
+                "undergoer": 0.003175696210831485
               },
               {
-                "trigger": 0.7629054582566734
+                "trigger": 0.969159056529347
               },
               {
-                "NONE": 0.23321226282697952
+                "NONE": 0.021296403084447385
               }
             ],
             "featVector": [
@@ -1636,19 +1636,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.23266939698186653
+                "result": 0.21288219063744493
               },
               {
-                "enabler": 0.04643888510104182
+                "enabler": 0.06545335388341561
               },
               {
-                "undergoer": 0.6484006991950616
+                "undergoer": 0.7019809122247607
               },
               {
-                "trigger": 0.004462190649600684
+                "trigger": 0.0058023292687442935
               },
               {
-                "NONE": 0.06802882807242937
+                "NONE": 0.013881213985634576
               }
             ],
             "featVector": [
@@ -1668,19 +1668,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0020060437507001968
+                "result": 0.004060466169497416
               },
               {
-                "enabler": 6.422928455312217E-4
+                "enabler": 0.002308378005876569
               },
               {
-                "undergoer": 0.001233942320115735
+                "undergoer": 0.003175696210831485
               },
               {
-                "trigger": 0.7629054582566734
+                "trigger": 0.969159056529347
               },
               {
-                "NONE": 0.23321226282697952
+                "NONE": 0.021296403084447385
               }
             ],
             "featVector": [
@@ -1725,19 +1725,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.14027881155349442
+                "result": 0.15354547863156137
               },
               {
-                "enabler": 0.01785899780296394
+                "enabler": 0.02215791934324066
               },
               {
-                "undergoer": 0.7449211082732743
+                "undergoer": 0.7870693067023052
               },
               {
-                "trigger": 0.01656228261283572
+                "trigger": 0.02291510771487513
               },
               {
-                "NONE": 0.08037879975743166
+                "NONE": 0.014312187608017495
               }
             ],
             "featVector": [
@@ -1759,19 +1759,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.14027881155349442
+                "result": 0.15354547863156137
               },
               {
-                "enabler": 0.01785899780296394
+                "enabler": 0.02215791934324066
               },
               {
-                "undergoer": 0.7449211082732743
+                "undergoer": 0.7870693067023052
               },
               {
-                "trigger": 0.01656228261283572
+                "trigger": 0.02291510771487513
               },
               {
-                "NONE": 0.08037879975743166
+                "NONE": 0.014312187608017495
               }
             ],
             "featVector": [
@@ -1797,19 +1797,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.7553324899939138
+                "result": 0.8737107570048729
               },
               {
-                "enabler": 0.00661677200417137
+                "enabler": 0.01252486086978563
               },
               {
-                "undergoer": 0.02386310714756405
+                "undergoer": 0.03977801004432092
               },
               {
-                "trigger": 0.014265605748910727
+                "trigger": 0.049868192506137984
               },
               {
-                "NONE": 0.19992202510544016
+                "NONE": 0.024118179574882628
               }
             ],
             "featVector": [
@@ -1829,19 +1829,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0035673960753545356
+                "result": 0.013363015933712202
               },
               {
-                "enabler": 5.405696023797901E-4
+                "enabler": 0.00187144469645567
               },
               {
-                "undergoer": 0.0010733078044157822
+                "undergoer": 0.002259384352276566
               },
               {
-                "trigger": 0.9431445537614402
+                "trigger": 0.9687709973780121
               },
               {
-                "NONE": 0.051674172756409766
+                "NONE": 0.01373515763954349
               }
             ],
             "featVector": [
@@ -1863,19 +1863,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.7553324899939138
+                "result": 0.8737107570048729
               },
               {
-                "enabler": 0.00661677200417137
+                "enabler": 0.01252486086978563
               },
               {
-                "undergoer": 0.02386310714756405
+                "undergoer": 0.03977801004432092
               },
               {
-                "trigger": 0.014265605748910727
+                "trigger": 0.049868192506137984
               },
               {
-                "NONE": 0.19992202510544016
+                "NONE": 0.024118179574882628
               }
             ],
             "featVector": [
@@ -1895,19 +1895,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0035673960753545356
+                "result": 0.013363015933712202
               },
               {
-                "enabler": 5.405696023797901E-4
+                "enabler": 0.00187144469645567
               },
               {
-                "undergoer": 0.0010733078044157822
+                "undergoer": 0.002259384352276566
               },
               {
-                "trigger": 0.9431445537614402
+                "trigger": 0.9687709973780121
               },
               {
-                "NONE": 0.051674172756409766
+                "NONE": 0.01373515763954349
               }
             ],
             "featVector": [
@@ -1930,22 +1930,22 @@
             "text": "fracturing of feldspars along their cleavage planes .",
             "annotatedRole": "result",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.056684278001716035
+                "result": 0.6544687430848899
               },
               {
-                "enabler": 0.002456579759091312
+                "enabler": 0.01359464162069726
               },
               {
-                "undergoer": 0.0016639882567919522
+                "undergoer": 0.007062551848079817
               },
               {
-                "trigger": 0.04631497319747745
+                "trigger": 0.30355097089148464
               },
               {
-                "NONE": 0.8928801807849231
+                "NONE": 0.02132309255484846
               }
             ],
             "featVector": [
@@ -1964,22 +1964,22 @@
             "text": "fracturing of feldspars along their cleavage planes .",
             "annotatedRole": "result",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.056684278001716035
+                "result": 0.6544687430848899
               },
               {
-                "enabler": 0.002456579759091312
+                "enabler": 0.01359464162069726
               },
               {
-                "undergoer": 0.0016639882567919522
+                "undergoer": 0.007062551848079817
               },
               {
-                "trigger": 0.04631497319747745
+                "trigger": 0.30355097089148464
               },
               {
-                "NONE": 0.8928801807849231
+                "NONE": 0.02132309255484846
               }
             ],
             "featVector": [
@@ -2005,19 +2005,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.8245701144811676
+                "result": 0.9205072959387764
               },
               {
-                "enabler": 0.040009426303666974
+                "enabler": 0.040343551032988104
               },
               {
-                "undergoer": 0.01627466137974193
+                "undergoer": 0.010459823429568015
               },
               {
-                "trigger": 0.005509347648788298
+                "trigger": 0.009300455506791263
               },
               {
-                "NONE": 0.11363645018663529
+                "NONE": 0.019388874091876302
               }
             ],
             "featVector": [
@@ -2037,19 +2037,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004017364213310631
+                "result": 0.011086796039305116
               },
               {
-                "enabler": 5.459020327220149E-4
+                "enabler": 0.001644203762554074
               },
               {
-                "undergoer": 0.0010326044005110166
+                "undergoer": 0.001979962298876492
               },
               {
-                "trigger": 0.9811215941109759
+                "trigger": 0.9723965351242001
               },
               {
-                "NONE": 0.01328253524248052
+                "NONE": 0.012892502775064223
               }
             ],
             "featVector": [
@@ -2071,19 +2071,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004017364213310631
+                "result": 0.011086796039305116
               },
               {
-                "enabler": 5.459020327220149E-4
+                "enabler": 0.001644203762554074
               },
               {
-                "undergoer": 0.0010326044005110166
+                "undergoer": 0.001979962298876492
               },
               {
-                "trigger": 0.9811215941109759
+                "trigger": 0.9723965351242001
               },
               {
-                "NONE": 0.01328253524248052
+                "NONE": 0.012892502775064223
               }
             ],
             "featVector": [
@@ -2103,19 +2103,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.8245701144811676
+                "result": 0.9205072959387764
               },
               {
-                "enabler": 0.040009426303666974
+                "enabler": 0.040343551032988104
               },
               {
-                "undergoer": 0.01627466137974193
+                "undergoer": 0.010459823429568015
               },
               {
-                "trigger": 0.005509347648788298
+                "trigger": 0.009300455506791263
               },
               {
-                "NONE": 0.11363645018663529
+                "NONE": 0.019388874091876302
               }
             ],
             "featVector": [
@@ -2198,19 +2198,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016492888638408407
+                "result": 0.0016085321085855166
               },
               {
-                "enabler": 5.671133132870325E-4
+                "enabler": 0.0022843746477213345
               },
               {
-                "undergoer": 4.90663760619013E-4
+                "undergoer": 0.0015854322888140876
               },
               {
-                "trigger": 0.5573525251889984
+                "trigger": 0.9751291681059991
               },
               {
-                "NONE": 0.43994040887325464
+                "NONE": 0.01939249284887983
               }
             ],
             "featVector": [
@@ -2230,19 +2230,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.6572971413405716
+                "result": 0.7125849282871737
               },
               {
-                "enabler": 0.06010186288280601
+                "enabler": 0.07248254226909723
               },
               {
-                "undergoer": 0.0804358156209434
+                "undergoer": 0.12236535862553516
               },
               {
-                "trigger": 0.005465008442974237
+                "trigger": 0.010343584336968921
               },
               {
-                "NONE": 0.1967001717127046
+                "NONE": 0.08222358648122499
               }
             ],
             "featVector": [
@@ -2262,19 +2262,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.06007319261514008
+                "result": 0.06899958482173256
               },
               {
-                "enabler": 0.025635796337452346
+                "enabler": 0.026779022142672974
               },
               {
-                "undergoer": 0.7604684381717047
+                "undergoer": 0.8679569119050026
               },
               {
-                "trigger": 0.01776226046808784
+                "trigger": 0.02269960399966175
               },
               {
-                "NONE": 0.13606031240761501
+                "NONE": 0.01356487713093016
               }
             ],
             "featVector": [
@@ -2366,19 +2366,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016492888638408407
+                "result": 0.0016085321085855166
               },
               {
-                "enabler": 5.671133132870325E-4
+                "enabler": 0.0022843746477213345
               },
               {
-                "undergoer": 4.90663760619013E-4
+                "undergoer": 0.0015854322888140876
               },
               {
-                "trigger": 0.5573525251889984
+                "trigger": 0.9751291681059991
               },
               {
-                "NONE": 0.43994040887325464
+                "NONE": 0.01939249284887983
               }
             ],
             "featVector": [
@@ -2436,19 +2436,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016492888638408407
+                "result": 0.0016085321085855166
               },
               {
-                "enabler": 5.671133132870325E-4
+                "enabler": 0.0022843746477213345
               },
               {
-                "undergoer": 4.90663760619013E-4
+                "undergoer": 0.0015854322888140876
               },
               {
-                "trigger": 0.5573525251889984
+                "trigger": 0.9751291681059991
               },
               {
-                "NONE": 0.43994040887325464
+                "NONE": 0.01939249284887983
               }
             ],
             "featVector": [
@@ -2468,19 +2468,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016492888638408407
+                "result": 0.0016085321085855166
               },
               {
-                "enabler": 5.671133132870325E-4
+                "enabler": 0.0022843746477213345
               },
               {
-                "undergoer": 4.90663760619013E-4
+                "undergoer": 0.0015854322888140876
               },
               {
-                "trigger": 0.5573525251889984
+                "trigger": 0.9751291681059991
               },
               {
-                "NONE": 0.43994040887325464
+                "NONE": 0.01939249284887983
               }
             ],
             "featVector": [
@@ -2500,19 +2500,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.06007319261514008
+                "result": 0.06899958482173256
               },
               {
-                "enabler": 0.025635796337452346
+                "enabler": 0.026779022142672974
               },
               {
-                "undergoer": 0.7604684381717047
+                "undergoer": 0.8679569119050026
               },
               {
-                "trigger": 0.01776226046808784
+                "trigger": 0.02269960399966175
               },
               {
-                "NONE": 0.13606031240761501
+                "NONE": 0.01356487713093016
               }
             ],
             "featVector": [
@@ -2532,19 +2532,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.6572971413405716
+                "result": 0.7125849282871737
               },
               {
-                "enabler": 0.06010186288280601
+                "enabler": 0.07248254226909723
               },
               {
-                "undergoer": 0.0804358156209434
+                "undergoer": 0.12236535862553516
               },
               {
-                "trigger": 0.005465008442974237
+                "trigger": 0.010343584336968921
               },
               {
-                "NONE": 0.1967001717127046
+                "NONE": 0.08222358648122499
               }
             ],
             "featVector": [
@@ -2605,22 +2605,22 @@
             "text": "breaking",
             "annotatedRole": "trigger",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.009447144922288646
+                "result": 0.1141702225864233
               },
               {
-                "enabler": 0.006411265813702572
+                "enabler": 0.008296226295968118
               },
               {
-                "undergoer": 4.5118417716494264E-4
+                "undergoer": 0.0015668586075371482
               },
               {
-                "trigger": 0.41823206933044593
+                "trigger": 0.8659427787752618
               },
               {
-                "NONE": 0.5654583357563979
+                "NONE": 0.010023913734809611
               }
             ],
             "featVector": [
@@ -2639,22 +2639,22 @@
             "text": "breaking",
             "annotatedRole": "trigger",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.009447144922288646
+                "result": 0.1141702225864233
               },
               {
-                "enabler": 0.006411265813702572
+                "enabler": 0.008296226295968118
               },
               {
-                "undergoer": 4.5118417716494264E-4
+                "undergoer": 0.0015668586075371482
               },
               {
-                "trigger": 0.41823206933044593
+                "trigger": 0.8659427787752618
               },
               {
-                "NONE": 0.5654583357563979
+                "NONE": 0.010023913734809611
               }
             ],
             "featVector": [
@@ -2680,19 +2680,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.23266939698186653
+                "result": 0.21288219063744493
               },
               {
-                "enabler": 0.04643888510104182
+                "enabler": 0.06545335388341561
               },
               {
-                "undergoer": 0.6484006991950616
+                "undergoer": 0.7019809122247607
               },
               {
-                "trigger": 0.004462190649600684
+                "trigger": 0.0058023292687442935
               },
               {
-                "NONE": 0.06802882807242937
+                "NONE": 0.013881213985634576
               }
             ],
             "featVector": [
@@ -2714,19 +2714,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.23266939698186653
+                "result": 0.21288219063744493
               },
               {
-                "enabler": 0.04643888510104182
+                "enabler": 0.06545335388341561
               },
               {
-                "undergoer": 0.6484006991950616
+                "undergoer": 0.7019809122247607
               },
               {
-                "trigger": 0.004462190649600684
+                "trigger": 0.0058023292687442935
               },
               {
-                "NONE": 0.06802882807242937
+                "NONE": 0.013881213985634576
               }
             ],
             "featVector": [
@@ -2752,19 +2752,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.1398509284059693
+                "result": 0.20297886442627128
               },
               {
-                "enabler": 0.024671986490639314
+                "enabler": 0.027689596710712472
               },
               {
-                "undergoer": 0.756242378335051
+                "undergoer": 0.7450069360526035
               },
               {
-                "trigger": 0.023138296316685868
+                "trigger": 0.016634738531369975
               },
               {
-                "NONE": 0.05609641045165444
+                "NONE": 0.007689864279042973
               }
             ],
             "featVector": [
@@ -2784,19 +2784,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.00326737036882844
+                "result": 0.004099205797809413
               },
               {
-                "enabler": 4.956497054851164E-4
+                "enabler": 0.0019700960336828644
               },
               {
-                "undergoer": 0.0011778524207800545
+                "undergoer": 0.0029589689383162036
               },
               {
-                "trigger": 0.6041700973203958
+                "trigger": 0.976176325682882
               },
               {
-                "NONE": 0.39088903018451077
+                "NONE": 0.014795403547309535
               }
             ],
             "featVector": [
@@ -2818,19 +2818,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.1398509284059693
+                "result": 0.20297886442627128
               },
               {
-                "enabler": 0.024671986490639314
+                "enabler": 0.027689596710712472
               },
               {
-                "undergoer": 0.756242378335051
+                "undergoer": 0.7450069360526035
               },
               {
-                "trigger": 0.023138296316685868
+                "trigger": 0.016634738531369975
               },
               {
-                "NONE": 0.05609641045165444
+                "NONE": 0.007689864279042973
               }
             ],
             "featVector": [
@@ -2850,19 +2850,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.00326737036882844
+                "result": 0.004099205797809413
               },
               {
-                "enabler": 4.956497054851164E-4
+                "enabler": 0.0019700960336828644
               },
               {
-                "undergoer": 0.0011778524207800545
+                "undergoer": 0.0029589689383162036
               },
               {
-                "trigger": 0.6041700973203958
+                "trigger": 0.976176325682882
               },
               {
-                "NONE": 0.39088903018451077
+                "NONE": 0.014795403547309535
               }
             ],
             "featVector": [
@@ -2888,19 +2888,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.06007319261514008
+                "result": 0.06899958482173256
               },
               {
-                "enabler": 0.025635796337452346
+                "enabler": 0.026779022142672974
               },
               {
-                "undergoer": 0.7604684381717047
+                "undergoer": 0.8679569119050026
               },
               {
-                "trigger": 0.01776226046808784
+                "trigger": 0.02269960399966175
               },
               {
-                "NONE": 0.13606031240761501
+                "NONE": 0.01356487713093016
               }
             ],
             "featVector": [
@@ -2917,22 +2917,22 @@
             "text": "breaking down",
             "annotatedRole": "trigger",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.003731375579493247
+                "result": 0.006002298730242574
               },
               {
-                "enabler": 5.064803622505513E-4
+                "enabler": 0.0016522240278324717
               },
               {
-                "undergoer": 8.174883842916553E-4
+                "undergoer": 0.0029413185016966795
               },
               {
-                "trigger": 0.4725862661774201
+                "trigger": 0.9645097428388152
               },
               {
-                "NONE": 0.5223583894965446
+                "NONE": 0.02489441590141295
               }
             ],
             "featVector": [
@@ -2954,19 +2954,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.06007319261514008
+                "result": 0.06899958482173256
               },
               {
-                "enabler": 0.025635796337452346
+                "enabler": 0.026779022142672974
               },
               {
-                "undergoer": 0.7604684381717047
+                "undergoer": 0.8679569119050026
               },
               {
-                "trigger": 0.01776226046808784
+                "trigger": 0.02269960399966175
               },
               {
-                "NONE": 0.13606031240761501
+                "NONE": 0.01356487713093016
               }
             ],
             "featVector": [
@@ -2983,22 +2983,22 @@
             "text": "breaking down",
             "annotatedRole": "trigger",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.003731375579493247
+                "result": 0.006002298730242574
               },
               {
-                "enabler": 5.064803622505513E-4
+                "enabler": 0.0016522240278324717
               },
               {
-                "undergoer": 8.174883842916553E-4
+                "undergoer": 0.0029413185016966795
               },
               {
-                "trigger": 0.4725862661774201
+                "trigger": 0.9645097428388152
               },
               {
-                "NONE": 0.5223583894965446
+                "NONE": 0.02489441590141295
               }
             ],
             "featVector": [
@@ -3024,19 +3024,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.813705516793422
+                "result": 0.9514434357581183
               },
               {
-                "enabler": 9.897026996186916E-4
+                "enabler": 0.003093112461058971
               },
               {
-                "undergoer": 9.003343825876947E-4
+                "undergoer": 0.002691452839631252
               },
               {
-                "trigger": 0.05786234325798886
+                "trigger": 0.038007130425092024
               },
               {
-                "NONE": 0.12654210286638284
+                "NONE": 0.0047648685160994585
               }
             ],
             "featVector": [
@@ -3058,19 +3058,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.813705516793422
+                "result": 0.9514434357581183
               },
               {
-                "enabler": 9.897026996186916E-4
+                "enabler": 0.003093112461058971
               },
               {
-                "undergoer": 9.003343825876947E-4
+                "undergoer": 0.002691452839631252
               },
               {
-                "trigger": 0.05786234325798886
+                "trigger": 0.038007130425092024
               },
               {
-                "NONE": 0.12654210286638284
+                "NONE": 0.0047648685160994585
               }
             ],
             "featVector": [
@@ -3096,19 +3096,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.7704815942608797
+                "result": 0.9748998798015035
               },
               {
-                "enabler": 2.4247194250404564E-4
+                "enabler": 6.019748646742608E-4
               },
               {
-                "undergoer": 0.0011385100081773504
+                "undergoer": 0.0038512646956655244
               },
               {
-                "trigger": 0.015068084158316394
+                "trigger": 0.015337295207614189
               },
               {
-                "NONE": 0.2130693396301225
+                "NONE": 0.0053095854305425525
               }
             ],
             "featVector": [
@@ -3130,19 +3130,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.7704815942608797
+                "result": 0.9748998798015035
               },
               {
-                "enabler": 2.4247194250404564E-4
+                "enabler": 6.019748646742608E-4
               },
               {
-                "undergoer": 0.0011385100081773504
+                "undergoer": 0.0038512646956655244
               },
               {
-                "trigger": 0.015068084158316394
+                "trigger": 0.015337295207614189
               },
               {
-                "NONE": 0.2130693396301225
+                "NONE": 0.0053095854305425525
               }
             ],
             "featVector": [
@@ -3187,19 +3187,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.8396854728448788
+                "result": 0.9146054865910058
               },
               {
-                "enabler": 0.02129916977388166
+                "enabler": 0.02595893181978093
               },
               {
-                "undergoer": 0.02802463481127874
+                "undergoer": 0.026424192278367484
               },
               {
-                "trigger": 0.003806731038283107
+                "trigger": 0.007610576154727533
               },
               {
-                "NONE": 0.10718399153167775
+                "NONE": 0.025400813156118425
               }
             ],
             "featVector": [
@@ -3219,19 +3219,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016179744813966375
+                "result": 0.002974886577818409
               },
               {
-                "enabler": 8.246274517910789E-4
+                "enabler": 0.0014361255031007114
               },
               {
-                "undergoer": 4.381152083530844E-4
+                "undergoer": 9.318196168035009E-4
               },
               {
-                "trigger": 0.9672730695075603
+                "trigger": 0.9747266193340407
               },
               {
-                "NONE": 0.029846213350898865
+                "NONE": 0.019930548968236806
               }
             ],
             "featVector": [
@@ -3253,19 +3253,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016179744813966375
+                "result": 0.002974886577818409
               },
               {
-                "enabler": 8.246274517910789E-4
+                "enabler": 0.0014361255031007114
               },
               {
-                "undergoer": 4.381152083530844E-4
+                "undergoer": 9.318196168035009E-4
               },
               {
-                "trigger": 0.9672730695075603
+                "trigger": 0.9747266193340407
               },
               {
-                "NONE": 0.029846213350898865
+                "NONE": 0.019930548968236806
               }
             ],
             "featVector": [
@@ -3285,19 +3285,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.8396854728448788
+                "result": 0.9146054865910058
               },
               {
-                "enabler": 0.02129916977388166
+                "enabler": 0.02595893181978093
               },
               {
-                "undergoer": 0.02802463481127874
+                "undergoer": 0.026424192278367484
               },
               {
-                "trigger": 0.003806731038283107
+                "trigger": 0.007610576154727533
               },
               {
-                "NONE": 0.10718399153167775
+                "NONE": 0.025400813156118425
               }
             ],
             "featVector": [
@@ -3323,19 +3323,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.9371408474030818
+                "result": 0.9658093895007954
               },
               {
-                "enabler": 5.797138809681887E-4
+                "enabler": 0.0022994484144578807
               },
               {
-                "undergoer": 8.626360962667126E-4
+                "undergoer": 0.003668764186466316
               },
               {
-                "trigger": 0.013648155222719768
+                "trigger": 0.025397875307207232
               },
               {
-                "NONE": 0.04776864739696358
+                "NONE": 0.0028245225910733737
               }
             ],
             "featVector": [
@@ -3357,19 +3357,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.9371408474030818
+                "result": 0.9658093895007954
               },
               {
-                "enabler": 5.797138809681887E-4
+                "enabler": 0.0022994484144578807
               },
               {
-                "undergoer": 8.626360962667126E-4
+                "undergoer": 0.003668764186466316
               },
               {
-                "trigger": 0.013648155222719768
+                "trigger": 0.025397875307207232
               },
               {
-                "NONE": 0.04776864739696358
+                "NONE": 0.0028245225910733737
               }
             ],
             "featVector": [
@@ -3395,19 +3395,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.003396963569810826
+                "result": 0.01749674299968405
               },
               {
-                "enabler": 0.9036286560480096
+                "enabler": 0.9338597498115571
               },
               {
-                "undergoer": 0.005258501198522729
+                "undergoer": 0.010078175078649927
               },
               {
-                "trigger": 0.006097348378948677
+                "trigger": 0.021700530916461916
               },
               {
-                "NONE": 0.08161853080470811
+                "NONE": 0.01686480119364704
               }
             ],
             "featVector": [
@@ -3429,19 +3429,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.003396963569810826
+                "result": 0.01749674299968405
               },
               {
-                "enabler": 0.9036286560480096
+                "enabler": 0.9338597498115571
               },
               {
-                "undergoer": 0.005258501198522729
+                "undergoer": 0.010078175078649927
               },
               {
-                "trigger": 0.006097348378948677
+                "trigger": 0.021700530916461916
               },
               {
-                "NONE": 0.08161853080470811
+                "NONE": 0.01686480119364704
               }
             ],
             "featVector": [
@@ -3467,19 +3467,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.026343157947660994
+                "result": 0.025027758735868707
               },
               {
-                "enabler": 0.1411763614342435
+                "enabler": 0.20206803666349818
               },
               {
-                "undergoer": 0.7176888048643683
+                "undergoer": 0.7563495445886669
               },
               {
-                "trigger": 0.015612615948158437
+                "trigger": 0.009663083766098911
               },
               {
-                "NONE": 0.09917905980556882
+                "NONE": 0.00689157624586731
               }
             ],
             "featVector": [
@@ -3496,22 +3496,22 @@
             "text": "breaking down",
             "annotatedRole": "trigger",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0037745585124839887
+                "result": 0.005974604752534918
               },
               {
-                "enabler": 5.115117980348351E-4
+                "enabler": 0.001615531753704638
               },
               {
-                "undergoer": 8.34674758107585E-4
+                "undergoer": 0.0029356198078406585
               },
               {
-                "trigger": 0.4559336465389226
+                "trigger": 0.9665952722506931
               },
               {
-                "NONE": 0.5389456083924511
+                "NONE": 0.022878971435226873
               }
             ],
             "featVector": [
@@ -3533,19 +3533,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.026343157947660994
+                "result": 0.025027758735868707
               },
               {
-                "enabler": 0.1411763614342435
+                "enabler": 0.20206803666349818
               },
               {
-                "undergoer": 0.7176888048643683
+                "undergoer": 0.7563495445886669
               },
               {
-                "trigger": 0.015612615948158437
+                "trigger": 0.009663083766098911
               },
               {
-                "NONE": 0.09917905980556882
+                "NONE": 0.00689157624586731
               }
             ],
             "featVector": [
@@ -3562,22 +3562,22 @@
             "text": "breaking down",
             "annotatedRole": "trigger",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0037745585124839887
+                "result": 0.005974604752534918
               },
               {
-                "enabler": 5.115117980348351E-4
+                "enabler": 0.001615531753704638
               },
               {
-                "undergoer": 8.34674758107585E-4
+                "undergoer": 0.0029356198078406585
               },
               {
-                "trigger": 0.4559336465389226
+                "trigger": 0.9665952722506931
               },
               {
-                "NONE": 0.5389456083924511
+                "NONE": 0.022878971435226873
               }
             ],
             "featVector": [
@@ -3600,27 +3600,27 @@
             "text": "causes",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.006968898147533427
+                "result": 0.6690794693412252
               },
               {
-                "enabler": 5.040060235160716E-4
+                "enabler": 0.0017545995489825486
               },
               {
-                "undergoer": 2.2300757213500412E-4
+                "undergoer": 0.0018248033711604904
               },
               {
-                "trigger": 9.790584045334355E-4
+                "trigger": 0.1841113975914416
               },
               {
-                "NONE": 0.9913250298522822
+                "NONE": 0.14322973014719012
               }
             ],
             "featVector": [
               {
-                "Multi": "-10 63:1 153:1 627:1 647:1 902:1 926:1 1674:1 2055:1 2402:1 2406:1 2419:1 2436:1 2437:1 2441:1 3373:1"
+                "Multi": "-10 63:1 153:1 627:1 647:1 902:1 927:1 1674:1 2055:1 2402:1 2406:1 2419:1 2436:1 2437:1 2441:1 3373:1"
               }
             ]
           },
@@ -3632,22 +3632,22 @@
             "text": "deep weathering",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.024723707690452044
+                "result": 0.42039319448484336
               },
               {
-                "enabler": 4.983031303161856E-4
+                "enabler": 0.0011398577355307086
               },
               {
-                "undergoer": 9.835389545935697E-4
+                "undergoer": 0.002041257165638848
               },
               {
-                "trigger": 0.022015948484331565
+                "trigger": 0.5526312928449119
               },
               {
-                "NONE": 0.9517785017403065
+                "NONE": 0.023794397769075014
               }
             ],
             "featVector": [
@@ -3667,19 +3667,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.4716690264292301
+                "result": 0.9138290278238558
               },
               {
-                "enabler": 0.03765092290395708
+                "enabler": 0.06152961971433088
               },
               {
-                "undergoer": 0.005376926750004546
+                "undergoer": 0.010219828785729973
               },
               {
-                "trigger": 0.023307951501029812
+                "trigger": 0.009315776540780312
               },
               {
-                "NONE": 0.4619951724157785
+                "NONE": 0.005105747135302951
               }
             ],
             "featVector": [
@@ -3699,19 +3699,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.4716690264292301
+                "result": 0.9138290278238558
               },
               {
-                "enabler": 0.03765092290395708
+                "enabler": 0.06152961971433088
               },
               {
-                "undergoer": 0.005376926750004546
+                "undergoer": 0.010219828785729973
               },
               {
-                "trigger": 0.023307951501029812
+                "trigger": 0.009315776540780312
               },
               {
-                "NONE": 0.4619951724157785
+                "NONE": 0.005105747135302951
               }
             ],
             "featVector": [
@@ -3838,22 +3838,22 @@
             "text": "deep weathering",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.024723707690452044
+                "result": 0.42039319448484336
               },
               {
-                "enabler": 4.983031303161856E-4
+                "enabler": 0.0011398577355307086
               },
               {
-                "undergoer": 9.835389545935697E-4
+                "undergoer": 0.002041257165638848
               },
               {
-                "trigger": 0.022015948484331565
+                "trigger": 0.5526312928449119
               },
               {
-                "NONE": 0.9517785017403065
+                "NONE": 0.023794397769075014
               }
             ],
             "featVector": [
@@ -3873,19 +3873,51 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.4716690264292301
+                "result": 0.9138290278238558
               },
               {
-                "enabler": 0.03765092290395708
+                "enabler": 0.06152961971433088
               },
               {
-                "undergoer": 0.005376926750004546
+                "undergoer": 0.010219828785729973
               },
               {
-                "trigger": 0.023307951501029812
+                "trigger": 0.009315776540780312
               },
               {
-                "NONE": 0.4619951724157785
+                "NONE": 0.005105747135302951
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 63:1 229:1 628:1 690:1 903:1 919:1 939:1 1753:1 2136:1 2405:1 2409:1 2438:1 2446:1 2476:1"
+              }
+            ]
+          },
+          {
+            "argId": 2,
+            "startIdx": 4,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the formation of many secondary and supergene ores bauxite , iron ores , saprolitic gold , supergene copper , uranium and heavy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.9138290278238558
+              },
+              {
+                "enabler": 0.06152961971433088
+              },
+              {
+                "undergoer": 0.010219828785729973
+              },
+              {
+                "trigger": 0.009315776540780312
+              },
+              {
+                "NONE": 0.005105747135302951
               }
             ],
             "featVector": [
@@ -3902,59 +3934,27 @@
             "text": "causes",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
-            "probRoles": [
-              {
-                "result": 0.006968898147533427
-              },
-              {
-                "enabler": 5.040060235160716E-4
-              },
-              {
-                "undergoer": 2.2300757213500412E-4
-              },
-              {
-                "trigger": 9.790584045334355E-4
-              },
-              {
-                "NONE": 0.9913250298522822
-              }
-            ],
-            "featVector": [
-              {
-                "Multi": "-10 63:1 153:1 627:1 647:1 902:1 926:1 1674:1 2055:1 2402:1 2406:1 2419:1 2436:1 2437:1 2441:1 3373:1"
-              }
-            ]
-          },
-          {
-            "argId": 2,
-            "startIdx": 4,
-            "endIdx": 25,
-            "pattern": "\u003cprocess name\u003e causes *",
-            "text": "the formation of many secondary and supergene ores bauxite , iron ores , saprolitic gold , supergene copper , uranium and heavy",
-            "annotatedRole": "enabler",
-            "annotatedLabel": "",
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.4716690264292301
+                "result": 0.6690794693412252
               },
               {
-                "enabler": 0.03765092290395708
+                "enabler": 0.0017545995489825486
               },
               {
-                "undergoer": 0.005376926750004546
+                "undergoer": 0.0018248033711604904
               },
               {
-                "trigger": 0.023307951501029812
+                "trigger": 0.1841113975914416
               },
               {
-                "NONE": 0.4619951724157785
+                "NONE": 0.14322973014719012
               }
             ],
             "featVector": [
               {
-                "Multi": "-10 63:1 229:1 628:1 690:1 903:1 919:1 939:1 1753:1 2136:1 2405:1 2409:1 2438:1 2446:1 2476:1"
+                "Multi": "-10 63:1 153:1 627:1 647:1 902:1 927:1 1674:1 2055:1 2402:1 2406:1 2419:1 2436:1 2437:1 2441:1 3373:1"
               }
             ]
           }
@@ -3975,19 +3975,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.07183721483264181
+                "result": 0.07360908029821263
               },
               {
-                "enabler": 0.08021947801891494
+                "enabler": 0.11360695570927536
               },
               {
-                "undergoer": 0.6337678733011857
+                "undergoer": 0.7955496773370007
               },
               {
-                "trigger": 0.0016305002351437302
+                "trigger": 0.0021013529353122277
               },
               {
-                "NONE": 0.2125449336121138
+                "NONE": 0.015132933720199146
               }
             ],
             "featVector": [
@@ -4007,19 +4007,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001089019921733728
+                "result": 0.001526341766767957
               },
               {
-                "enabler": 7.424352752092302E-4
+                "enabler": 0.002519565864005778
               },
               {
-                "undergoer": 5.227545976239741E-4
+                "undergoer": 0.0016505216166994461
               },
               {
-                "trigger": 0.8057261249503401
+                "trigger": 0.9697588502114938
               },
               {
-                "NONE": 0.19191966525509294
+                "NONE": 0.0245447205410331
               }
             ],
             "featVector": [
@@ -4041,19 +4041,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.07183721483264181
+                "result": 0.07360908029821263
               },
               {
-                "enabler": 0.08021947801891494
+                "enabler": 0.11360695570927536
               },
               {
-                "undergoer": 0.6337678733011857
+                "undergoer": 0.7955496773370007
               },
               {
-                "trigger": 0.0016305002351437302
+                "trigger": 0.0021013529353122277
               },
               {
-                "NONE": 0.2125449336121138
+                "NONE": 0.015132933720199146
               }
             ],
             "featVector": [
@@ -4073,19 +4073,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001089019921733728
+                "result": 0.001526341766767957
               },
               {
-                "enabler": 7.424352752092302E-4
+                "enabler": 0.002519565864005778
               },
               {
-                "undergoer": 5.227545976239741E-4
+                "undergoer": 0.0016505216166994461
               },
               {
-                "trigger": 0.8057261249503401
+                "trigger": 0.9697588502114938
               },
               {
-                "NONE": 0.19191966525509294
+                "NONE": 0.0245447205410331
               }
             ],
             "featVector": [
@@ -4111,19 +4111,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0015053698304031344
+                "result": 0.0050843928717892875
               },
               {
-                "enabler": 0.0018957053464855413
+                "enabler": 0.0044356973013362
               },
               {
-                "undergoer": 1.2254617731820676E-4
+                "undergoer": 9.530848164898792E-4
               },
               {
-                "trigger": 0.9534541950358056
+                "trigger": 0.9822523004113678
               },
               {
-                "NONE": 0.04302218360998745
+                "NONE": 0.007274524599016821
               }
             ],
             "featVector": [
@@ -4145,19 +4145,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0015053698304031344
+                "result": 0.0050843928717892875
               },
               {
-                "enabler": 0.0018957053464855413
+                "enabler": 0.0044356973013362
               },
               {
-                "undergoer": 1.2254617731820676E-4
+                "undergoer": 9.530848164898792E-4
               },
               {
-                "trigger": 0.9534541950358056
+                "trigger": 0.9822523004113678
               },
               {
-                "NONE": 0.04302218360998745
+                "NONE": 0.007274524599016821
               }
             ],
             "featVector": [
@@ -4207,19 +4207,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.009020783669529466
+                "result": 0.007428679311430921
               },
               {
-                "enabler": 0.008726728294176334
+                "enabler": 0.016527131978603355
               },
               {
-                "undergoer": 0.0011437207546523673
+                "undergoer": 0.0023489229487462233
               },
               {
-                "trigger": 0.7934908043160346
+                "trigger": 0.9428773442080971
               },
               {
-                "NONE": 0.1876179629656074
+                "NONE": 0.030817921553122442
               }
             ],
             "featVector": [
@@ -4241,19 +4241,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.009020783669529466
+                "result": 0.007428679311430921
               },
               {
-                "enabler": 0.008726728294176334
+                "enabler": 0.016527131978603355
               },
               {
-                "undergoer": 0.0011437207546523673
+                "undergoer": 0.0023489229487462233
               },
               {
-                "trigger": 0.7934908043160346
+                "trigger": 0.9428773442080971
               },
               {
-                "NONE": 0.1876179629656074
+                "NONE": 0.030817921553122442
               }
             ],
             "featVector": [
@@ -4281,22 +4281,22 @@
             "text": "have",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.13848069914350844
+                "result": 0.7423640439936581
               },
               {
-                "enabler": 2.463517286221823E-4
+                "enabler": 8.895674872846961E-4
               },
               {
-                "undergoer": 0.0011763318871476657
+                "undergoer": 0.002735144797768402
               },
               {
-                "trigger": 0.0600083038515739
+                "trigger": 0.19721134725315284
               },
               {
-                "NONE": 0.8000883133891478
+                "NONE": 0.056799896468136074
               }
             ],
             "featVector": [
@@ -4313,22 +4313,22 @@
             "text": "students",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.09578782642171989
+                "result": 0.40983312008518064
               },
               {
-                "enabler": 0.020525136734944043
+                "enabler": 0.0839868822220789
               },
               {
-                "undergoer": 0.041618026509456396
+                "undergoer": 0.20198550563417775
               },
               {
-                "trigger": 0.019658311274742504
+                "trigger": 0.1061055609621965
               },
               {
-                "NONE": 0.8224106990591371
+                "NONE": 0.19808893109636638
               }
             ],
             "featVector": [
@@ -4348,19 +4348,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.043243176477241005
+                "result": 0.3191051654199121
               },
               {
-                "enabler": 0.009990712770544582
+                "enabler": 0.04531491265011108
               },
               {
-                "undergoer": 0.016037451451351832
+                "undergoer": 0.08187486718741933
               },
               {
-                "trigger": 0.021914494149788775
+                "trigger": 0.18315101721040003
               },
               {
-                "NONE": 0.9088141651510738
+                "NONE": 0.3705540375321575
               }
             ],
             "featVector": [
@@ -4377,22 +4377,22 @@
             "text": "the understanding that evolution is the process by which life progresses from one form into another",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.09100132206022242
+                "result": 0.551094398923744
               },
               {
-                "enabler": 0.01314832321070178
+                "enabler": 0.18517258040071022
               },
               {
-                "undergoer": 0.010145876936876758
+                "undergoer": 0.0740562453780541
               },
               {
-                "trigger": 0.006749226534428058
+                "trigger": 0.08273203842034114
               },
               {
-                "NONE": 0.878955251257771
+                "NONE": 0.10694473687715043
               }
             ],
             "featVector": [
@@ -4412,19 +4412,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004347232639864353
+                "result": 0.008287503334558256
               },
               {
-                "enabler": 0.0035538258954224806
+                "enabler": 0.012607882689217366
               },
               {
-                "undergoer": 0.002572894098653075
+                "undergoer": 0.007422256399918149
               },
               {
-                "trigger": 0.5215374613842475
+                "trigger": 0.9302498048119726
               },
               {
-                "NONE": 0.46798858598181253
+                "NONE": 0.04143255276433355
               }
             ],
             "featVector": [
@@ -4465,22 +4465,22 @@
             "text": "from one form",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.048603294456598785
+                "result": 0.28128476952572645
               },
               {
-                "enabler": 0.011139140982182091
+                "enabler": 0.09319860315961384
               },
               {
-                "undergoer": 0.0906544465999759
+                "undergoer": 0.3623468446832616
               },
               {
-                "trigger": 0.011304936422505064
+                "trigger": 0.10038910726481232
               },
               {
-                "NONE": 0.8382981815387381
+                "NONE": 0.16278067536658583
               }
             ],
             "featVector": [
@@ -4763,22 +4763,22 @@
             "text": "students",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.09578782642171989
+                "result": 0.40983312008518064
               },
               {
-                "enabler": 0.020525136734944043
+                "enabler": 0.0839868822220789
               },
               {
-                "undergoer": 0.041618026509456396
+                "undergoer": 0.20198550563417775
               },
               {
-                "trigger": 0.019658311274742504
+                "trigger": 0.1061055609621965
               },
               {
-                "NONE": 0.8224106990591371
+                "NONE": 0.19808893109636638
               }
             ],
             "featVector": [
@@ -4798,19 +4798,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004347232639864353
+                "result": 0.008287503334558256
               },
               {
-                "enabler": 0.0035538258954224806
+                "enabler": 0.012607882689217366
               },
               {
-                "undergoer": 0.002572894098653075
+                "undergoer": 0.007422256399918149
               },
               {
-                "trigger": 0.5215374613842475
+                "trigger": 0.9302498048119726
               },
               {
-                "NONE": 0.46798858598181253
+                "NONE": 0.04143255276433355
               }
             ],
             "featVector": [
@@ -4830,19 +4830,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.043243176477241005
+                "result": 0.3191051654199121
               },
               {
-                "enabler": 0.009990712770544582
+                "enabler": 0.04531491265011108
               },
               {
-                "undergoer": 0.016037451451351832
+                "undergoer": 0.08187486718741933
               },
               {
-                "trigger": 0.021914494149788775
+                "trigger": 0.18315101721040003
               },
               {
-                "NONE": 0.9088141651510738
+                "NONE": 0.3705540375321575
               }
             ],
             "featVector": [
@@ -4859,22 +4859,22 @@
             "text": "have",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.13848069914350844
+                "result": 0.7423640439936581
               },
               {
-                "enabler": 2.463517286221823E-4
+                "enabler": 8.895674872846961E-4
               },
               {
-                "undergoer": 0.0011763318871476657
+                "undergoer": 0.002735144797768402
               },
               {
-                "trigger": 0.0600083038515739
+                "trigger": 0.19721134725315284
               },
               {
-                "NONE": 0.8000883133891478
+                "NONE": 0.056799896468136074
               }
             ],
             "featVector": [
@@ -4891,22 +4891,22 @@
             "text": "the understanding that evolution is the process by which life progresses from one form into another",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.09100132206022242
+                "result": 0.551094398923744
               },
               {
-                "enabler": 0.01314832321070178
+                "enabler": 0.18517258040071022
               },
               {
-                "undergoer": 0.010145876936876758
+                "undergoer": 0.0740562453780541
               },
               {
-                "trigger": 0.006749226534428058
+                "trigger": 0.08273203842034114
               },
               {
-                "NONE": 0.878955251257771
+                "NONE": 0.10694473687715043
               }
             ],
             "featVector": [
@@ -4923,22 +4923,22 @@
             "text": "from one form",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.048603294456598785
+                "result": 0.28128476952572645
               },
               {
-                "enabler": 0.011139140982182091
+                "enabler": 0.09319860315961384
               },
               {
-                "undergoer": 0.0906544465999759
+                "undergoer": 0.3623468446832616
               },
               {
-                "trigger": 0.011304936422505064
+                "trigger": 0.10038910726481232
               },
               {
-                "NONE": 0.8382981815387381
+                "NONE": 0.16278067536658583
               }
             ],
             "featVector": [
@@ -4964,19 +4964,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.028806399678172778
+                "result": 0.016540400494933577
               },
               {
-                "enabler": 0.006218416083893051
+                "enabler": 0.02407732426858044
               },
               {
-                "undergoer": 0.0031137020341184154
+                "undergoer": 0.010151015880446576
               },
               {
-                "trigger": 0.9142924107888598
+                "trigger": 0.9035270013269804
               },
               {
-                "NONE": 0.047569071414956
+                "NONE": 0.045704258029059086
               }
             ],
             "featVector": [
@@ -4998,19 +4998,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.028806399678172778
+                "result": 0.016540400494933577
               },
               {
-                "enabler": 0.006218416083893051
+                "enabler": 0.02407732426858044
               },
               {
-                "undergoer": 0.0031137020341184154
+                "undergoer": 0.010151015880446576
               },
               {
-                "trigger": 0.9142924107888598
+                "trigger": 0.9035270013269804
               },
               {
-                "NONE": 0.047569071414956
+                "NONE": 0.045704258029059086
               }
             ],
             "featVector": [
@@ -5036,19 +5036,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.005413322126455579
+                "result": 0.0063727422092090145
               },
               {
-                "enabler": 0.0032760361876598056
+                "enabler": 0.00878007664517238
               },
               {
-                "undergoer": 0.0024330924251493966
+                "undergoer": 0.0057691072269039235
               },
               {
-                "trigger": 0.8135831152773636
+                "trigger": 0.9479800618956012
               },
               {
-                "NONE": 0.1752944339833715
+                "NONE": 0.031098012023113325
               }
             ],
             "featVector": [
@@ -5089,22 +5089,22 @@
             "text": "from one form",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.11929013255836615
+                "result": 0.5787813680054246
               },
               {
-                "enabler": 0.007418148458789382
+                "enabler": 0.04514292735306658
               },
               {
-                "undergoer": 0.048799804491526794
+                "undergoer": 0.17695191990129125
               },
               {
-                "trigger": 0.009924637579581334
+                "trigger": 0.06905412474759653
               },
               {
-                "NONE": 0.8145672769117362
+                "NONE": 0.13006965999262107
               }
             ],
             "featVector": [
@@ -5246,19 +5246,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.005413322126455579
+                "result": 0.0063727422092090145
               },
               {
-                "enabler": 0.0032760361876598056
+                "enabler": 0.00878007664517238
               },
               {
-                "undergoer": 0.0024330924251493966
+                "undergoer": 0.0057691072269039235
               },
               {
-                "trigger": 0.8135831152773636
+                "trigger": 0.9479800618956012
               },
               {
-                "NONE": 0.1752944339833715
+                "NONE": 0.031098012023113325
               }
             ],
             "featVector": [
@@ -5275,22 +5275,22 @@
             "text": "from one form",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.11929013255836615
+                "result": 0.5787813680054246
               },
               {
-                "enabler": 0.007418148458789382
+                "enabler": 0.04514292735306658
               },
               {
-                "undergoer": 0.048799804491526794
+                "undergoer": 0.17695191990129125
               },
               {
-                "trigger": 0.009924637579581334
+                "trigger": 0.06905412474759653
               },
               {
-                "NONE": 0.8145672769117362
+                "NONE": 0.13006965999262107
               }
             ],
             "featVector": [
@@ -5321,19 +5321,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.772286955901714E-4
+                "result": 0.0013518167194190138
               },
               {
-                "enabler": 7.465521577829557E-4
+                "enabler": 0.002322836409023749
               },
               {
-                "undergoer": 5.286729058601326E-4
+                "undergoer": 0.0016133773612553143
               },
               {
-                "trigger": 0.7621831968501228
+                "trigger": 0.9322833095366658
               },
               {
-                "NONE": 0.23576434939064397
+                "NONE": 0.06242865997363601
               }
             ],
             "featVector": [
@@ -5355,19 +5355,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.772286955901714E-4
+                "result": 0.0013518167194190138
               },
               {
-                "enabler": 7.465521577829557E-4
+                "enabler": 0.002322836409023749
               },
               {
-                "undergoer": 5.286729058601326E-4
+                "undergoer": 0.0016133773612553143
               },
               {
-                "trigger": 0.7621831968501228
+                "trigger": 0.9322833095366658
               },
               {
-                "NONE": 0.23576434939064397
+                "NONE": 0.06242865997363601
               }
             ],
             "featVector": [
@@ -5393,19 +5393,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001096907672672392
+                "result": 0.0017795049582772185
               },
               {
-                "enabler": 0.0010090576193810305
+                "enabler": 0.003683197256219763
               },
               {
-                "undergoer": 3.0273407452484114E-4
+                "undergoer": 9.981420284640994E-4
               },
               {
-                "trigger": 0.8955289759768341
+                "trigger": 0.9763443670861812
               },
               {
-                "NONE": 0.10206232465658753
+                "NONE": 0.017194788670857716
               }
             ],
             "featVector": [
@@ -5427,19 +5427,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001096907672672392
+                "result": 0.0017795049582772185
               },
               {
-                "enabler": 0.0010090576193810305
+                "enabler": 0.003683197256219763
               },
               {
-                "undergoer": 3.0273407452484114E-4
+                "undergoer": 9.981420284640994E-4
               },
               {
-                "trigger": 0.8955289759768341
+                "trigger": 0.9763443670861812
               },
               {
-                "NONE": 0.10206232465658753
+                "NONE": 0.017194788670857716
               }
             ],
             "featVector": [
@@ -5465,19 +5465,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.584025857684868E-4
+                "result": 0.0013482365563210635
               },
               {
-                "enabler": 6.755650636549647E-4
+                "enabler": 0.002319207622115826
               },
               {
-                "undergoer": 4.923073369729805E-4
+                "undergoer": 0.0016154203354668023
               },
               {
-                "trigger": 0.7684941066271023
+                "trigger": 0.9361812327627107
               },
               {
-                "NONE": 0.22957961838650126
+                "NONE": 0.05853590272338553
               }
             ],
             "featVector": [
@@ -5497,19 +5497,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.584025857684868E-4
+                "result": 0.0013482365563210635
               },
               {
-                "enabler": 6.755650636549647E-4
+                "enabler": 0.002319207622115826
               },
               {
-                "undergoer": 4.923073369729805E-4
+                "undergoer": 0.0016154203354668023
               },
               {
-                "trigger": 0.7684941066271023
+                "trigger": 0.9361812327627107
               },
               {
-                "NONE": 0.22957961838650126
+                "NONE": 0.05853590272338553
               }
             ],
             "featVector": [
@@ -5529,19 +5529,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.5145351013774361
+                "result": 0.6397751232208883
               },
               {
-                "enabler": 0.042414876938285696
+                "enabler": 0.10209261774625461
               },
               {
-                "undergoer": 0.13328271332301467
+                "undergoer": 0.22449601270329128
               },
               {
-                "trigger": 0.0018847597389757783
+                "trigger": 0.00461593448843082
               },
               {
-                "NONE": 0.3078825486222878
+                "NONE": 0.029020311841134898
               }
             ],
             "featVector": [
@@ -5570,22 +5570,22 @@
             "text": "use",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.0379187151408017
+                "result": 0.4560282667630965
               },
               {
-                "enabler": 4.35266358640658E-4
+                "enabler": 0.0016805764340963917
               },
               {
-                "undergoer": 0.004647712212536067
+                "undergoer": 0.019316841155549075
               },
               {
-                "trigger": 0.020858686648338853
+                "trigger": 0.09633950988972963
               },
               {
-                "NONE": 0.9361396196396827
+                "NONE": 0.42663480575752843
               }
             ],
             "featVector": [
@@ -5605,19 +5605,19 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.01246992438260456
+                "result": 0.02316210967755765
               },
               {
-                "enabler": 0.011752628372988938
+                "enabler": 0.014239083949373028
               },
               {
-                "undergoer": 0.8799572860954418
+                "undergoer": 0.9090673601487019
               },
               {
-                "trigger": 0.02442501581125817
+                "trigger": 0.03309699833619964
               },
               {
-                "NONE": 0.07139514533770656
+                "NONE": 0.020434447888167843
               }
             ],
             "featVector": [
@@ -5634,22 +5634,22 @@
             "text": "can",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.00870079378642625
+                "result": 0.0400639493854179
               },
               {
-                "enabler": 0.008056116288450819
+                "enabler": 0.018802976989954142
               },
               {
-                "undergoer": 0.3621329476244875
+                "undergoer": 0.7254635267408177
               },
               {
-                "trigger": 0.030049799306264686
+                "trigger": 0.10905171014186141
               },
               {
-                "NONE": 0.5910603429943708
+                "NONE": 0.10661783674194876
               }
             ],
             "featVector": [
@@ -5908,59 +5908,27 @@
             "text": "can",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.00870079378642625
+                "result": 0.0400639493854179
               },
               {
-                "enabler": 0.008056116288450819
+                "enabler": 0.018802976989954142
               },
               {
-                "undergoer": 0.3621329476244875
+                "undergoer": 0.7254635267408177
               },
               {
-                "trigger": 0.030049799306264686
+                "trigger": 0.10905171014186141
               },
               {
-                "NONE": 0.5910603429943708
+                "NONE": 0.10661783674194876
               }
             ],
             "featVector": [
               {
                 "Multi": "-10 56:1 158:1 639:1 671:1 912:1 3495:1 3508:1 3516:1 3527:1 3530:1 3548:1 3565:1 3566:1 3570:1 3653:1 3738:1 3768:1 3837:1 3847:1 3852:1 3869:1 3943:1 3948:1 3958:1 3961:1 3994:1 4048:1 4134:1 4280:1 4328:1 4330:1 4332:1 4446:1 4454:1"
-              }
-            ]
-          },
-          {
-            "argId": 4,
-            "startIdx": 17,
-            "endIdx": 17,
-            "pattern": "\u003cprocess name\u003e is the process of *",
-            "text": "use",
-            "annotatedRole": "enabler",
-            "annotatedLabel": "",
-            "rolePredicted": "NONE",
-            "probRoles": [
-              {
-                "result": 0.0379187151408017
-              },
-              {
-                "enabler": 4.35266358640658E-4
-              },
-              {
-                "undergoer": 0.004647712212536067
-              },
-              {
-                "trigger": 0.020858686648338853
-              },
-              {
-                "NONE": 0.9361396196396827
-              }
-            ],
-            "featVector": [
-              {
-                "Multi": "-10 56:1 107:1 630:1 755:1 901:1 960:1 1042:1 1078:1 2403:1 2411:1 2426:1 2436:1 2437:1 2445:1"
               }
             ]
           },
@@ -5975,24 +5943,56 @@
             "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 0.01246992438260456
+                "result": 0.02316210967755765
               },
               {
-                "enabler": 0.011752628372988938
+                "enabler": 0.014239083949373028
               },
               {
-                "undergoer": 0.8799572860954418
+                "undergoer": 0.9090673601487019
               },
               {
-                "trigger": 0.02442501581125817
+                "trigger": 0.03309699833619964
               },
               {
-                "NONE": 0.07139514533770656
+                "NONE": 0.020434447888167843
               }
             ],
             "featVector": [
               {
                 "Multi": "-10 56:1 189:1 632:1 671:1 912:1 3495:1 3508:1 3516:1 3527:1 3530:1 3548:1 3565:1 3566:1 3570:1 3653:1 3738:1 3768:1 3837:1 3847:1 3852:1 3869:1 3943:1 3948:1 3958:1 3961:1 3994:1 4048:1 4134:1 4280:1 4328:1 4330:1 4332:1 4446:1 4454:1"
+              }
+            ]
+          },
+          {
+            "argId": 4,
+            "startIdx": 17,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "use",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4560282667630965
+              },
+              {
+                "enabler": 0.0016805764340963917
+              },
+              {
+                "undergoer": 0.019316841155549075
+              },
+              {
+                "trigger": 0.09633950988972963
+              },
+              {
+                "NONE": 0.42663480575752843
+              }
+            ],
+            "featVector": [
+              {
+                "Multi": "-10 56:1 107:1 630:1 755:1 901:1 960:1 1042:1 1078:1 2403:1 2411:1 2426:1 2436:1 2437:1 2445:1"
               }
             ]
           },
@@ -6007,19 +6007,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.584025857684868E-4
+                "result": 0.0013482365563210635
               },
               {
-                "enabler": 6.755650636549647E-4
+                "enabler": 0.002319207622115826
               },
               {
-                "undergoer": 4.923073369729805E-4
+                "undergoer": 0.0016154203354668023
               },
               {
-                "trigger": 0.7684941066271023
+                "trigger": 0.9361812327627107
               },
               {
-                "NONE": 0.22957961838650126
+                "NONE": 0.05853590272338553
               }
             ],
             "featVector": [
@@ -6039,19 +6039,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.584025857684868E-4
+                "result": 0.0013482365563210635
               },
               {
-                "enabler": 6.755650636549647E-4
+                "enabler": 0.002319207622115826
               },
               {
-                "undergoer": 4.923073369729805E-4
+                "undergoer": 0.0016154203354668023
               },
               {
-                "trigger": 0.7684941066271023
+                "trigger": 0.9361812327627107
               },
               {
-                "NONE": 0.22957961838650126
+                "NONE": 0.05853590272338553
               }
             ],
             "featVector": [
@@ -6071,19 +6071,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.5145351013774361
+                "result": 0.6397751232208883
               },
               {
-                "enabler": 0.042414876938285696
+                "enabler": 0.10209261774625461
               },
               {
-                "undergoer": 0.13328271332301467
+                "undergoer": 0.22449601270329128
               },
               {
-                "trigger": 0.0018847597389757783
+                "trigger": 0.00461593448843082
               },
               {
-                "NONE": 0.3078825486222878
+                "NONE": 0.029020311841134898
               }
             ],
             "featVector": [
@@ -6109,19 +6109,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.01297223787991258
+                "result": 0.00914358054693723
               },
               {
-                "enabler": 0.0012020980622652205
+                "enabler": 0.0024877152920257974
               },
               {
-                "undergoer": 3.370642562564764E-4
+                "undergoer": 8.135940142504911E-4
               },
               {
-                "trigger": 0.8969627563614233
+                "trigger": 0.9761343500442391
               },
               {
-                "NONE": 0.08852584344014253
+                "NONE": 0.011420760102547367
               }
             ],
             "featVector": [
@@ -6143,19 +6143,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.01297223787991258
+                "result": 0.00914358054693723
               },
               {
-                "enabler": 0.0012020980622652205
+                "enabler": 0.0024877152920257974
               },
               {
-                "undergoer": 3.370642562564764E-4
+                "undergoer": 8.135940142504911E-4
               },
               {
-                "trigger": 0.8969627563614233
+                "trigger": 0.9761343500442391
               },
               {
-                "NONE": 0.08852584344014253
+                "NONE": 0.011420760102547367
               }
             ],
             "featVector": [
@@ -6181,19 +6181,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.584025857684868E-4
+                "result": 0.0013482365563210635
               },
               {
-                "enabler": 6.755650636549647E-4
+                "enabler": 0.002319207622115826
               },
               {
-                "undergoer": 4.923073369729805E-4
+                "undergoer": 0.0016154203354668023
               },
               {
-                "trigger": 0.7684941066271023
+                "trigger": 0.9361812327627107
               },
               {
-                "NONE": 0.22957961838650126
+                "NONE": 0.05853590272338553
               }
             ],
             "featVector": [
@@ -6215,19 +6215,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 7.584025857684868E-4
+                "result": 0.0013482365563210635
               },
               {
-                "enabler": 6.755650636549647E-4
+                "enabler": 0.002319207622115826
               },
               {
-                "undergoer": 4.923073369729805E-4
+                "undergoer": 0.0016154203354668023
               },
               {
-                "trigger": 0.7684941066271023
+                "trigger": 0.9361812327627107
               },
               {
-                "NONE": 0.22957961838650126
+                "NONE": 0.05853590272338553
               }
             ],
             "featVector": [
@@ -6253,19 +6253,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.007343912795578738
+                "result": 0.007722402181872818
               },
               {
-                "enabler": 0.0010555809157805145
+                "enabler": 0.002046581382290461
               },
               {
-                "undergoer": 2.976329726879796E-4
+                "undergoer": 7.018731951435933E-4
               },
               {
-                "trigger": 0.8903804837560358
+                "trigger": 0.9649418658862039
               },
               {
-                "NONE": 0.10092238955991695
+                "NONE": 0.02458727735448929
               }
             ],
             "featVector": [
@@ -6287,19 +6287,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.007343912795578738
+                "result": 0.007722402181872818
               },
               {
-                "enabler": 0.0010555809157805145
+                "enabler": 0.002046581382290461
               },
               {
-                "undergoer": 2.976329726879796E-4
+                "undergoer": 7.018731951435933E-4
               },
               {
-                "trigger": 0.8903804837560358
+                "trigger": 0.9649418658862039
               },
               {
-                "NONE": 0.10092238955991695
+                "NONE": 0.02458727735448929
               }
             ],
             "featVector": [
@@ -6325,19 +6325,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0013570091576985874
+                "result": 0.0026192604288896477
               },
               {
-                "enabler": 0.002485548908703482
+                "enabler": 0.003907801782589208
               },
               {
-                "undergoer": 4.899461914615482E-4
+                "undergoer": 5.464098796542969E-4
               },
               {
-                "trigger": 0.9704187901332955
+                "trigger": 0.9753686564725733
               },
               {
-                "NONE": 0.02524870560884101
+                "NONE": 0.01755787143629351
               }
             ],
             "featVector": [
@@ -6359,19 +6359,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0013570091576985874
+                "result": 0.0026192604288896477
               },
               {
-                "enabler": 0.002485548908703482
+                "enabler": 0.003907801782589208
               },
               {
-                "undergoer": 4.899461914615482E-4
+                "undergoer": 5.464098796542969E-4
               },
               {
-                "trigger": 0.9704187901332955
+                "trigger": 0.9753686564725733
               },
               {
-                "NONE": 0.02524870560884101
+                "NONE": 0.01755787143629351
               }
             ],
             "featVector": [
@@ -6397,19 +6397,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001226150936792554
+                "result": 0.005559545927810417
               },
               {
-                "enabler": 0.005413162252541358
+                "enabler": 0.007143561291735435
               },
               {
-                "undergoer": 1.820902966479109E-4
+                "undergoer": 2.4169281428507673E-4
               },
               {
-                "trigger": 0.9769526635774516
+                "trigger": 0.9831894058049268
               },
               {
-                "NONE": 0.016225932936566507
+                "NONE": 0.003865794161242365
               }
             ],
             "featVector": [
@@ -6431,19 +6431,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001226150936792554
+                "result": 0.005559545927810417
               },
               {
-                "enabler": 0.005413162252541358
+                "enabler": 0.007143561291735435
               },
               {
-                "undergoer": 1.820902966479109E-4
+                "undergoer": 2.4169281428507673E-4
               },
               {
-                "trigger": 0.9769526635774516
+                "trigger": 0.9831894058049268
               },
               {
-                "NONE": 0.016225932936566507
+                "NONE": 0.003865794161242365
               }
             ],
             "featVector": [
@@ -6471,22 +6471,22 @@
             "text": "to conserve energy to get through the food-scare months of winter",
             "annotatedRole": "enabler",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.09922547032547979
+                "result": 0.3390748024634875
               },
               {
-                "enabler": 0.0037317759253692904
+                "enabler": 0.012763750521818443
               },
               {
-                "undergoer": 0.0011764585383644665
+                "undergoer": 0.005295368177507873
               },
               {
-                "trigger": 0.1629667686122049
+                "trigger": 0.5939204551329192
               },
               {
-                "NONE": 0.7328995265985815
+                "NONE": 0.048945623704266916
               }
             ],
             "featVector": [
@@ -6505,22 +6505,22 @@
             "text": "to conserve energy to get through the food-scare months of winter",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.09922547032547979
+                "result": 0.3390748024634875
               },
               {
-                "enabler": 0.0037317759253692904
+                "enabler": 0.012763750521818443
               },
               {
-                "undergoer": 0.0011764585383644665
+                "undergoer": 0.005295368177507873
               },
               {
-                "trigger": 0.1629667686122049
+                "trigger": 0.5939204551329192
               },
               {
-                "NONE": 0.7328995265985815
+                "NONE": 0.048945623704266916
               }
             ],
             "featVector": [
@@ -6546,19 +6546,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.01456169972571081
+                "result": 0.015769474047246126
               },
               {
-                "enabler": 0.7422191576947326
+                "enabler": 0.9438488315557675
               },
               {
-                "undergoer": 0.005714094067800969
+                "undergoer": 0.012049054136845972
               },
               {
-                "trigger": 0.008156788904682811
+                "trigger": 0.013864662569054982
               },
               {
-                "NONE": 0.2293482596070727
+                "NONE": 0.014467977691085512
               }
             ],
             "featVector": [
@@ -6580,19 +6580,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.01456169972571081
+                "result": 0.015769474047246126
               },
               {
-                "enabler": 0.7422191576947326
+                "enabler": 0.9438488315557675
               },
               {
-                "undergoer": 0.005714094067800969
+                "undergoer": 0.012049054136845972
               },
               {
-                "trigger": 0.008156788904682811
+                "trigger": 0.013864662569054982
               },
               {
-                "NONE": 0.2293482596070727
+                "NONE": 0.014467977691085512
               }
             ],
             "featVector": [
@@ -6618,19 +6618,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.011614506223115988
+                "result": 0.02659494437330025
               },
               {
-                "enabler": 0.6971159927839858
+                "enabler": 0.9187876618289152
               },
               {
-                "undergoer": 0.016456911365683807
+                "undergoer": 0.025990934837014163
               },
               {
-                "trigger": 6.909453657620769E-4
+                "trigger": 0.0038535344575367494
               },
               {
-                "NONE": 0.27412164426145225
+                "NONE": 0.024772924503233706
               }
             ],
             "featVector": [
@@ -6652,19 +6652,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.011614506223115988
+                "result": 0.02659494437330025
               },
               {
-                "enabler": 0.6971159927839858
+                "enabler": 0.9187876618289152
               },
               {
-                "undergoer": 0.016456911365683807
+                "undergoer": 0.025990934837014163
               },
               {
-                "trigger": 6.909453657620769E-4
+                "trigger": 0.0038535344575367494
               },
               {
-                "NONE": 0.27412164426145225
+                "NONE": 0.024772924503233706
               }
             ],
             "featVector": [
@@ -6699,22 +6699,22 @@
             "text": "put",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.017080609194750542
+                "result": 0.2294271536354634
               },
               {
-                "enabler": 0.017433200273500593
+                "enabler": 0.22237909238353903
               },
               {
-                "undergoer": 0.0026966430769077383
+                "undergoer": 0.013368802669246596
               },
               {
-                "trigger": 0.06793725189198865
+                "trigger": 0.41083331159185715
               },
               {
-                "NONE": 0.8948522955628525
+                "NONE": 0.12399163971989388
               }
             ],
             "featVector": [
@@ -6731,22 +6731,22 @@
             "text": "animals put on fat which is necessary for hibernation",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.017080609194750542
+                "result": 0.2294271536354634
               },
               {
-                "enabler": 0.017433200273500593
+                "enabler": 0.22237909238353903
               },
               {
-                "undergoer": 0.0026966430769077383
+                "undergoer": 0.013368802669246596
               },
               {
-                "trigger": 0.06793725189198865
+                "trigger": 0.41083331159185715
               },
               {
-                "NONE": 0.8948522955628525
+                "NONE": 0.12399163971989388
               }
             ],
             "featVector": [
@@ -6763,22 +6763,22 @@
             "text": "fat",
             "annotatedRole": "enabler",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.004364785684931307
+                "result": 0.035738875286238064
               },
               {
-                "enabler": 0.29847043726236555
+                "enabler": 0.8900848338435884
               },
               {
-                "undergoer": 0.00386570793475643
+                "undergoer": 0.022298068617851396
               },
               {
-                "trigger": 0.0010071965769785404
+                "trigger": 0.018936752704518323
               },
               {
-                "NONE": 0.6922918725409681
+                "NONE": 0.03294146954780379
               }
             ],
             "featVector": [
@@ -6905,22 +6905,22 @@
             "text": "put",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.017080609194750542
+                "result": 0.2294271536354634
               },
               {
-                "enabler": 0.017433200273500593
+                "enabler": 0.22237909238353903
               },
               {
-                "undergoer": 0.0026966430769077383
+                "undergoer": 0.013368802669246596
               },
               {
-                "trigger": 0.06793725189198865
+                "trigger": 0.41083331159185715
               },
               {
-                "NONE": 0.8948522955628525
+                "NONE": 0.12399163971989388
               }
             ],
             "featVector": [
@@ -6937,22 +6937,22 @@
             "text": "fat",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.004364785684931307
+                "result": 0.035738875286238064
               },
               {
-                "enabler": 0.29847043726236555
+                "enabler": 0.8900848338435884
               },
               {
-                "undergoer": 0.00386570793475643
+                "undergoer": 0.022298068617851396
               },
               {
-                "trigger": 0.0010071965769785404
+                "trigger": 0.018936752704518323
               },
               {
-                "NONE": 0.6922918725409681
+                "NONE": 0.03294146954780379
               }
             ],
             "featVector": [
@@ -6969,22 +6969,22 @@
             "text": "animals put on fat which is necessary for hibernation",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.017080609194750542
+                "result": 0.2294271536354634
               },
               {
-                "enabler": 0.017433200273500593
+                "enabler": 0.22237909238353903
               },
               {
-                "undergoer": 0.0026966430769077383
+                "undergoer": 0.013368802669246596
               },
               {
-                "trigger": 0.06793725189198865
+                "trigger": 0.41083331159185715
               },
               {
-                "NONE": 0.8948522955628525
+                "NONE": 0.12399163971989388
               }
             ],
             "featVector": [
@@ -7007,22 +7007,22 @@
             "text": "cold , winter conditions",
             "annotatedRole": "enabler",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.04216495824274599
+                "result": 0.132688925663537
               },
               {
-                "enabler": 0.14529343131540118
+                "enabler": 0.6953990625217567
               },
               {
-                "undergoer": 0.018181774538588942
+                "undergoer": 0.04406648141155167
               },
               {
-                "trigger": 0.007825919901693226
+                "trigger": 0.032752476529187856
               },
               {
-                "NONE": 0.7865339160015706
+                "NONE": 0.09509305387396673
               }
             ],
             "featVector": [
@@ -7041,22 +7041,22 @@
             "text": "cold , winter conditions",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.04216495824274599
+                "result": 0.132688925663537
               },
               {
-                "enabler": 0.14529343131540118
+                "enabler": 0.6953990625217567
               },
               {
-                "undergoer": 0.018181774538588942
+                "undergoer": 0.04406648141155167
               },
               {
-                "trigger": 0.007825919901693226
+                "trigger": 0.032752476529187856
               },
               {
-                "NONE": 0.7865339160015706
+                "NONE": 0.09509305387396673
               }
             ],
             "featVector": [
@@ -7082,19 +7082,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.8949699799454622
+                "result": 0.9181099677285165
               },
               {
-                "enabler": 7.917419654805475E-4
+                "enabler": 5.649015490898213E-4
               },
               {
-                "undergoer": 1.1894897339881698E-4
+                "undergoer": 2.1633130586645217E-4
               },
               {
-                "trigger": 0.04656476586147496
+                "trigger": 0.0755373962559638
               },
               {
-                "NONE": 0.05755456325418345
+                "NONE": 0.005571403160563568
               }
             ],
             "featVector": [
@@ -7116,19 +7116,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.8949699799454622
+                "result": 0.9181099677285165
               },
               {
-                "enabler": 7.917419654805475E-4
+                "enabler": 5.649015490898213E-4
               },
               {
-                "undergoer": 1.1894897339881698E-4
+                "undergoer": 2.1633130586645217E-4
               },
               {
-                "trigger": 0.04656476586147496
+                "trigger": 0.0755373962559638
               },
               {
-                "NONE": 0.05755456325418345
+                "NONE": 0.005571403160563568
               }
             ],
             "featVector": [
@@ -7154,19 +7154,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.015630084033562912
+                "result": 0.05755949379693535
               },
               {
-                "enabler": 0.5286865994761917
+                "enabler": 0.8767596494832068
               },
               {
-                "undergoer": 0.011598693970263635
+                "undergoer": 0.028814023238154712
               },
               {
-                "trigger": 0.002036847091742788
+                "trigger": 0.004823621795540275
               },
               {
-                "NONE": 0.44204777542823903
+                "NONE": 0.03204321168616282
               }
             ],
             "featVector": [
@@ -7183,22 +7183,22 @@
             "text": "depends",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.01711664043045542
+                "result": 0.2248081631272872
               },
               {
-                "enabler": 0.005465741282941326
+                "enabler": 0.028018772612419883
               },
               {
-                "undergoer": 6.931875869129773E-4
+                "undergoer": 0.0032601458838974347
               },
               {
-                "trigger": 0.12497251014926063
+                "trigger": 0.6791988437366181
               },
               {
-                "NONE": 0.8517519205504297
+                "NONE": 0.06471407463977728
               }
             ],
             "featVector": [
@@ -7215,27 +7215,27 @@
             "text": "the occurrence of sleep , shallow torpor and hibernation",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.02792924678331111
+                "result": 0.09895801341927979
               },
               {
-                "enabler": 0.24331864618054594
+                "enabler": 0.7753964125876995
               },
               {
-                "undergoer": 0.01803200018903888
+                "undergoer": 0.0707734581295901
               },
               {
-                "trigger": 0.026289369805768154
+                "trigger": 0.040697870879535115
               },
               {
-                "NONE": 0.684430737041336
+                "NONE": 0.014174244983895431
               }
             ],
             "featVector": [
               {
-                "Multi": "-10 60:1 628:1 903:1 919:1 925:1 939:1 2236:1 2402:1 2405:1 2407:1 2409:1 2438:1 2441:1 2443:1 2446:1"
+                "Multi": "-10 60:1 628:1 903:1 919:1 925:1 939:1 2236:1 2402:1 2405:1 2407:1 2409:1 2438:1 2441:1 2444:1 2446:1"
               }
             ]
           },
@@ -7247,22 +7247,22 @@
             "text": "factors such as the environmental temperature , amounts of body fat , extemal",
             "annotatedRole": "enabler",
             "annotatedLabel": "1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.03324690964361656
+                "result": 0.10272367241090821
               },
               {
-                "enabler": 0.15909677103845818
+                "enabler": 0.3311306135040398
               },
               {
-                "undergoer": 0.08531221324571989
+                "undergoer": 0.24706234102586214
               },
               {
-                "trigger": 0.05130629417399687
+                "trigger": 0.17336681178607696
               },
               {
-                "NONE": 0.6710378118982087
+                "NONE": 0.14571656127311283
               }
             ],
             "featVector": [
@@ -7389,22 +7389,22 @@
             "text": "depends",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.01711664043045542
+                "result": 0.2248081631272872
               },
               {
-                "enabler": 0.005465741282941326
+                "enabler": 0.028018772612419883
               },
               {
-                "undergoer": 6.931875869129773E-4
+                "undergoer": 0.0032601458838974347
               },
               {
-                "trigger": 0.12497251014926063
+                "trigger": 0.6791988437366181
               },
               {
-                "NONE": 0.8517519205504297
+                "NONE": 0.06471407463977728
               }
             ],
             "featVector": [
@@ -7421,22 +7421,22 @@
             "text": "factors such as the environmental temperature , amounts of body fat , extemal",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.03324690964361656
+                "result": 0.10272367241090821
               },
               {
-                "enabler": 0.15909677103845818
+                "enabler": 0.3311306135040398
               },
               {
-                "undergoer": 0.08531221324571989
+                "undergoer": 0.24706234102586214
               },
               {
-                "trigger": 0.05130629417399687
+                "trigger": 0.17336681178607696
               },
               {
-                "NONE": 0.6710378118982087
+                "NONE": 0.14571656127311283
               }
             ],
             "featVector": [
@@ -7453,27 +7453,27 @@
             "text": "the occurrence of sleep , shallow torpor and hibernation",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.02792924678331111
+                "result": 0.09895801341927979
               },
               {
-                "enabler": 0.24331864618054594
+                "enabler": 0.7753964125876995
               },
               {
-                "undergoer": 0.01803200018903888
+                "undergoer": 0.0707734581295901
               },
               {
-                "trigger": 0.026289369805768154
+                "trigger": 0.040697870879535115
               },
               {
-                "NONE": 0.684430737041336
+                "NONE": 0.014174244983895431
               }
             ],
             "featVector": [
               {
-                "Multi": "-10 60:1 628:1 903:1 919:1 925:1 939:1 2236:1 2402:1 2405:1 2407:1 2409:1 2438:1 2441:1 2443:1 2446:1"
+                "Multi": "-10 60:1 628:1 903:1 919:1 925:1 939:1 2236:1 2402:1 2405:1 2407:1 2409:1 2438:1 2441:1 2444:1 2446:1"
               }
             ]
           },
@@ -7488,19 +7488,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.015630084033562912
+                "result": 0.05755949379693535
               },
               {
-                "enabler": 0.5286865994761917
+                "enabler": 0.8767596494832068
               },
               {
-                "undergoer": 0.011598693970263635
+                "undergoer": 0.028814023238154712
               },
               {
-                "trigger": 0.002036847091742788
+                "trigger": 0.004823621795540275
               },
               {
-                "NONE": 0.44204777542823903
+                "NONE": 0.03204321168616282
               }
             ],
             "featVector": [
@@ -7526,19 +7526,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.005791455894726682
+                "result": 0.007710782134851199
               },
               {
-                "enabler": 0.8990567823683289
+                "enabler": 0.9568993761511311
               },
               {
-                "undergoer": 0.013704350726056509
+                "undergoer": 0.015037324584977323
               },
               {
-                "trigger": 0.002842864046209204
+                "trigger": 0.008974972379598012
               },
               {
-                "NONE": 0.07860454696467872
+                "NONE": 0.011377544749442392
               }
             ],
             "featVector": [
@@ -7560,19 +7560,19 @@
             "rolePredicted": "enabler",
             "probRoles": [
               {
-                "result": 0.005791455894726682
+                "result": 0.007710782134851199
               },
               {
-                "enabler": 0.8990567823683289
+                "enabler": 0.9568993761511311
               },
               {
-                "undergoer": 0.013704350726056509
+                "undergoer": 0.015037324584977323
               },
               {
-                "trigger": 0.002842864046209204
+                "trigger": 0.008974972379598012
               },
               {
-                "NONE": 0.07860454696467872
+                "NONE": 0.011377544749442392
               }
             ],
             "featVector": [
@@ -7598,19 +7598,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.06584647110436473
+                "result": 0.1569133456356477
               },
               {
-                "enabler": 0.11330520072649776
+                "enabler": 0.3542259124641009
               },
               {
-                "undergoer": 0.010236668934763993
+                "undergoer": 0.034369133653606034
               },
               {
-                "trigger": 0.014354261256663132
+                "trigger": 0.03710372099574244
               },
               {
-                "NONE": 0.7962573979777104
+                "NONE": 0.4173878872509029
               }
             ],
             "featVector": [
@@ -7630,19 +7630,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.00397475617918358
+                "result": 0.07497723837374048
               },
               {
-                "enabler": 0.001278838557359449
+                "enabler": 0.014108280550072483
               },
               {
-                "undergoer": 0.0010623222683529532
+                "undergoer": 0.01159906157775263
               },
               {
-                "trigger": 0.008170883336406936
+                "trigger": 0.15024659229320314
               },
               {
-                "NONE": 0.985513199658697
+                "NONE": 0.7490688272052313
               }
             ],
             "featVector": [
@@ -7659,22 +7659,22 @@
             "text": "hibernation",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.00474562942565486
+                "result": 0.008103958704694504
               },
               {
-                "enabler": 0.006930780209079092
+                "enabler": 0.01620832884415695
               },
               {
-                "undergoer": 0.007943712370710893
+                "undergoer": 0.025349212737351724
               },
               {
-                "trigger": 0.31732994833122874
+                "trigger": 0.6483633784846043
               },
               {
-                "NONE": 0.6630499296633264
+                "NONE": 0.3019751212291923
               }
             ],
             "featVector": [
@@ -7691,22 +7691,22 @@
             "text": "when the insects are maintained under autumn conditions",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0015673151250329691
+                "result": 0.030519652584375542
               },
               {
-                "enabler": 0.0041432089004797956
+                "enabler": 0.06481904769905858
               },
               {
-                "undergoer": 2.540531332431493E-4
+                "undergoer": 0.00230232545017385
               },
               {
-                "trigger": 0.07977617646485975
+                "trigger": 0.6770842492701635
               },
               {
-                "NONE": 0.9142592463763843
+                "NONE": 0.22527472499622844
               }
             ],
             "featVector": [
@@ -7723,22 +7723,22 @@
             "text": "maintained",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0015673151250329691
+                "result": 0.030519652584375542
               },
               {
-                "enabler": 0.0041432089004797956
+                "enabler": 0.06481904769905858
               },
               {
-                "undergoer": 2.540531332431493E-4
+                "undergoer": 0.00230232545017385
               },
               {
-                "trigger": 0.07977617646485975
+                "trigger": 0.6770842492701635
               },
               {
-                "NONE": 0.9142592463763843
+                "NONE": 0.22527472499622844
               }
             ],
             "featVector": [
@@ -7755,22 +7755,22 @@
             "text": "the insects",
             "annotatedRole": "enabler",
             "annotatedLabel": "-1",
-            "rolePredicted": "NONE",
+            "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 6.79373220112797E-4
+                "result": 0.002601561777054718
               },
               {
-                "enabler": 0.09339558465925271
+                "enabler": 0.234089358337318
               },
               {
-                "undergoer": 0.23617514554821117
+                "undergoer": 0.5445466299521218
               },
               {
-                "trigger": 0.014573192637745078
+                "trigger": 0.04765452427367802
               },
               {
-                "NONE": 0.6551767039346783
+                "NONE": 0.1711079256598274
               }
             ],
             "featVector": [
@@ -8005,22 +8005,22 @@
             "text": "when the insects are maintained under autumn conditions",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0015673151250329691
+                "result": 0.030519652584375542
               },
               {
-                "enabler": 0.0041432089004797956
+                "enabler": 0.06481904769905858
               },
               {
-                "undergoer": 2.540531332431493E-4
+                "undergoer": 0.00230232545017385
               },
               {
-                "trigger": 0.07977617646485975
+                "trigger": 0.6770842492701635
               },
               {
-                "NONE": 0.9142592463763843
+                "NONE": 0.22527472499622844
               }
             ],
             "featVector": [
@@ -8037,22 +8037,22 @@
             "text": "hibernation",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.00474562942565486
+                "result": 0.008103958704694504
               },
               {
-                "enabler": 0.006930780209079092
+                "enabler": 0.01620832884415695
               },
               {
-                "undergoer": 0.007943712370710893
+                "undergoer": 0.025349212737351724
               },
               {
-                "trigger": 0.31732994833122874
+                "trigger": 0.6483633784846043
               },
               {
-                "NONE": 0.6630499296633264
+                "NONE": 0.3019751212291923
               }
             ],
             "featVector": [
@@ -8072,19 +8072,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.00397475617918358
+                "result": 0.07497723837374048
               },
               {
-                "enabler": 0.001278838557359449
+                "enabler": 0.014108280550072483
               },
               {
-                "undergoer": 0.0010623222683529532
+                "undergoer": 0.01159906157775263
               },
               {
-                "trigger": 0.008170883336406936
+                "trigger": 0.15024659229320314
               },
               {
-                "NONE": 0.985513199658697
+                "NONE": 0.7490688272052313
               }
             ],
             "featVector": [
@@ -8101,22 +8101,22 @@
             "text": "the insects",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "undergoer",
             "probRoles": [
               {
-                "result": 6.79373220112797E-4
+                "result": 0.002601561777054718
               },
               {
-                "enabler": 0.09339558465925271
+                "enabler": 0.234089358337318
               },
               {
-                "undergoer": 0.23617514554821117
+                "undergoer": 0.5445466299521218
               },
               {
-                "trigger": 0.014573192637745078
+                "trigger": 0.04765452427367802
               },
               {
-                "NONE": 0.6551767039346783
+                "NONE": 0.1711079256598274
               }
             ],
             "featVector": [
@@ -8136,19 +8136,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.06584647110436473
+                "result": 0.1569133456356477
               },
               {
-                "enabler": 0.11330520072649776
+                "enabler": 0.3542259124641009
               },
               {
-                "undergoer": 0.010236668934763993
+                "undergoer": 0.034369133653606034
               },
               {
-                "trigger": 0.014354261256663132
+                "trigger": 0.03710372099574244
               },
               {
-                "NONE": 0.7962573979777104
+                "NONE": 0.4173878872509029
               }
             ],
             "featVector": [
@@ -8165,22 +8165,22 @@
             "text": "maintained",
             "annotatedRole": "enabler",
             "annotatedLabel": "",
-            "rolePredicted": "NONE",
+            "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0015673151250329691
+                "result": 0.030519652584375542
               },
               {
-                "enabler": 0.0041432089004797956
+                "enabler": 0.06481904769905858
               },
               {
-                "undergoer": 2.540531332431493E-4
+                "undergoer": 0.00230232545017385
               },
               {
-                "trigger": 0.07977617646485975
+                "trigger": 0.6770842492701635
               },
               {
-                "NONE": 0.9142592463763843
+                "NONE": 0.22527472499622844
               }
             ],
             "featVector": [
@@ -8225,19 +8225,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.887083568190198
+                "result": 0.8829363239187885
               },
               {
-                "enabler": 0.0033323583287418693
+                "enabler": 0.002322471163943706
               },
               {
-                "undergoer": 5.068493715085774E-5
+                "undergoer": 6.593604380643355E-5
               },
               {
-                "trigger": 0.06805645282104349
+                "trigger": 0.11173333321157097
               },
               {
-                "NONE": 0.04147693572286589
+                "NONE": 0.0029419356618903543
               }
             ],
             "featVector": [
@@ -8259,19 +8259,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.887083568190198
+                "result": 0.8829363239187885
               },
               {
-                "enabler": 0.0033323583287418693
+                "enabler": 0.002322471163943706
               },
               {
-                "undergoer": 5.068493715085774E-5
+                "undergoer": 6.593604380643355E-5
               },
               {
-                "trigger": 0.06805645282104349
+                "trigger": 0.11173333321157097
               },
               {
-                "NONE": 0.04147693572286589
+                "NONE": 0.0029419356618903543
               }
             ],
             "featVector": [
@@ -8302,19 +8302,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0020063059247032488
+                "result": 0.020257602092680554
               },
               {
-                "enabler": 0.0020189006149661302
+                "enabler": 0.003383042276826341
               },
               {
-                "undergoer": 2.0064367688812603E-4
+                "undergoer": 0.00168281430344143
               },
               {
-                "trigger": 0.8080453139632076
+                "trigger": 0.9634058510591753
               },
               {
-                "NONE": 0.18772883582023497
+                "NONE": 0.011270690267876388
               }
             ],
             "featVector": [
@@ -8336,19 +8336,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0020063059247032488
+                "result": 0.020257602092680554
               },
               {
-                "enabler": 0.0020189006149661302
+                "enabler": 0.003383042276826341
               },
               {
-                "undergoer": 2.0064367688812603E-4
+                "undergoer": 0.00168281430344143
               },
               {
-                "trigger": 0.8080453139632076
+                "trigger": 0.9634058510591753
               },
               {
-                "NONE": 0.18772883582023497
+                "NONE": 0.011270690267876388
               }
             ],
             "featVector": [
@@ -8374,19 +8374,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.005734902112308556
+                "result": 0.02443550563728287
               },
               {
-                "enabler": 0.002500808392514213
+                "enabler": 0.0036424538129317717
               },
               {
-                "undergoer": 9.884164933809294E-5
+                "undergoer": 6.2543121643325E-4
               },
               {
-                "trigger": 0.9497795867337523
+                "trigger": 0.9675571621406808
               },
               {
-                "NONE": 0.04188586111208694
+                "NONE": 0.0037394471926711884
               }
             ],
             "featVector": [
@@ -8408,19 +8408,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.005734902112308556
+                "result": 0.02443550563728287
               },
               {
-                "enabler": 0.002500808392514213
+                "enabler": 0.0036424538129317717
               },
               {
-                "undergoer": 9.884164933809294E-5
+                "undergoer": 6.2543121643325E-4
               },
               {
-                "trigger": 0.9497795867337523
+                "trigger": 0.9675571621406808
               },
               {
-                "NONE": 0.04188586111208694
+                "NONE": 0.0037394471926711884
               }
             ],
             "featVector": [
@@ -8446,19 +8446,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001438842845954235
+                "result": 0.014736462814996994
               },
               {
-                "enabler": 0.003379516912785965
+                "enabler": 0.00611730342433645
               },
               {
-                "undergoer": 1.1994348875174817E-4
+                "undergoer": 0.001093619157090017
               },
               {
-                "trigger": 0.9152182711317172
+                "trigger": 0.9727572048833809
               },
               {
-                "NONE": 0.07984342562079096
+                "NONE": 0.005295409720195468
               }
             ],
             "featVector": [
@@ -8480,19 +8480,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001438842845954235
+                "result": 0.014736462814996994
               },
               {
-                "enabler": 0.003379516912785965
+                "enabler": 0.00611730342433645
               },
               {
-                "undergoer": 1.1994348875174817E-4
+                "undergoer": 0.001093619157090017
               },
               {
-                "trigger": 0.9152182711317172
+                "trigger": 0.9727572048833809
               },
               {
-                "NONE": 0.07984342562079096
+                "NONE": 0.005295409720195468
               }
             ],
             "featVector": [
@@ -8523,19 +8523,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.9099655472930605
+                "result": 0.965020030936971
               },
               {
-                "enabler": 0.002520539697877317
+                "enabler": 0.0018082556876192694
               },
               {
-                "undergoer": 7.14730611805014E-4
+                "undergoer": 0.001359281638185302
               },
               {
-                "trigger": 0.01470937941155311
+                "trigger": 0.021265420969024736
               },
               {
-                "NONE": 0.07208980298570435
+                "NONE": 0.010547010768199683
               }
             ],
             "featVector": [
@@ -8555,19 +8555,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.05669532105118704
+                "result": 0.17721376683397197
               },
               {
-                "enabler": 0.03325806594792052
+                "enabler": 0.3034748526413296
               },
               {
-                "undergoer": 0.0074479026804664655
+                "undergoer": 0.04735999891928786
               },
               {
-                "trigger": 0.015341000977936947
+                "trigger": 0.02119048836467563
               },
               {
-                "NONE": 0.8872577093424889
+                "NONE": 0.45076089324073476
               }
             ],
             "featVector": [
@@ -8661,19 +8661,19 @@
             "rolePredicted": "NONE",
             "probRoles": [
               {
-                "result": 0.05669532105118704
+                "result": 0.17721376683397197
               },
               {
-                "enabler": 0.03325806594792052
+                "enabler": 0.3034748526413296
               },
               {
-                "undergoer": 0.0074479026804664655
+                "undergoer": 0.04735999891928786
               },
               {
-                "trigger": 0.015341000977936947
+                "trigger": 0.02119048836467563
               },
               {
-                "NONE": 0.8872577093424889
+                "NONE": 0.45076089324073476
               }
             ],
             "featVector": [
@@ -8693,19 +8693,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.9099655472930605
+                "result": 0.965020030936971
               },
               {
-                "enabler": 0.002520539697877317
+                "enabler": 0.0018082556876192694
               },
               {
-                "undergoer": 7.14730611805014E-4
+                "undergoer": 0.001359281638185302
               },
               {
-                "trigger": 0.01470937941155311
+                "trigger": 0.021265420969024736
               },
               {
-                "NONE": 0.07208980298570435
+                "NONE": 0.010547010768199683
               }
             ],
             "featVector": [
@@ -8731,19 +8731,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016477189342613255
+                "result": 0.003677448802872424
               },
               {
-                "enabler": 6.309576145311233E-4
+                "enabler": 0.0017281313362632633
               },
               {
-                "undergoer": 8.10907136292861E-4
+                "undergoer": 0.0029622490209332323
               },
               {
-                "trigger": 0.734380842391172
+                "trigger": 0.9325728414836097
               },
               {
-                "NONE": 0.26252957392374265
+                "NONE": 0.05905932935632133
               }
             ],
             "featVector": [
@@ -8763,19 +8763,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016477189342613255
+                "result": 0.003677448802872424
               },
               {
-                "enabler": 6.309576145311233E-4
+                "enabler": 0.0017281313362632633
               },
               {
-                "undergoer": 8.10907136292861E-4
+                "undergoer": 0.0029622490209332323
               },
               {
-                "trigger": 0.734380842391172
+                "trigger": 0.9325728414836097
               },
               {
-                "NONE": 0.26252957392374265
+                "NONE": 0.05905932935632133
               }
             ],
             "featVector": [
@@ -8795,19 +8795,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.7474671462642472
+                "result": 0.7341759093576277
               },
               {
-                "enabler": 0.04819881760797485
+                "enabler": 0.0503548073449272
               },
               {
-                "undergoer": 0.1804581930013216
+                "undergoer": 0.20352998886642917
               },
               {
-                "trigger": 0.004452380785128122
+                "trigger": 0.004366178653079444
               },
               {
-                "NONE": 0.01942346234132825
+                "NONE": 0.007573115777936523
               }
             ],
             "featVector": [
@@ -8937,19 +8937,19 @@
             "rolePredicted": "result",
             "probRoles": [
               {
-                "result": 0.7474671462642472
+                "result": 0.7341759093576277
               },
               {
-                "enabler": 0.04819881760797485
+                "enabler": 0.0503548073449272
               },
               {
-                "undergoer": 0.1804581930013216
+                "undergoer": 0.20352998886642917
               },
               {
-                "trigger": 0.004452380785128122
+                "trigger": 0.004366178653079444
               },
               {
-                "NONE": 0.01942346234132825
+                "NONE": 0.007573115777936523
               }
             ],
             "featVector": [
@@ -8969,19 +8969,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016477189342613255
+                "result": 0.003677448802872424
               },
               {
-                "enabler": 6.309576145311233E-4
+                "enabler": 0.0017281313362632633
               },
               {
-                "undergoer": 8.10907136292861E-4
+                "undergoer": 0.0029622490209332323
               },
               {
-                "trigger": 0.734380842391172
+                "trigger": 0.9325728414836097
               },
               {
-                "NONE": 0.26252957392374265
+                "NONE": 0.05905932935632133
               }
             ],
             "featVector": [
@@ -9001,19 +9001,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0016477189342613255
+                "result": 0.003677448802872424
               },
               {
-                "enabler": 6.309576145311233E-4
+                "enabler": 0.0017281313362632633
               },
               {
-                "undergoer": 8.10907136292861E-4
+                "undergoer": 0.0029622490209332323
               },
               {
-                "trigger": 0.734380842391172
+                "trigger": 0.9325728414836097
               },
               {
-                "NONE": 0.26252957392374265
+                "NONE": 0.05905932935632133
               }
             ],
             "featVector": [
@@ -9051,19 +9051,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001904580072040023
+                "result": 0.00558122884555925
               },
               {
-                "enabler": 7.017365774821968E-4
+                "enabler": 0.001927719271548414
               },
               {
-                "undergoer": 8.891221548222823E-4
+                "undergoer": 0.003070284366047703
               },
               {
-                "trigger": 0.8543799418281086
+                "trigger": 0.9671535078149199
               },
               {
-                "NONE": 0.14212461936754697
+                "NONE": 0.022267259701924832
               }
             ],
             "featVector": [
@@ -9085,19 +9085,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.001904580072040023
+                "result": 0.00558122884555925
               },
               {
-                "enabler": 7.017365774821968E-4
+                "enabler": 0.001927719271548414
               },
               {
-                "undergoer": 8.891221548222823E-4
+                "undergoer": 0.003070284366047703
               },
               {
-                "trigger": 0.8543799418281086
+                "trigger": 0.9671535078149199
               },
               {
-                "NONE": 0.14212461936754697
+                "NONE": 0.022267259701924832
               }
             ],
             "featVector": [
@@ -9142,19 +9142,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004301682626551118
+                "result": 0.011902147024666885
               },
               {
-                "enabler": 5.913107184230646E-4
+                "enabler": 0.0016458349148444043
               },
               {
-                "undergoer": 0.0020921215194316905
+                "undergoer": 0.005728618672372103
               },
               {
-                "trigger": 0.722682084985589
+                "trigger": 0.9371785737234953
               },
               {
-                "NONE": 0.27033280015000505
+                "NONE": 0.04354482566462139
               }
             ],
             "featVector": [
@@ -9176,19 +9176,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.004301682626551118
+                "result": 0.011902147024666885
               },
               {
-                "enabler": 5.913107184230646E-4
+                "enabler": 0.0016458349148444043
               },
               {
-                "undergoer": 0.0020921215194316905
+                "undergoer": 0.005728618672372103
               },
               {
-                "trigger": 0.722682084985589
+                "trigger": 0.9371785737234953
               },
               {
-                "NONE": 0.27033280015000505
+                "NONE": 0.04354482566462139
               }
             ],
             "featVector": [
@@ -9226,19 +9226,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0024828093634799903
+                "result": 0.006226596219122701
               },
               {
-                "enabler": 7.422083606787684E-4
+                "enabler": 0.0019706739365663306
               },
               {
-                "undergoer": 9.420276158785777E-4
+                "undergoer": 0.0031715703111874164
               },
               {
-                "trigger": 0.7958439244456671
+                "trigger": 0.9536826548397198
               },
               {
-                "NONE": 0.19998903021429554
+                "NONE": 0.03494850469340365
               }
             ],
             "featVector": [
@@ -9260,19 +9260,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0024828093634799903
+                "result": 0.006226596219122701
               },
               {
-                "enabler": 7.422083606787684E-4
+                "enabler": 0.0019706739365663306
               },
               {
-                "undergoer": 9.420276158785777E-4
+                "undergoer": 0.0031715703111874164
               },
               {
-                "trigger": 0.7958439244456671
+                "trigger": 0.9536826548397198
               },
               {
-                "NONE": 0.19998903021429554
+                "NONE": 0.03494850469340365
               }
             ],
             "featVector": [
@@ -9298,19 +9298,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0019308541415242698
+                "result": 0.005572355451628352
               },
               {
-                "enabler": 7.091724670023055E-4
+                "enabler": 0.001919706373964631
               },
               {
-                "undergoer": 9.00676335404001E-4
+                "undergoer": 0.0030672724850693096
               },
               {
-                "trigger": 0.8993014476353536
+                "trigger": 0.9683351306115183
               },
               {
-                "NONE": 0.09715784942071574
+                "NONE": 0.021105535077819506
               }
             ],
             "featVector": [
@@ -9404,19 +9404,19 @@
             "rolePredicted": "trigger",
             "probRoles": [
               {
-                "result": 0.0019308541415242698
+                "result": 0.005572355451628352
               },
               {
-                "enabler": 7.091724670023055E-4
+                "enabler": 0.001919706373964631
               },
               {
-                "undergoer": 9.00676335404001E-4
+                "undergoer": 0.0030672724850693096
               },
               {
-                "trigger": 0.8993014476353536
+                "trigger": 0.9683351306115183
               },
               {
-                "NONE": 0.09715784942071574
+                "NONE": 0.021105535077819506
               }
             ],
             "featVector": [

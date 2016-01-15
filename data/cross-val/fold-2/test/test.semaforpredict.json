@@ -1,0 +1,5621 @@
+[
+  {
+    "process": "dripping",
+    "sentences": [
+      {
+        "sentenceId": 28,
+        "text": "dripping - dripping is the process of adding droplets of e-juice to the bridge of an atomizer instead of passing it through a cartridge.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "adding",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.66350098091833
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 188,
+        "text": "thus, dripping is the process of pouring e-juice directly into the atomizer.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pouring",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9330696527887189
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 286,
+        "text": "dripping is the process of putting the paint on your canvas and letting the paint do what it do.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 5,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "do",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.08028319296013045
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "letting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "your canvas",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.15345764928895456
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 12,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "and letting the paint do what it do",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.08028319296013045
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 17,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "what it do",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "putting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7900213846267279
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "reflection",
+    "sentences": [
+      {
+        "sentenceId": 240,
+        "text": "reflection is the process of using a particular special move to deflect incoming projectiles.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 532,
+        "text": "reflection, reflection is the process of using a particular move to deflect incoming projectiles.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 8,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "using a particular move to deflect incoming projectiles",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8373814061742932
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "using",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8373814061742932
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "deflect",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.016961720979004072
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 12,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "to deflect incoming projectiles",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.016961720979004072
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 14,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "incoming projectiles",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a particular move",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7069889236046005
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 725,
+        "text": "diffuse reflection is the reflection of light from a surface such that an incident ray is reflected at many angles rather than at just one angle as in the case of...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "reflection",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "absorption",
+    "sentences": [
+      {
+        "sentenceId": 123,
+        "text": "absorption is the process of absorbing a fluid by another fluid to form a fluid solution.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "absorbing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8436434323602171
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 160,
+        "text": "absorption is the process by which drug enters into the systemic circulation from the site of...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "enters",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8105237699979632
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 200,
+        "text": "absorption is the process of taking water, food, and oxygen into the cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "taking",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.772690987718508
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 530,
+        "text": "absorption (a) - absorption is the process by which a liquid is drawn into and tends ...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "drawn",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7969271355379763
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 613,
+        "text": "absorption is the process by which digested food are passed into different parts of a plant or an animal.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "passed",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.769988906790635
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "pollination",
+    "sentences": [
+      {
+        "sentenceId": 251,
+        "text": "pollination is the act of transferring pollen grains from the male anther of a flower to the female stigma.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 310,
+        "text": "pollination is the process of transferring pollen from anther (male flower part) to stigma (female flower part).",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 7,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pollen from anther -LRB- male flower part",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.297216582635695
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transferring pollen from anther -LRB- male flower part -RRB- to stigma -LRB- female flower part -RRB-",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8926232173552482
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 16,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "stigma -LRB- female flower part -RRB-",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.2063560488503139
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "transferring",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8926232173552482
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 623,
+        "text": "pollination is the process of moving the pollen grain from the anther of a stamen to the stigma of a carpel.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "moving",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9652164761353357
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 649,
+        "text": "pollination is the transfer of pollen from the male organ of a flower to the female organ of a flower.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transfer",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8662094300980073
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "accumulation",
+    "sentences": [
+      {
+        "sentenceId": 508,
+        "text": "another factor that is likely responsible for some of the accumulation is the tidal cycle.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 575,
+        "text": "accumulation is the part of the water cycle in which water gathers in large quantities such as rivers, lakes, oceans, glaciers, ice caps and aquifers, according to...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 677,
+        "text": "the definition of accumulation is the gathering and growing...",
+        "predictionArgumentSpan": []
+      }
+    ]
+  },
+  {
+    "process": "chemical reaction",
+    "sentences": [
+      {
+        "sentenceId": 199,
+        "text": "a chemical reaction is the change of a substance into a new one that has a different chemical identity.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "has",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "change",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8031523352903313
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 11,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "a new one that has a different chemical identity",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3989153436282612
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 16,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "a different chemical identity",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3989153436282612
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 214,
+        "text": "the velocity of a chemical reaction is the net result of opposing influences.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 622,
+        "text": "path of any chemical reaction is the necessity of maintaining maximum bonding throughout the reaction (1).",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 711,
+        "text": "to show how to determine which reactant in a chemical reaction is the limiting reactant.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 5,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "limiting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.36327603938677355
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "show",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.06191340784233712
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "to show how to determine",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.06191340784233712
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 3,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "how to determine",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 13,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "the limiting reactant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.558263995207209
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 4,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "to determine",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "determine",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "mitosis",
+    "sentences": [
+      {
+        "sentenceId": 25,
+        "text": "mitosis is the process by which a single cell divides into two daughter cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a single cell",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6086444373934257
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "divides",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 12,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "two daughter cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.02716354381060593
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 46,
+        "text": "mitosis is the process of segregating equal complements of the replicated genome to daughter cells before...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "segregating",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.900205758751825
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 77,
+        "text": "yes, the purpose of mitosis is to produce two identical cells...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 12,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "produce two identical cells",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.1871989168799887
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 122,
+        "text": "mitosis is the division of somatic cells when genetic information from one single cell is equally dispersed into two daughter cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "division",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6272867592156129
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 150,
+        "text": "the purpose of mitosis is to provide each daughter cell resulting from a cell division with a set of chromosomes identical to that of the original cell.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 169,
+        "text": "for the purposes of reproduction, mitosis helps to produce two organisms of the same species.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "produce two organisms of the same species",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.05081086702874791
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 288,
+        "text": "we now know that the purpose of mitosis is to distribute genetically identical copies of genetic material to each of the two daughter cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 24,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "distribute genetically identical copies of genetic material to each of the two daughter cells",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.17569811163047824
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 368,
+        "text": "mitosis causes the cells to regenerate and the skin to heal following a severe burn.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the cells to regenerate and the skin to heal following a severe burn .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2819904871810726
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 399,
+        "text": "the purpose of mitosis is to produce two daughter cells, each containing a complete set ...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 16,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "produce two daughter cells , each containing a complete set",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5953705671024138
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 406,
+        "text": "mitosis causes the number of cells to double.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "double",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "mitosis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.24199564094436887
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "causes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the number of cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3969396148502397
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 3,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the number of cells to double .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3969396148502397
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 413,
+        "text": "mitosis is the process by which a zygote turns into an adult animal by copying its own cells over and over and increasing in size; meiosis is the process by which...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a zygote",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.8459127535885644
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "turns",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8270393380930865
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "an adult animal",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.21035021694078668
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 428,
+        "text": "mitosis is the process by which a single cell divides into two identical cells, each containing the same number of chromosomes and genetic content as the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a single cell",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.11011014385973206
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 17,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "containing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.12548161622946494
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "divides",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.18920018667157162
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 18,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "the same number of chromosomes and genetic content",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "the process by which a single cell divides into two identical cells , each containing the same number of chromosomes and genetic content as the",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.18920018667157162
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 12,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "two identical cells , each containing the same number of chromosomes and genetic content as the",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.12548161622946494
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 12,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "two identical cells , each",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 26,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "as the",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 462,
+        "text": "the purpose of mitosis is to divide the cell into two new fully functional cells.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 15,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "divide the cell into two new fully functional cells",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7064534132473062
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 514,
+        "text": "mitosis is the process of dividing a cell and its nucleus into two cells which each have their own nucleus.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a cell and its nucleus",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.1658749156606595
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "dividing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8820669330506076
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 517,
+        "text": "the purpose of mitosis is to copy the genetic material so that when telophase has ended, the result is two genetically identical cells.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 571,
+        "text": "mitosis is the process by which a cell nucleus divides into two...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "a cell nucleus",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6867088682359117
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "two",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.07419834860592957
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "divides",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7084015696555214
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 638,
+        "text": "mitosis is the reason why human bodies can grow...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "can",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "grow",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.46469424424517436
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "human bodies",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.44792442140688266
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 639,
+        "text": "mitosis is the standard, ho-hum way that cells divide.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 669,
+        "text": "mitosis is the process of forming (generally) identical daughter cells by replicating and dividing the original chromosomes, in effect making a cellular xerox.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 7,
+            "startIdx": 17,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the original chromosomes , in effect making a cellular xerox",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 8,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "generally -RRB- identical daughter cells",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.1077665788714577
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "dividing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.19006894564258062
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 15,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "and dividing the original chromosomes , in effect making a cellular xerox",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.19006894564258062
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "replicating",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 6,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forming -LRB- generally -RRB- identical daughter cells by replicating and dividing the original chromosomes , in effect making a cellular xerox",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9025045749916889
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 23,
+            "endIdx": 23,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "making",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 24,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a cellular xerox",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 13,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "by replicating",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "forming",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9025045749916889
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 682,
+        "text": "mitosis is the process of dividing chromosomes during cell division in eukaryotic cells .",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "dividing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8480225832477488
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "chromosomes",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.21751180059907066
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 712,
+        "text": "mitosis is the process of separating the duplicates of each of the cell\u0027s chromosomes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "separating",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9385715300331926
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 723,
+        "text": "an example of mitosis is the way the skin cells covering...",
+        "predictionArgumentSpan": []
+      }
+    ]
+  },
+  {
+    "process": "germination",
+    "sentences": [
+      {
+        "sentenceId": 2,
+        "text": "water is necessary for germination to take place.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "water",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.785148019970214
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 33,
+        "text": "ga stimulates germination and its synthesis upon seed imbibition is necessary for germination to take place.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "ga",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 148,
+        "text": "seed dormancy is a type of latency in which absence of germination is caused by obstacles in the seed itself.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 16,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "obstacles in the seed itself",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.7388323614542436
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 209,
+        "text": "maximum germination occurs when there is free water present.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "free water present",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.20108033663444852
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 216,
+        "text": "seed germination occurs when enzyme activity is restored after hydration of the...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 226,
+        "text": "germination is the process by which a seed develops into a seedling.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "develops",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7341338444303053
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 235,
+        "text": "germination occurs when the water content reaches about 60% of the imbibed seed weight.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 243,
+        "text": "cannabis germination is the process of getting your seeds to sprout, and you know sprouting is occurring (or has occurred) when a little white tendril pops out of...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 280,
+        "text": "germination occurs when a spore or seed starts to grow.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 333,
+        "text": "germination is the process by which a seed begins its development into a mature plant.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 351,
+        "text": "seed germination occurs when the seed coat has imbibed adequate water to become soft and elastic.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 466,
+        "text": "germination is the time it takes for a seed to sprout into a seedling and begin the early part of the growing process for the fruit, vegetable or flower.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 467,
+        "text": "here we tested whether the delay in germination is caused by thermodormancy, and whether seedlings are able to emerge after burial.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 4,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "whether the delay in germination is caused by thermodormancy , and whether seedlings are able to emerge after burial",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.45643688802349075
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "here",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "seedlings",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "we",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "thermodormancy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.16157099226355737
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "tested",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.11378986893320159
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 21,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "after burial",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 20,
+            "endIdx": 20,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "emerge",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.45643688802349075
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 5,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the delay in germination",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.231720374450506
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 497,
+        "text": "germination occurs when a seed absorbs water and its metabolism resumes.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 505,
+        "text": "keep them in a dark area unless the seed packet indicates light is necessary for germination.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 513,
+        "text": "sprouting or pre-harvest germination is caused by damp or rainy weather conditions during the final stage of maturation of the new crop.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "damp or rainy weather conditions",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.502229100719201
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 526,
+        "text": "germination occurs when the hard outer seed coat is abraded by waves on sand and gravel.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 574,
+        "text": "germination is the process of allowing the steeped grain to grow for a period of time under controlled conditions.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 585,
+        "text": "germination is the process by which the seed develops into a seedling.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "develops",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7336369106694981
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 593,
+        "text": "germination is the process of sprouting a seed into a living, growing seedling.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "growing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.040460587062881116
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "seedling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "sprouting a seed into a living , growing seedling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.888543956413086
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 10,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a living , growing seedling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.15368070105883222
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "sprouting",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.888543956413086
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 614,
+        "text": "it appears that seed germination occurs when the seed ros content is enclosed within an oxidative window that allows ros signaling but not...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 620,
+        "text": "seed germination depends on factors such as soil moisture content, the way seed makes contact with soil particles, the level of soil surface coverage by plant.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e depends on factors such as *",
+            "text": "soil moisture content",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 635,
+        "text": "seed germination is the process of initiating growth of a previously quiescent or dormant embryo.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 637,
+        "text": "this shows that warmth is necessary for germination.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "warmth",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 726,
+        "text": "germination is the process by which a seed grows into a new plant.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 729,
+        "text": "seed germination occurs when the seeds imbibe water after being moistened and life processes begin.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "seed germination",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.0714330139459102
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "moistened",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.39772646210578727
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when the seeds imbibe water after being moistened and life processes begin",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.4427316851824407
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 10,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "being moistened",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.39772646210578727
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "cross-pollination",
+    "sentences": [
+      {
+        "sentenceId": 335,
+        "text": "cross-pollination is the transfer of pollen between plants.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transfer",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.29111959970061524
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 684,
+        "text": "cross-pollination is the transfer of pollen from one plant to the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transfer",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8935278728961819
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "conservation",
+    "sentences": [
+      {
+        "sentenceId": 117,
+        "text": "conservation is the process of maintaining and managing change to a heritage asset in a way that sustains and where appropriate enhances its significance.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "maintaining",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6148506869355076
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 423,
+        "text": "conservation is the process of stabilizing an artifact so that it will remain visually and mechanically intact, in order to maintain historical and cultural value.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 9,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "so that it will remain visually",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.0187023690955882
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "visually",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.0187023690955882
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "remain",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "will",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "stabilizing an artifact so that it will remain visually",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.861425248345072
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "it",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 22,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "maintain",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 10,
+            "startIdx": 23,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "historical and cultural value",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.01872766513352669
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 9,
+            "startIdx": 21,
+            "endIdx": 26,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "to maintain historical and cultural value",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.01872766513352669
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "stabilizing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.861425248345072
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 564,
+        "text": "conservation is the process of reducing demand on a limited supply and enabling that supply to begin to rebuild itself.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "reducing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9051408453935078
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 627,
+        "text": "energy conservation is the process of reducing your overall energy usage.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "energy conservation",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.00822571961649878
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 8,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "your overall energy usage",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5136812777833238
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "reducing",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9165674677275637
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 650,
+        "text": "land conservation is the process of protecting natural land and returning developed land to its natural state.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "protecting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5438597381473096
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "boiling",
+    "sentences": [
+      {
+        "sentenceId": 9,
+        "text": "the difference between simmering and boiling is the temperature.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 126,
+        "text": "part of the purpose of boiling is to ensure the sanitation of the wort.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 14,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "ensure the sanitation of the wort",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.449568547599539
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 229,
+        "text": "boiling is the transition of a substance from the liquid to gaseous state of matter.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "transition",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8473561193121729
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 248,
+        "text": "the purpose of boiling is to release the fat in the fish and prevent bacteriological problems further on in the process.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 21,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "release the fat in the fish and prevent bacteriological problems further on in the process",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8507611734970616
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 290,
+        "text": "boiling causes the carrots to lose some flavor and nutrients, by leeching them out through the surface.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the carrots to lose some flavor and nutrients , by leeching them out through the surface .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.26323561644158666
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 327,
+        "text": "i personally believe the boiling helps to release, or breakdown some of the nutrients in the mix.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "release",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.027183046062102537
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 330,
+        "text": "boiling is the method of cooking food in boiling water, or other water-based liquids such as stock or milk.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 345,
+        "text": "boiling helps to en- hance the colour and the shelf life of t:urmeric.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "boiling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.44516331326069664
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 3,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "to en - hance the colour and the shelf life of t : urmeric",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.13066646246848812
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 2,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps to en - hance the colour and the shelf life of t : urmeric .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.13066646246848812
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 347,
+        "text": "the boiling helps to break up the cells in the preparation, and denatures proteins.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "break up the cells in the preparation",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3664226635038228
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 352,
+        "text": "the purpose of boiling is to maintain the aroma of foods, make their digestion easier and be safe in terms of their nutritional value.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 11,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "maintain the aroma of foods",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.882991224177501
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 354,
+        "text": "stocks turn cloudy when boiled because boiling causes the fat to emulsify.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the fat to emulsify",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.4300964535773491
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 362,
+        "text": "boiling helps to kill a great deal of the bacteria that is found in lakes and rivers.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "kill a great deal of the bacteria that is found in lakes and rivers",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2190516050063957
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 391,
+        "text": "boiling is the formation of vapor bubbles at the heating surface.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "formation",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.2070351179999468
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 408,
+        "text": "boiling helps to kill all bacteria in order to eliminate...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "kill all bacteria in order to eliminate",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.37056732790160396
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 453,
+        "text": "definition: boiling is the cooking of foods in a liquid either at or brought to boiling point.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 18,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "point",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.13118384096114294
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 15,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "brought",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "definition : boiling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "boiling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 12,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "cooking",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.09592640169734706
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 460,
+        "text": "the purpose of boiling is to concentrate the wort to the desired strength, to develop color in the beer, to sterilize it \u0026 destroy all the enzymes, to coagulate certain...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 33,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "concentrate the wort to the desired strength , to develop color in the beer , to sterilize it \u0026 destroy all the enzymes , to coagulate certain",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5146262242270268
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 489,
+        "text": "boiling helps to keep bacteria and viruses out of the pigs.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "keep bacteria and viruses out of the pigs",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6336517548368835
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 494,
+        "text": "boiling helps to inactivate any organisms that may be present in the water, and bottled water provides safety by not using the system at all.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "inactivate any organisms that may be present in the water",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8005900072758452
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 495,
+        "text": "boiling helps to open up the shell valves, and then they pick out the meat.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "open up the shell valves",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.05020141552900075
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 519,
+        "text": "the boiling helps to get the membrane off the shell and kills any pathogens.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "to get the membrane off the shell",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.4890165796292114
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "the boiling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 8,
+            "startIdx": 5,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "get the membrane off the shell and kills any pathogens",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.4890165796292114
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "kills",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 7,
+            "startIdx": 13,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "any pathogens",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.00801643909024853
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "get",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.4890165796292114
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "the membrane",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3304919507299766
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 9,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "the shell",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.04188762681105638
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 558,
+        "text": "this boiling causes the air inside to be forced out and replaced with hot water vapor.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "this boiling",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.08798994840890309
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 12,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "replaced",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.05569127841926041
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 7,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "to be forced out and replaced with hot water vapor",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.05569127841926041
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "causes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 4,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the air inside to be forced out and replaced with hot water vapor .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.18937807153805386
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 14,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "hot water vapor",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the air inside",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.18937807153805386
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 560,
+        "text": "this appears to be a paradox (possibly a catch-22): boiling is the release of bubbles of vapour, but bubbles of vapour can never form.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 18,
+            "startIdx": 16,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "release",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.27532849950101224
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "this",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 27,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "never",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 28,
+            "endIdx": 28,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "form",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "appears",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 5,
+            "endIdx": 28,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "a paradox -LRB- possibly a catch-22 -RRB- : boiling is the release of bubbles of vapour , but bubbles of vapour can never form",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.5089467828671953
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 26,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "can never",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 651,
+        "text": "key difference: boiling is the process of bringing water to its boiling point, boiling for 3-5 minutes or more to kill any bacteria, viruses and germs present in the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "bringing",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9492163738301334
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 665,
+        "text": "boiling is the process of applying heat to water until the temperature reaches about 100c.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "applying",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.9544954210122981
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 754,
+        "text": "boiling causes pectins to set, which creates a permanently hazy beverage.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "pectins to set , which creates a permanently hazy beverage .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.42354933315029614
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process": "combustion",
+    "sentences": [
+      {
+        "sentenceId": 21,
+        "text": "in situ combustion is the process of injecting air into a reservoir to oxidize a small portion of the hydrocarbons present, to generate heat and pressure.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "injecting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.899861895398539
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 24,
+        "text": "the chemical element oxygen is necessary for combustion to occur.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 1,
+            "endIdx": 4,
+            "pattern": "* is necessary for \u003cprocess name\u003e",
+            "text": "the chemical element oxygen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.768685185905292
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 56,
+        "text": "the purpose of combustion is to produce heat which is radiated from the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 7,
+            "endIdx": 13,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "produce heat which is radiated from the",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.40639967700862906
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "the",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 8,
+            "endIdx": 13,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "heat which is radiated from the",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.40639967700862906
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "radiated",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.40639967700862906
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "produce",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.1798637842633342
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 69,
+        "text": "combustion is the process of burning an organic compound in oxygen to produce...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "an organic compound",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.6793068457154132
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "burning",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7457293730365828
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 70,
+        "text": "combustion is the conversion of primary chemical...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "conversion",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.24787340970798197
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 78,
+        "text": "in diesel engines the combustion is caused by the high temperature that results from the compression process.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the high temperature that results from the compression process",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.6415994223395632
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 80,
+        "text": "combustion occurs when fossil fuels, such as natural gas, fuel oil, coal or gasoline, react with oxygen.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 19,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "react",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "combustion",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.3873977532795628
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "when fossil fuels , such as natural gas , fuel oil , coal or gasoline , react with oxygen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.2745540108242381
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 21,
+            "endIdx": 21,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "oxygen",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "fossil fuels , such as natural gas , fuel oil , coal or gasoline",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.2745540108242381
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 111,
+        "text": "combustion is caused by a reaction between two chemicals, which is set off...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 8,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "two chemicals , which is set off",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.011439689149785326
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "combustion",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.16494529423303758
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "off",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "set",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "a reaction between two chemicals , which is set off",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7017914943018669
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "caused",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 121,
+        "text": "flaming combustion occurs when volatized gases are oxidized and flames are generated, usually occurring when the temperature of the volatiles reach...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 124,
+        "text": "proper combustion helps to reduce emissions as the fuel is burned in its entirety.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "reduce emissions as the fuel is burned in its entirety",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8362974857623069
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 152,
+        "text": "oxy combustion is the process of burning a fuel using pure oxygen instead of air as the primary oxidant.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 12,
+            "startIdx": 8,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a fuel",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7576290429719518
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 8,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a fuel using pure oxygen instead of air as the primary oxidant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7576290429719518
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "using",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.058240252770911806
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 11,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pure oxygen instead of air",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.08927350086500016
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "burning a fuel using pure oxygen instead of air as the primary oxidant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7818672040731166
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 17,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the primary oxidant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "burning",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7818672040731166
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 157,
+        "text": "video: spontaneous combustion causes barn fire.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "barn fire",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5221261542165107
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 162,
+        "text": "the purpose of combustion is to retrieve energy from the burning of fuels in the...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 164,
+        "text": "combustion is the conversion of a substance called a fuel into chemical compounds known as products of combustion by combination with an oxidizer.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "conversion",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.40744460235670493
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 165,
+        "text": "combustion is caused by the water used in fire suppression.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the water used in fire suppression",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.24741588225638997
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 174,
+        "text": "combustion helps to improve efficiency and power.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "combustion",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.27746138704117007
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "improve",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.07007945221581924
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 3,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "to improve efficiency and power",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.611005824165253
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "improve efficiency and power",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.611005824165253
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 5,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "efficiency and power",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.611005824165253
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 177,
+        "text": "in this type of engine, combustion occurs due to auto-ignition of a lean or highly diluted fuelair mixture providing high efficiency and low levels...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 11,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "auto-ignition of a lean or highly diluted fuelair mixture providing high efficiency and low levels",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.048779479931499205
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 180,
+        "text": "combustion is the process of burning something.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "burning",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.6896713494419825
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "something",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3717075706382521
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 218,
+        "text": "the key discriminating technology of combustion is the generation and control of pollutant emissions - in particular nox, particulate matter, un-burned...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 220,
+        "text": "combustion is the reaction of substances with oxygen, with the evolution of heat and light.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 4,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "reaction",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.22666221371815304
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 231,
+        "text": "fire chief: combustion causes local plant fire.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 4,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "fire chief : combustion",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.20621074248901364
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "causes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 6,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "local plant fire",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3075427920015453
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 239,
+        "text": "for example, in addition to saving energy, complete combustion helps to prevent a buildup of flammable chimney deposits called creosote.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 321,
+        "text": "combustion is caused by exothermic chemical reactions and may be accompanied by a flame.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "exothermic chemical reactions",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.8837601627992825
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 332,
+        "text": "the primary case of ethanol combustion is the burning of ethanol in a car\u0027s engine.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 336,
+        "text": "spontaneous coal combustion is caused by oxidation of both coal and sulphide minerals within it.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "oxidation of both coal and sulphide minerals within it",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.02936160923213666
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 337,
+        "text": "one factor that influences combustion is the ratio of air to fuel in the feed.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 341,
+        "text": "the purpose of combustion is to rotate the rotor around the chamber.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 12,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "rotate the rotor around the chamber",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.5926946140698168
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 372,
+        "text": "the poor combustion is caused by oil pressure change.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "oil pressure change",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.17310797606292253
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 382,
+        "text": "loop-charged combustion helps to distribute fuel/air mixture more evenly, for better combustion, performance and fuel economy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 5,
+            "startIdx": 6,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "fuel/air mixture more evenly",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3006606643372248
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "loop-charged combustion",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.1547866760817543
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "helps",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 5,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "distribute fuel/air mixture more evenly , for better combustion , performance and fuel economy",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3006606643372248
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "to distribute fuel/air mixture more evenly , for better combustion , performance and fuel economy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.3006606643372248
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "distribute",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.038312578946570565
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 12,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "better combustion , performance and fuel economy",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.007373040418628766
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 394,
+        "text": "the configuration of multistage combustion helps to save energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e helps to *",
+            "text": "save energy",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.07393812055898294
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 398,
+        "text": "combustion combustion is the process by which fire converts fuel and oxygen into energy.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 9,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process by which * into *",
+            "text": "converts",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.814926751567421
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 426,
+        "text": "burning or combustion is the process of uniting a fuel or combustible with the oxygen in the air.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 1,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "uniting",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8608546996817601
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 427,
+        "text": "oxy-fuel combustion is the process of burning a fuel using pure oxygen instead of air as the primary oxidant.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 12,
+            "startIdx": 8,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a fuel",
+            "annotatedRole": "undergoer",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7577141594010227
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 8,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "a fuel using pure oxygen instead of air as the primary oxidant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.7577141594010227
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "using",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.05809897200771252
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 11,
+            "endIdx": 15,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "pure oxygen instead of air",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.08942087612123693
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 7,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "burning a fuel using pure oxygen instead of air as the primary oxidant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7885930651029854
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 17,
+            "endIdx": 19,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "the primary oxidant",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e is the process of *",
+            "text": "burning",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7885930651029854
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 430,
+        "text": "indicate that the delayed combustion is caused by the decreased charge temperature with later di injection.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 9,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is caused by *",
+            "text": "the decreased charge temperature with later di injection",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.5668895374473385
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 432,
+        "text": "combustion occurs due to combustion of gaseous fuel air charge, which is associated with lower rates of the exothermic combustion reactions result in lower...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 7,
+            "startIdx": 16,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "lower rates of the exothermic combustion reactions result in lower",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.28808492400195396
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 6,
+            "startIdx": 7,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "gaseous fuel air charge , which is associated with lower rates of the exothermic combustion reactions result in lower",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.28808492400195396
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 1,
+            "endIdx": 1,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "combustion",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2881241798592421
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "combustion of gaseous fuel air charge , which is associated with lower rates of the exothermic combustion reactions",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.28808492400195396
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 14,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "associated",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 2,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 3,
+            "endIdx": 25,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "due to combustion of gaseous fuel air charge , which is associated with lower rates of the exothermic combustion reactions result in lower",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.28808492400195396
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 556,
+        "text": "spontaneous combustion causes an internal fire that starts and proliferates deep within piles of ma- terials.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 4,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "starts",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.15870594779092675
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 4,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "an internal fire that starts and proliferates",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.15870594779092675
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 2,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "spontaneous combustion",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.03685971274726561
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "causes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 5,
+            "startIdx": 4,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "an internal fire that starts and proliferates deep within piles of ma - terials .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.15870594779092675
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 11,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "deep within piles of ma - terials",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.06194884244758426
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 611,
+        "text": "incomplete combustion occurs when the fuel is not completely burnt and some escapes as co in flue gases or as unburnts in refuse, both of which result in high...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 640,
+        "text": "british english: combustion combustion is the act of burning something or the process of burning.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 655,
+        "text": "which combustion occurs due to global autoignition of the fuel and air mixture.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs due to * of *",
+            "text": "global autoignition of the fuel and air mixture",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.09648284584191083
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 656,
+        "text": "spontaneous combustion is the result of hay heating to such high temperatures, in specific environmental conditions that the material ignites without an outside...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 673,
+        "text": "uses only air as it is necessary for combustion process.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 676,
+        "text": "the purpose of combustion is to efficiently consume fuel to produce heat.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 12,
+            "pattern": "the purpose of \u003cprocess name\u003e is to *",
+            "text": "consume fuel to produce heat",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.26802256913210887
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 686,
+        "text": "the rate of combustion is the amount of a material that undergoes combustion over a period of time.",
+        "predictionArgumentSpan": []
+      }
+    ]
+  },
+  {
+    "process": "metamorphosis",
+    "sentences": [
+      {
+        "sentenceId": 40,
+        "text": "complete metamorphosis occurs when insects hatch from eggs,.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 83,
+        "text": "complete metamorphosis is the way butterflies, bees, flies, beetles and many other insects develop.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 17,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "develop",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 14,
+            "endIdx": 16,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "many other insects",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 98,
+        "text": "the peculiarity of the sawfly metamorphosis is the presence of a stage of prepupa during which the morphogenesis is transferred from the pupal stage to the.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 136,
+        "text": "one major concern in shape metamorphosis is the preservation of shape coherence during the transformation.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 138,
+        "text": "one example of metamorphosis is the aging process.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 155,
+        "text": "in amphibian tadpoles, metamorphosis causes the developmental maturation of liver enzymes, hemoglobin, and eye pigments, as well as the remodeling of the...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "the developmental maturation of liver enzymes , hemoglobin , and eye pigments , as well as the remodeling of the ...",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.30363137940037904
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 170,
+        "text": "therefore, to gain a better insight, this paper looks at how the metamorphosis helps to modify the perception of lifelong learning in indian policy...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 234,
+        "text": "the marked increase in metabolic rate during metamorphosis helps to confirm the view that adult lampreys have a higher rate of oxygen uptake...",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 307,
+        "text": "metamorphosis causes an acceleration in scp-ir neuron addition.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 3,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "an acceleration in scp-ir neuron addition .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.339902874213659
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 311,
+        "text": "as in anuran metamorphosis, insect metamorphosis causes a major restructuring of the organism\u0027s nervous system.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 8,
+            "endIdx": 8,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "causes",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 3,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "as in anuran",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.13211970327971484
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 9,
+            "endIdx": 18,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "a major restructuring of the organism \u0027s nervous system .",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4431045469445118
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 17,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "a major restructuring of the organism \u0027s nervous system",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.4431045469445118
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 2,
+            "startIdx": 4,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "metamorphosis , insect metamorphosis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "undergoer",
+            "probRoles": [
+              {
+                "undergoer": 0.039690134239764883
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 390,
+        "text": "one readily observed consequence of anuran metamorphosis is the movement of the eyes forward from their originally lateral position (figure 18",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 10,
+            "endIdx": 10,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "movement",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.8360082323614416
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 470,
+        "text": "visual metamorphosis is the term we use to indicate shape-shifting in art.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 562,
+        "text": "we show that body size does not affect regeneration in adult axolotls, but metamorphosis causes a twofold reduction in regeneration rate, and lead to carpal and...",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 17,
+            "endIdx": 22,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "a twofold reduction in regeneration rate",
+            "annotatedRole": "result",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.1738646506923835
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 601,
+        "text": "morphologically this metamorphosis is the disappearance of the notochordal tissue and replacement by a cartilaginous type [20].",
+        "predictionArgumentSpan": [
+          {
+            "argId": 0,
+            "startIdx": 6,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e is the *",
+            "text": "disappearance",
+            "annotatedRole": "trigger",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.7780784459456106
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 654,
+        "text": "the first stage of complete metamorphosis occurs when an adult female butterfly lays an egg or \"ova\" on the specific host plant for that species.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 13,
+            "endIdx": 13,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "lays",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 1,
+            "endIdx": 6,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the first stage of complete metamorphosis",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.17419530329675317
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 9,
+            "endIdx": 12,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "an adult female butterfly",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.21559665994695346
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 21,
+            "endIdx": 27,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "the specific host plant for that species",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 7,
+            "endIdx": 7,
+            "pattern": "\u003cprocess name\u003e occurs when *",
+            "text": "occurs",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 670,
+        "text": "of metamorphosis causes an increased amount of radioactive rna to appear in the 78s monomers and 100s dimers as well as in the polysomes.",
+        "predictionArgumentSpan": [
+          {
+            "argId": 2,
+            "startIdx": 11,
+            "endIdx": 11,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "appear",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.12378139848107125
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 3,
+            "startIdx": 10,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "to appear in the 78s",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "enabler",
+            "probRoles": [
+              {
+                "enabler": 0.12378139848107125
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 4,
+            "startIdx": 12,
+            "endIdx": 14,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "in the 78s",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "NONE",
+            "probRoles": [
+              {
+                "NONE": 4.9E-324
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 0,
+            "startIdx": 5,
+            "endIdx": 5,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "increased",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "trigger",
+            "probRoles": [
+              {
+                "trigger": 0.2071501794347135
+              }
+            ],
+            "featVector": []
+          },
+          {
+            "argId": 1,
+            "startIdx": 5,
+            "endIdx": 9,
+            "pattern": "\u003cprocess name\u003e causes *",
+            "text": "increased amount of radioactive rna",
+            "annotatedRole": "enabler",
+            "annotatedLabel": "",
+            "rolePredicted": "result",
+            "probRoles": [
+              {
+                "result": 0.2307888887528042
+              }
+            ],
+            "featVector": []
+          }
+        ]
+      },
+      {
+        "sentenceId": 739,
+        "text": "the primary hormone involved in metamorphosis is the steroid hormone ecdysone.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 753,
+        "text": "metamorphosis is the state or condition of changing form or going beyond one\u0027s shape into another.",
+        "predictionArgumentSpan": []
+      }
+    ]
+  },
+  {
+    "process": "perspiration",
+    "sentences": [
+      {
+        "sentenceId": 68,
+        "text": "sweat or perspiration is the body\u0027s way to cool itself.",
+        "predictionArgumentSpan": []
+      },
+      {
+        "sentenceId": 685,
+        "text": "perspiration is the body\u0027s built-in cooling system.",
+        "predictionArgumentSpan": []
+      }
+    ]
+  }
+]
