@@ -28,7 +28,7 @@ lambda_1 = 0.9
 lambda_2 = 1 - lambda_1
 
 # various paths
-project_dir = '/home/cnaik/s/3/ilp'
+project_dir = '/home/slouvan/NetBeansProjects/ILP'
 cross_val_dir = join(project_dir, 'data', 'cross-val')
 
 srl_file_name = 'test.srlpredict.json'
