@@ -262,9 +262,11 @@ def get_prediction_data(d_predict):
 
 
 def plot_precision_yield(plot_data, name='prec_recall', role=None):
-    srl_plot_df, ilp_plot_df = plot_data
+    srl_plot_df, ilp_plot_df, semafor_plot_df, easysrl_plot_df = plot_data
     srl_plot_df = srl_plot_df.iloc[10:]
     ilp_plot_df = ilp_plot_df.iloc[10:]
+    semafor_plot_df = semafor_plot_df.iloc[10:]
+    easysrl_plot_df = easysrl_plot_df.iloc[10:]
 
     # plot size
     plt.rc('figure', figsize=(18,12))
@@ -272,6 +274,8 @@ def plot_precision_yield(plot_data, name='prec_recall', role=None):
     # plot lines
     plt.plot(srl_plot_df.index, srl_plot_df.precision, label=r'\textbf{SRL}', linewidth=3)
     plt.plot(ilp_plot_df.index, ilp_plot_df.precision, 'r--',label=r'\textbf{ILP}', linewidth=3)
+    plt.plot(semafor_plot_df.index, semafor_plot_df.precision, 'g--',label=r'\textbf{SEMAFOR}', linewidth=3)
+    plt.plot(easysrl_plot_df.index, easysrl_plot_df.precision, 'm--',label=r'\textbf{EasySRL}', linewidth=3)
 
     # configure plot
     plt.tick_params(axis='both', which='major', labelsize=50)
@@ -292,9 +296,11 @@ def plot_precision_yield(plot_data, name='prec_recall', role=None):
 
 
 def plot_precision_yield_axes(plot_data, ax, fold, role=None):
-    srl_plot_df, ilp_plot_df = plot_data
+    srl_plot_df, ilp_plot_df, semafor_plot_df, easysrl_plot_df = plot_data
     srl_plot_df = srl_plot_df.iloc[5:]
     ilp_plot_df = ilp_plot_df.iloc[5:]
+    semafor_plot_df = semafor_plot_df.iloc[5:]
+    easysrl_plot_df = easysrl_plot_df.iloc[5:]
 
     # plot size
     plt.rc('figure', figsize=(18,14))
@@ -302,6 +308,8 @@ def plot_precision_yield_axes(plot_data, ax, fold, role=None):
     # plot lines
     ax.plot(srl_plot_df.index, srl_plot_df.precision, label=r'\textbf{SRL}', linewidth=3)
     ax.plot(ilp_plot_df.index, ilp_plot_df.precision, 'r--',label=r'\textbf{ILP}', linewidth=3)
+    ax.plot(semafor_plot_df.index, semafor_plot_df.precision, 'g--',label=r'\textbf{SEMAFOR}', linewidth=3)
+    ax.plot(easysrl_plot_df.index, easysrl_plot_df.precision, 'm--',label=r'\textbf{EasySRL}', linewidth=3)
 
     # configure plot
     ax.tick_params(axis='both', which='major', labelsize=24)
@@ -318,17 +326,17 @@ def plot_precision_yield_axes(plot_data, ax, fold, role=None):
 
 
 def plot_role_plot(data, name='prec_recall_folds', role=None):
-    srl_plot_data, ilp_plot_data = data
+    srl_plot_data, ilp_plot_data, semafor_plot_data, easysrl_plot_data = data
 
     # create 5 subplots for 5 roles in one column
     fig, ((ax1), (ax2), (ax3), (ax4), (ax5)) = plt.subplots(nrows=5, ncols=1, figsize=(10, 40))
 
     # call plot function on each of the 5 subplot axes
-    plot_precision_yield_axes((srl_plot_data[1], ilp_plot_data[1]), ax1, "1", role)
-    plot_precision_yield_axes((srl_plot_data[2], ilp_plot_data[2]), ax2, "2", role)
-    plot_precision_yield_axes((srl_plot_data[3], ilp_plot_data[3]), ax3, "3", role)
-    plot_precision_yield_axes((srl_plot_data[4], ilp_plot_data[4]), ax4, "4", role)
-    plot_precision_yield_axes((srl_plot_data[5], ilp_plot_data[5]), ax5, "5", role)
+    plot_precision_yield_axes((srl_plot_data[1], ilp_plot_data[1], semafor_plot_data[1], easysrl_plot_data[1]), ax1, "1", role)
+    plot_precision_yield_axes((srl_plot_data[2], ilp_plot_data[2] , semafor_plot_data[2], easysrl_plot_data[2]), ax2, "2", role)
+    plot_precision_yield_axes((srl_plot_data[3], ilp_plot_data[3] , semafor_plot_data[3], easysrl_plot_data[3]), ax3, "3", role)
+    plot_precision_yield_axes((srl_plot_data[4], ilp_plot_data[4] , semafor_plot_data[4], easysrl_plot_data[4]), ax4, "4", role)
+    plot_precision_yield_axes((srl_plot_data[5], ilp_plot_data[5] , semafor_plot_data[5], easysrl_plot_data[5]), ax5, "5", role)
 
     # adjust spacing betwen plots
     fig.subplots_adjust(hspace=.3, wspace=-0.2)
@@ -380,7 +388,7 @@ def plot_confusion_subplots(c_matrices, name="confusion_matrix"):
     subplot_confusion_matrix(c_matrices[2], ax2, "2")
     subplot_confusion_matrix(c_matrices[3], ax3, "3")
     subplot_confusion_matrix(c_matrices[4], ax4, "4")
-    subplot_confusion_matrix(c_matrices[5], ax5, "5")
+    #subplot_confusion_matrix(c_matrices[5], ax5, "5")
     fig.subplots_adjust(hspace=.8, wspace=-0.2)
     ax6.axis('off')
     f_name = join(ilp_config.plots_dir, str(name) + ".pdf")
